@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bpvjhhod2e16u"
+path.s3tc="res://.godot/imported/golden_goose_NormalGL_8c0e2d1e-edd6-4ac2-a07e-aab9d6842303.webp-f20371ab78ff78e5ade5388197624fac.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "231400ec3e7cd35afac5321cb5d73c26"
+}
+
+[deps]
+
+source_file="res://assets/characters/golden_goose/golden_goose_NormalGL_8c0e2d1e-edd6-4ac2-a07e-aab9d6842303.webp"
+dest_files=["res://.godot/imported/golden_goose_NormalGL_8c0e2d1e-edd6-4ac2-a07e-aab9d6842303.webp-f20371ab78ff78e5ade5388197624fac.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://assets/characters/golden_goose/golden_goose_NormalGL_8c0e2d1e-edd6-4ac2-a07e-aab9d6842303.webp"
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=1024
+detect_3d/compress_to=0

@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-7adb-7d51-be4b-175ec7b3574e",
+  "arguments": {
+    "prompt": "Cottage plaster wall: warm cream lime plaster with soft uneven patches and faint hairline cracks. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:41.525686+00:00",
+  "output_file": "plaster_wall_raw.png",
+  "sha256": "7987fd88095c6187e254740ec464cf4da3b6e7f0da6b72e0247afb153a5dd3c4",
+  "description": ""
+}

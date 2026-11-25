@@ -1,0 +1,26 @@
+{
+ "key": "r5_amb_w2_a",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Game ambience recording, seamless, no music, no voice, no melody: high altitude wind above the clouds, soft airy whistling wind, calm and open",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.45,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:29:02.750325+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-c13c-7363-9c05-850a23e6eba5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90e/bXLJW-UyP0Ploa3AhAwzg_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5_amb_w2_a.mp3"
+ ],
+ "completed": "2026-10-17T20:29:14.008336+00:00"
+}

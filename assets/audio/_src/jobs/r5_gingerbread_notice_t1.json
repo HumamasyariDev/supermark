@@ -1,0 +1,25 @@
+{
+ "key": "r5_gingerbread_notice_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a tiny toy trumpet plays a quick two-note alarm",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:09.763614+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-f241-7c02-849f-24002f8e091e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/2IhkclhaHrwZ3XSXy0Unk_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_gingerbread_notice_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:16.125769+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_crow_swoop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bird diving fast past the listener, feathery whoosh",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:31:26.304645+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-0367-7f22-a56e-c9d4436a7c18",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/MNmarQduixW576RIKEggU_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/sfx_crow_swoop.mp3"
+ ],
+ "completed": "2026-10-17T19:31:33.104707+00:00"
+}

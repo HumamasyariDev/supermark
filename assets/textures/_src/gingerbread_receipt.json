@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-14a6-7761-b5cc-54fdf033dac1",
+  "arguments": {
+    "prompt": "Gingerbread cookie surface: warm golden brown baked dough with tiny pores and a slight sugar dusting. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:48:00.213354+00:00",
+  "output_file": "gingerbread_raw.png",
+  "sha256": "cf6007d8c7211647efb38676a29c98709352f3e228b83f8c0086df1f7a88a09b",
+  "description": ""
+}

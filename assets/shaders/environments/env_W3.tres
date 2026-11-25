@@ -1,0 +1,63 @@
+[gd_resource type="Environment" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/sky.gdshader" id="1_dqbse"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j344c"]
+shader = ExtResource("1_dqbse")
+shader_parameter/top_color = Color(0.55, 0.62, 0.95, 1)
+shader_parameter/horizon_color = Color(1, 0.8, 0.86, 1)
+shader_parameter/bottom_color = Color(0.72, 0.55, 0.5, 1)
+shader_parameter/haze_color = Color(1, 0.87, 0.85, 1)
+shader_parameter/gradient_power = 0.65
+shader_parameter/haze_height = 0.14
+shader_parameter/haze_strength = 0.6
+shader_parameter/sun_color = Color(1, 0.9, 0.78, 1)
+shader_parameter/sun_size = 0.04
+shader_parameter/sun_glow = 0.35
+shader_parameter/sun_glow_size = 0.25
+shader_parameter/cloud_light = Color(1, 0.94, 0.97, 1)
+shader_parameter/cloud_shade = Color(0.95, 0.66, 0.8, 1)
+shader_parameter/cloud_coverage = 0.5
+shader_parameter/cloud_softness = 0.08
+shader_parameter/cloud_scale = 1.2
+shader_parameter/cloud_speed = 0.006
+shader_parameter/cloud_height_fade = 0.08
+shader_parameter/paint_steps = 3.0
+shader_parameter/cloud_opacity = 0.95
+shader_parameter/wind = Vector2(1, 0.25)
+shader_parameter/streak_amount = 0.25
+
+[sub_resource type="Sky" id="Sky_4agx5"]
+sky_material = SubResource("ShaderMaterial_j344c")
+radiance_size = 2
+
+[resource]
+background_mode = 2
+sky = SubResource("Sky_4agx5")
+ambient_light_source = 3
+ambient_light_sky_contribution = 0.85
+reflected_light_source = 2
+tonemap_mode = 2
+tonemap_white = 6.0
+ssao_enabled = true
+ssao_radius = 1.2
+ssao_intensity = 1.6
+ssao_power = 1.4
+ssao_light_affect = 0.15
+glow_enabled = true
+glow_intensity = 0.55
+glow_bloom = 0.04
+glow_blend_mode = 2
+glow_hdr_threshold = 0.95
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(1, 0.86, 0.88, 1)
+fog_density = 0.85
+fog_aerial_perspective = 0.55
+fog_sky_affect = 0.0
+fog_depth_curve = 1.4
+fog_depth_begin = 30.0
+fog_depth_end = 220.0
+adjustment_enabled = true
+adjustment_contrast = 1.05
+adjustment_saturation = 1.15

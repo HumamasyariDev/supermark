@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/worlds/w1_tool_review.gd" id="1"]
+
+[node name="W1PropReview" type="Node3D"]
+script = ExtResource("1")

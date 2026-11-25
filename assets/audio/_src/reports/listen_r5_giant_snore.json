@@ -1,0 +1,10 @@
+{
+ "utc": "2026-10-17T21:01:08.913697+00:00",
+ "audio": "../sfx/giant_snore.ogg",
+ "duration_s": 2.84873,
+ "prompt": "Describe what you hear in under 30 words: the sound sources, whether it is a one-off event or a continuous background, and anything wrong (speech, music, clicks, distortion, abrupt cuts). Then, on a new line starting with GUESS:, say what place or video game event it would accompany.",
+ "request_id": "01a14baa-8609-7413-b051-b03a8b58ced4",
+ "result": {
+  "output": "A deep, monstrous groan from a large creature. It is a one-off sound event with no audible clicks, distortion, or other technical issues.\n\nGUESS: The awakening of a large boss monster, like a dragon or giant, in a dark fantasy role-playing game."
+ }
+}

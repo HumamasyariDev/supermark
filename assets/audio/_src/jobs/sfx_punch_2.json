@@ -1,0 +1,25 @@
+{
+ "key": "sfx_punch_2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick padded cartoon punch, soft thump with a tiny swish",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:35:08.831548+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b5c-6cb6-7392-b204-275f23c36c18",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7cb/2DTad1l7BNlQ_5mBku4QZ_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_punch_2.mp3"
+ ],
+ "completed": "2026-10-17T19:35:17.091889+00:00"
+}

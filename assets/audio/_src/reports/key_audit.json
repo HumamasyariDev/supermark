@@ -1,0 +1,87 @@
+{
+ "script_keys": 98,
+ "missing": {},
+ "loop_keys_called_as_one_shot": {},
+ "attack_peaks": {
+  "sfx/swish.ogg": {
+   "peak_ms": 60,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_2.ogg": {
+   "peak_ms": 45,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_3.ogg": {
+   "peak_ms": 75,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_4.ogg": {
+   "peak_ms": 75,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick.ogg": {
+   "peak_ms": 95,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_2.ogg": {
+   "peak_ms": 100,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_3.ogg": {
+   "peak_ms": 130,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_4.ogg": {
+   "peak_ms": 85,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/jump_kick.ogg": {
+   "peak_ms": 105,
+   "window": [
+    60,
+    160
+   ],
+   "pass": true
+  },
+  "sfx/jump_kick_2.ogg": {
+   "peak_ms": 95,
+   "window": [
+    60,
+    160
+   ],
+   "pass": true
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r6_npc_greet_piglet_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a cheerful young piglet gives a happy little two-note 'oink-oink!' greeting with a short giggle",
+  "duration_seconds": 1.3,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T23:12:07.219757+00:00",
+ "status": "downloaded",
+ "request_id": "01a14c23-12cb-72d0-b8cc-d39166a7e827",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaecce1/pAXy_3YZoTWwiVvXf365T_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 32016
+  }
+ },
+ "files": [
+  "raw/r6_npc_greet_piglet_t2.mp3"
+ ],
+ "completed": "2026-10-17T23:12:15.364656+00:00"
+}

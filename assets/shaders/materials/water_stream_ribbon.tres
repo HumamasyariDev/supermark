@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/water.gdshader" id="1_qo6by"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_qo6by")
+shader_parameter/shallow_color = Color(0.36, 0.86, 0.82, 1)
+shader_parameter/deep_color = Color(0.1, 0.38, 0.62, 1)
+shader_parameter/foam_color = Color(1, 1, 0.98, 1)
+shader_parameter/depth_distance = 2.2
+shader_parameter/clarity = 0.55
+shader_parameter/flow_direction = Vector2(1, 0)
+shader_parameter/flow_speed = 1.2
+shader_parameter/ripple_scale = 1.1
+shader_parameter/normal_strength = 0.35
+shader_parameter/foam_distance = 0.35
+shader_parameter/foam_noise_scale = 3.0
+shader_parameter/refraction = 0.03
+shader_parameter/sparkle_amount = 0.8
+shader_parameter/flow_along_uv = true
+shader_parameter/wave_height = 0.04

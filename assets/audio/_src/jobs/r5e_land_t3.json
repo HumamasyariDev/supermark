@@ -1,0 +1,25 @@
+{
+ "key": "r5e_land_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low thump of a small round character landing on soft ground, short and muffled, no ringing",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:26.187290+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-7c39-7d73-a9a4-b4b156af9424",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5a/NjXr9EInHPZsnWPBY8r2k_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5e_land_t3.mp3"
+ ],
+ "completed": "2026-10-17T21:24:33.955234+00:00"
+}

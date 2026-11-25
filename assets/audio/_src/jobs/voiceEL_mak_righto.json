@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_righto",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[brightly] Righto!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.491202+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3eb0-71d1-9212-96fa9000c352",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/K-ufbLd1SQCo86rCrzZGo_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 14672
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_righto.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.002980+00:00"
+}

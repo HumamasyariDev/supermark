@@ -1,0 +1,33 @@
+{
+ "start": {
+  "pos": [
+   -20.0,
+   0.0,
+   20.0
+  ],
+  "yaw_deg": -90
+ },
+ "end_frame": 170,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 150,
+   "stick": [
+    0,
+    0
+   ]
+  }
+ ],
+ "args": [
+  "--lab-cocoa",
+  "--fb-log"
+ ],
+ "fps": 60,
+ "steer": "world"
+}

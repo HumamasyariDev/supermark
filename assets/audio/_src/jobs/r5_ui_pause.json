@@ -1,0 +1,25 @@
+{
+ "key": "r5_ui_pause",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a storybook closes gently with a soft thump and a quiet chime",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:29:01.047008+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-ba93-7ac0-8406-b5bd62c87fb7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90e/1QXVWcHdZ5Ciwm4khLi9O_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_ui_pause.mp3"
+ ],
+ "completed": "2026-10-17T20:29:07.260143+00:00"
+}

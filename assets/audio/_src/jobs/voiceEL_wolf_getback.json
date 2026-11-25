@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_getback",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[furious roar] Get back here!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:18.160688+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b58-e73f-77f3-9170-9a2ec3dfc23c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/i0Lum170qMvVfZyZ2SneB_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 27629
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_getback.mp3"
+ ],
+ "completed": "2026-10-17T19:31:25.836893+00:00"
+}

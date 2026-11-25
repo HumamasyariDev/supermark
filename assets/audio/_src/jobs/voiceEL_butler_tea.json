@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_butler_tea",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[slowly, warmly] A cup of tea, sir? No? Very good, sir.",
+  "voice": "Bill",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:26.060850+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-0270-7312-95ef-f58ad6095efb",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/3A7sGVXcznvMT9VzYjIfS_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 73604
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_butler_tea.mp3"
+ ],
+ "completed": "2026-10-17T19:31:32.508533+00:00"
+}

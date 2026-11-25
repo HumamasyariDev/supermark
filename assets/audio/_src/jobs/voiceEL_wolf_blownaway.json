@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_blownaway",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[smug, theatrical] Prepare to be blown away, Piglet!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:18.159620+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b58-e725-7232-b28a-7a7070f94d53",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/lHrixfK2uImBzZg9d5C3T_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 33898
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_blownaway.mp3"
+ ],
+ "completed": "2026-10-17T19:31:26.121381+00:00"
+}

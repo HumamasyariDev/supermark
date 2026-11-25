@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_littlepig",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[sinister, theatrical, drawn out] Little pig, little pig...",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.560951+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-599c-7cf2-af6f-aa9060bc10b6",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/OMNhVkmxfoBp6pDy8bnq2_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 43093
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_littlepig.mp3"
+ ],
+ "completed": "2026-10-17T18:51:30.161317+00:00"
+}

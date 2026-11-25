@@ -1,0 +1,25 @@
+{
+ "key": "r5_door_open",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy ornate wooden door swings open with a long creak",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:53.821150+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-9e5e-78c0-8d5c-3b46cd5adaee",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/Ho1OHyPVpfa6wNZkQ67ru_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r5_door_open.mp3"
+ ],
+ "completed": "2026-10-17T20:29:00.181856+00:00"
+}

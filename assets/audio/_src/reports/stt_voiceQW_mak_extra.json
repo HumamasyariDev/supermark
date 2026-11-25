@@ -1,0 +1,210 @@
+{
+ "text": "Ham slam. Wahey! Cheerio. Ouch. Whoa, whoa, whoa. A top hat. How dashing. Got it",
+ "language_code": "eng",
+ "language_probability": 1.0,
+ "words": [
+  {
+   "text": "Ham",
+   "start": 0.12,
+   "end": 0.48,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 0.48,
+   "end": 0.58,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "slam.",
+   "start": 0.64,
+   "end": 1.12,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 1.12,
+   "end": 1.34,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Wahey!",
+   "start": 1.34,
+   "end": 1.92,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 1.92,
+   "end": 1.94,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Cheerio.",
+   "start": 2.28,
+   "end": 3.08,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 3.08,
+   "end": 3.08,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Ouch.",
+   "start": 3.44,
+   "end": 3.84,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 3.84,
+   "end": 3.86,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Whoa,",
+   "start": 4.18,
+   "end": 4.38,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 4.38,
+   "end": 4.46,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "whoa,",
+   "start": 4.46,
+   "end": 4.54,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 4.54,
+   "end": 4.62,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "whoa.",
+   "start": 4.62,
+   "end": 4.96,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 4.96,
+   "end": 5.24,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "A",
+   "start": 5.26,
+   "end": 5.28,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 5.28,
+   "end": 5.4,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "top",
+   "start": 5.4,
+   "end": 5.66,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 5.66,
+   "end": 5.72,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "hat.",
+   "start": 5.72,
+   "end": 6.02,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 6.02,
+   "end": 6.28,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "How",
+   "start": 6.28,
+   "end": 6.42,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 6.42,
+   "end": 6.54,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "dashing.",
+   "start": 6.54,
+   "end": 7.08,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 7.08,
+   "end": 7.38,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Got",
+   "start": 7.38,
+   "end": 7.62,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 7.62,
+   "end": 7.7,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "it",
+   "start": 7.7,
+   "end": 7.96,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+[
+ {
+  "group": 0,
+  "keys": [
+   "jump_1",
+   "jump_2",
+   "jump_3",
+   "long_jump",
+   "backflip",
+   "land",
+   "land_heavy",
+   "ham_slam",
+   "punch",
+   "kick",
+   "dive"
+  ]
+ },
+ {
+  "group": 1,
+  "keys": [
+   "slide",
+   "wall_kick",
+   "ledge_grab",
+   "hurt",
+   "skid",
+   "sniff",
+   "footstep_grass_1",
+   "footstep_grass_2",
+   "footstep_grass_3",
+   "footstep_wood_1",
+   "footstep_wood_2"
+  ]
+ },
+ {
+  "group": 2,
+  "keys": [
+   "footstep_wood_3",
+   "footstep_stone_1",
+   "footstep_stone_2",
+   "footstep_stone_3",
+   "footstep_candy_1",
+   "footstep_candy_2",
+   "footstep_candy_3",
+   "acorn_collect",
+   "page_collect",
+   "truffle_sparkle_loop",
+   "truffle_get"
+  ]
+ },
+ {
+  "group": 3,
+  "keys": [
+   "checkpoint",
+   "enemy_notice",
+   "enemy_hit",
+   "enemy_defeat_poof",
+   "crow_caw",
+   "wolf_cub_baa",
+   "gingerbread_crumble",
+   "gummy_wobble",
+   "pea_pop",
+   "bee_buzz",
+   "gust_whoosh"
+  ]
+ },
+ {
+  "group": 4,
+  "keys": [
+   "bellows_pump",
+   "bellows_break",
+   "cloud_puff",
+   "splash",
+   "book_page_turn",
+   "book_open",
+   "door_unlock",
+   "ui_move",
+   "ui_select",
+   "ui_back",
+   "cake_slice_lost"
+  ]
+ },
+ {
+  "group": 5,
+  "keys": [
+   "cake_slice_gained",
+   "boss_stomp",
+   "boss_charge",
+   "amb_fire_loop",
+   "amb_wind_loop",
+   "amb_meadow_loop",
+   "amb_stream_loop",
+   "gust_loop",
+   "hot_choc_bubble_loop"
+  ]
+ }
+]

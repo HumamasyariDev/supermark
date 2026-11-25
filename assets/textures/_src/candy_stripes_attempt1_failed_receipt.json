@@ -1,0 +1,12 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-0e71-76c0-92da-8dd1a7a61426",
+  "arguments": {
+    "prompt": "Candy cane stripes: diagonal glossy red and white stripes with a soft sugary sheen, perfectly even repeat. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "submitted_utc": "2026-10-17T18:47:47.959538+00:00"
+}

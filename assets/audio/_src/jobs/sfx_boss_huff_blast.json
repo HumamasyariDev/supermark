@@ -1,0 +1,25 @@
+{
+ "key": "sfx_boss_huff_blast",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a powerful blast of breath turning into a roaring gust of wind",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:31:26.134986+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-02ba-7b53-b602-89dfb3997d8e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/JC5YShrWMvWQHSMErmUUr_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 49571
+  }
+ },
+ "files": [
+  "raw/sfx_boss_huff_blast.mp3"
+ ],
+ "completed": "2026-10-17T19:31:32.727405+00:00"
+}

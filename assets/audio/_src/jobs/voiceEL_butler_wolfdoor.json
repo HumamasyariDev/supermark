@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_butler_wolfdoor",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[slowly, gravely] The Wolf's Door, sir. Twelve truffles, I'm afraid.",
+  "voice": "Bill",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:25.837668+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-0194-7362-ad50-a91fe4b4123d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/VFObIRusHFLSP_GsAbzCA_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 97846
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_butler_wolfdoor.mp3"
+ ],
+ "completed": "2026-10-17T19:31:32.491000+00:00"
+}

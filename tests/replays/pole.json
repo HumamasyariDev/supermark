@@ -1,0 +1,33 @@
+{
+ "start": {
+  "pos": [
+   48.0,
+   0.0,
+   6.6
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 220,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    0,
+    1
+   ]
+  },
+  {
+   "f": 6,
+   "hold": "jump",
+   "frames": 20
+  },
+  {
+   "on": "state:pole_climb",
+   "nth": 1,
+   "delay": 100,
+   "tap": "jump"
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

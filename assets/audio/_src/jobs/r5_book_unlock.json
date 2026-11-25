@@ -1,0 +1,25 @@
+{
+ "key": "r5_book_unlock",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a magical book clasp clicks open with a glowing chime",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:54.799250+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a230-7c20-aedd-aab7e7821cbc",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/e749JG6CiiyDtjZFejuQt_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_book_unlock.mp3"
+ ],
+ "completed": "2026-10-17T20:29:01.045879+00:00"
+}

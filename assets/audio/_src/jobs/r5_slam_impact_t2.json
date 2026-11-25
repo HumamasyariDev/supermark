@@ -1,0 +1,25 @@
+{
+ "key": "r5_slam_impact_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy cartoon belly flop ground pound, deep punchy thump with a dusty crumble",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:44.495411+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-8f8b-72a3-8817-4a2f2effb5f7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/Ma90MCf52TO8TRyXVsT9T_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_slam_impact_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:51.376116+00:00"
+}

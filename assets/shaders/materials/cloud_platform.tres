@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/cloud.gdshader" id="1_btepc"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_btepc")
+shader_parameter/light_color = Color(1, 0.99, 0.96, 1)
+shader_parameter/shade_color = Color(0.62, 0.66, 0.9, 1)
+shader_parameter/rim_color = Color(1, 0.95, 0.85, 1)
+shader_parameter/rim_strength = 0.45
+shader_parameter/puff_amount = 0.08
+shader_parameter/puff_scale = 1.6
+shader_parameter/puff_speed = 0.35
+shader_parameter/ramp_softness = 0.18
+shader_parameter/dissolve = 0.0
+shader_parameter/glow = 0.04

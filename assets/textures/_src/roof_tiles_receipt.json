@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-4d52-76d0-b6e6-bd9fe940e636",
+  "arguments": {
+    "prompt": "Clay roof tiles: overlapping rounded terracotta roof shingles in neat rows, warm orange-red with soft shading. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:28.315595+00:00",
+  "output_file": "roof_tiles_raw.png",
+  "sha256": "8c07e467a9432e0ba4a7727ed327bb0c9bee0d2def279ee530e5489c938ce51a",
+  "description": ""
+}

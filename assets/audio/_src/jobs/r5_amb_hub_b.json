@@ -1,0 +1,26 @@
+{
+ "key": "r5_amb_hub_b",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Game ambience recording, seamless, no music, no voice, no melody: a slow grandfather clock ticking steadily in a quiet wooden room",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.45,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:29:07.422109+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-d595-7842-ad0e-8d778455fab7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90f/2yDK55IPPOK81wQT4tI1A_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5_amb_hub_b.mp3"
+ ],
+ "completed": "2026-10-17T20:29:14.967527+00:00"
+}

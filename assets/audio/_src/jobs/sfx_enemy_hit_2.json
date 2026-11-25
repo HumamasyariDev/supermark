@@ -1,0 +1,25 @@
+{
+ "key": "sfx_enemy_hit_2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic bonk on a cartoon creature's head, hollow padded knock",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:35:08.832087+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b5c-6cbd-7c91-9e4e-4e9ebcc65477",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7cb/87exJd1Dx7M5A-rwgdfRS_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_enemy_hit_2.mp3"
+ ],
+ "completed": "2026-10-17T19:35:16.613042+00:00"
+}

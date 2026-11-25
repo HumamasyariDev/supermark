@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://8x3b8jqx1iu7"
+path.s3tc="res://.godot/imported/gingerbread_grenadier_Color_a65fdb10-10fd-4c66-9b96-090ee625f580.webp-096e257e2846fc600aacf399bbd2fbaa.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "e65b0a79f6be32cdcdd85e8677882730"
+}
+
+[deps]
+
+source_file="res://assets/enemies/gingerbread_grenadier/gingerbread_grenadier_Color_a65fdb10-10fd-4c66-9b96-090ee625f580.webp"
+dest_files=["res://.godot/imported/gingerbread_grenadier_Color_a65fdb10-10fd-4c66-9b96-090ee625f580.webp-096e257e2846fc600aacf399bbd2fbaa.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.85
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=1024
+detect_3d/compress_to=0

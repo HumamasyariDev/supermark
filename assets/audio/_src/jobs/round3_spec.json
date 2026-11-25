@@ -1,0 +1,294 @@
+{
+ "phase": "night01-audio-round3",
+ "jobs": [
+  {
+   "key": "voiceEL_wolf_inhale",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[takes a huge, long, comically deep breath in] Hhhhhhhhhhh...",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.061,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_panting",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[out of breath, panting heavily] Puff... puff... oh, my poor lungs...",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.069,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_tail",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[yelps in pain] Yeowch! My tail!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.032,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_blownaway",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[smug, theatrical] Prepare to be blown away, Piglet!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.052,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_delicious",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[sneering, pompous] Ah, the piglet. How... delicious.",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.053,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_getback",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[furious roar] Get back here!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.029,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_truffle",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[warmly, slowly] Ah, a Golden Truffle. Splendid work, sir.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.058,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_book2",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[slowly, kindly] The beanstalk book wants three truffles, sir.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.062,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_book3",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[slowly, kindly] The gingerbread book wants seven, sir.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.055,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_wolfdoor",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[slowly, gravely] The Wolf's Door, sir. Twelve truffles, I'm afraid.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.068,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_tea",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[slowly, warmly] A cup of tea, sir? No? Very good, sir.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.055,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "sfx_boss_inhale",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a huge comic creature inhaling a gigantic breath, long rising airy suck",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "max_reserved_usd": 0.009
+  },
+  {
+   "key": "sfx_boss_huff_blast",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a powerful blast of breath turning into a roaring gust of wind",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "max_reserved_usd": 0.009
+  },
+  {
+   "key": "sfx_chimney_crash",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a brick chimney smashing and collapsing, bricks tumbling",
+    "duration_seconds": 1.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.6,
+   "max_reserved_usd": 0.0082
+  },
+  {
+   "key": "sfx_crow_swoop",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bird diving fast past the listener, feathery whoosh",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_leaf_bounce",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: bouncing on a giant springy leaf, rubbery boing with a leafy rustle",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_gumdrop_bounce",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: bouncing on a giant squishy gumdrop, sugary jelly boing",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_switch_press",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a big wooden floor switch pressed down, chunky click and clunk",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_crate_break",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a wooden crate smashing apart into planks",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_amb_sky_loop",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: high altitude breezy wind among clouds, airy and gentle, distant birds",
+    "duration_seconds": 8.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192",
+    "loop": true
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 8.0,
+   "max_reserved_usd": 0.021
+  },
+  {
+   "key": "sfx_amb_storm_loop",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: stormy wind on a rooftop with distant rolling thunder",
+    "duration_seconds": 8.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192",
+    "loop": true
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 8.0,
+   "max_reserved_usd": 0.021
+  },
+  {
+   "key": "sfx_amb_candy_forest_loop",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quiet enchanted forest, soft breeze, gentle twinkles and distant bubbling",
+    "duration_seconds": 8.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192",
+    "loop": true
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 8.0,
+   "max_reserved_usd": 0.021
+  }
+ ]
+}

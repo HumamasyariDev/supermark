@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-3b06-7943-bb43-cd3d4c85c521",
+  "arguments": {
+    "prompt": "Polished walnut wood: deep reddish-brown varnished walnut grain running horizontally, rich and warm. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:48:09.994906+00:00",
+  "output_file": "bookshelf_wood_raw.png",
+  "sha256": "814f40b546d69cff3f5322e4129c651f271a015f80b2344520e8f44b1aa85bd1",
+  "description": ""
+}

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_acorn_collect_2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bright pickup blip: a tiny wooden click with a short rising sparkle",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:35:08.832370+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b5c-6caa-7280-9b50-40e769571395",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7cb/t6oQ-CgHZeJ8d7ezkC7Bb_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_acorn_collect_2.mp3"
+ ],
+ "completed": "2026-10-17T19:35:16.548136+00:00"
+}

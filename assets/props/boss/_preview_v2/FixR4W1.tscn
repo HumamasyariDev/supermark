@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W1.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine_v5/bellows_machine_v5.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine_v5/bellows_machine_v5_busted.glb" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.43, 0.75, 0.27, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="FixR4W1" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8862745, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="BellowsMinusX" type="Camera3D" parent="."]
+transform = Transform3D(0.076696, 0.12144, -0.98963, -0, 0.99255, 0.1218, 0.99705, -0.0093417, 0.076125, -12.5, 2.2, 6.5)
+fov = 45
+current = true
+
+[node name="BustedMinusX" type="Camera3D" parent="."]
+transform = Transform3D(0.076696, 0.12144, -0.98963, -0, 0.99255, 0.1218, 0.99705, -0.0093417, 0.076125, -18.5, 2.2, 12.5)
+fov = 45
+
+[node name="EmblemClose" type="Camera3D" parent="."]
+transform = Transform3D(0.031235, 0.046778, -0.99842, -0, 0.9989, 0.046801, 0.99951, -0.0014618, 0.031201, -10, 2.1, 6.3)
+fov = 35
+
+[node name="BellowsQ34" type="Camera3D" parent="."]
+transform = Transform3D(-0.70711, 0.17444, -0.68525, 0, 0.96909, 0.24669, 0.70711, 0.17444, -0.68525, -11, 3.2, 1)
+fov = 45
+
+[node name="Bellows" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 6)
+
+[node name="BellowsBusted" parent="." instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 0, 12)
+
+[node name="Mak" parent="." instance=ExtResource("2")]
+transform = Transform3D(0.76604, 0, -0.64279, 0, 1, 0, 0.64279, 0, 0.76604, -3.5, 0, 9)
+

@@ -1,0 +1,131 @@
+{
+ "phase": "night01-audio-impl-round6b-missing-keys",
+ "jobs": [
+  {
+   "key": "r6b_door_slam_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a heavy old wooden library door slams shut with a deep boom and a short rattle of iron fittings",
+    "duration_seconds": 1.4,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.4,
+   "estimated_usd": 0.0028,
+   "max_reserved_usd": 0.0035
+  },
+  {
+   "key": "r6b_door_slam_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a heavy old wooden library door slams shut with a deep boom and a short rattle of iron fittings",
+    "duration_seconds": 1.4,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.4,
+   "estimated_usd": 0.0028,
+   "max_reserved_usd": 0.0035
+  },
+  {
+   "key": "r6b_door_slam_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a heavy old wooden library door slams shut with a deep boom and a short rattle of iron fittings",
+    "duration_seconds": 1.4,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.4,
+   "estimated_usd": 0.0028,
+   "max_reserved_usd": 0.0035
+  },
+  {
+   "key": "r6b_seed_whoosh_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a magical upward whoosh with a leafy rustle and a bright sparkle, a big bean seed launching into the sky",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6b_seed_whoosh_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a magical upward whoosh with a leafy rustle and a bright sparkle, a big bean seed launching into the sky",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6b_seed_whoosh_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a magical upward whoosh with a leafy rustle and a bright sparkle, a big bean seed launching into the sky",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6b_enemy_flap_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: two quick strong flaps of a large crow's feathered wings, close",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.8,
+   "estimated_usd": 0.0016,
+   "max_reserved_usd": 0.002
+  },
+  {
+   "key": "r6b_enemy_flap_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: two quick strong flaps of a large crow's feathered wings, close",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.8,
+   "estimated_usd": 0.0016,
+   "max_reserved_usd": 0.002
+  },
+  {
+   "key": "r6b_enemy_flap_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: two quick strong flaps of a large crow's feathered wings, close",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.8,
+   "estimated_usd": 0.0016,
+   "max_reserved_usd": 0.002
+  }
+ ]
+}

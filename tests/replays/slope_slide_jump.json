@@ -1,0 +1,28 @@
+{
+ "start": {
+  "pos": [
+   36.0,
+   0.0,
+   -11.0
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 200,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    0,
+    1
+   ]
+  },
+  {
+   "on": "state:slope_slide",
+   "nth": 1,
+   "delay": 2,
+   "tap": "jump"
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

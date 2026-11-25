@@ -1,0 +1,15 @@
+{
+ "phase": "night01-audio-music",
+ "jobs": [
+  {
+   "key": "music_title_b",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental orchestral piece without singing. A whimsical storybook overture for the opening screen of a cosy family adventure game. It begins with a sparkling celesta and harp flourish, then a bright, catchy melody on flute and clarinet over bouncing pizzicato strings; warm horns answer, a cheeky bassoon counter-melody, glockenspiel sparkles, light snare and timpani, rising to a joyful, heroic full orchestra. Major key, about 112 BPM, playful and warm, polished modern orchestral recording."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  }
+ ]
+}

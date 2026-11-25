@@ -1,0 +1,25 @@
+{
+ "key": "r5_acorn_chain_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bright little pickup chime, wooden acorn tick with a sparkle",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:56.703242+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a99c-7ee0-8ff9-903e17c31185",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/vqE78CU-i1e2hBuaLvweO_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_acorn_chain_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:29:02.749275+00:00"
+}

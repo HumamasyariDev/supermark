@@ -1,0 +1,25 @@
+{
+ "key": "r5_great_truffle_appear",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a magical golden reveal, rising harp glissando with sparkles and a bright shimmering swell",
+  "duration_seconds": 2.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:28.620729+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-3be9-7f21-9e2d-bd76a846eedc",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/knhMNXDocgehKxGm_sPMQ_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 60856
+  }
+ },
+ "files": [
+  "raw/r5_great_truffle_appear.mp3"
+ ],
+ "completed": "2026-10-17T20:28:35.329455+00:00"
+}

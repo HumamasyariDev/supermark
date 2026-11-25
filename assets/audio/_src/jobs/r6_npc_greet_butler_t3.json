@@ -1,0 +1,25 @@
+{
+ "key": "r6_npc_greet_butler_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: an elderly English butler politely clears his throat, one soft dignified 'ahem'",
+  "duration_seconds": 1.1,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T23:12:15.506112+00:00",
+ "status": "downloaded",
+ "request_id": "01a14c23-2e6e-7eb0-ba64-b75464d57c56",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaecce1/CQ5jFS0ZwY48adA7bPNFF_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 27628
+  }
+ },
+ "files": [
+  "raw/r6_npc_greet_butler_t3.mp3"
+ ],
+ "completed": "2026-10-17T23:12:21.695810+00:00"
+}

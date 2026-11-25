@@ -1,0 +1,25 @@
+{
+ "key": "r5_spin_kick_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a fast spinning kick, swirling whoosh ending in a light thwack",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:31.348830+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-5c2f-7170-ab64-dbde61f0ab88",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec905/xnA6Ogw-hpMXAjuBPLjcK_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_spin_kick_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:38.340617+00:00"
+}

@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_laugh",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[villainous laugh] Mwa ha ha ha ha!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.835392+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-5aab-7be1-b9cd-3db780e286b7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/lsdd5HDmIrGm5Qb-rlwv6_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 33898
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_laugh.mp3"
+ ],
+ "completed": "2026-10-17T18:51:31.062801+00:00"
+}

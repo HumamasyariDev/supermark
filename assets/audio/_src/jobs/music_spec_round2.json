@@ -1,0 +1,25 @@
+{
+ "phase": "night01-audio-music",
+ "jobs": [
+  {
+   "key": "music_w2_b",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Airy, magical, steadily pulsing music for a sky level where the hero climbs giant beanstalk leaves through the clouds in a cheerful 3D adventure game. A constant gentle pulse of plucked harp and celesta eighth notes, a soft steady kick and brushed snare groove, soaring legato strings and a sweet flute melody that keep rising, light glockenspiel accents. Hopeful, bright, sense of height and wonder, major key, steady 104 BPM in strict tempo, repeating 8-bar phrases, no intro fade, no ending, designed for seamless looping."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_title_c",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental orchestral piece without singing. Main theme for the opening screen of a cosy storybook family adventure game. A bright, catchy, bouncy melody on flute and clarinet over steady pizzicato strings and a light marching snare, warm horns answering, a cheeky bassoon counter-line, glockenspiel sparkles; the theme repeats in clear 8-bar phrases with a steady strict tempo of 112 BPM, major key, playful and heroic, no slow intro and no big ending, loop-friendly."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  }
+ ]
+}

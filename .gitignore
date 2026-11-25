@@ -1,0 +1,14 @@
+# Godot 4 local cache & generated artifacts
+.godot/
+.godot_slots/
+*.translation
+
+# Build outputs
+build/
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~

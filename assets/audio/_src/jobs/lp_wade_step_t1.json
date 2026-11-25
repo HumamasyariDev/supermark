@@ -1,0 +1,25 @@
+{
+ "key": "lp_wade_step_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: one small footstep in ankle-deep water, a short light splish with a few droplets",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-19T07:44:06.335847+00:00",
+ "status": "downloaded",
+ "request_id": "01a1531e-2987-73f2-9c4a-6f135b574c4b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaefaa0/ZdBiFhOWJJKdOSWF3zTcT_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/lp_wade_step_t1.mp3"
+ ],
+ "completed": "2026-10-19T07:44:14.118297+00:00"
+}

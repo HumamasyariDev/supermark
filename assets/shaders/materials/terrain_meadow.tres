@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/terrain.gdshader" id="1_74khu"]
+[ext_resource type="Texture2D" path="res://assets/textures/dirt_path.webp" id="2_5v0dl"]
+[ext_resource type="Texture2D" path="res://assets/textures/grass.webp" id="3_26pvh"]
+[ext_resource type="Texture2D" path="res://assets/textures/cliff_rock.webp" id="4_evulv"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_74khu")
+shader_parameter/grass_texture = ExtResource("3_26pvh")
+shader_parameter/dirt_texture = ExtResource("2_5v0dl")
+shader_parameter/rock_texture = ExtResource("4_evulv")
+shader_parameter/grass_tint = Color(1, 1, 1, 1)
+shader_parameter/dirt_tint = Color(1, 1, 1, 1)
+shader_parameter/rock_tint = Color(1, 1, 1, 1)
+shader_parameter/grass_scale = 0.16
+shader_parameter/dirt_scale = 0.2
+shader_parameter/rock_scale = 0.12
+shader_parameter/slope_start = 0.78
+shader_parameter/slope_end = 0.62
+shader_parameter/blend_noise = 0.14
+shader_parameter/triplanar_sharpness = 4.0
+shader_parameter/use_vertex_color_mask = true
+shader_parameter/use_path_mask = false
+shader_parameter/path_mask_rect = Vector4(-60, -60, 120, 120)
+shader_parameter/macro_variation = 0.14
+shader_parameter/shadow_tint = Color(0.5, 0.52, 0.68, 1)
+shader_parameter/grass_brightness = 1.08

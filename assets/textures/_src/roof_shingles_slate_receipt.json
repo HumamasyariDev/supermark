@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-7d32-7e52-8211-784def012649",
+  "arguments": {
+    "prompt": "Slate roof shingles: overlapping rounded blue-grey slate tiles in rows, stormy and moody but stylized. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:41.589133+00:00",
+  "output_file": "roof_shingles_slate_raw.png",
+  "sha256": "de76c5559cd25ba954cc24443023a4e40de177af527e10ceba5646443bd8c09d",
+  "description": ""
+}

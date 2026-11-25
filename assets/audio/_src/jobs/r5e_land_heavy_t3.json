@@ -1,0 +1,25 @@
+{
+ "key": "r5e_land_heavy_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy landing thump on the ground with a small dust puff",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:26.188028+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-7c1b-75c0-8ce9-361c5edd4349",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5a/DRmN2v5g3JLnvInQrCGi2_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5e_land_heavy_t3.mp3"
+ ],
+ "completed": "2026-10-17T21:24:34.250814+00:00"
+}

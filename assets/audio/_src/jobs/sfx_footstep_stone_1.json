@@ -1,0 +1,25 @@
+{
+ "key": "sfx_footstep_stone_1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one small hoof footstep on stone, light click",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:42.966003+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-d0a6-7631-a34f-587b313a4218",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6ba/6Vq9a44Zv-4_ZTPWp-lW3_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_footstep_stone_1.mp3"
+ ],
+ "completed": "2026-10-17T18:49:49.177360+00:00"
+}

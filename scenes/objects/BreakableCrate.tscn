@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/objects/breakable_crate.gd" id="1_s"]
+
+[node name="BreakableCrate" type="StaticBody3D"]
+script = ExtResource("1_s")
+
+[node name="Visual" type="Node3D" parent="."]

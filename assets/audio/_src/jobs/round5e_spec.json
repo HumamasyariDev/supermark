@@ -1,0 +1,341 @@
+{
+ "phase": "night01-audio-m3-round5e-variants",
+ "jobs": [
+  {
+   "key": "r5e_jump_1_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a short springy cartoon jump, light quick whoosh with a soft boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_jump_1_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a short springy cartoon jump, light quick whoosh with a soft boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_jump_2_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a higher springy cartoon jump, quick bright whoosh with a rising boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_jump_2_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a higher springy cartoon jump, quick bright whoosh with a rising boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_jump_3_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a triumphant spinning somersault jump, swirling whoosh with a sparkly shimmer",
+    "duration_seconds": 1.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.0,
+   "estimated_usd": 0.002,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_jump_3_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a triumphant spinning somersault jump, swirling whoosh with a sparkly shimmer",
+    "duration_seconds": 1.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.0,
+   "estimated_usd": 0.002,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_land_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low thump of a small round character landing on soft ground, short and muffled, no ringing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_land_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low thump of a small round character landing on soft ground, short and muffled, no ringing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_land_heavy_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy landing thump on the ground with a small dust puff",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "estimated_usd": 0.0014,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_land_heavy_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy landing thump on the ground with a small dust puff",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "estimated_usd": 0.0014,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_hurt_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic hurt impact, a soft bonk with a short wobbly descending boing",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "estimated_usd": 0.0014,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_hurt_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic hurt impact, a soft bonk with a short wobbly descending boing",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "estimated_usd": 0.0014,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_enemy_notice_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick comic surprise alert, short rising boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_enemy_notice_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick comic surprise alert, short rising boing",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_enemy_defeat_poof_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a puff of smoke poof with a small confetti pop",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_enemy_defeat_poof_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a puff of smoke poof with a small confetti pop",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_wall_kick_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a foot kicking off a wooden wall, sharp thump followed by a springy whoosh",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_wall_kick_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a foot kicking off a wooden wall, sharp thump followed by a springy whoosh",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "estimated_usd": 0.0012,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_backflip_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a backflip spin, two quick flipping whooshes rising",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.8,
+   "estimated_usd": 0.0016,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_backflip_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a backflip spin, two quick flipping whooshes rising",
+    "duration_seconds": 0.8,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.8,
+   "estimated_usd": 0.0016,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_long_jump_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a long low leap, stretched airy swoosh",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_long_jump_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a long low leap, stretched airy swoosh",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_page_collect_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a paper page fluttering followed by a magical twinkling chime",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5e_page_collect_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a paper page fluttering followed by a magical twinkling chime",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "estimated_usd": 0.0018,
+   "max_reserved_usd": 0.004
+  }
+ ]
+}

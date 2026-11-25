@@ -1,0 +1,83 @@
+{
+ "sfx/door_slam": {
+  "file": "sfx/door_slam.ogg",
+  "duration_s": 1.232,
+  "channels": 1,
+  "peak_dbfs": -2.35,
+  "active_rms_dbfs": -16.0,
+  "lufs": -25.74,
+  "true_peak": -2.4,
+  "sha256": "2d23fb763040b7569842b1cb003b81f84c6f3c0f243a86997333507277e72fbf",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6b_door_slam_t2.mp3"
+ },
+ "sfx/door_slam_2": {
+  "file": "sfx/door_slam_2.ogg",
+  "duration_s": 0.853,
+  "channels": 1,
+  "peak_dbfs": -3.18,
+  "active_rms_dbfs": -16.0,
+  "lufs": -25.14,
+  "true_peak": -3.13,
+  "sha256": "63e6c6560da8acf52ffa5e85f78df7ef877fc7c7b97014025543e030f173d671",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6b_door_slam_t1.mp3"
+ },
+ "sfx/seed_whoosh": {
+  "file": "sfx/seed_whoosh.ogg",
+  "duration_s": 0.843,
+  "channels": 1,
+  "peak_dbfs": -2.84,
+  "active_rms_dbfs": -16.0,
+  "lufs": -25.63,
+  "true_peak": -2.3,
+  "sha256": "40cbfc53a32388b978b3576e0f2ff174367d04e5747de6372c48bb483465c652",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6b_seed_whoosh_t1.mp3"
+ },
+ "sfx/seed_whoosh_2": {
+  "file": "sfx/seed_whoosh_2.ogg",
+  "duration_s": 0.773,
+  "channels": 1,
+  "peak_dbfs": -6.58,
+  "active_rms_dbfs": -16.0,
+  "lufs": -24.7,
+  "true_peak": -6.04,
+  "sha256": "2123d967780a75cc168c9869d24758ccadbcc89968883f5b75c55ee904706b5a",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6b_seed_whoosh_t2.mp3"
+ },
+ "sfx/enemy_flap": {
+  "file": "sfx/enemy_flap.ogg",
+  "duration_s": 0.62,
+  "channels": 1,
+  "peak_dbfs": -1.0,
+  "active_rms_dbfs": -17.33,
+  "lufs": -19.03,
+  "true_peak": -1.21,
+  "sha256": "50b6d8f46d19edacfde125f2c9e0ba2e74ecfd29bc6ddf3599d501b7dfddfbc5",
+  "source": "procedural (round6b_build.py flap())"
+ },
+ "sfx/enemy_flap_2": {
+  "file": "sfx/enemy_flap_2.ogg",
+  "duration_s": 0.62,
+  "channels": 1,
+  "peak_dbfs": -1.0,
+  "active_rms_dbfs": -17.6,
+  "lufs": -19.04,
+  "true_peak": -1.13,
+  "sha256": "56e33b37d9924dcb9e7aa15da376a3194cafe409c978b38745da495b1e9c56d6",
+  "source": "procedural (round6b_build.py flap())"
+ },
+ "sfx/enemy_flap_3": {
+  "file": "sfx/enemy_flap_3.ogg",
+  "duration_s": 0.62,
+  "channels": 1,
+  "peak_dbfs": -1.0,
+  "active_rms_dbfs": -17.92,
+  "lufs": -20.65,
+  "true_peak": -1.43,
+  "sha256": "7b9618655c8e61c88b6da49da7a6518be39ea2b04263ab5cf74eb24b2378f25c",
+  "source": "procedural (round6b_build.py flap())"
+ }
+}

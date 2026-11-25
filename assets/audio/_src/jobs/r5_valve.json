@@ -1,0 +1,25 @@
+{
+ "key": "r5_valve",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a squeaky metal valve wheel turns then a short steam hiss",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:42.670954+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-72cf-7613-a6d2-795233e1ce45",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/MX2CtZ72vP8Qr4RcHNbjz_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_valve.mp3"
+ ],
+ "completed": "2026-10-17T20:28:48.851290+00:00"
+}

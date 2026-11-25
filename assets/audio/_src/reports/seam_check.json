@@ -1,0 +1,338 @@
+{
+ "music/boss_huffington.ogg": {
+  "dur_s": 75.418,
+  "seam_ratio": 0.342,
+  "rms_jump_db": -1.05,
+  "natural_p95_db": 7.34,
+  "jump_percentile": 35.2,
+  "pass": true
+ },
+ "music/hub_grand_library.ogg": {
+  "dur_s": 108.019,
+  "seam_ratio": 0.332,
+  "rms_jump_db": -0.92,
+  "natural_p95_db": 5.84,
+  "jump_percentile": 32.0,
+  "pass": true
+ },
+ "music/hub_lively.ogg": {
+  "dur_s": 64.017,
+  "seam_ratio": 0.106,
+  "rms_jump_db": 4.69,
+  "natural_p95_db": 6.13,
+  "jump_percentile": 91.0,
+  "pass": true
+ },
+ "music/title_storybook_overture.ogg": {
+  "dur_s": 68.569,
+  "seam_ratio": 0.22,
+  "rms_jump_db": 4.94,
+  "natural_p95_db": 8.41,
+  "jump_percentile": 84.0,
+  "pass": true
+ },
+ "music/w1_huff_puff_hollow.ogg": {
+  "dur_s": 92.137,
+  "seam_ratio": 0.452,
+  "rms_jump_db": 1.91,
+  "natural_p95_db": 8.65,
+  "jump_percentile": 57.5,
+  "pass": true
+ },
+ "music/w2_beanstalk_skyway.ogg": {
+  "dur_s": 91.44,
+  "seam_ratio": 0.722,
+  "rms_jump_db": -1.19,
+  "natural_p95_db": 2.87,
+  "jump_percentile": 59.8,
+  "pass": true
+ },
+ "music/w3_gingerbread_grove.ogg": {
+  "dur_s": 82.408,
+  "seam_ratio": 0.582,
+  "rms_jump_db": 3.24,
+  "natural_p95_db": 7.07,
+  "jump_percentile": 80.5,
+  "pass": true
+ },
+ "sfx/amb_boss_bed.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.053,
+  "rms_jump_db": 1.44,
+  "natural_p95_db": 4.27,
+  "jump_percentile": 53.8,
+  "pass": true
+ },
+ "sfx/amb_boss_la.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.137,
+  "rms_jump_db": 1.25,
+  "natural_p95_db": 3.4,
+  "jump_percentile": 51.5,
+  "pass": true
+ },
+ "sfx/amb_boss_lb.ogg": {
+  "dur_s": 17.3,
+  "seam_ratio": 0.113,
+  "rms_jump_db": 0.99,
+  "natural_p95_db": 5.24,
+  "jump_percentile": 21.0,
+  "pass": true
+ },
+ "sfx/amb_boss_wind_a.ogg": {
+  "dur_s": 19.7,
+  "seam_ratio": 0.091,
+  "rms_jump_db": 0.05,
+  "natural_p95_db": 1.0,
+  "jump_percentile": 10.0,
+  "pass": true
+ },
+ "sfx/amb_boss_wind_b.ogg": {
+  "dur_s": 13.9,
+  "seam_ratio": 0.069,
+  "rms_jump_db": 0.03,
+  "natural_p95_db": 1.41,
+  "jump_percentile": 3.8,
+  "pass": true
+ },
+ "sfx/amb_candy_forest_loop.ogg": {
+  "dur_s": 8.0,
+  "seam_ratio": 0.012,
+  "rms_jump_db": 2.34,
+  "natural_p95_db": 11.65,
+  "jump_percentile": 29.5,
+  "pass": true
+ },
+ "sfx/amb_fire_loop.ogg": {
+  "dur_s": 6.0,
+  "seam_ratio": 0.008,
+  "rms_jump_db": 7.31,
+  "natural_p95_db": 22.15,
+  "jump_percentile": 43.5,
+  "pass": true
+ },
+ "sfx/amb_hub_bed.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.154,
+  "rms_jump_db": -1.73,
+  "natural_p95_db": 6.39,
+  "jump_percentile": 38.5,
+  "pass": true
+ },
+ "sfx/amb_hub_la.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.161,
+  "rms_jump_db": -1.7,
+  "natural_p95_db": 7.34,
+  "jump_percentile": 31.5,
+  "pass": true
+ },
+ "sfx/amb_hub_lb.ogg": {
+  "dur_s": 13.7,
+  "seam_ratio": 0.065,
+  "rms_jump_db": -3.27,
+  "natural_p95_db": 6.68,
+  "jump_percentile": 69.5,
+  "pass": true
+ },
+ "sfx/amb_meadow_loop.ogg": {
+  "dur_s": 8.0,
+  "seam_ratio": 0.027,
+  "rms_jump_db": -7.66,
+  "natural_p95_db": 13.33,
+  "jump_percentile": 75.5,
+  "pass": true
+ },
+ "sfx/amb_sky_loop.ogg": {
+  "dur_s": 8.0,
+  "seam_ratio": 0.033,
+  "rms_jump_db": 0.69,
+  "natural_p95_db": 3.12,
+  "jump_percentile": 38.0,
+  "pass": true
+ },
+ "sfx/amb_storm_loop.ogg": {
+  "dur_s": 7.5,
+  "seam_ratio": 0.215,
+  "rms_jump_db": -3.47,
+  "natural_p95_db": 6.45,
+  "jump_percentile": 69.5,
+  "pass": true
+ },
+ "sfx/amb_stream_loop.ogg": {
+  "dur_s": 6.0,
+  "seam_ratio": 0.079,
+  "rms_jump_db": 2.32,
+  "natural_p95_db": 6.64,
+  "jump_percentile": 48.5,
+  "pass": true
+ },
+ "sfx/amb_w1_bed.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.047,
+  "rms_jump_db": -0.07,
+  "natural_p95_db": 6.28,
+  "jump_percentile": 5.2,
+  "pass": true
+ },
+ "sfx/amb_w1_la.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.007,
+  "rms_jump_db": 0.25,
+  "natural_p95_db": 9.55,
+  "jump_percentile": 8.2,
+  "pass": true
+ },
+ "sfx/amb_w1_lb.ogg": {
+  "dur_s": 15.1,
+  "seam_ratio": 0.073,
+  "rms_jump_db": -0.57,
+  "natural_p95_db": 1.89,
+  "jump_percentile": 56.2,
+  "pass": true
+ },
+ "sfx/amb_w2_bed.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.206,
+  "rms_jump_db": 7.21,
+  "natural_p95_db": 8.66,
+  "jump_percentile": 89.0,
+  "pass": true
+ },
+ "sfx/amb_w2_la.ogg": {
+  "dur_s": 20.0,
+  "seam_ratio": 1.022,
+  "rms_jump_db": 0.33,
+  "natural_p95_db": 7.26,
+  "jump_percentile": 6.5,
+  "pass": false
+ },
+ "sfx/amb_w2_lb.ogg": {
+  "dur_s": 16.9,
+  "seam_ratio": 0.35,
+  "rms_jump_db": 0.29,
+  "natural_p95_db": 4.49,
+  "jump_percentile": 12.0,
+  "pass": true
+ },
+ "sfx/amb_w3_bed.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.048,
+  "rms_jump_db": -4.29,
+  "natural_p95_db": 6.17,
+  "jump_percentile": 83.2,
+  "pass": true
+ },
+ "sfx/amb_w3_la.ogg": {
+  "dur_s": 20.5,
+  "seam_ratio": 0.188,
+  "rms_jump_db": -4.32,
+  "natural_p95_db": 6.62,
+  "jump_percentile": 81.8,
+  "pass": true
+ },
+ "sfx/amb_w3_lb.ogg": {
+  "dur_s": 14.3,
+  "seam_ratio": 0.633,
+  "rms_jump_db": 0.39,
+  "natural_p95_db": 12.02,
+  "jump_percentile": 7.5,
+  "pass": true
+ },
+ "sfx/amb_wind_loop.ogg": {
+  "dur_s": 5.65,
+  "seam_ratio": 0.009,
+  "rms_jump_db": 0.03,
+  "natural_p95_db": 3.56,
+  "jump_percentile": 1.2,
+  "pass": true
+ },
+ "sfx/bee_buzz.ogg": {
+  "dur_s": 6.4,
+  "seam_ratio": 0.047,
+  "rms_jump_db": 2.29,
+  "natural_p95_db": 3.63,
+  "jump_percentile": 78.5,
+  "pass": true
+ },
+ "sfx/belly_slide_loop.ogg": {
+  "dur_s": 5.0,
+  "seam_ratio": 0.245,
+  "rms_jump_db": 0.45,
+  "natural_p95_db": 1.04,
+  "jump_percentile": 61.8,
+  "pass": true
+ },
+ "sfx/boss_tornado_loop.ogg": {
+  "dur_s": 5.88,
+  "seam_ratio": 0.295,
+  "rms_jump_db": 1.55,
+  "natural_p95_db": 3.35,
+  "jump_percentile": 66.2,
+  "pass": true
+ },
+ "sfx/gust_loop.ogg": {
+  "dur_s": 4.0,
+  "seam_ratio": 0.1,
+  "rms_jump_db": -1.41,
+  "natural_p95_db": 3.52,
+  "jump_percentile": 54.0,
+  "pass": true
+ },
+ "sfx/hot_choc_bubble_loop.ogg": {
+  "dur_s": 8.0,
+  "seam_ratio": 0.117,
+  "rms_jump_db": 1.69,
+  "natural_p95_db": 16.58,
+  "jump_percentile": 15.8,
+  "pass": true
+ },
+ "sfx/slide_loop_candy.ogg": {
+  "dur_s": 4.7,
+  "seam_ratio": 0.363,
+  "rms_jump_db": -0.16,
+  "natural_p95_db": 4.51,
+  "jump_percentile": 2.5,
+  "pass": true
+ },
+ "sfx/slide_loop_grass.ogg": {
+  "dur_s": 4.3,
+  "seam_ratio": 0.018,
+  "rms_jump_db": -0.07,
+  "natural_p95_db": 4.69,
+  "jump_percentile": 1.0,
+  "pass": true
+ },
+ "sfx/slide_loop_stone.ogg": {
+  "dur_s": 3.9,
+  "seam_ratio": 0.123,
+  "rms_jump_db": 0.02,
+  "natural_p95_db": 4.62,
+  "jump_percentile": 1.0,
+  "pass": true
+ },
+ "sfx/slide_loop_wood.ogg": {
+  "dur_s": 4.1,
+  "seam_ratio": 0.156,
+  "rms_jump_db": 0.0,
+  "natural_p95_db": 5.01,
+  "jump_percentile": 0.0,
+  "pass": true
+ },
+ "sfx/truffle_sparkle_loop.ogg": {
+  "dur_s": 3.0,
+  "seam_ratio": 0.014,
+  "rms_jump_db": -1.72,
+  "natural_p95_db": 3.9,
+  "jump_percentile": 75.0,
+  "pass": true
+ },
+ "sfx/wall_slide_loop.ogg": {
+  "dur_s": 2.88,
+  "seam_ratio": 0.122,
+  "rms_jump_db": -4.0,
+  "natural_p95_db": 4.58,
+  "jump_percentile": 89.0,
+  "pass": true
+ }
+}

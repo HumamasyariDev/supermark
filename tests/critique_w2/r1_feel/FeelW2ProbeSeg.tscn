@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/critique_w2/r1_feel/feel_w2_probe_seg.gd" id="1"]
+
+[node name="FeelW2ProbeSeg" type="Node"]
+script = ExtResource("1")

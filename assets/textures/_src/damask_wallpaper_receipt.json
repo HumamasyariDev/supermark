@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-4d40-7972-8db8-67f4557c747a",
+  "arguments": {
+    "prompt": "Wallpaper: rich burgundy and brass-gold damask pattern, elegant English manor, gentle painted texture. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:27.727780+00:00",
+  "output_file": "damask_wallpaper_raw.png",
+  "sha256": "20d00e5cccf9e270f3fbd14a9167e857fafd27e724307d1e8c6af7cf2549d93a",
+  "description": ""
+}

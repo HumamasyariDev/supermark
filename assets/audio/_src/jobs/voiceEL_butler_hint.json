@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_butler_hint",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[slowly, kindly] The wolf went into the books, sir. Do mind the pages.",
+  "voice": "Bill",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:29.863652+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-723a-7611-9223-39496812c149",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c5/UjbgxVUJ3tG6DibY3d9mc_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 76112
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_butler_hint.mp3"
+ ],
+ "completed": "2026-10-17T18:51:36.666476+00:00"
+}

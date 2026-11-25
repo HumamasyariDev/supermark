@@ -1,0 +1,1541 @@
+{
+ "_about": "Super Mak 64 audio bank (night01, audio workstream). Keys -> files relative to res://assets/audio/. Lists are random variants. Music loops are seamless (crossfaded at the loop point); music at -16 LUFS, jingles -14 LUFS, voice about -16 LUFS, SFX peak <= -1 dBFS. Provenance: assets/audio/_src (ignored by Godot) and Docs/LICENSES.md.",
+ "version": 1,
+ "entries": [
+  {
+   "key": "music_title",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/title_storybook_overture.ogg"
+  },
+  {
+   "key": "title",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/title_storybook_overture.ogg"
+  },
+  {
+   "key": "TITLE",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/title_storybook_overture.ogg"
+  },
+  {
+   "key": "music_hub",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/hub_grand_library.ogg"
+  },
+  {
+   "key": "hub",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/hub_grand_library.ogg"
+  },
+  {
+   "key": "HUB",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/hub_grand_library.ogg"
+  },
+  {
+   "key": "music_w1",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w1_huff_puff_hollow.ogg"
+  },
+  {
+   "key": "w1",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w1_huff_puff_hollow.ogg"
+  },
+  {
+   "key": "W1",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w1_huff_puff_hollow.ogg"
+  },
+  {
+   "key": "music_w2",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w2_beanstalk_skyway.ogg"
+  },
+  {
+   "key": "w2",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w2_beanstalk_skyway.ogg"
+  },
+  {
+   "key": "W2",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w2_beanstalk_skyway.ogg"
+  },
+  {
+   "key": "music_w3",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w3_gingerbread_grove.ogg"
+  },
+  {
+   "key": "w3",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w3_gingerbread_grove.ogg"
+  },
+  {
+   "key": "W3",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/w3_gingerbread_grove.ogg"
+  },
+  {
+   "key": "music_boss",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/boss_huffington.ogg"
+  },
+  {
+   "key": "boss",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/boss_huffington.ogg"
+  },
+  {
+   "key": "BOSS",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/boss_huffington.ogg"
+  },
+  {
+   "key": "music_hub_lively",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/hub_lively.ogg"
+  },
+  {
+   "key": "hub_lively",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": true,
+   "file": "music/hub_lively.ogg"
+  },
+  {
+   "key": "music_victory",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/victory.ogg"
+  },
+  {
+   "key": "victory",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/victory.ogg"
+  },
+  {
+   "key": "jingle_victory",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/victory.ogg"
+  },
+  {
+   "key": "music_truffle_get",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/truffle_get.ogg"
+  },
+  {
+   "key": "jingle_truffle_get",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/truffle_get.ogg"
+  },
+  {
+   "key": "truffle_jingle",
+   "bus": "Music",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "music/truffle_get.ogg"
+  },
+  {
+   "key": "music_menu_sting",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "music/menu_sting.ogg"
+  },
+  {
+   "key": "menu_sting",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "music/menu_sting.ogg"
+  },
+  {
+   "key": "jingle_menu",
+   "bus": "Music",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "music/menu_sting.ogg"
+  },
+  {
+   "key": "acorn_collect",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "files": [
+    "sfx/acorn_collect.ogg",
+    "sfx/acorn_collect_2.ogg"
+   ]
+  },
+  {
+   "key": "acorn_collect_2",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/acorn_collect_2.ogg"
+  },
+  {
+   "key": "backflip",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/backflip.ogg"
+  },
+  {
+   "key": "bee_buzz",
+   "bus": "SFX",
+   "volume_db": -8.0,
+   "loop": true,
+   "file": "sfx/bee_buzz.ogg"
+  },
+  {
+   "key": "bellows_break",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/bellows_break.ogg"
+  },
+  {
+   "key": "bellows_pump",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/bellows_pump.ogg"
+  },
+  {
+   "key": "book_open",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/book_open.ogg"
+  },
+  {
+   "key": "book_page_turn",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/book_page_turn.ogg"
+  },
+  {
+   "key": "ui_page_turn",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/book_page_turn.ogg"
+  },
+  {
+   "key": "page_turn",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/book_page_turn.ogg"
+  },
+  {
+   "key": "boss_charge",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/boss_charge.ogg"
+  },
+  {
+   "key": "boss_huff_blast",
+   "bus": "SFX",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "sfx/boss_huff_blast.ogg"
+  },
+  {
+   "key": "boss_inhale",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/boss_inhale.ogg"
+  },
+  {
+   "key": "boss_stomp",
+   "bus": "SFX",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "sfx/boss_stomp.ogg"
+  },
+  {
+   "key": "cake_slice_gained",
+   "bus": "SFX",
+   "volume_db": -5.0,
+   "loop": false,
+   "file": "sfx/cake_slice_gained.ogg"
+  },
+  {
+   "key": "cake_slice_lost",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/cake_slice_lost.ogg"
+  },
+  {
+   "key": "checkpoint",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/checkpoint.ogg"
+  },
+  {
+   "key": "chimney_crash",
+   "bus": "SFX",
+   "volume_db": -1.0,
+   "loop": false,
+   "file": "sfx/chimney_crash.ogg"
+  },
+  {
+   "key": "cloud_puff",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "files": [
+    "sfx/cloud_puff.ogg",
+    "sfx/cloud_puff_2.ogg"
+   ]
+  },
+  {
+   "key": "cloud_puff_2",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/cloud_puff_2.ogg"
+  },
+  {
+   "key": "crate_break",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/crate_break.ogg"
+  },
+  {
+   "key": "crow_caw",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "files": [
+    "sfx/crow_caw.ogg",
+    "sfx/crow_caw_2.ogg"
+   ]
+  },
+  {
+   "key": "crow_caw_2",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/crow_caw_2.ogg"
+  },
+  {
+   "key": "crow_swoop",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/crow_swoop.ogg"
+  },
+  {
+   "key": "dive",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/dive.ogg"
+  },
+  {
+   "key": "door_unlock",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/door_unlock.ogg"
+  },
+  {
+   "key": "enemy_defeat_poof",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/enemy_defeat_poof.ogg"
+  },
+  {
+   "key": "enemy_defeat",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/enemy_defeat_poof.ogg"
+  },
+  {
+   "key": "enemy_hit",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "files": [
+    "sfx/enemy_hit.ogg",
+    "sfx/enemy_hit_2.ogg",
+    "sfx/enemy_hit_3.ogg"
+   ]
+  },
+  {
+   "key": "enemy_hit_2",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/enemy_hit_2.ogg"
+  },
+  {
+   "key": "enemy_hit_3",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/enemy_hit_3.ogg"
+  },
+  {
+   "key": "enemy_notice",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/enemy_notice.ogg"
+  },
+  {
+   "key": "gingerbread_crumble",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/gingerbread_crumble.ogg"
+  },
+  {
+   "key": "gumdrop_bounce",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/gumdrop_bounce.ogg"
+  },
+  {
+   "key": "bounce_gumdrop",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/gumdrop_bounce.ogg"
+  },
+  {
+   "key": "gummy_wobble",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/gummy_wobble.ogg"
+  },
+  {
+   "key": "gust_loop",
+   "bus": "SFX",
+   "volume_db": -8.0,
+   "loop": true,
+   "file": "sfx/gust_loop.ogg"
+  },
+  {
+   "key": "gust_whoosh",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/gust_whoosh.ogg"
+  },
+  {
+   "key": "ham_slam",
+   "bus": "SFX",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "sfx/ham_slam.ogg"
+  },
+  {
+   "key": "ground_pound",
+   "bus": "SFX",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "sfx/ham_slam.ogg"
+  },
+  {
+   "key": "hot_choc_bubble_loop",
+   "bus": "SFX",
+   "volume_db": -10.0,
+   "loop": true,
+   "file": "sfx/hot_choc_bubble_loop.ogg"
+  },
+  {
+   "key": "hurt",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/hurt.ogg"
+  },
+  {
+   "key": "jump_1",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/jump_1.ogg"
+  },
+  {
+   "key": "jump_2",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/jump_2.ogg"
+  },
+  {
+   "key": "jump_3",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/jump_3.ogg"
+  },
+  {
+   "key": "kick",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "files": [
+    "sfx/kick.ogg",
+    "sfx/kick_2.ogg"
+   ]
+  },
+  {
+   "key": "kick_2",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/kick_2.ogg"
+  },
+  {
+   "key": "land",
+   "bus": "SFX",
+   "volume_db": -6.0,
+   "loop": false,
+   "files": [
+    "sfx/land.ogg",
+    "sfx/land_2.ogg"
+   ]
+  },
+  {
+   "key": "land_2",
+   "bus": "SFX",
+   "volume_db": -6.0,
+   "loop": false,
+   "file": "sfx/land_2.ogg"
+  },
+  {
+   "key": "land_heavy",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/land_heavy.ogg"
+  },
+  {
+   "key": "leaf_bounce",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/leaf_bounce.ogg"
+  },
+  {
+   "key": "bounce_leaf",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/leaf_bounce.ogg"
+  },
+  {
+   "key": "ledge_grab",
+   "bus": "SFX",
+   "volume_db": -6.0,
+   "loop": false,
+   "file": "sfx/ledge_grab.ogg"
+  },
+  {
+   "key": "long_jump",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/long_jump.ogg"
+  },
+  {
+   "key": "page_collect",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/page_collect.ogg"
+  },
+  {
+   "key": "pea_pop",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/pea_pop.ogg"
+  },
+  {
+   "key": "punch",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "files": [
+    "sfx/punch.ogg",
+    "sfx/punch_2.ogg"
+   ]
+  },
+  {
+   "key": "punch_2",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/punch_2.ogg"
+  },
+  {
+   "key": "skid",
+   "bus": "SFX",
+   "volume_db": -6.0,
+   "loop": false,
+   "file": "sfx/skid.ogg"
+  },
+  {
+   "key": "slide",
+   "bus": "SFX",
+   "volume_db": -6.0,
+   "loop": false,
+   "file": "sfx/slide.ogg"
+  },
+  {
+   "key": "sniff",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/sniff.ogg"
+  },
+  {
+   "key": "splash",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "files": [
+    "sfx/splash.ogg",
+    "sfx/splash_2.ogg"
+   ]
+  },
+  {
+   "key": "splash_2",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/splash_2.ogg"
+  },
+  {
+   "key": "switch_press",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/switch_press.ogg"
+  },
+  {
+   "key": "truffle_get",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/truffle_get.ogg"
+  },
+  {
+   "key": "sfx_truffle_get",
+   "bus": "SFX",
+   "volume_db": -2.0,
+   "loop": false,
+   "file": "sfx/truffle_get.ogg"
+  },
+  {
+   "key": "truffle_sparkle_loop",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": true,
+   "file": "sfx/truffle_sparkle_loop.ogg"
+  },
+  {
+   "key": "ui_back",
+   "bus": "SFX",
+   "volume_db": -8.0,
+   "loop": false,
+   "file": "sfx/ui_back.ogg"
+  },
+  {
+   "key": "ui_move",
+   "bus": "SFX",
+   "volume_db": -10.0,
+   "loop": false,
+   "file": "sfx/ui_move.ogg"
+  },
+  {
+   "key": "ui_select",
+   "bus": "SFX",
+   "volume_db": -7.0,
+   "loop": false,
+   "file": "sfx/ui_select.ogg"
+  },
+  {
+   "key": "ui_accept",
+   "bus": "SFX",
+   "volume_db": -7.0,
+   "loop": false,
+   "file": "sfx/ui_select.ogg"
+  },
+  {
+   "key": "ui_confirm",
+   "bus": "SFX",
+   "volume_db": -7.0,
+   "loop": false,
+   "file": "sfx/ui_select.ogg"
+  },
+  {
+   "key": "wall_kick",
+   "bus": "SFX",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "sfx/wall_kick.ogg"
+  },
+  {
+   "key": "wolf_cub_baa",
+   "bus": "SFX",
+   "volume_db": -4.0,
+   "loop": false,
+   "file": "sfx/wolf_cub_baa.ogg"
+  },
+  {
+   "key": "footstep_grass",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "files": [
+    "sfx/footstep_grass_1.ogg",
+    "sfx/footstep_grass_2.ogg",
+    "sfx/footstep_grass_3.ogg"
+   ]
+  },
+  {
+   "key": "footstep",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "files": [
+    "sfx/footstep_grass_1.ogg",
+    "sfx/footstep_grass_2.ogg",
+    "sfx/footstep_grass_3.ogg"
+   ]
+  },
+  {
+   "key": "footstep_grass_1",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_grass_1.ogg"
+  },
+  {
+   "key": "footstep_grass_2",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_grass_2.ogg"
+  },
+  {
+   "key": "footstep_grass_3",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_grass_3.ogg"
+  },
+  {
+   "key": "footstep_wood",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "files": [
+    "sfx/footstep_wood_1.ogg",
+    "sfx/footstep_wood_2.ogg",
+    "sfx/footstep_wood_3.ogg",
+    "sfx/footstep_wood_4.ogg"
+   ]
+  },
+  {
+   "key": "footstep_wood_1",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_wood_1.ogg"
+  },
+  {
+   "key": "footstep_wood_2",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_wood_2.ogg"
+  },
+  {
+   "key": "footstep_wood_3",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_wood_3.ogg"
+  },
+  {
+   "key": "footstep_wood_4",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_wood_4.ogg"
+  },
+  {
+   "key": "footstep_stone",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "files": [
+    "sfx/footstep_stone_1.ogg",
+    "sfx/footstep_stone_2.ogg",
+    "sfx/footstep_stone_3.ogg"
+   ]
+  },
+  {
+   "key": "footstep_stone_1",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_stone_1.ogg"
+  },
+  {
+   "key": "footstep_stone_2",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_stone_2.ogg"
+  },
+  {
+   "key": "footstep_stone_3",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_stone_3.ogg"
+  },
+  {
+   "key": "footstep_candy",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "files": [
+    "sfx/footstep_candy_1.ogg",
+    "sfx/footstep_candy_2.ogg",
+    "sfx/footstep_candy_3.ogg"
+   ]
+  },
+  {
+   "key": "footstep_candy_1",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_candy_1.ogg"
+  },
+  {
+   "key": "footstep_candy_2",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_candy_2.ogg"
+  },
+  {
+   "key": "footstep_candy_3",
+   "bus": "SFX",
+   "volume_db": -12.0,
+   "loop": false,
+   "file": "sfx/footstep_candy_3.ogg"
+  },
+  {
+   "key": "amb_fire_loop",
+   "bus": "Ambience",
+   "volume_db": -10.0,
+   "loop": true,
+   "file": "sfx/amb_fire_loop.ogg"
+  },
+  {
+   "key": "amb_fire",
+   "bus": "Ambience",
+   "volume_db": -10.0,
+   "loop": true,
+   "file": "sfx/amb_fire_loop.ogg"
+  },
+  {
+   "key": "amb_wind_loop",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_wind_loop.ogg"
+  },
+  {
+   "key": "amb_wind",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_wind_loop.ogg"
+  },
+  {
+   "key": "amb_meadow_loop",
+   "bus": "Ambience",
+   "volume_db": -12.0,
+   "loop": true,
+   "file": "sfx/amb_meadow_loop.ogg"
+  },
+  {
+   "key": "amb_meadow",
+   "bus": "Ambience",
+   "volume_db": -12.0,
+   "loop": true,
+   "file": "sfx/amb_meadow_loop.ogg"
+  },
+  {
+   "key": "amb_stream_loop",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_stream_loop.ogg"
+  },
+  {
+   "key": "amb_stream",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_stream_loop.ogg"
+  },
+  {
+   "key": "amb_sky_loop",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_sky_loop.ogg"
+  },
+  {
+   "key": "amb_sky",
+   "bus": "Ambience",
+   "volume_db": -14.0,
+   "loop": true,
+   "file": "sfx/amb_sky_loop.ogg"
+  },
+  {
+   "key": "amb_storm_loop",
+   "bus": "Ambience",
+   "volume_db": -12.0,
+   "loop": true,
+   "file": "sfx/amb_storm_loop.ogg"
+  },
+  {
+   "key": "amb_storm",
+   "bus": "Ambience",
+   "volume_db": -12.0,
+   "loop": true,
+   "file": "sfx/amb_storm_loop.ogg"
+  },
+  {
+   "key": "amb_candy_forest_loop",
+   "bus": "Ambience",
+   "volume_db": -13.0,
+   "loop": true,
+   "file": "sfx/amb_candy_forest_loop.ogg"
+  },
+  {
+   "key": "amb_candy_forest",
+   "bus": "Ambience",
+   "volume_db": -13.0,
+   "loop": true,
+   "file": "sfx/amb_candy_forest_loop.ogg"
+  },
+  {
+   "key": "voice_mak_tallyho",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_tallyho.ogg"
+  },
+  {
+   "key": "vo_mak_tallyho",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_tallyho.ogg"
+  },
+  {
+   "key": "voice_mak_splendid",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_splendid.ogg"
+  },
+  {
+   "key": "vo_mak_splendid",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_splendid.ogg"
+  },
+  {
+   "key": "voice_mak_jollygood",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_jollygood.ogg"
+  },
+  {
+   "key": "vo_mak_jollygood",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_jollygood.ogg"
+  },
+  {
+   "key": "voice_mak_righto",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_righto.ogg"
+  },
+  {
+   "key": "vo_mak_righto",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_righto.ogg"
+  },
+  {
+   "key": "voice_mak_jump1",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump1.ogg"
+  },
+  {
+   "key": "vo_mak_jump1",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump1.ogg"
+  },
+  {
+   "key": "voice_mak_jump2",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump2.ogg"
+  },
+  {
+   "key": "vo_mak_jump2",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump2.ogg"
+  },
+  {
+   "key": "voice_mak_jump3",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump3.ogg"
+  },
+  {
+   "key": "vo_mak_jump3",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_jump3.ogg"
+  },
+  {
+   "key": "voice_mak_oof",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_oof.ogg"
+  },
+  {
+   "key": "vo_mak_oof",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "file": "voice/mak_oof.ogg"
+  },
+  {
+   "key": "voice_mak_blast",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_blast.ogg"
+  },
+  {
+   "key": "vo_mak_blast",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_blast.ogg"
+  },
+  {
+   "key": "voice_mak_truffle",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_truffle.ogg"
+  },
+  {
+   "key": "vo_mak_truffle",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_truffle.ogg"
+  },
+  {
+   "key": "voice_mak_sniff",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_sniff.ogg"
+  },
+  {
+   "key": "vo_mak_sniff",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_sniff.ogg"
+  },
+  {
+   "key": "voice_mak_hamslam",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_hamslam.ogg"
+  },
+  {
+   "key": "vo_mak_hamslam",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_hamslam.ogg"
+  },
+  {
+   "key": "voice_mak_wahey",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_wahey.ogg"
+  },
+  {
+   "key": "vo_mak_wahey",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_wahey.ogg"
+  },
+  {
+   "key": "voice_mak_cheerio",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_cheerio.ogg"
+  },
+  {
+   "key": "vo_mak_cheerio",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_cheerio.ogg"
+  },
+  {
+   "key": "voice_mak_ouch",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_ouch.ogg"
+  },
+  {
+   "key": "vo_mak_ouch",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_ouch.ogg"
+  },
+  {
+   "key": "voice_mak_whoa",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_whoa.ogg"
+  },
+  {
+   "key": "vo_mak_whoa",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_whoa.ogg"
+  },
+  {
+   "key": "voice_mak_tophat",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_tophat.ogg"
+  },
+  {
+   "key": "vo_mak_tophat",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_tophat.ogg"
+  },
+  {
+   "key": "voice_mak_gotit",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_gotit.ogg"
+  },
+  {
+   "key": "vo_mak_gotit",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/mak_gotit.ogg"
+  },
+  {
+   "key": "voice_mak_cheer",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "files": [
+    "voice/mak_tallyho.ogg",
+    "voice/mak_splendid.ogg",
+    "voice/mak_jollygood.ogg",
+    "voice/mak_righto.ogg",
+    "voice/mak_wahey.ogg"
+   ]
+  },
+  {
+   "key": "voice_mak_hurt",
+   "bus": "Voice",
+   "volume_db": -2.0,
+   "loop": false,
+   "files": [
+    "voice/mak_oof.ogg",
+    "voice/mak_ouch.ogg"
+   ]
+  },
+  {
+   "key": "voice_mak_jump",
+   "bus": "Voice",
+   "volume_db": -3.0,
+   "loop": false,
+   "files": [
+    "voice/mak_jump1.ogg",
+    "voice/mak_jump2.ogg"
+   ]
+  },
+  {
+   "key": "voice_wolf_littlepig",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_littlepig.ogg"
+  },
+  {
+   "key": "vo_wolf_littlepig",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_littlepig.ogg"
+  },
+  {
+   "key": "voice_wolf_huffpuff",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_huffpuff.ogg"
+  },
+  {
+   "key": "vo_wolf_huffpuff",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_huffpuff.ogg"
+  },
+  {
+   "key": "voice_wolf_curses",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_curses.ogg"
+  },
+  {
+   "key": "vo_wolf_curses",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_curses.ogg"
+  },
+  {
+   "key": "voice_wolf_notlast",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_notlast.ogg"
+  },
+  {
+   "key": "vo_wolf_notlast",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_notlast.ogg"
+  },
+  {
+   "key": "voice_wolf_laugh",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_laugh.ogg"
+  },
+  {
+   "key": "vo_wolf_laugh",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_laugh.ogg"
+  },
+  {
+   "key": "voice_wolf_inhale",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_inhale.ogg"
+  },
+  {
+   "key": "vo_wolf_inhale",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_inhale.ogg"
+  },
+  {
+   "key": "voice_wolf_panting",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_panting.ogg"
+  },
+  {
+   "key": "vo_wolf_panting",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_panting.ogg"
+  },
+  {
+   "key": "voice_wolf_tail",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_tail.ogg"
+  },
+  {
+   "key": "vo_wolf_tail",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_tail.ogg"
+  },
+  {
+   "key": "voice_wolf_blownaway",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_blownaway.ogg"
+  },
+  {
+   "key": "vo_wolf_blownaway",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_blownaway.ogg"
+  },
+  {
+   "key": "voice_wolf_delicious",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_delicious.ogg"
+  },
+  {
+   "key": "vo_wolf_delicious",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_delicious.ogg"
+  },
+  {
+   "key": "voice_wolf_getback",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_getback.ogg"
+  },
+  {
+   "key": "vo_wolf_getback",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/wolf_getback.ogg"
+  },
+  {
+   "key": "voice_butler_welcome",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_welcome.ogg"
+  },
+  {
+   "key": "vo_butler_welcome",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_welcome.ogg"
+  },
+  {
+   "key": "voice_butler_hint_wolf",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_hint.ogg"
+  },
+  {
+   "key": "vo_butler_hint_wolf",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_hint.ogg"
+  },
+  {
+   "key": "voice_butler_hint",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_hint.ogg"
+  },
+  {
+   "key": "voice_butler_truffle",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_truffle.ogg"
+  },
+  {
+   "key": "vo_butler_truffle",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_truffle.ogg"
+  },
+  {
+   "key": "voice_butler_book2_needs3",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_book2.ogg"
+  },
+  {
+   "key": "vo_butler_book2_needs3",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_book2.ogg"
+  },
+  {
+   "key": "voice_butler_book3_needs7",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_book3.ogg"
+  },
+  {
+   "key": "vo_butler_book3_needs7",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_book3.ogg"
+  },
+  {
+   "key": "voice_butler_wolfdoor_needs12",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_wolfdoor.ogg"
+  },
+  {
+   "key": "vo_butler_wolfdoor_needs12",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_wolfdoor.ogg"
+  },
+  {
+   "key": "voice_butler_tea",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_tea.ogg"
+  },
+  {
+   "key": "vo_butler_tea",
+   "bus": "Voice",
+   "volume_db": 0.0,
+   "loop": false,
+   "file": "voice/butler_tea.ogg"
+  }
+ ]
+}

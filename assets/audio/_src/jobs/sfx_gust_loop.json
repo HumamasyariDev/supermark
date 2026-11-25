@@ -1,0 +1,26 @@
+{
+ "key": "sfx_gust_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a continuous strong wind gust blowing",
+  "duration_seconds": 4.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T18:50:15.260217+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-4ecd-7462-9593-b7ac10e33b7f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/S1dl4v7Cq7BQwcvghpbay_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 97845
+  }
+ },
+ "files": [
+  "raw/sfx_gust_loop.mp3"
+ ],
+ "completed": "2026-10-17T18:50:21.880060+00:00"
+}

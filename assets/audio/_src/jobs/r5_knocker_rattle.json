@@ -1,0 +1,25 @@
+{
+ "key": "r5_knocker_rattle",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a brass door knocker rattles on a locked door",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:54.527384+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a11b-7850-b567-bc91edc19dff",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/nS_s-_L53x4HqnwW7bczi_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_knocker_rattle.mp3"
+ ],
+ "completed": "2026-10-17T20:29:00.854504+00:00"
+}

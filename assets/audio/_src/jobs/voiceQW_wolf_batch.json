@@ -1,0 +1,29 @@
+{
+ "key": "voiceQW_wolf_batch",
+ "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+ "input": {
+  "text": "Little pig, little pig...\n\nI'll huff, and I'll puff!\n\nCurses, Piglet!\n\nYou haven't seen the last of Huffington!\n\nMwa ha ha ha ha!",
+  "prompt": "A pompous, theatrical villain, a big bad wolf with a deep, booming, velvety baritone voice and an exaggerated upper-class English accent, hammy and melodramatic, rolling his words with sinister glee.",
+  "language": "English",
+  "max_new_tokens": 900
+ },
+ "created": "2026-10-17T18:51:30.025462+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-72da-74d2-a6e0-4554322e7185",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6d4/zbmc-bcQRlVoZQgGC4f1d_c5cTxFyS.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "zbmc-bcQRlVoZQgGC4f1d_c5cTxFyS.mp3",
+   "file_size": null,
+   "duration": 17.576875,
+   "channels": 1,
+   "sample_rate": 24000,
+   "bitrate": null
+  }
+ },
+ "files": [
+  "raw/voiceQW_wolf_batch.mp3"
+ ],
+ "completed": "2026-10-17T18:54:06.259844+00:00"
+}

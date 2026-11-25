@@ -1,0 +1,26 @@
+{
+ "key": "sfx_amb_wind_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: steady swirling wind gusts in open air",
+  "duration_seconds": 6.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T18:50:14.338792+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-4b32-7421-9290-f32d95880ea8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/BPbKL_kqZm44HW-5RiznA_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 145492
+  }
+ },
+ "files": [
+  "raw/sfx_amb_wind_loop.mp3"
+ ],
+ "completed": "2026-10-17T18:50:21.205548+00:00"
+}

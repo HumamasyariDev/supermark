@@ -1,0 +1,25 @@
+{
+ "key": "lp_wade_step_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a single quick step splashing through a shallow stream, soft wet slap and sprinkle",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-19T07:44:06.336001+00:00",
+ "status": "downloaded",
+ "request_id": "01a1531e-2989-7b60-9a99-a24381b09d30",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaefaa0/RvN78WkVHkwSVKymg0m6X_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/lp_wade_step_t2.mp3"
+ ],
+ "completed": "2026-10-19T07:44:14.305071+00:00"
+}

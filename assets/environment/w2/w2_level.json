@@ -1,0 +1,8048 @@
+{
+ "world_id": "W2",
+ "display_name": "Beanstalk Skyway",
+ "tale": "Jack and the Beanstalk",
+ "version": "plan-v1 + round 1, round 2 and round 3 amendments (night 01)",
+ "units": "metres; x east, y up, z south (toward the default camera); origin = stalk base on the garden island top",
+ "bounds": {
+  "x": [
+   -45,
+   45
+  ],
+  "z": [
+   -46,
+   40
+  ],
+  "y": [
+   -20,
+   70.3
+  ]
+ },
+ "kill_y": -15.0,
+ "gravity_assumed_for_bounce": 28.0,
+ "height_bands": [
+  {
+   "band": "Garden",
+   "y": [
+    0,
+    2
+   ]
+  },
+  {
+   "band": "Lower Stalk",
+   "y": [
+    1,
+    23
+   ]
+  },
+  {
+   "band": "Cloud Layer 1",
+   "y": [
+    24,
+    29
+   ]
+  },
+  {
+   "band": "Middle Stalk",
+   "y": [
+    25,
+    40
+   ]
+  },
+  {
+   "band": "Upper Cloudbank",
+   "y": [
+    43,
+    49
+   ]
+  },
+  {
+   "band": "Castle",
+   "y": [
+    50,
+    62
+   ]
+  },
+  {
+   "band": "Belfry",
+   "y": [
+    58,
+    70.3
+   ]
+  }
+ ],
+ "spawns": [
+  {
+   "name": "Default",
+   "pos": [
+    0.0,
+    0.0,
+    35.0
+   ],
+   "rot_y": 0.0,
+   "note": "South gate of Jack's garden, facing north up the path to the beanstalk"
+  },
+  {
+   "name": "W2-1",
+   "pos": [
+    0.0,
+    0.0,
+    35.0
+   ],
+   "rot_y": 0.0,
+   "note": "Same as Default"
+  },
+  {
+   "name": "W2-5",
+   "pos": [
+    0.0,
+    0.0,
+    35.0
+   ],
+   "rot_y": 0.0,
+   "note": "Same as Default"
+  },
+  {
+   "name": "W2-6",
+   "pos": [
+    8.0,
+    0.0,
+    3.5
+   ],
+   "rot_y": -14.04,
+   "note": "Beside the Beanpod Lift; ride it to the Allotment"
+  },
+  {
+   "name": "W2-4",
+   "pos": [
+    -3.5,
+    24.0,
+    -12.0
+   ],
+   "rot_y": 90.0,
+   "note": "Cloud Landing, facing west toward the Cloud Hopper start"
+  },
+  {
+   "name": "W2-7",
+   "pos": [
+    -3.5,
+    24.0,
+    -12.0
+   ],
+   "rot_y": 90.0,
+   "note": "Cloud Landing, facing west toward the Cloud Hopper start"
+  },
+  {
+   "name": "W2-2",
+   "pos": [
+    -12.0,
+    44.0,
+    -8.0
+   ],
+   "rot_y": -90.0,
+   "note": "Upper Cloudbank, facing east to the Upper Runner leaves"
+  },
+  {
+   "name": "W2-3",
+   "pos": [
+    -12.0,
+    44.0,
+    -8.0
+   ],
+   "rot_y": -90.0,
+   "note": "Upper Cloudbank"
+  },
+  {
+   "name": "W2-8",
+   "pos": [
+    -6.0,
+    50.0,
+    -18.0
+   ],
+   "rot_y": 90.0,
+   "note": "Castle bank by the stalk's foot, facing west to the vine",
+   "r1": true
+  }
+ ],
+ "story_cams": [
+  {
+   "name": "StoryCam_A",
+   "pos": [
+    26.0,
+    7.0,
+    44.0
+   ],
+   "look_at": [
+    -3.0,
+    33.0,
+    -14.0
+   ],
+   "fov_v": 62,
+   "note": "Hero shot: low over the garden's south-east corner, cottage smoke left, the beanstalk spiralling up through both cloud layers with the castle and belfry silhouetted against the gold-lavender sky"
+  },
+  {
+   "name": "StoryCam_B",
+   "pos": [
+    -72.0,
+    36.0,
+    6.0
+   ],
+   "look_at": [
+    2.0,
+    34.0,
+    -14.0
+   ],
+   "fov_v": 56,
+   "note": "Full side elevation from the west: island, stalk, Cloud Hopper helix, Leaf Bouncer chain and castle in one 70 m frame; sun behind camera-left gives rim light"
+  },
+  {
+   "name": "StoryCam_C",
+   "pos": [
+    18.0,
+    74.0,
+    -6.0
+   ],
+   "look_at": [
+    -3.0,
+    54.0,
+    -34.0
+   ],
+   "fov_v": 55,
+   "note": "Castle cutaway from above the gate: the sleeping Giant, his table and teacup, the goose cage and the belfry flower"
+  },
+  {
+   "name": "StoryCam_D",
+   "pos": [
+    -34.0,
+    82.0,
+    -40.0
+   ],
+   "look_at": [
+    4.0,
+    14.0,
+    10.0
+   ],
+   "fov_v": 58,
+   "note": "Vertigo shot from above the belfry looking down the stalk to the tiny garden 70 m below"
+  },
+  {
+   "name": "StoryCam_C_v2",
+   "pos": [
+    6.0,
+    62.0,
+    -27.0
+   ],
+   "look_at": [
+    -10.0,
+    57.0,
+    -35.0
+   ],
+   "fov_v": 50,
+   "shows": "Giant close-up: breath cycle, beard bounce, pom-pom truffle",
+   "r1": true
+  },
+  {
+   "name": "StoryCam_D_v2",
+   "pos": [
+    -4.0,
+    66.0,
+    -5.0
+   ],
+   "look_at": [
+    -14.0,
+    63.0,
+    -18.0
+   ],
+   "fov_v": 55,
+   "shows": "the bell swinging under the beanstalk hook, belfry behind, cloud sea below",
+   "r1": true
+  },
+  {
+   "name": "StoryCam_A_v2",
+   "pos": [
+    6.0,
+    1.0,
+    44.0
+   ],
+   "look_at": [
+    -1.0,
+    20.0,
+    -6.0
+   ],
+   "fov_v": 62,
+   "shows": "the hero shot StoryCam_A misses: Mak at Default in the lower-left third (feet at NDC y -0.83, head -0.59), the stalk rising, the castle gate (0.20, 0.59) and the belfry flower (-0.15, 0.73) in frame",
+   "use": "also the world-entry intro: hold 1.5 s, then blend 1.5 s into the gameplay camera (first entry per visit; skippable)",
+   "r2": true
+  },
+  {
+   "name": "StoryCam_B_v2",
+   "pos": [
+    -80.0,
+    38.0,
+    4.0
+   ],
+   "look_at": [
+    0.0,
+    38.0,
+    -12.0
+   ],
+   "fov_v": 60,
+   "shows": "the full side elevation with the belfry flower inside the frame (NDC y 0.84; StoryCam_B cut it off at 1.14) and the garden at the bottom (-0.91)",
+   "r2": true
+  },
+  {
+   "name": "StoryCam_E_v2",
+   "pos": [
+    4.0,
+    61.0,
+    -27.0
+   ],
+   "look_at": [
+    -11.0,
+    58.0,
+    -34.0
+   ],
+   "fov_v": 48,
+   "shows": "BONG cutaway: the Giant's head centred, his sat-up head at NDC y 0.48 and the flying nightcap at 0.72, beard and table below",
+   "r2": true
+  },
+  {
+   "name": "StoryCam_E_v3",
+   "pos": [
+    10.0,
+    68.0,
+    -14.0
+   ],
+   "look_at": [
+    -12.0,
+    61.0,
+    -26.0
+   ],
+   "fov_v": 55,
+   "shows": "BONG two-shot: the bell and Mak on its plate at the left (bell crown NDC (-0.46, 0.12), Mak (-0.47, 0.23)), the Giant at the right (head (0.29, -0.13), sat-up head (0.27, 0.09), flying nightcap (0.30, 0.31)), the bean flower above (-0.18, 0.70). The rays to the head clear the south wall and the partition; GATE_TOWER_W is 57 deg off-axis, outside the frame",
+   "use": "BONG cutaway (replaces StoryCam_E_v2 for it)",
+   "r3": true
+  },
+  {
+   "name": "StoryCam_F_v3",
+   "pos": [
+    40.0,
+    52.0,
+    34.0
+   ],
+   "look_at": [
+    0.0,
+    54.0,
+    -28.0
+   ],
+   "fov_v": 52,
+   "shows": "the castle on its cloud, seen from level with the bank: bank tips (-0.33, -0.10) and (0.70, -0.13), underside (0.05, -0.27), SE spire (0.32, 0.74), gate-tower spire (0.09, 0.65), bean flower (-0.25, 0.41), bell (-0.28, 0.28), stalk at 44 m (-0.21, -0.32)",
+   "use": "world-entry intro, first entry per save: hold 1.0 s, then a 3.0 s ease-in-out crane (straight lines in position and look-at) down to StoryCam_A_v2, hold 1.0 s, blend 1.5 s into the gameplay camera (CH0). Skippable after 1.0 s. The line from (40, 52, 34) to (6, 1, 44) stays outside the island (34 m from its centre at the midpoint) and away from every deck. Later entries: a 1.0 s hold on StoryCam_A_v2, skippable",
+   "r3": true
+  },
+  {
+   "name": "StoryCam_G_v3",
+   "pos": [
+    -1.6,
+    55.95,
+    -30.6
+   ],
+   "look_at": [
+    -11.0,
+    59.4,
+    -35.0
+   ],
+   "fov_v": 62,
+   "shows": "tiny pig, huge world: a low table-top angle with Mak at the capture mark (-6.6, 55.6, -31.4) (feet -0.69, head -0.25), the candle and its flame at the right (x 0.43..0.52, flame y 0.49), and the Giant's head, nightcap and hunched back rising behind (pom-pom (0.03, -0.06), shoulders from 0.15 up to the top of the back)",
+   "use": "trailer still and the W2-3 mission banner; capture with Mak placed at the mark during a rest phase",
+   "r3": true
+  },
+  {
+   "name": "StoryCam_H_v3_rail",
+   "kind": "rail",
+   "path": "seed_descent_r3.waypoints",
+   "rule": "0.0-1.5 s: StoryCam_D's framing (Mak tiny on the flower, the stalk plunging to the garden). Then a chase camera 7 m behind and 2.5 m above Mak, offset outward from the stalk axis so the stalk stays in frame, looking 0.4 s ahead along the path. Last 1.0 s: settle into StoryCam_A_v2's framing for the landing.",
+   "r3": true
+  }
+ ],
+ "lighting": {
+  "time_of_day": "Late afternoon golden hour (about 17:30 storybook time)",
+  "sun": {
+   "rotation_degrees": [
+    -32.0,
+    -67.5,
+    0.0
+   ],
+   "note": "sun in the west-south-west at 32 deg elevation; light travels toward east-north-east",
+   "color": "#FFE2B0",
+   "energy": 1.25,
+   "shadows": true,
+   "shadow_max_distance": 140
+  },
+  "sky": {
+   "type": "ProceduralSkyMaterial or gradient shader",
+   "top": "#7C6FD0",
+   "horizon": "#FFD3A0",
+   "ground_below_horizon": "#F3E9FF",
+   "sun_disk": "#FFF1C9",
+   "painterly_clouds": true
+  },
+  "ambient": {
+   "source": "sky",
+   "energy": 0.65,
+   "tint": "#E8DDFF"
+  },
+  "fog": {
+   "depth_fog": true,
+   "color": "#D9C6F0",
+   "density": 0.0045,
+   "sky_affect": 0.35,
+   "height_fog_below_y": -6.0,
+   "height_fog_density": 0.08,
+   "note": "dense lavender cloud sea below the island; distant haze toward the horizon"
+  },
+  "glow": {
+   "enabled": true,
+   "intensity": 0.8,
+   "bloom": 0.12,
+   "hdr_threshold": 1.1
+  },
+  "tonemap": "ACES, exposure 1.0, white 6",
+  "ssao": true,
+  "ssil": "optional",
+  "volumetric_fog": "optional light shafts through the cloud layers (density 0.01, only if under budget)",
+  "local_lights": [
+   {
+    "id": "cottage_window",
+    "pos": [
+     -9.6,
+     1.6,
+     19.6
+    ],
+    "color": "#FFB45E",
+    "energy": 2.0,
+    "range": 6
+   },
+   {
+    "id": "kitchen_hearth",
+    "pos": [
+     -14.0,
+     51.5,
+     -41.0
+    ],
+    "color": "#FF8A3D",
+    "energy": 3.0,
+    "range": 14,
+    "note": "Giant's hearth glow on the north-west kitchen wall"
+   },
+   {
+    "id": "belfry_flower",
+    "pos": [
+     -18.0,
+     70.5,
+     -24.0
+    ],
+    "color": "#FFE79A",
+    "energy": 2.5,
+    "range": 10
+   },
+   {
+    "id": "goose_cage",
+    "pos": [
+     13.0,
+     53.0,
+     -35.0
+    ],
+    "color": "#FFD24A",
+    "energy": 1.8,
+    "range": 7
+   },
+   {
+    "id": "goal_beacon",
+    "pos": [
+     -18.0,
+     70.0,
+     -24.0
+    ],
+    "kind": "vfx + light",
+    "spec": "golden pollen column from the bean-flower bud: an additive camera-facing ribbon 3 m wide rising 30 m, #FFD86B at 35% alpha with slow upward sparkles, plus an OmniLight #FFE79A energy 2.5 range 10 on the bud; fades out within 25 m of Mak; off once W2-8 is collected",
+    "why": "one readable goal from every band, including the spawn",
+    "r2": true
+   },
+   {
+    "id": "giant_candle",
+    "pos": [
+     -6.5,
+     60.9,
+     -37.0
+    ],
+    "color": "#FFC86B",
+    "energy": 2.0,
+    "range": 9,
+    "note": "flickers and leans with the breath (follows the flame bone)",
+    "r3": true
+   }
+  ],
+  "colour_script": {
+   "driver": "Mak's y, smoothed (time constant 1.5 s), linear blend between keys; the world script writes sun colour, energy and pitch, fog colour and density, sky top and horizon, and ambient tint",
+   "keys": [
+    {
+     "y": 0,
+     "name": "Garden afternoon",
+     "sun_color": "#FFE2B0",
+     "sun_energy": 1.25,
+     "sun_pitch_deg": -32,
+     "fog_color": "#CFC0EA",
+     "fog_density": 0.003,
+     "sky_top": "#6F63CC",
+     "sky_horizon": "#FFD3A0",
+     "ambient_tint": "#E8DDFF",
+     "ambient_energy": 0.6
+    },
+    {
+     "y": 30,
+     "name": "Golden hour in the clouds",
+     "sun_color": "#FFC27A",
+     "sun_energy": 1.35,
+     "sun_pitch_deg": -24,
+     "fog_color": "#F0C6AE",
+     "fog_density": 0.0026,
+     "sky_top": "#6A5CC8",
+     "sky_horizon": "#FFB878",
+     "ambient_tint": "#FFE6CF",
+     "ambient_energy": 0.55
+    },
+    {
+     "y": 52,
+     "name": "Castle sunset",
+     "sun_color": "#FF9A62",
+     "sun_energy": 1.2,
+     "sun_pitch_deg": -16,
+     "fog_color": "#B79BDF",
+     "fog_density": 0.0028,
+     "sky_top": "#4E45B0",
+     "sky_horizon": "#FF9F7A",
+     "ambient_tint": "#D9C8FF",
+     "ambient_energy": 0.55
+    }
+   ],
+   "note": "sun yaw stays -67.5; castle lanterns and the kitchen hearth switch on above y 48; each StoryCam uses the key nearest its look_at height",
+   "r2": true
+  },
+  "value_pass": {
+   "cloud_deck_top_albedo": "#EADFEA (about 90% value, warm peach tint); pure #FFF8F0 only on rim puffs and puff-cloud tops",
+   "cloud_side_albedo": "#B8A6DE",
+   "cloud_underside_albedo": "#9C8AD0",
+   "hero_contact_shadow": "blob decal under Mak, 0.8 m, #5E4E86 at 45% (fades with height, gone above 6 m), on every surface",
+   "exposure": 0.95,
+   "fog": "density per colour_script (was 0.0045 everywhere)",
+   "check": "in a native capture on C1 and UC the hero's cream body and the cloud top differ by at least 12% luminance, and Mak's silhouette reads at 1280x720",
+   "r2": true
+  }
+ },
+ "palette": {
+  "beanstalk_green": "#4FA03A",
+  "beanstalk_dark": "#2E6B2B",
+  "leaf_light": "#8DD35F",
+  "leaf_vein": "#C9EE8A",
+  "bouncy_leaf": "#3FC6A0",
+  "cloud_white": "#FFF8F0",
+  "cloud_shadow": "#CBB8EA",
+  "sky_top": "#7C6FD0",
+  "sky_horizon": "#FFD3A0",
+  "giants_gold": "#F2B632",
+  "castle_stone": "#B9A58E",
+  "castle_stone_dark": "#8C7A68",
+  "garden_grass": "#7CC657",
+  "path_dirt": "#C89B63",
+  "thatch": "#E3C26B",
+  "cottage_wall": "#F2E6CF",
+  "timber": "#8A5A35",
+  "hazard_orange": "#FF6A2B",
+  "wolf_banner": "#B3263A",
+  "pea_green": "#9AD84A",
+  "bumble_yellow": "#FFCF3A",
+  "castle_roof_tile": "#A93A2A",
+  "roof_finial_gold": "#E8B23A",
+  "candle_wax": "#F3E6C4",
+  "note_r3": "castle_roof_tile replaces the purple slate: luminance 0.116 against 0.27-0.37 for the garden-key sky at 40-47 degrees elevation, and a hue about 100 degrees away from the violet sky and fog (the slate shared the fog hue, 266)."
+ },
+ "ambient_life": [
+  "Butterflies (white and lemon) over the garden flowers, 10-14 instances",
+  "Chimney smoke from Jack's cottage, slow soft puffs drifting east",
+  "Swallows circling the stalk in two loops (y 10-18 and y 30-38), radius 9-12 m",
+  "Falling leaves shed from the stalk, 1 every 2 s, spiralling down to the garden",
+  "Pollen motes around the Bluebell Hive and the sunflower",
+  "Drifting cloud wisps moving east at 0.6 m/s on both cloud layers",
+  "Cloud sea far below (y -24) rolling slowly; distant cloud mountains on a 180 m ring",
+  "Wolf banners on the castle flapping; the belfry bell sways gently",
+  "The sleeping Giant: chest rises and falls, nightcap pom-pom bobs, snore Zs and crumbs fly on each snore",
+  "Steam curl from the teacup; the pocket-watch hand ticks around",
+  "Bees (ambient, harmless, tiny) around the sunflower, separate from the Bumble Bruisers",
+  "Daisy the cow grazing in the garden, flicks tail, moos when Mak passes",
+  "r3: swallows, butterflies and ambient bees are real Tripo P2 meshes (characters_r3 AMB-SW, AMB-BF, AMB-BEE), not particles"
+ ],
+ "audio": {
+  "music_key": "w2_beanstalk",
+  "musical_key": "D major",
+  "meter": "3/4 waltz",
+  "tempo_bpm": 132,
+  "instrumentation": "pizzicato strings, harp, celesta, woodwinds; a low tuba 'Giant' motif",
+  "alt_music_key": "w2_castle",
+  "alt_note": "Same theme in D minor-ish modal colour, slower (104 bpm), for the castle interior (optional)",
+  "ambience_keys": [
+   "amb_sky_wind",
+   "amb_garden_birds",
+   "sfx_giant_snore",
+   "sfx_cloud_puff",
+   "sfx_leaf_boing",
+   "sfx_bell"
+  ]
+ },
+ "terrain": {
+  "island": {
+   "shape": "ellipse",
+   "center": [
+    0,
+    0,
+    14
+   ],
+   "rx": 22,
+   "rz": 22,
+   "top_y": 0.0,
+   "rim_bevel": 0.6,
+   "height_function": "h(x,z) = 1.8*exp(-((x-13)^2+(z-28)^2)/(2*4.0^2)) + 1.0*exp(-((x+17)^2+(z-8)^2)/(2*4.5^2)), multiplied by smoothstep(5,7,dist((x,z),(-12,18))) so the cottage pad stays flat at 0, and by smoothstep(3.5,5,dist((x,z),(0,0))) around the stalk",
+   "underside": "inverted faceted rock cone from the rim to apex (0,-20,14) with 8 lobes (noise amplitude 1.5 m) and hanging roots",
+   "material": "grass #7CC657 top, soil band #9A6B45 0.6 m, rock #8C7A68 faces"
+  },
+  "paths": [
+   {
+    "id": "PATH_MAIN",
+    "width": 2.2,
+    "material": "packed dirt #C89B63 with stepping stones",
+    "points": [
+     [
+      0,
+      0,
+      36
+     ],
+     [
+      -1,
+      0,
+      28
+     ],
+     [
+      -5,
+      0,
+      22
+     ],
+     [
+      -4,
+      0,
+      14
+     ],
+     [
+      -1,
+      0,
+      7
+     ],
+     [
+      1.2,
+      0,
+      5
+     ]
+    ]
+   },
+   {
+    "id": "PATH_WELL",
+    "width": 1.6,
+    "material": "stepping stones",
+    "points": [
+     [
+      -1,
+      0,
+      26
+     ],
+     [
+      4,
+      0,
+      24
+     ],
+     [
+      8.5,
+      0,
+      23.2
+     ]
+    ]
+   },
+   {
+    "id": "PATH_LIFT",
+    "width": 1.6,
+    "material": "dirt",
+    "points": [
+     [
+      -1,
+      0,
+      9
+     ],
+     [
+      4,
+      0,
+      4
+     ],
+     [
+      8,
+      0,
+      0
+     ]
+    ]
+   }
+  ],
+  "rivers": [],
+  "roots": [
+   {
+    "id": "R1",
+    "radius": 0.6,
+    "walkable": true,
+    "points": [
+     [
+      1.5,
+      0.3,
+      1.5
+     ],
+     [
+      4,
+      1.2,
+      4
+     ],
+     [
+      6.5,
+      0.2,
+      6.5
+     ]
+    ]
+   },
+   {
+    "id": "R2",
+    "radius": 0.6,
+    "walkable": true,
+    "points": [
+     [
+      -1.5,
+      0.3,
+      0.5
+     ],
+     [
+      -5,
+      1.0,
+      2
+     ],
+     [
+      -8,
+      0.1,
+      3
+     ]
+    ]
+   },
+   {
+    "id": "R3",
+    "radius": 0.5,
+    "walkable": false,
+    "points": [
+     [
+      0,
+      0.3,
+      -2.5
+     ],
+     [
+      0,
+      0.8,
+      -6
+     ],
+     [
+      0,
+      -1,
+      -9
+     ],
+     [
+      0.5,
+      -6,
+      -10
+     ]
+    ]
+   },
+   {
+    "id": "R4",
+    "radius": 0.6,
+    "walkable": true,
+    "points": [
+     [
+      -2,
+      0.3,
+      -2
+     ],
+     [
+      -10,
+      0.6,
+      -1
+     ],
+     [
+      -15,
+      -1,
+      -2.5
+     ],
+     [
+      -16.5,
+      -3.8,
+      -3.4
+     ]
+    ]
+   }
+  ],
+  "cloud_layers_visual": [
+   {
+    "id": "CL1",
+    "y_range": [
+     22.0,
+     25.5
+    ],
+    "radius": 75,
+    "holes_around": [
+     "stalk r 4",
+     "C1",
+     "ALLOT",
+     "LIFT column r 3",
+     "PUFF helix r 9"
+    ],
+    "note": "translucent animated cloud sheet; no collision",
+    "r1": true,
+    "layout_r1": "Broken patches, not a sheet: 14 irregular cloud banks (each 8-20 m across), total coverage <= 35% of the r 75 disc. Clear corridors: no patch may intersect the cone (half-angle 8 deg) from the Default eye (0, 1.6, 35) to the belfry flower (-18, 69, -24), nor the cone (half-angle 10 deg) from StoryCam_A to its look-at point. Inner hole r 9 around the stalk axis."
+   },
+   {
+    "id": "CL2",
+    "y_range": [
+     42.0,
+     45.5
+    ],
+    "radius": 75,
+    "holes_around": [
+     "stalk r 4",
+     "UC",
+     "Leaf Bouncer pads r 2.5",
+     "BANK underside"
+    ],
+    "note": "thinner, more broken than CL1",
+    "r1": true,
+    "layout_r1": "Broken patches, not a sheet: 10 irregular cloud banks (each 8-20 m across), total coverage <= 35% of the r 75 disc. Clear corridors: no patch may intersect the cone (half-angle 8 deg) from the Default eye (0, 1.6, 35) to the belfry flower (-18, 69, -24), nor the cone (half-angle 10 deg) from StoryCam_A to its look-at point. Inner hole r 9 around the stalk axis."
+   }
+  ],
+  "cloud_decks": "each solid cloud = cylinder collider (scaled to the ellipse) whose top is the walkable y; visual = union of 8-20 spheres with a flattened top and lavender underside",
+  "stalk": {
+   "spline": [
+    [
+     0.0,
+     -6.0,
+     0.0,
+     3.4
+    ],
+    [
+     0.0,
+     0.0,
+     0.0,
+     3.0
+    ],
+    [
+     1.0,
+     12.0,
+     -1.0,
+     2.4
+    ],
+    [
+     0.0,
+     24.0,
+     -3.5,
+     2.1
+    ],
+    [
+     -2.0,
+     34.0,
+     -7.0,
+     1.9
+    ],
+    [
+     -3.5,
+     44.0,
+     -12.5,
+     1.7
+    ],
+    [
+     -4.0,
+     50.0,
+     -18.0,
+     1.5
+    ],
+    [
+     -5.5,
+     56.0,
+     -19.5,
+     1.1
+    ],
+    [
+     -7.0,
+     59.5,
+     -18.6,
+     0.9
+    ],
+    [
+     -8.4,
+     62.5,
+     -18.2,
+     0.7
+    ],
+    [
+     -10.6,
+     65.6,
+     -17.4,
+     0.55
+    ],
+    [
+     -13.0,
+     66.9,
+     -16.8,
+     0.45
+    ]
+   ],
+   "strands": 3,
+   "twist_deg_per_m": 9,
+   "material": "#4FA03A with lighter vertical grooves #6BBF4A and knots",
+   "note_r1": "Round 1: the tip now curls west into a hook over (-13, 66.9, -16.8) that carries the Giant's bell. Collision capsules stop at y 62.5; the curl above is visual only, so Mak cannot walk the hook to the belfry."
+  },
+  "castle_bank": {
+   "note": "ellipse centre (2,50,-31) rx 36 rz 15 plus a box core x -20..24 z -46..-24; top 50; puffy underside to y 44 at the centre, 48.5 at the rim",
+   "note_r3": "castle bank south rim between x -12 and 24: trim puffs hang below y 50 only (none above the walkable top), keeping the castle sightline from the spawn"
+  }
+ },
+ "landmarks": [
+  {
+   "id": "LM01",
+   "name": "The Beanstalk",
+   "pos": [
+    0,
+    0,
+    0
+   ],
+   "footprint": "r 3.0 at base tapering to 1.5 at y 50",
+   "height": 59,
+   "note": "three twisted strands sweeping along the STALK spline; tip curl at (-7, 59, -18); tendrils hug the belfry visually"
+  },
+  {
+   "id": "LM02",
+   "name": "Jack's cottage",
+   "pos": [
+    -12,
+    0,
+    18
+   ],
+   "footprint": "7 x 6 m, rot_y 20",
+   "height": 8.2,
+   "note": "thatched, timber-framed, round door facing the path (east); chimney cap 8.2"
+  },
+  {
+   "id": "LM03",
+   "name": "Garden well",
+   "pos": [
+    9,
+    0,
+    22
+   ],
+   "footprint": "r 1.3",
+   "height": 3.5,
+   "note": "little shingle roof; truffle W2-5 appears on its lid"
+  },
+  {
+   "id": "LM04",
+   "name": "Beanpod Lift",
+   "pos": [
+    9.5,
+    0,
+    -2.5
+   ],
+   "footprint": "2.6 x 2.6 pod on a vertical vine",
+   "height": 24,
+   "note": "shortcut garden <-> Allotment; runs once Mak has stepped on the Allotment (flag w2_lift)"
+  },
+  {
+   "id": "LM05",
+   "name": "Cloud Landing",
+   "pos": [
+    -5.5,
+    24,
+    -13.5
+   ],
+   "footprint": "ellipse 13 x 10",
+   "height": 24,
+   "note": "first cloud layer deck; lookout pillow with W2-1"
+  },
+  {
+   "id": "LM06",
+   "name": "Giant's Allotment",
+   "pos": [
+    23,
+    24,
+    -4
+   ],
+   "footprint": "ellipse 24 x 26",
+   "height": 24,
+   "note": "soil rows, cabbages, sunflower (18,24,5) 10 m with head r 2.5, watering can (30.6,24,-11.6), wolf-mask scarecrow 5 m"
+  },
+  {
+   "id": "LM07",
+   "name": "Bluebell Hive",
+   "pos": [
+    7.2,
+    35,
+    -6
+   ],
+   "footprint": "bell flower cup r 1.8 on a side shoot",
+   "height": 36.5
+  },
+  {
+   "id": "LM08",
+   "name": "Cloud Hopper helix",
+   "pos": [
+    -24.5,
+    25,
+    -12
+   ],
+   "footprint": "r 6.5 helix",
+   "height": 43,
+   "note": "11 puff clouds + 6 golden rings"
+  },
+  {
+   "id": "LM09",
+   "name": "Upper Cloudbank & Cloud Bell",
+   "pos": [
+    -14,
+    44,
+    -8
+   ],
+   "footprint": "ellipse 12 x 9",
+   "height": 46.5
+  },
+  {
+   "id": "LM10",
+   "name": "Leaf Bouncer & Blossom Islet",
+   "pos": [
+    -40.5,
+    46,
+    -38
+   ],
+   "footprint": "5 pads + islet r 2.6 with a pink blossom tree 4 m",
+   "height": 50
+  },
+  {
+   "id": "LM11",
+   "name": "Giant's castle",
+   "pos": [
+    2,
+    50,
+    -34
+   ],
+   "footprint": "curtain x -18..22, z -44..-24, walls 2 m thick, 8 m high",
+   "height": 58,
+   "note": "gate x 11..17 on the south wall (6 x 7 m arch), partition wall x 6..8 with an arch at z -30.5..-26.5"
+  },
+  {
+   "id": "LM12",
+   "name": "Belfry",
+   "pos": [
+    -18,
+    50,
+    -24
+   ],
+   "footprint": "r 5",
+   "height": 68,
+   "note": "crenellated top, bell openings y 62-66, bean flower to 70, stone foundation hangs below the cloud to y 40"
+  },
+  {
+   "id": "LM13",
+   "name": "Corner turrets NW/NE/SE",
+   "pos": [
+    [
+     -18,
+     50,
+     -44
+    ],
+    [
+     22,
+     50,
+     -44
+    ],
+    [
+     22,
+     50,
+     -24
+    ]
+   ],
+   "footprint": "r 3",
+   "height": 62,
+   "note": "hollow at walk level with 2 x 2.6 m arches so the wall-walk passes through; NE top walkable (S3, no roof). r3: NW and SE carry tall visual spires from 62 to 75 (base r 3.2, eave overhang 0.3, castle_roof_tile, gold finial ball r 0.4, red-and-gold pennant), convex collision, not walkable, group no_ledge_grab. Crows E14/E15 perch on the spire eave ring at 62.3 on the courtyard side.",
+   "r3": true
+  },
+  {
+   "id": "LM14",
+   "name": "Giant's kitchen table + sleeping Giant",
+   "pos": [
+    -5.5,
+    50,
+    -34
+   ],
+   "footprint": "table 13 x 8, top 55.6",
+   "height": 61,
+   "note": "Giant seated at x -16..-12.5, head on table at (-10.5, 55.6, -34)",
+   "note_r3": "Scale bible: every Giant-owned object is built at 20x human scale. The Giant sits cross-legged on the kitchen floor at a low tea table (5.6 m = 28 cm); the 'chair' is his footstool (4.4 m = 22 cm); the teacup is 9.5 cm and the head 16 cm wide. His visual body grows to match: hunched back to y 65, shoulders 8.2 m across (z -39.0..-30.8), legs hidden under a tablecloth hanging from the table's west half. Collisions, ids and coordinates are unchanged apart from the new GIANT_BACK hull.",
+   "r3": true
+  },
+  {
+   "id": "LM15",
+   "name": "Golden Goose cage",
+   "pos": [
+    13,
+    50,
+    -35
+   ],
+   "footprint": "plinth r 2.2, cage r 1.6 x 3.0",
+   "height": 54.6
+  },
+  {
+   "id": "LM16",
+   "name": "Cloud sea and distant cloud mountains",
+   "pos": [
+    0,
+    -24,
+    0
+   ],
+   "footprint": "infinite plane + ring r 180",
+   "height": 60,
+   "note": "visual only"
+  },
+  {
+   "id": "LM17",
+   "name": "Gate towers",
+   "pos": [
+    [
+     9.4,
+     50,
+     -22.4
+    ],
+    [
+     18.6,
+     50,
+     -22.4
+    ]
+   ],
+   "footprint": "r 1.6 each, against the south curtain's outer face either side of the gate",
+   "height": 74,
+   "note": "solid round towers 50..62 with conical spires 62..74 (base r 2.0); they put the castle's front on the skyline from the spawn (spire tips 47.5 degrees above the CH0 eye, about 8 degrees clear of the bank rim)",
+   "r3": true
+  },
+  {
+   "id": "LM18",
+   "name": "Colossus leaves",
+   "pos": "see stalk_dressing_r3",
+   "footprint": "6 visual leaves 7 x 4.5 m",
+   "height": 54.5,
+   "note": "bulk out the beanstalk's silhouette from StoryCam_B_v2 and the spawn; no collision",
+   "r3": true
+  }
+ ],
+ "platforms": [
+  {
+   "id": "ISLAND",
+   "name": "Jack's Garden island top",
+   "zone": "Z0",
+   "kind": "terrain",
+   "shape": "ellipse",
+   "pos": [
+    0,
+    0,
+    14
+   ],
+   "rx": 22,
+   "rz": 22,
+   "thickness": 20,
+   "collision": "trimesh (generated heightfield)",
+   "rot_y": 0.0
+  },
+  {
+   "id": "COTTAGE_WOODPILE",
+   "name": "Woodpile",
+   "zone": "Z0",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -7.6,
+    2.2,
+    15.2
+   ],
+   "sx": 2.0,
+   "sz": 1.6,
+   "rot_y": 20,
+   "collision": "box",
+   "thickness": 0.5
+  },
+  {
+   "id": "COTTAGE_BUTT",
+   "name": "Water butt",
+   "zone": "Z0",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -6.2,
+    1.2,
+    17.4
+   ],
+   "r": 0.8,
+   "collision": "cylinder",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "COTTAGE_EAVE",
+   "name": "Cottage thatch roof (east eave 3.4, ridge 7.0)",
+   "zone": "Z0",
+   "kind": "roof",
+   "shape": "box",
+   "pos": [
+    -12,
+    3.4,
+    18
+   ],
+   "sx": 8.4,
+   "sz": 7.4,
+   "rot_y": 20,
+   "collision": "two convex slopes 32 deg",
+   "thickness": 0.5
+  },
+  {
+   "id": "COTTAGE_CHIMNEY",
+   "name": "Cottage chimney cap",
+   "zone": "Z0",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -14.4,
+    8.2,
+    18.9
+   ],
+   "sx": 1.5,
+   "sz": 1.5,
+   "rot_y": 20,
+   "collision": "box",
+   "thickness": 0.5
+  },
+  {
+   "id": "WELL",
+   "name": "Garden well rim",
+   "zone": "Z0",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    9,
+    1.0,
+    22
+   ],
+   "r": 1.3,
+   "collision": "cylinder ring",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "ROOT_LEDGE",
+   "name": "Root Ledge under the rim",
+   "zone": "Z0",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -16.6,
+    -4.0,
+    -3.4
+   ],
+   "sx": 3.4,
+   "sz": 2.2,
+   "rot_y": 35,
+   "collision": "box",
+   "thickness": 0.5
+  },
+  {
+   "id": "L01",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    1.59,
+    1.0,
+    4.05
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -160.0,
+   "stem_to": [
+    0.08,
+    0.4,
+    -0.08
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L02",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    4.06,
+    2.1,
+    1.89
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -118.0,
+   "stem_to": [
+    0.18,
+    1.5,
+    -0.18
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L03",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    4.54,
+    3.2,
+    -1.33
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -76.0,
+   "stem_to": [
+    0.27,
+    2.6,
+    -0.27
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L04",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    2.82,
+    4.3,
+    -4.01
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -34.0,
+   "stem_to": [
+    0.36,
+    3.7,
+    -0.36
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L05",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -0.16,
+    5.4,
+    -4.81
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 8.0,
+   "stem_to": [
+    0.45,
+    4.8,
+    -0.45
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L06",
+   "name": "Droopy leaf (sags under Mak)",
+   "zone": "Z1",
+   "kind": "droop_leaf",
+   "shape": "ellipse",
+   "pos": [
+    -2.83,
+    6.5,
+    -3.37
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 50.0,
+   "stem_to": [
+    0.54,
+    5.9,
+    -0.54
+   ],
+   "collision": "AnimatableBody3D convex_box 3.4x0.35x2.6 (moves down along -y, never vanishes)",
+   "r1": true,
+   "droop": {
+    "delay_s": 0.6,
+    "sag_m": 0.9,
+    "sag_time_s": 0.8,
+    "tilt_deg": 12,
+    "recover_after_leave_s": 3.0,
+    "recover_time_s": 1.0,
+    "telegraph": "leaf creaks, tip curls down and pales from leaf_light to a yellow-green at 0.3 s"
+   }
+  },
+  {
+   "id": "L07",
+   "name": "Droopy leaf (sags under Mak)",
+   "zone": "Z1",
+   "kind": "droop_leaf",
+   "shape": "ellipse",
+   "pos": [
+    -3.76,
+    7.6,
+    -0.48
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 92.0,
+   "stem_to": [
+    0.63,
+    7.0,
+    -0.63
+   ],
+   "collision": "AnimatableBody3D convex_box 3.4x0.35x2.6 (moves down along -y, never vanishes)",
+   "r1": true,
+   "droop": {
+    "delay_s": 0.6,
+    "sag_m": 0.9,
+    "sag_time_s": 0.8,
+    "tilt_deg": 12,
+    "recover_after_leave_s": 3.0,
+    "recover_time_s": 1.0,
+    "telegraph": "leaf creaks, tip curls down and pales from leaf_light to a yellow-green at 0.3 s"
+   }
+  },
+  {
+   "id": "L08",
+   "name": "Droopy leaf (sags under Mak)",
+   "zone": "Z1",
+   "kind": "droop_leaf",
+   "shape": "ellipse",
+   "pos": [
+    -2.44,
+    8.7,
+    2.33
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 134.0,
+   "stem_to": [
+    0.72,
+    8.1,
+    -0.72
+   ],
+   "collision": "AnimatableBody3D convex_box 3.4x0.35x2.6 (moves down along -y, never vanishes)",
+   "r1": true,
+   "droop": {
+    "delay_s": 0.6,
+    "sag_m": 0.9,
+    "sag_time_s": 0.8,
+    "tilt_deg": 12,
+    "recover_after_leave_s": 3.0,
+    "recover_time_s": 1.0,
+    "telegraph": "leaf creaks, tip curls down and pales from leaf_light to a yellow-green at 0.3 s"
+   }
+  },
+  {
+   "id": "V1",
+   "name": "Hanging vine 1",
+   "zone": "Z1",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    0.25,
+    8.2,
+    4.02
+   ],
+   "r": 0.3,
+   "top": [
+    0.25,
+    14.6,
+    4.02
+   ],
+   "collision": "Area3D climbable, pole radius 0.25",
+   "thickness": 0,
+   "rot_y": 0.0,
+   "r1": true,
+   "note_r1": "bottom lowered 9.0 -> 8.2 so the K1 shortcut can grab it"
+  },
+  {
+   "id": "L09",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    3.28,
+    14.2,
+    2.19
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -146.0,
+   "stem_to": [
+    0.82,
+    13.6,
+    -1.46
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "BL1",
+   "name": "Bouncy leaf 1 (glossy, curled rim)",
+   "zone": "Z1",
+   "kind": "bouncy_leaf",
+   "shape": "ellipse",
+   "pos": [
+    5.21,
+    15.0,
+    -0.51
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -104.0,
+   "stem_to": [
+    0.75,
+    14.4,
+    -1.62
+   ],
+   "collision": "convex_box 3.4x0.35x2.6",
+   "bounce_apex": 6.5,
+   "bounce_velocity_g28": 19.08
+  },
+  {
+   "id": "L11",
+   "name": "Sunleaf (wide rest leaf, checkpoint)",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "disc",
+   "pos": [
+    5.44,
+    20.4,
+    -6.22
+   ],
+   "r": 2.4,
+   "thickness": 0.45,
+   "stem_to": [
+    0.2,
+    19.8,
+    -2.5
+   ],
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "L12",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    1.31,
+    21.6,
+    -7.46
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -14.0,
+   "stem_to": [
+    0.2,
+    21.0,
+    -3.0
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "L13",
+   "name": "Beanstalk leaf",
+   "zone": "Z1",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -1.92,
+    22.8,
+    -7.38
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 26.0,
+   "stem_to": [
+    0.1,
+    22.2,
+    -3.25
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "LIFT",
+   "name": "Beanpod Lift (moving pod platform)",
+   "zone": "Z1",
+   "kind": "moving",
+   "shape": "box",
+   "pos": [
+    9.5,
+    0.3,
+    -2.5
+   ],
+   "sx": 2.6,
+   "sz": 2.6,
+   "path": [
+    [
+     9.5,
+     0.3,
+     -2.5
+    ],
+    [
+     9.5,
+     24.0,
+     -2.5
+    ]
+   ],
+   "speed": 3.0,
+   "pause": 2.0,
+   "thickness": 0.6,
+   "collision": "AnimatableBody3D box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "C1",
+   "name": "Cloud Landing",
+   "zone": "Z2",
+   "kind": "cloud",
+   "shape": "ellipse",
+   "pos": [
+    -5.5,
+    24.0,
+    -13.5
+   ],
+   "rx": 6.5,
+   "rz": 5.0,
+   "thickness": 2.0,
+   "collision": "convex cylinder (scaled)",
+   "rot_y": 0.0
+  },
+  {
+   "id": "C1_PILLOW",
+   "name": "Lookout pillow (W2-1)",
+   "zone": "Z2",
+   "kind": "cloud",
+   "shape": "disc",
+   "pos": [
+    -9.6,
+    25.0,
+    -16.2
+   ],
+   "r": 1.6,
+   "thickness": 1.0,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "PEA_BRIDGE",
+   "name": "Pea-vine bridge",
+   "zone": "Z2",
+   "kind": "bridge",
+   "shape": "box",
+   "pos": [
+    6.55,
+    24.0,
+    -11.0
+   ],
+   "sx": 12.5,
+   "sz": 1.8,
+   "rot_y": -14,
+   "thickness": 1.0,
+   "collision": "capsule-top box"
+  },
+  {
+   "id": "ALLOT",
+   "name": "Allotment Cloud (Giant's vegetable patch)",
+   "zone": "Z2",
+   "kind": "cloud",
+   "shape": "ellipse",
+   "pos": [
+    23.0,
+    24.0,
+    -4.0
+   ],
+   "rx": 12.0,
+   "rz": 13.0,
+   "thickness": 3.0,
+   "collision": "convex cylinder (scaled)",
+   "rot_y": 0.0
+  },
+  {
+   "id": "CABBAGE_A",
+   "name": "Giant cabbage",
+   "zone": "Z2",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    15.5,
+    27.2,
+    -14.0
+   ],
+   "r": 2.0,
+   "collision": "sphere-ish convex",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "CABBAGE_B",
+   "name": "Giant cabbage",
+   "zone": "Z2",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    31.0,
+    27.2,
+    4.0
+   ],
+   "r": 2.0,
+   "collision": "sphere-ish convex",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "POT",
+   "name": "Giant flowerpot",
+   "zone": "Z2",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    33.6,
+    25.2,
+    -15.4
+   ],
+   "r": 1.3,
+   "collision": "cylinder",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "SACKS",
+   "name": "Seed sacks",
+   "zone": "Z2",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    33.8,
+    26.4,
+    -12.6
+   ],
+   "sx": 1.8,
+   "sz": 1.8,
+   "collision": "box",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "CAN",
+   "name": "Giant watering can (lid top)",
+   "zone": "Z2",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    30.6,
+    27.6,
+    -11.6
+   ],
+   "sx": 4.0,
+   "sz": 3.0,
+   "collision": "box + cylinder",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "CAN_SPOUT",
+   "name": "Watering-can spout ramp (tip 29.0)",
+   "zone": "Z2",
+   "kind": "ramp",
+   "shape": "box",
+   "pos": [
+    26.6,
+    29.0,
+    -11.6
+   ],
+   "sx": 1.4,
+   "sz": 1.4,
+   "ramp_from": [
+    28.6,
+    27.6,
+    -11.6
+   ],
+   "collision": "capsule 0.7 radius",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "SCARECROW",
+   "name": "Wolf-mask scarecrow (talker, 5 m)",
+   "zone": "Z2",
+   "kind": "prop",
+   "shape": "disc",
+   "pos": [
+    24.0,
+    24.0,
+    -4.0
+   ],
+   "r": 0.6,
+   "collision": "cylinder r 0.6 post to 27.6; straw-hat brim above",
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "r1": true
+  },
+  {
+   "id": "HIVE",
+   "name": "Bluebell Hive (starts as a closed bud with P4 sealed inside)",
+   "zone": "Z3",
+   "kind": "bud_then_cup",
+   "shape": "disc",
+   "pos": [
+    7.2,
+    35.0,
+    -6.0
+   ],
+   "r": 1.8,
+   "thickness": 0.5,
+   "collision": "cylinder (cup rim)",
+   "rot_y": 0.0,
+   "states": {
+    "bud": "convex dome r 1.8, 2.2 tall (top 37.2), slopes > 50 deg, not walkable; P4 glows through the petals",
+    "open": "bursts open into the cup (rim r 1.8, walkable top 35.0) with a petal pop; P4 inside"
+   },
+   "open_trigger": "E10's charge path intersects the bud (sphere r 1.8 centred (7.2, 36.1, -6))",
+   "r2": true
+  },
+  {
+   "id": "M01",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -4.56,
+    25.2,
+    -5.49
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 70.0,
+   "stem_to": [
+    -0.24,
+    24.6,
+    -3.92
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "M02",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -4.75,
+    26.4,
+    -2.62
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 112.0,
+   "stem_to": [
+    -0.48,
+    25.8,
+    -4.34
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "M03",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -2.74,
+    27.6,
+    -0.63
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 154.0,
+   "stem_to": [
+    -0.72,
+    27.0,
+    -4.76
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "V2",
+   "name": "Hanging vine 2",
+   "zone": "Z3",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    0.6,
+    28.0,
+    -0.9
+   ],
+   "r": 0.3,
+   "top": [
+    0.6,
+    33.4,
+    -0.9
+   ],
+   "collision": "Area3D climbable, pole radius 0.25",
+   "thickness": 0,
+   "rot_y": 0.0
+  },
+  {
+   "id": "M04",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    1.68,
+    33.2,
+    -3.76
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -130.0,
+   "stem_to": [
+    -1.84,
+    32.6,
+    -6.72
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "M05",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    2.54,
+    34.4,
+    -7.22
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -90.0,
+   "stem_to": [
+    -2.06,
+    33.8,
+    -7.22
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "M06",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    1.28,
+    35.6,
+    -10.84
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": -50.0,
+   "stem_to": [
+    -2.24,
+    35.0,
+    -7.88
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "M07",
+   "name": "Pod Bridge (fat bean pod lying flat)",
+   "zone": "Z3",
+   "kind": "pod",
+   "shape": "box",
+   "pos": [
+    -1.48,
+    36.8,
+    -13.86
+   ],
+   "sx": 4.0,
+   "sz": 1.8,
+   "rot_y": -10.0,
+   "thickness": 1.2,
+   "collision": "capsule-top box"
+  },
+  {
+   "id": "M08",
+   "name": "Beanstalk leaf",
+   "zone": "Z3",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -4.9,
+    38.0,
+    -13.18
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 30.0,
+   "stem_to": [
+    -2.6,
+    37.4,
+    -9.2
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "BL2",
+   "name": "Bouncy leaf 2",
+   "zone": "Z3",
+   "kind": "bouncy_leaf",
+   "shape": "ellipse",
+   "pos": [
+    -7.29,
+    39.2,
+    -11.5
+   ],
+   "rx": 1.45,
+   "rz": 1.25,
+   "thickness": 0.35,
+   "rot_y": 70.0,
+   "stem_to": [
+    -2.78,
+    38.6,
+    -9.86
+   ],
+   "collision": "convex_box 3.4x0.35x2.6",
+   "bounce_apex": 7.0,
+   "bounce_velocity_g28": 19.8
+  },
+  {
+   "id": "UC",
+   "name": "Upper Cloudbank",
+   "zone": "Z4",
+   "kind": "cloud",
+   "shape": "ellipse",
+   "pos": [
+    -14.0,
+    44.0,
+    -8.0
+   ],
+   "rx": 6.0,
+   "rz": 4.5,
+   "thickness": 2.0,
+   "collision": "convex cylinder (scaled)",
+   "rot_y": 0.0
+  },
+  {
+   "id": "UC_BELL",
+   "name": "Cloud Gong plinth (W2-7 finish)",
+   "zone": "Z4",
+   "kind": "cloud",
+   "shape": "disc",
+   "pos": [
+    -17.6,
+    44.6,
+    -6.0
+   ],
+   "r": 1.4,
+   "thickness": 0.6,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r2": true
+  },
+  {
+   "id": "U01",
+   "name": "Upper Runner leaf",
+   "zone": "Z4",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -6.5,
+    45.2,
+    -4.5
+   ],
+   "rx": 1.7,
+   "rz": 1.3,
+   "thickness": 0.35,
+   "rot_y": -35.0,
+   "stem_to": [
+    -3.6,
+    44.0,
+    -12.5
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "U02",
+   "name": "Swaying leaf (Upper Runner)",
+   "zone": "Z4",
+   "kind": "moving_leaf",
+   "shape": "ellipse",
+   "pos": [
+    -3.27,
+    46.4,
+    -7.78
+   ],
+   "rx": 1.7,
+   "rz": 1.3,
+   "thickness": 0.35,
+   "rot_y": -35.0,
+   "stem_to": [
+    -3.6,
+    44.0,
+    -12.5
+   ],
+   "collision": "AnimatableBody3D convex_box 3.4x0.35x2.6",
+   "path": [
+    [
+     -4.11,
+     46.4,
+     -6.92
+    ],
+    [
+     -2.43,
+     46.4,
+     -8.63
+    ]
+   ],
+   "motion": "sine along the U01->U03 line, amplitude 1.2 m, period 3.2 s",
+   "note": "U01->U02 gap 0.8 (near end) to 3.2 m (far end); U02->U03 gap 2.56 to 0.16 m. Ride it: board when it is near U01, hop off when it reaches U03.",
+   "r1": true
+  },
+  {
+   "id": "U03",
+   "name": "Upper Runner leaf",
+   "zone": "Z4",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -0.5,
+    47.6,
+    -10.6
+   ],
+   "rx": 1.7,
+   "rz": 1.3,
+   "thickness": 0.35,
+   "rot_y": -35.0,
+   "stem_to": [
+    -3.6,
+    44.0,
+    -12.5
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "U04",
+   "name": "Upper Runner leaf",
+   "zone": "Z4",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    2.5,
+    48.8,
+    -13.2
+   ],
+   "rx": 1.7,
+   "rz": 1.3,
+   "thickness": 0.35,
+   "rot_y": -35.0,
+   "stem_to": [
+    -3.6,
+    44.0,
+    -12.5
+   ],
+   "collision": "convex_box 3.4x0.35x2.6"
+  },
+  {
+   "id": "LB1",
+   "name": "Leaf Bouncer pad",
+   "zone": "Z4",
+   "kind": "bouncy_leaf_swing",
+   "shape": "disc",
+   "pos": [
+    -24.5,
+    43.4,
+    -12.5
+   ],
+   "r": 1.2,
+   "thickness": 0.3,
+   "bounce_apex": 4.2,
+   "collision": "AnimatableBody3D cylinder (group bouncy)",
+   "hang": "tendril to y+6 (visual)",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 15.34,
+   "swing": {
+    "axis": "horizontal, perpendicular to the chain direction",
+    "amplitude_m": 1.2,
+    "period_s": 3.6,
+    "phase_deg": 0
+   },
+   "r1": true,
+   "note_r2": "geometry unchanged; now the course of The Harpnapper chase"
+  },
+  {
+   "id": "LB2",
+   "name": "Leaf Bouncer pad",
+   "zone": "Z4",
+   "kind": "bouncy_leaf_swing",
+   "shape": "disc",
+   "pos": [
+    -29.5,
+    44.0,
+    -16.5
+   ],
+   "r": 1.2,
+   "thickness": 0.3,
+   "bounce_apex": 4.2,
+   "collision": "AnimatableBody3D cylinder (group bouncy)",
+   "hang": "tendril to y+6 (visual)",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 15.34,
+   "swing": {
+    "axis": "horizontal, perpendicular to the chain direction",
+    "amplitude_m": 1.2,
+    "period_s": 3.6,
+    "phase_deg": 90
+   },
+   "r1": true,
+   "note_r2": "geometry unchanged; now the course of The Harpnapper chase"
+  },
+  {
+   "id": "LB3",
+   "name": "Leaf Bouncer pad",
+   "zone": "Z4",
+   "kind": "bouncy_leaf_swing",
+   "shape": "disc",
+   "pos": [
+    -34.0,
+    44.6,
+    -21.0
+   ],
+   "r": 1.2,
+   "thickness": 0.3,
+   "bounce_apex": 4.2,
+   "collision": "AnimatableBody3D cylinder (group bouncy)",
+   "hang": "tendril to y+6 (visual)",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 15.34,
+   "swing": {
+    "axis": "horizontal, perpendicular to the chain direction",
+    "amplitude_m": 1.2,
+    "period_s": 3.6,
+    "phase_deg": 180
+   },
+   "r1": true,
+   "note_r2": "geometry unchanged; now the course of The Harpnapper chase"
+  },
+  {
+   "id": "LB4",
+   "name": "Leaf Bouncer pad",
+   "zone": "Z4",
+   "kind": "bouncy_leaf_swing",
+   "shape": "disc",
+   "pos": [
+    -38.0,
+    45.0,
+    -26.0
+   ],
+   "r": 1.2,
+   "thickness": 0.3,
+   "bounce_apex": 4.2,
+   "collision": "AnimatableBody3D cylinder (group bouncy)",
+   "hang": "tendril to y+6 (visual)",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 15.34,
+   "swing": {
+    "axis": "horizontal, perpendicular to the chain direction",
+    "amplitude_m": 1.2,
+    "period_s": 3.6,
+    "phase_deg": 270
+   },
+   "r1": true,
+   "note_r2": "geometry unchanged; now the course of The Harpnapper chase"
+  },
+  {
+   "id": "LB5",
+   "name": "Leaf Bouncer pad",
+   "zone": "Z4",
+   "kind": "bouncy_leaf_swing",
+   "shape": "disc",
+   "pos": [
+    -40.5,
+    45.4,
+    -31.5
+   ],
+   "r": 1.2,
+   "thickness": 0.3,
+   "bounce_apex": 4.2,
+   "collision": "AnimatableBody3D cylinder (group bouncy)",
+   "hang": "tendril to y+6 (visual)",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 15.34,
+   "swing": {
+    "axis": "horizontal, perpendicular to the chain direction",
+    "amplitude_m": 1.2,
+    "period_s": 3.6,
+    "phase_deg": 0
+   },
+   "r1": true,
+   "note_r2": "geometry unchanged; now the course of The Harpnapper chase"
+  },
+  {
+   "id": "ISLET",
+   "name": "Blossom Islet",
+   "zone": "Z4",
+   "kind": "cloud",
+   "shape": "disc",
+   "pos": [
+    -40.5,
+    46.0,
+    -38.0
+   ],
+   "r": 2.6,
+   "thickness": 2.5,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "LAUNCH",
+   "name": "Launch Leaf (islet -> castle bank)",
+   "zone": "Z4",
+   "kind": "bouncy_leaf",
+   "shape": "disc",
+   "pos": [
+    -38.2,
+    46.0,
+    -35.6
+   ],
+   "r": 1.1,
+   "thickness": 0.3,
+   "bounce_apex": 7.5,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "bounce_velocity_g28": 20.49
+  },
+  {
+   "id": "BANK",
+   "name": "Castle Cloudbank (plus core box x-20..24 z-46..-24)",
+   "zone": "Z5",
+   "kind": "cloud",
+   "shape": "ellipse",
+   "pos": [
+    2.0,
+    50.0,
+    -31.0
+   ],
+   "rx": 36.0,
+   "rz": 15.0,
+   "thickness": 6.0,
+   "collision": "convex cylinder (scaled) + box core",
+   "rot_y": 0.0
+  },
+  {
+   "id": "SACK",
+   "name": "Sugar sack",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -0.4,
+    51.2,
+    -28.4
+   ],
+   "sx": 2.0,
+   "sz": 2.0,
+   "collision": "box",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "CRATE",
+   "name": "Pantry crate (acorn crate)",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    1.8,
+    52.4,
+    -28.4
+   ],
+   "sx": 2.0,
+   "sz": 2.0,
+   "collision": "box",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "BOOKS",
+   "name": "Cookbook stack",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    4.0,
+    53.4,
+    -29.4
+   ],
+   "sx": 2.0,
+   "sz": 3.2,
+   "collision": "box",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "CHAIR",
+   "name": "Giant's chair seat",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    4.0,
+    54.4,
+    -34.0
+   ],
+   "sx": 4.0,
+   "sz": 4.0,
+   "collision": "box (+ back x5.4..6 to y61)",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "TABLE",
+   "name": "Giant's kitchen table",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -5.5,
+    55.6,
+    -34.0
+   ],
+   "sx": 13.0,
+   "sz": 8.0,
+   "thickness": 0.6,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "WATCH",
+   "name": "Pocket watch (lying open)",
+   "zone": "Z5",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -1.5,
+    55.95,
+    -32.0
+   ],
+   "r": 1.6,
+   "thickness": 0.35,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "TEACUP",
+   "name": "Teacup full of hot tea (cover; not standable)",
+   "zone": "Z5",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -4.0,
+    57.5,
+    -35.6
+   ],
+   "r": 1.3,
+   "collision": "cylinder walls to 57.5 with a rounded 0.15 m rim; the top is the tea surface, an Area3D hazard at 57.3 (damage 1, knockback_up 6 m/s, 'Hot! Hot! HOT!')",
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "note_r2": "Its rim was a walkable top 6.2 m from POMPOM's edge, inside a generous double-jump reach. Steam curls double as the blast telegraph.",
+   "r2": true
+  },
+  {
+   "id": "LOAF",
+   "name": "Loaf (cover; steep crust, not walkable)",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -6.8,
+    57.6,
+    -32.6
+   ],
+   "sx": 1.9,
+   "sz": 4.4,
+   "collision": "triangular prism from the table (55.6) to a ridge at 57.6, base 1.9 wide, faces about 64 deg (not walkable); the visual is a tall rounded bloomer",
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "note_r2": "A walkable loaf top (57.6) let a chained double jump reach POMPOM (gap 3.95, rise 2.0). Lee boxes H3/H3b unchanged.",
+   "r2": true
+  },
+  {
+   "id": "BUTTER",
+   "name": "Butter dish under a glass cloche (cover; not walkable)",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -9.0,
+    56.2,
+    -30.9
+   ],
+   "sx": 1.6,
+   "sz": 1.2,
+   "collision": "convex glass dome to 57.4, slopes > 50 deg (not walkable)",
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "note_r2": "The old flat top (56.2) was 4.4 m from POMPOM's edge with a 3.4 m rise: a chained double jump might reach it. H3 and H3b lee boxes unchanged.",
+   "r2": true
+  },
+  {
+   "id": "SUGAR",
+   "name": "Sugar bowl with a domed lid (cover, 4 sugar-lump acorns at its foot)",
+   "zone": "Z5",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -9.2,
+    56.8,
+    -36.4
+   ],
+   "r": 1.1,
+   "collision": "convex dome lid to 58.0, slopes > 50 deg (not walkable)",
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "r1": true,
+   "note_r2": "Its old flat top (56.8) was 1.2 m from POMPOM's edge and 2.8 m below it: a double jump skipped the beard. The 4 acorns (A38) now ring its foot on the table.",
+   "r2": true
+  },
+  {
+   "id": "SHELF_A",
+   "name": "Dresser shelf A",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -4.0,
+    52.0,
+    -41.2
+   ],
+   "sx": 4.0,
+   "sz": 1.6,
+   "thickness": 0.25,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "SHELF_B",
+   "name": "Dresser shelf B",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    0.0,
+    54.0,
+    -41.2
+   ],
+   "sx": 4.0,
+   "sz": 1.6,
+   "thickness": 0.25,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "SHELF_C",
+   "name": "Dresser shelf C",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -4.0,
+    56.0,
+    -41.2
+   ],
+   "sx": 4.0,
+   "sz": 1.6,
+   "thickness": 0.25,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "SHELF_D",
+   "name": "Dresser shelf D",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    0.0,
+    58.0,
+    -41.2
+   ],
+   "sx": 4.0,
+   "sz": 1.6,
+   "thickness": 0.25,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "SHELF_TOP",
+   "name": "Dresser shelf TOP",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -3.0,
+    60.0,
+    -41.2
+   ],
+   "sx": 2.0,
+   "sz": 1.6,
+   "thickness": 0.25,
+   "collision": "box",
+   "rot_y": 0.0,
+   "note_r2": "shortened to x -4..-2, so its nearest edge is 8.5 m from the pom-pom edge: out of reach of a run-in jump chain from shelf D (about 6.8 m) and of a long jump (6.7 m)",
+   "r2": true
+  },
+  {
+   "id": "STAIR1",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    51.0,
+    -27.8
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 1.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR2",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    52.0,
+    -29.4
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 2.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR3",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    53.0,
+    -31.0
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 3.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR4",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    54.0,
+    -32.6
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 4.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR5",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    55.0,
+    -34.2
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 5.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR6",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    56.0,
+    -35.8
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 6.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR7",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    57.0,
+    -37.4
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 7.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "STAIR8",
+   "name": "Giant's stair",
+   "zone": "Z5",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    18.5,
+    58.0,
+    -39.0
+   ],
+   "sx": 3.0,
+   "sz": 1.6,
+   "thickness": 8.0,
+   "collision": "box",
+   "rot_y": 0.0
+  },
+  {
+   "id": "WALLWALK",
+   "name": "Curtain wall-walk (ring, 2 m wide, top 58)",
+   "zone": "Z6",
+   "kind": "wallwalk",
+   "shape": "rect_ring",
+   "pos": [
+    2.0,
+    58.0,
+    -34.0
+   ],
+   "sx": 40.0,
+   "sz": 20.0,
+   "width": 2.0,
+   "thickness": 8.0,
+   "collision": "boxes per wall",
+   "rot_y": 0.0
+  },
+  {
+   "id": "PLINTH",
+   "name": "Goose cage plinth",
+   "zone": "Z5",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    13.0,
+    50.8,
+    -35.0
+   ],
+   "r": 2.2,
+   "collision": "cylinder",
+   "thickness": 0.5,
+   "rot_y": 0.0
+  },
+  {
+   "id": "B1",
+   "name": "Belfry balcony ring (58)",
+   "zone": "Z6",
+   "kind": "annulus",
+   "shape": "annulus",
+   "pos": [
+    -18.0,
+    58.0,
+    -24.0
+   ],
+   "r_in": 5.0,
+   "r": 6.5,
+   "thickness": 0.6,
+   "collision": "trimesh ring",
+   "rot_y": 0.0
+  },
+  {
+   "id": "B2",
+   "name": "Belfry upper gallery ring (66), full ring, no notch",
+   "zone": "Z6",
+   "kind": "annulus",
+   "shape": "annulus",
+   "pos": [
+    -18.0,
+    66.0,
+    -24.0
+   ],
+   "r_in": 5.0,
+   "r": 6.5,
+   "thickness": 0.6,
+   "collision": "trimesh ring",
+   "rot_y": 0.0,
+   "r1": true
+  },
+  {
+   "id": "BELFRY_TOP",
+   "name": "Belfry top (crenellated, 68)",
+   "zone": "Z6",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -18.0,
+    68.0,
+    -24.0
+   ],
+   "r": 5.0,
+   "thickness": 18.0,
+   "collision": "cylinder + merlon boxes",
+   "rot_y": 0.0
+  },
+  {
+   "id": "FLOWER",
+   "name": "Bean flower heart",
+   "zone": "Z6",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -18.0,
+    69.4,
+    -24.0
+   ],
+   "r": 1.4,
+   "thickness": 0.6,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "NE_TURRET",
+   "name": "NE turret top",
+   "zone": "Z6",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    22.0,
+    62.0,
+    -44.0
+   ],
+   "r": 3.0,
+   "thickness": 12,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "BROOM",
+   "name": "Giant's broom (climbable pole)",
+   "zone": "Z6",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    16.0,
+    58.0,
+    -43.0
+   ],
+   "r": 0.3,
+   "top": [
+    19.6,
+    63.0,
+    -43.0
+   ],
+   "thickness": 0,
+   "collision": "Area3D climbable along broom handle axis, radius 0.3",
+   "rot_y": 0.0
+  },
+  {
+   "id": "HOP_START",
+   "name": "Cloud Hopper start pad",
+   "zone": "Z2",
+   "kind": "cloud",
+   "shape": "disc",
+   "pos": [
+    -14.6,
+    24.4,
+    -11.4
+   ],
+   "r": 1.6,
+   "thickness": 1.0,
+   "collision": "cylinder",
+   "rot_y": 0.0
+  },
+  {
+   "id": "PUFF01",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -18.1,
+    25.2,
+    -10.9
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 4.0,
+   "bounce_velocity_g28": 14.97,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF02",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -19.5,
+    27.8,
+    -14.6
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 4.0,
+   "bounce_velocity_g28": 14.97,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF03",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -21.6,
+    30.4,
+    -17.8
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 4.0,
+   "bounce_velocity_g28": 14.97,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF04",
+   "name": "Flat puff (not bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff_flat",
+   "shape": "disc",
+   "pos": [
+    -25.0,
+    31.5,
+    -19.6
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   },
+   "note": "PUFF04-06: triple-jump runway. The 0.25 s puff-out matches the 0.2 s chain window, so Mak must chain jump, double, triple."
+  },
+  {
+   "id": "PUFF05",
+   "name": "Flat puff (not bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff_flat",
+   "shape": "disc",
+   "pos": [
+    -28.24,
+    31.5,
+    -15.28
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF06",
+   "name": "Flat puff (not bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff_flat",
+   "shape": "disc",
+   "pos": [
+    -31.48,
+    31.5,
+    -10.96
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF07",
+   "name": "Rest cloud (solid, long-jump run-up)",
+   "zone": "Z3",
+   "kind": "cloud",
+   "shape": "disc",
+   "pos": [
+    -36.28,
+    33.5,
+    -4.56
+   ],
+   "r": 2.2,
+   "thickness": 1.2,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "note": "solid rest beat; 4.4 m of run-up for the long jump east to PUFF08 (gap 4.5, drop 0.8)"
+  },
+  {
+   "id": "PUFF08",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -28.18,
+    32.7,
+    -4.56
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 6.0,
+   "bounce_velocity_g28": 18.33,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF09",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -24.5,
+    37.5,
+    -3.0
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 6.0,
+   "bounce_velocity_g28": 18.33,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF10",
+   "name": "Puff cloud (bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff",
+   "shape": "disc",
+   "pos": [
+    -27.5,
+    42.3,
+    -8.0
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "bounce_apex": 5.0,
+   "bounce_velocity_g28": 16.73,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   }
+  },
+  {
+   "id": "PUFF11",
+   "name": "Flat puff (not bouncy, vanishes)",
+   "zone": "Z3",
+   "kind": "puff_flat",
+   "shape": "disc",
+   "pos": [
+    -24.5,
+    46.0,
+    -8.5
+   ],
+   "r": 1.4,
+   "thickness": 0.9,
+   "collision": "cylinder",
+   "rot_y": 0.0,
+   "r1": true,
+   "vanish": {
+    "after_touch_s": 0.25,
+    "respawn_s": 4.0
+   },
+   "note": "diving board: dive east through R6 onto the Upper Cloudbank (gap 3.1, drop 2.0), belly-slide into the Cloud Bell"
+  },
+  {
+   "id": "V0",
+   "name": "Root vine (Root Ledge -> rim)",
+   "zone": "Z0",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    -15.6,
+    -3.8,
+    -1.9
+   ],
+   "r": 0.3,
+   "top": [
+    -15.6,
+    0.4,
+    -1.9
+   ],
+   "collision": "Area3D climbable, pole radius 0.25",
+   "thickness": 0,
+   "rot_y": 0.0
+  },
+  {
+   "id": "K1",
+   "name": "Knot Shelf (backflip shortcut)",
+   "zone": "Z1",
+   "kind": "knot",
+   "shape": "annulus_sector",
+   "pos": [
+    0.55,
+    6.6,
+    -0.55
+   ],
+   "axis": "beanstalk axis at y 6.6",
+   "r_in": 2.67,
+   "r": 3.5,
+   "az_from": -20,
+   "az_to": 80,
+   "az_note": "azimuth in the x-z plane, atan2(z, x) in degrees; -20 = east-north-east above L03, 80 = south, beside Vine 1",
+   "thickness": 0.4,
+   "rot_y": 0.0,
+   "collision": "trimesh shelf glued to the trunk capsule; rounded outer lip",
+   "note": "Backflip from L03's outer tip (stand at r >= 5.0 from the axis, back to the trunk): a 3.4 m rise, the trunk wall catches the flip. A running-start double jump from L04 also reaches the west end. From the south end, a standing jump grabs Vine 1 at y 9.3 (1.7 m away), skipping L04-L08.",
+   "r1": true
+  },
+  {
+   "id": "LIFT2",
+   "name": "Beanpod Lift 2 (Cloud Landing <-> Upper Cloudbank)",
+   "zone": "Z2",
+   "kind": "moving",
+   "shape": "box",
+   "pos": [
+    -10.5,
+    24.0,
+    -12.6
+   ],
+   "sx": 2.6,
+   "sz": 2.6,
+   "path": [
+    [
+     -10.5,
+     24.0,
+     -12.6
+    ],
+    [
+     -10.5,
+     44.0,
+     -12.6
+    ]
+   ],
+   "speed": 3.0,
+   "pause": 2.0,
+   "thickness": 0.6,
+   "rot_y": 0.0,
+   "collision": "AnimatableBody3D box",
+   "flag": "w2_lift2",
+   "note": "Parked at the top (44) until CP4 is touched (sets w2_lift2), then shuttles. Top dock is flush with the Upper Cloudbank's south-east rim; clearances: BL2 0.64 m, HOP_START 1.37 m, lookout pillow 0.81 m.",
+   "r1": true
+  },
+  {
+   "id": "CC1",
+   "name": "Cloud Collar (catch cloud under the Upper Runner)",
+   "zone": "Z4",
+   "kind": "cloud",
+   "shape": "annulus_sector",
+   "pos": [
+    -3.05,
+    41.0,
+    -10.85
+   ],
+   "axis": "beanstalk axis at y 41",
+   "r_in": 2.0,
+   "r": 7.0,
+   "az_from": -40,
+   "az_to": 150,
+   "thickness": 1.2,
+   "rot_y": 0.0,
+   "collision": "trimesh sector (top 41.0)",
+   "note": "Catches falls from U01-U04 and the U04->BANK jump. Leaves the BL2 column (az -171) and the BL2->UC bounce arc (az 160-190) open.",
+   "r1": true
+  },
+  {
+   "id": "BP_CC1",
+   "name": "Collar puff (bouncy, back to the Upper Cloudbank)",
+   "zone": "Z4",
+   "kind": "bouncy_leaf",
+   "shape": "disc",
+   "pos": [
+    -7.8,
+    41.0,
+    -7.88
+   ],
+   "r": 1.0,
+   "thickness": 0.4,
+   "rot_y": 0.0,
+   "bounce_apex": 4.5,
+   "bounce_velocity_g28": 15.87,
+   "collision": "cylinder",
+   "note": "bounces Mak 3 m up and 0.2 m west onto the Upper Cloudbank's east rim",
+   "r1": true
+  },
+  {
+   "id": "SCARECROW_HAT",
+   "name": "Scarecrow's straw hat (triple-jump perch, P3)",
+   "zone": "Z2",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    24.0,
+    28.3,
+    -4.0
+   ],
+   "r": 1.3,
+   "thickness": 0.15,
+   "rot_y": 0.0,
+   "collision": "cylinder 0.15 thick, rounded brim edge (too thin for the ledge-grab ray)",
+   "note": "Rise 4.3 m from the deck: triple jump (apex 4.69) lands; double (3.54) and backflip (3.75) fall short. Triple-jump lane: run east to west along z -4.5 from x 34.5; keep it clear of mounds and crates.",
+   "r1": true
+  },
+  {
+   "id": "GATEHOUSE",
+   "name": "Gatehouse roof (S1)",
+   "zone": "Z6",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    14.0,
+    61.4,
+    -25.4
+   ],
+   "sx": 6.0,
+   "sz": 3.6,
+   "thickness": 3.4,
+   "rot_y": 0.0,
+   "collision": "box x 11..17, z -27.2..-23.6, y 58..61.4; merlons on the south edge only",
+   "note": "3.4 m above the wall-walk. Intended: backflip with your back to the gatehouse (chalk arrows); side somersault, or a double jump plus ledge grab, also work.",
+   "r1": true
+  },
+  {
+   "id": "GIANT_HEAD",
+   "name": "Sleeping Giant's head and folded arms",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "box",
+   "pos": [
+    -10.5,
+    58.2,
+    -34.0
+   ],
+   "sx": 3.2,
+   "sz": 3.2,
+   "thickness": 2.6,
+   "rot_y": 0.0,
+   "collision": "convex dome, slopes > 50 deg (not walkable); Mak slides off it",
+   "r1": true
+  },
+  {
+   "id": "BEARD",
+   "name": "Giant's beard (bouncy)",
+   "zone": "Z5",
+   "kind": "bouncy_leaf",
+   "shape": "disc",
+   "pos": [
+    -9.6,
+    55.9,
+    -32.4
+   ],
+   "r": 0.9,
+   "thickness": 0.3,
+   "rot_y": 0.0,
+   "bounce_apex": 5.0,
+   "bounce_velocity_g28": 16.73,
+   "collision": "cylinder (group bouncy)",
+   "note": "Launches toward the nightcap pom-pom (gap 3.1 m, rise 3.7 m). Sits beside the nostrils: during the inhale the pull carries Mak into the nose.",
+   "r1": true
+  },
+  {
+   "id": "POMPOM",
+   "name": "Nightcap pom-pom (W2-3 truffle perch)",
+   "zone": "Z5",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -12.6,
+    59.6,
+    -36.2
+   ],
+   "r": 1.1,
+   "thickness": 0.8,
+   "rot_y": 0.0,
+   "collision": "cylinder (soft squash visual)",
+   "r1": true,
+   "note_r2": "Only BEARD reaches it from the castle side. Expert alternative kept on purpose: a triple jump from the table (rise 4.0, apex 4.69) during an inhale or rest; it is still timed against the breath. Known sequence break: a running jump from B2 (66) after the W2-8 bell route; allowed, because that route is harder than W2-3.",
+   "r2": true
+  },
+  {
+   "id": "TEA_COSY",
+   "name": "Tea cosy on the hearth (the real Golden Goose sleeps under it)",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "disc",
+   "pos": [
+    -14.0,
+    50.0,
+    -40.5
+   ],
+   "r": 0.9,
+   "thickness": 1.2,
+   "rot_y": 0.0,
+   "collision": "cylinder; punch, kick or Ham Slam lifts it",
+   "r1": true
+  },
+  {
+   "id": "BELL_GALLERY",
+   "name": "Bell gallery spur on B2",
+   "zone": "Z6",
+   "kind": "box",
+   "shape": "box",
+   "pos": [
+    -15.2,
+    66.0,
+    -17.95
+   ],
+   "sx": 2.0,
+   "sz": 1.5,
+   "thickness": 0.6,
+   "rot_y": 0.0,
+   "collision": "box; vertical faces (ledge-grabbable)",
+   "note": "reached from the bell plate at its west extreme: gap 0.3 m, rise 2.2 m (double jump, or single jump plus ledge grab)",
+   "r1": true
+  },
+  {
+   "id": "V3",
+   "name": "Stalk-tip vine",
+   "zone": "Z5",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    -7.4,
+    50.6,
+    -15.9
+   ],
+   "r": 0.3,
+   "top": [
+    -7.4,
+    61.6,
+    -15.9
+   ],
+   "thickness": 0,
+   "rot_y": 0.0,
+   "collision": "Area3D climbable, pole radius 0.25",
+   "note": "0.7 m off the castle bank's south rim, over open sky",
+   "r1": true
+  },
+  {
+   "id": "T3",
+   "name": "Tip leaf (bell landing)",
+   "zone": "Z6",
+   "kind": "leaf",
+   "shape": "ellipse",
+   "pos": [
+    -8.6,
+    62.8,
+    -16.6
+   ],
+   "rx": 1.2,
+   "rz": 1.1,
+   "thickness": 0.35,
+   "rot_y": 90.0,
+   "stem_to": [
+    -8.61,
+    62.6,
+    -18.12
+   ],
+   "collision": "convex_box 2.6x0.35x2.2",
+   "r1": true
+  },
+  {
+   "id": "BELL",
+   "name": "The Giant's bell, hung from the beanstalk's tip hook",
+   "zone": "Z6",
+   "kind": "pendulum",
+   "shape": "box",
+   "pos": [
+    -13.0,
+    63.5,
+    -16.0
+   ],
+   "sx": 1.8,
+   "sz": 1.8,
+   "thickness": 0.5,
+   "rot_y": 0.0,
+   "pivot": [
+    -13.0,
+    66.5,
+    -16.0
+   ],
+   "swing": {
+    "plane": "x-y (east-west)",
+    "amplitude_deg": 25,
+    "period_s": 4.0,
+    "chain_to_plate_top_m": 3.0
+   },
+   "body": {
+    "lip_below_pivot_m": 5.6,
+    "lip_radius_m": 2.0,
+    "collision": "convex, sides > 50 deg (not walkable)"
+   },
+   "extremes": {
+    "east": {
+     "plate_centre": [
+      -11.73,
+      63.78,
+      -16.0
+     ]
+    },
+    "west": {
+     "plate_centre": [
+      -14.27,
+      63.78,
+      -16.0
+     ]
+    }
+   },
+   "collision": "AnimatableBody3D: plate box 1.8 x 0.5 x 1.8 (walkable, tilts with the swing) + bell body convex",
+   "slam_target": "BELL_CROWN (ham_slam_switch on the plate, re-arms; first slam opens the bean flower)",
+   "note": "Clearances at the extremes: 0.83 m to the stalk (east), 1.42 m to the belfry (west). T3 -> plate at the east extreme: gap 1.0 m, rise 1.0 m.",
+   "r1": true,
+   "bong_cutaway": {
+    "trigger": "first Ham Slam on BELL_CROWN",
+    "duration_s": 4.0,
+    "camera": "StoryCam_E_v2",
+    "player": "input locked, Mak held on the plate; the bell eases to a stop in 0.3 s at its current angle and resumes from there afterwards",
+    "beats": [
+     "0.0 s cut to the kitchen: the Giant jerks upright (W2C01 'startle sit-up': chest and head up 1.8 m, arms unfold), the nightcap flies up and the pom-pom bounces",
+     "0.4 s the 'FEE! FI! FO!' tuba motif; camera shake 0.4, crumbs fall, the teacup rattles, leaves fall along the whole stalk",
+     "2.2 s he sniffs: '...bacon?'",
+     "3.0 s he slumps back down and the snore resumes",
+     "4.0 s cut back to Mak and the bean-flower burst"
+    ],
+    "rules": "POMPOM, BEARD and GIANT_BODY collision never move. If W2-3 is uncollected, the breath cycle restarts at 'rest'. Plays once per visit; later slams just BONG."
+   },
+   "r2": true
+  },
+  {
+   "id": "JACK_CAGE",
+   "name": "Jack's cage (hangs from the cottage eave)",
+   "zone": "Z0",
+   "kind": "prop",
+   "shape": "disc",
+   "pos": [
+    -7.4,
+    1.3,
+    21.0
+   ],
+   "r": 0.7,
+   "thickness": 1.6,
+   "rot_y": 0.0,
+   "collision": "cylinder; enemy_hurtbox-like target, 2 hits (punch, kick, jump kick) break the lock",
+   "r1": true
+  },
+  {
+   "id": "BEAN_MOUND",
+   "name": "Magic-bean mound under the round oak (Sniff + Ham Slam)",
+   "zone": "Z0",
+   "kind": "sniff_target",
+   "shape": "disc",
+   "pos": [
+    -16.4,
+    0.0,
+    11.4
+   ],
+   "r": 0.8,
+   "thickness": 0.2,
+   "rot_y": 0.0,
+   "collision": "none until slammed",
+   "r1": true
+  },
+  {
+   "id": "V5",
+   "name": "Magic sprout vine (appears after the slam)",
+   "zone": "Z0",
+   "kind": "vine",
+   "shape": "disc",
+   "pos": [
+    -16.4,
+    0.3,
+    11.4
+   ],
+   "r": 0.3,
+   "top": [
+    -16.4,
+    6.8,
+    11.4
+   ],
+   "thickness": 0,
+   "rot_y": 0.0,
+   "collision": "Area3D climbable, pole radius 0.25 (spawned)",
+   "r1": true
+  },
+  {
+   "id": "BL3",
+   "name": "Sprout leaf (bouncy, appears after the slam)",
+   "zone": "Z0",
+   "kind": "bouncy_leaf",
+   "shape": "disc",
+   "pos": [
+    -16.9,
+    6.8,
+    10.2
+   ],
+   "r": 1.0,
+   "thickness": 0.3,
+   "rot_y": 0.0,
+   "bounce_apex": 3.0,
+   "bounce_velocity_g28": 12.96,
+   "collision": "cylinder (group bouncy, spawned)",
+   "r1": true
+  },
+  {
+   "id": "OAK_TOP",
+   "name": "Round oak canopy top",
+   "zone": "Z0",
+   "kind": "disc",
+   "shape": "disc",
+   "pos": [
+    -18.0,
+    7.6,
+    10.0
+   ],
+   "r": 2.0,
+   "thickness": 1.0,
+   "rot_y": 0.0,
+   "collision": "cylinder (flattened canopy crown)",
+   "r1": true
+  },
+  {
+   "id": "WALL_SCREEN_W",
+   "name": "Kitchen screen wall over the west wall-walk (chimney breast and pan rack)",
+   "zone": "Z6",
+   "kind": "wall",
+   "shape": "box",
+   "pos": [
+    -16.15,
+    63.0,
+    -36.35
+   ],
+   "sx": 0.3,
+   "sz": 11.9,
+   "thickness": 5.0,
+   "rot_y": 0.0,
+   "collision": "box x -16.3..-16.0, z -42.3..-30.4, y 58..63.0; rounded cap with slopes > 60 deg; group no_ledge_grab",
+   "note": "Blocks every jump from the west wall-walk to POMPOM (5.0 m tall: above triple 4.69, backflip 3.75, double 3.54). Kitchen side dressed with giant copper pans (2-3 m) on hooks as a scale cue. It ends north of B1, so the walk still reaches the belfry.",
+   "r2": true
+  },
+  {
+   "id": "WALL_SCREEN_N",
+   "name": "Kitchen screen wall over the north wall-walk (west part)",
+   "zone": "Z6",
+   "kind": "wall",
+   "shape": "box",
+   "pos": [
+    -11.15,
+    63.0,
+    -42.15
+   ],
+   "sx": 10.3,
+   "sz": 0.3,
+   "thickness": 5.0,
+   "rot_y": 0.0,
+   "collision": "box x -16.3..-6.0, z -42.3..-42.0, y 58..63.0; rounded cap with slopes > 60 deg; group no_ledge_grab",
+   "note": "The north wall-walk is 4.7 m from POMPOM's edge with a 1.6 m rise: a chained double jump turned south-west reached it. Stops at x -6 so the dresser D to wall-walk shortcut (x -2..2) stays open. Dressed as the hearth's chimney breast with a plate rack (giant plates r 1.4).",
+   "r2": true
+  },
+  {
+   "id": "GIANT_BODY",
+   "name": "Sleeping Giant's seated body and shoulders",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "box",
+   "pos": [
+    -14.25,
+    61.5,
+    -34.0
+   ],
+   "sx": 3.5,
+   "sz": 5.0,
+   "thickness": 11.5,
+   "rot_y": 0.0,
+   "collision": "convex hull x -16..-12.5, y 50..61.5, every upper face > 50 deg (not walkable; Mak slides off toward the floor)",
+   "note": "No standable point on the Giant. During the BONG cutaway the visual sits up 1.8 m; collision does not move.",
+   "r2": true,
+   "note_r3": "unchanged; GIANT_BACK sits behind it (west) and carries the visual shoulders"
+  },
+  {
+   "id": "WALL_SCREEN_B1",
+   "name": "Curved screen on B1's kitchen-side arc",
+   "zone": "Z6",
+   "kind": "wall",
+   "shape": "annulus_sector",
+   "pos": [
+    -18.0,
+    63.0,
+    -24.0
+   ],
+   "axis": "belfry axis",
+   "r_in": 6.35,
+   "r": 6.5,
+   "az_from": -74,
+   "az_to": -18,
+   "thickness": 5.0,
+   "rot_y": 0.0,
+   "collision": "curved wall on B1's outer edge, y 58..63.0, from (-16.15, -30.4) where it meets WALL_SCREEN_W to (-11.8, -26.0) at the south wall; rounded cap; group no_ledge_grab",
+   "note": "B1's north-east arc hangs over the kitchen's south-west corner, 5.7 m from POMPOM's edge with a 1.6 m rise; a chained double jump could reach it. B1 stays a full walkable ring (E15's patrol and the wall-walk link are unchanged); it just becomes a covered gallery on that side.",
+   "r2": true
+  },
+  {
+   "id": "BLOSSOM_TREE",
+   "name": "Blossom tree on the islet (Captain Caw's last perch)",
+   "zone": "Z4",
+   "kind": "prop",
+   "shape": "disc",
+   "pos": [
+    -41.6,
+    46.0,
+    -39.0
+   ],
+   "r": 0.4,
+   "thickness": 4.0,
+   "rot_y": 0.0,
+   "collision": "trunk cylinder r 0.4 to 49.0; crown visual only (crown centre (-41.6, 50.2, -39.0), r 1.8)",
+   "slam_target": "a Ham Slam on ISLET within 2.0 m of the trunk shakes the crown (petal burst) and drops E17 dizzy beside the trunk",
+   "r2": true
+  },
+  {
+   "id": "GIANT_BOOT",
+   "name": "The Giant's boot, kicked off beside the belfry (scale cue)",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "box",
+   "pos": [
+    -11.0,
+    54.2,
+    -20.5
+   ],
+   "sx": 2.4,
+   "sz": 4.4,
+   "thickness": 4.2,
+   "rot_y": 0.0,
+   "collision": "footprint x -12.2..-9.8, z -22.7..-18.3: toe box z -20.1..-18.3 with its cap top at 51.6, plus the cuff, a cylinder r 1.2 centred (-11.0, -21.1) from 50 to 54.2 with a walkable rim (hollow visual)",
+   "note": "Patched brown leather, 4.4 m long: tells the viewer the Giant is about 25 m tall. Toe cap 1.6 m above the bank (running jump), cuff rim 2.6 m above the toe (double jump). 0.94 m clear of the belfry base. Acorn ring A40 on the rim. B1 (58) sits 3.8 m higher; nothing new reaches the bell or B2.",
+   "r2": true
+  },
+  {
+   "id": "GATE_TOWER_W",
+   "name": "Gate tower west",
+   "zone": "Z5",
+   "kind": "tower",
+   "shape": "disc",
+   "pos": [
+    9.4,
+    62.0,
+    -22.4
+   ],
+   "r": 1.6,
+   "thickness": 12.0,
+   "rot_y": 0.0,
+   "collision": "cylinder 50..62; spire cone 62..74 (base r 2.0, slopes about 80 deg), convex, not walkable, group no_ledge_grab",
+   "walkable": false,
+   "note": "1.6 m clear of CP5; touches the gatehouse roof's west end (61.4) but the cone eave overhangs, so no ledge",
+   "r3": true
+  },
+  {
+   "id": "GATE_TOWER_E",
+   "name": "Gate tower east",
+   "zone": "Z5",
+   "kind": "tower",
+   "shape": "disc",
+   "pos": [
+    18.6,
+    62.0,
+    -22.4
+   ],
+   "r": 1.6,
+   "thickness": 12.0,
+   "rot_y": 0.0,
+   "collision": "as GATE_TOWER_W",
+   "walkable": false,
+   "r3": true
+  },
+  {
+   "id": "CANDLE",
+   "name": "Giant's candle",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "disc",
+   "pos": [
+    -6.5,
+    56.0,
+    -37.0
+   ],
+   "r": 0.9,
+   "thickness": 0.4,
+   "rot_y": 0.0,
+   "collision": "brass holder dish r 0.9, 0.4 tall (top 56.0) plus a candle cylinder r 0.55 up to 60.1 with a rounded wax-drip top; group no_ledge_grab; the flame is an Area3D hazard (r 0.35 at 60.5, damage 1)",
+   "note": "20x-scale candle (22 cm). Its flame leans with the Giant's breath: west in the inhale, flat east in the snore blast, upright in hold and rest, a second, readable breath telegraph. Clear of TEACUP (1.15 m), SUGAR (0.8 m) and LOAF (1.5 m). Holder top 56.0 is 3.6 m below POMPOM and 4.2 m from its edge, so it opens no route (a double jump peaks at 3.54).",
+   "r3": true
+  },
+  {
+   "id": "GIANT_BACK",
+   "name": "Giant's hunched back",
+   "zone": "Z5",
+   "kind": "prop",
+   "shape": "box",
+   "pos": [
+    -15.1,
+    65.0,
+    -34.9
+   ],
+   "sx": 1.8,
+   "sz": 8.2,
+   "thickness": 7.0,
+   "rot_y": 0.0,
+   "collision": "convex hull x -16.0..-14.2, z -39.0..-30.8, y 58..65, every upper face >= 55 deg, group no_ledge_grab; not walkable",
+   "note": "visual back and shoulders of the 20x Giant (scale bible). 0.5 m clear of POMPOM's disc (x >= -13.7); 0.6 m outside B1/B2 (their r 6.5 ring is 7.1 m from (-16, -30.8)); 3 m clear of WALL_SCREEN_N",
+   "r3": true
+  }
+ ],
+ "route_edges": [
+  {
+   "cls": "main",
+   "frm": "ISLAND",
+   "to": "L01",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "main",
+   "frm": "L01",
+   "to": "L02",
+   "move": "jump",
+   "gap": 0.44,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L02",
+   "to": "L03",
+   "move": "jump",
+   "gap": 0.42,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L03",
+   "to": "L04",
+   "move": "jump",
+   "gap": 0.35,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L04",
+   "to": "L05",
+   "move": "jump",
+   "gap": 0.25,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "V1",
+   "to": "L09",
+   "move": "vine",
+   "gap": 1.79,
+   "rise": 5.2,
+   "ok": true,
+   "rule": "vine grab/dismount, gap to pole <= 2.0 m"
+  },
+  {
+   "cls": "main",
+   "frm": "L09",
+   "to": "BL1",
+   "move": "jump",
+   "gap": 0.48,
+   "rise": 0.8,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "BL1",
+   "to": "L11",
+   "move": "bounce",
+   "gap": 1.87,
+   "rise": 5.4,
+   "ok": true,
+   "rule": "bounce apex 6.5 m; rise must be <= apex-0.6; gap <= 3.5"
+  },
+  {
+   "cls": "main",
+   "frm": "L11",
+   "to": "L12",
+   "move": "jump",
+   "gap": 0.46,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L12",
+   "to": "L13",
+   "move": "jump",
+   "gap": 0.39,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L13",
+   "to": "C1",
+   "move": "jump",
+   "gap": 0.56,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "C1",
+   "to": "M01",
+   "move": "jump",
+   "gap": 1.65,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M01",
+   "to": "M02",
+   "move": "jump",
+   "gap": 0.04,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M02",
+   "to": "M03",
+   "move": "jump",
+   "gap": -0.01,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M03",
+   "to": "V2",
+   "move": "vine",
+   "gap": 1.66,
+   "rise": 0.4,
+   "ok": true,
+   "rule": "vine grab/dismount, gap to pole <= 2.0 m"
+  },
+  {
+   "cls": "main",
+   "frm": "V2",
+   "to": "M04",
+   "move": "vine",
+   "gap": 1.33,
+   "rise": 5.2,
+   "ok": true,
+   "rule": "vine grab/dismount, gap to pole <= 2.0 m"
+  },
+  {
+   "cls": "main",
+   "frm": "M04",
+   "to": "M05",
+   "move": "jump",
+   "gap": 0.73,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M05",
+   "to": "M06",
+   "move": "jump",
+   "gap": 0.99,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M06",
+   "to": "M07",
+   "move": "jump",
+   "gap": 1.17,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M07",
+   "to": "M08",
+   "move": "jump",
+   "gap": -0.08,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "M08",
+   "to": "BL2",
+   "move": "jump",
+   "gap": 0.1,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "BL2",
+   "to": "UC",
+   "move": "bounce",
+   "gap": 0.66,
+   "rise": 4.8,
+   "ok": true,
+   "rule": "bounce apex 7.0 m; rise must be <= apex-0.6; gap <= 3.5"
+  },
+  {
+   "cls": "main",
+   "frm": "U03",
+   "to": "U04",
+   "move": "jump",
+   "gap": 1.34,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "U04",
+   "to": "BANK",
+   "move": "jump",
+   "gap": 1.39,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "C1",
+   "to": "PEA_BRIDGE",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "PEA_BRIDGE",
+   "to": "ALLOT",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "ALLOT",
+   "to": "POT",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "POT",
+   "to": "SACKS",
+   "move": "jump",
+   "gap": 0.6,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "SACKS",
+   "to": "CAN",
+   "move": "jump",
+   "gap": 0.31,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "CAN",
+   "to": "CAN_SPOUT",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 1.4,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "ISLAND",
+   "to": "LIFT",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.3,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "LIFT",
+   "to": "ALLOT",
+   "move": "walk",
+   "gap": null,
+   "rise": 23.7,
+   "ok": true,
+   "rule": "lift ride"
+  },
+  {
+   "cls": "optional",
+   "frm": "M05",
+   "to": "HIVE",
+   "move": "jump",
+   "gap": 1.76,
+   "rise": 0.6,
+   "ok": true,
+   "rule": "limit gap 3.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "ISLAND",
+   "to": "COTTAGE_BUTT",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "COTTAGE_BUTT",
+   "to": "COTTAGE_WOODPILE",
+   "move": "jump",
+   "gap": 0.99,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "ISLAND",
+   "to": "WELL",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "C1",
+   "to": "C1_PILLOW",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "BANK",
+   "to": "SACK",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "SACK",
+   "to": "CRATE",
+   "move": "jump",
+   "gap": 0.2,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "CRATE",
+   "to": "BOOKS",
+   "move": "jump",
+   "gap": 0.22,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "BOOKS",
+   "to": "CHAIR",
+   "move": "jump",
+   "gap": 1.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "CHAIR",
+   "to": "TABLE",
+   "move": "jump",
+   "gap": 1.0,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "TABLE",
+   "to": "WATCH",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.35,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "TABLE",
+   "to": "SHELF_C",
+   "move": "jump",
+   "gap": 2.45,
+   "rise": 0.4,
+   "ok": true,
+   "rule": "limit gap 3.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "BANK",
+   "to": "SHELF_A",
+   "move": "double",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "SHELF_A",
+   "to": "SHELF_B",
+   "move": "double",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "limit gap 3.0, rise 2.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "SHELF_B",
+   "to": "SHELF_C",
+   "move": "double",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "limit gap 3.0, rise 2.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "SHELF_C",
+   "to": "SHELF_D",
+   "move": "double",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "limit gap 3.0, rise 2.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "SHELF_D",
+   "to": "SHELF_TOP",
+   "move": "double",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "limit gap 3.0, rise 2.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "BANK",
+   "to": "STAIR1",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "C1",
+   "to": "HOP_START",
+   "move": "jump",
+   "gap": 1.35,
+   "rise": 0.4,
+   "ok": true,
+   "rule": "limit gap 3.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "UC",
+   "to": "LB1",
+   "move": "mastery_long",
+   "gap": 4.56,
+   "rise": -0.6,
+   "ok": true,
+   "rule": "limit gap 7.0, rise 0.0"
+  },
+  {
+   "cls": "optional",
+   "frm": "LB1",
+   "to": "LB2",
+   "move": "mastery_bounce",
+   "gap": 4.0,
+   "rise": 0.6,
+   "ok": true,
+   "rule": "bounce apex 4.2 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "LB2",
+   "to": "LB3",
+   "move": "mastery_bounce",
+   "gap": 3.96,
+   "rise": 0.6,
+   "ok": true,
+   "rule": "bounce apex 4.2 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "LB3",
+   "to": "LB4",
+   "move": "mastery_bounce",
+   "gap": 4.0,
+   "rise": 0.4,
+   "ok": true,
+   "rule": "bounce apex 4.2 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "LB4",
+   "to": "LB5",
+   "move": "mastery_bounce",
+   "gap": 3.64,
+   "rise": 0.4,
+   "ok": true,
+   "rule": "bounce apex 4.2 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "LB5",
+   "to": "ISLET",
+   "move": "mastery_bounce",
+   "gap": 2.7,
+   "rise": 0.6,
+   "ok": true,
+   "rule": "bounce apex 4.2 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "ISLET",
+   "to": "LAUNCH",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "adjacent/attached (special case)"
+  },
+  {
+   "cls": "optional",
+   "frm": "LAUNCH",
+   "to": "BANK",
+   "move": "mastery_bounce",
+   "gap": 4.42,
+   "rise": 4.0,
+   "ok": true,
+   "rule": "bounce apex 7.5 m; rise must be <= apex-0.6; gap <= 5.5"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR1",
+   "to": "STAIR2",
+   "move": "jump",
+   "gap": -0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR2",
+   "to": "STAIR3",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR3",
+   "to": "STAIR4",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR4",
+   "to": "STAIR5",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR5",
+   "to": "STAIR6",
+   "move": "jump",
+   "gap": -0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR6",
+   "to": "STAIR7",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "optional",
+   "frm": "STAIR7",
+   "to": "STAIR8",
+   "move": "jump",
+   "gap": 0.0,
+   "rise": 1.0,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2"
+  },
+  {
+   "cls": "main",
+   "frm": "L05",
+   "to": "L06",
+   "move": "jump",
+   "gap": 0.2,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "limit gap 2.5, rise 1.2; L06-L08 sag 0.9 m after 0.6 s (worst-case rise 2.0 -> double jump)",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "L06",
+   "to": "L07",
+   "move": "jump",
+   "gap": 0.2,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "droopy; same",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "L07",
+   "to": "L08",
+   "move": "jump",
+   "gap": 0.27,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "droopy; same",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "L08",
+   "to": "V1",
+   "move": "vine",
+   "gap": 1.44,
+   "rise": -0.5,
+   "ok": true,
+   "rule": "vine bottom now 8.2",
+   "r1": true
+  },
+  {
+   "cls": "shortcut",
+   "frm": "L03",
+   "to": "K1",
+   "move": "backflip",
+   "gap": -0.5,
+   "rise": 3.4,
+   "ok": true,
+   "rule": "backflip apex 3.75 >= 3.4; trunk catches the flip",
+   "r1": true
+  },
+  {
+   "cls": "shortcut",
+   "frm": "L04",
+   "to": "K1",
+   "move": "double (running)",
+   "gap": 1.5,
+   "rise": 2.3,
+   "ok": true,
+   "rule": "double apex 3.54",
+   "r1": true
+  },
+  {
+   "cls": "shortcut",
+   "frm": "K1",
+   "to": "V1",
+   "move": "jump -> vine grab",
+   "gap": 1.74,
+   "rise": 2.7,
+   "ok": true,
+   "rule": "standing jump apex 1.72 + hands 1.2 reaches the vine at 9.3",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "UC",
+   "to": "U01",
+   "move": "jump",
+   "gap": 0.97,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "unchanged",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "U01",
+   "to": "U02",
+   "move": "jump (timed)",
+   "gap": 0.8,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "moving: gap 0.8-3.2; board when <= 2.5",
+   "r1": true
+  },
+  {
+   "cls": "main",
+   "frm": "U02",
+   "to": "U03",
+   "move": "jump (timed)",
+   "gap": 0.16,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "moving: gap 0.16-2.56; hop off when <= 2.5",
+   "r1": true
+  },
+  {
+   "cls": "recovery",
+   "frm": "CC1",
+   "to": "BP_CC1",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "catch cloud",
+   "r1": true
+  },
+  {
+   "cls": "recovery",
+   "frm": "BP_CC1",
+   "to": "UC",
+   "move": "bounce",
+   "gap": 0.2,
+   "rise": 3.0,
+   "ok": true,
+   "rule": "apex 4.5 >= 3.6",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "C1",
+   "to": "LIFT2",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "after CP4",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "LIFT2",
+   "to": "UC",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "top dock flush",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "ALLOT",
+   "to": "SCARECROW_HAT",
+   "move": "triple",
+   "gap": 0.0,
+   "rise": 4.3,
+   "ok": true,
+   "rule": "triple apex 4.69; double 3.54 and backflip 3.75 fall short",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "HOP_START",
+   "to": "PUFF01",
+   "move": "jump",
+   "gap": 0.54,
+   "rise": 0.8,
+   "ok": true,
+   "rule": "unchanged",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF01",
+   "to": "PUFF02",
+   "move": "bounce",
+   "gap": 1.16,
+   "rise": 2.6,
+   "ok": true,
+   "rule": "apex 4.0 >= 3.2",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF02",
+   "to": "PUFF03",
+   "move": "bounce",
+   "gap": 1.03,
+   "rise": 2.6,
+   "ok": true,
+   "rule": "apex 4.0 >= 3.2",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF03",
+   "to": "PUFF04",
+   "move": "bounce",
+   "gap": 1.05,
+   "rise": 1.1,
+   "ok": true,
+   "rule": "apex 4.0",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF04",
+   "to": "PUFF05",
+   "move": "jump (chain 1)",
+   "gap": 2.6,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "single <= 3.5",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF05",
+   "to": "PUFF06",
+   "move": "double (chain 2)",
+   "gap": 2.6,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "double <= 3.0",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF06",
+   "to": "PUFF07",
+   "move": "triple (chain 3)",
+   "gap": 4.4,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "triple reaches 7.1 m at +2; a double reaches 5.8 m; a plain single only 4.15 m",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF07",
+   "to": "PUFF08",
+   "move": "long jump",
+   "gap": 4.5,
+   "rise": -0.8,
+   "ok": true,
+   "rule": "long jump 6.7 m at full speed; a running single (6.75 m) also crosses but flies over R4",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF08",
+   "to": "PUFF09",
+   "move": "bounce",
+   "gap": 1.2,
+   "rise": 4.8,
+   "ok": true,
+   "rule": "apex 6.0 >= 5.4",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF09",
+   "to": "PUFF10",
+   "move": "bounce",
+   "gap": 3.03,
+   "rise": 4.8,
+   "ok": true,
+   "rule": "apex 6.0 >= 5.4",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF10",
+   "to": "PUFF11",
+   "move": "bounce",
+   "gap": 0.24,
+   "rise": 3.7,
+   "ok": true,
+   "rule": "apex 5.0 >= 4.3",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "PUFF11",
+   "to": "UC",
+   "move": "dive",
+   "gap": 3.1,
+   "rise": -2.0,
+   "ok": true,
+   "rule": "dive from 46 to 44",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "WALLWALK",
+   "to": "GATEHOUSE",
+   "move": "backflip",
+   "gap": -0.5,
+   "rise": 3.4,
+   "ok": true,
+   "rule": "backflip 3.75; side somersault 3.75; double + ledge grab",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "TABLE",
+   "to": "BEARD",
+   "move": "walk",
+   "gap": 0.0,
+   "rise": 0.3,
+   "ok": true,
+   "rule": "bounce launches",
+   "r1": true
+  },
+  {
+   "cls": "optional",
+   "frm": "BEARD",
+   "to": "POMPOM",
+   "move": "bounce",
+   "gap": 3.1,
+   "rise": 3.7,
+   "ok": true,
+   "rule": "apex 5.0 >= 4.3, gap <= 5.5",
+   "r1": true
+  },
+  {
+   "cls": "mastery",
+   "frm": "BANK",
+   "to": "V3",
+   "move": "jump -> vine",
+   "gap": 0.7,
+   "rise": 0.6,
+   "ok": true,
+   "rule": "rim to vine",
+   "r1": true
+  },
+  {
+   "cls": "mastery",
+   "frm": "V3",
+   "to": "T3",
+   "move": "pole jump",
+   "gap": 0.6,
+   "rise": 1.2,
+   "ok": true,
+   "rule": "vine top 61.6",
+   "r1": true
+  },
+  {
+   "cls": "mastery",
+   "frm": "T3",
+   "to": "BELL",
+   "move": "jump (timed)",
+   "gap": 1.03,
+   "rise": 0.98,
+   "ok": true,
+   "rule": "at the east extreme",
+   "r1": true
+  },
+  {
+   "cls": "mastery",
+   "frm": "BELL",
+   "to": "BELL_GALLERY",
+   "move": "double or jump + grab",
+   "gap": 0.3,
+   "rise": 2.22,
+   "ok": true,
+   "rule": "at the west extreme",
+   "r1": true
+  },
+  {
+   "cls": "mastery",
+   "frm": "BELL_GALLERY",
+   "to": "BELFRY_TOP",
+   "move": "jump + ledge grab",
+   "gap": 0.0,
+   "rise": 2.0,
+   "ok": true,
+   "rule": "single apex 1.72 + grab 0.75-1.55",
+   "r1": true
+  },
+  {
+   "cls": "secret",
+   "frm": "ISLAND",
+   "to": "V5",
+   "move": "vine",
+   "gap": 0.0,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "after Sniff + Ham Slam",
+   "r1": true
+  },
+  {
+   "cls": "secret",
+   "frm": "V5",
+   "to": "BL3",
+   "move": "pole jump",
+   "gap": 0.4,
+   "rise": 0.0,
+   "ok": true,
+   "rule": "vine top 6.8",
+   "r1": true
+  },
+  {
+   "cls": "secret",
+   "frm": "BL3",
+   "to": "OAK_TOP",
+   "move": "bounce",
+   "gap": 0.6,
+   "rise": 0.8,
+   "ok": true,
+   "rule": "apex 3.0 >= 1.4",
+   "r1": true
+  }
+ ],
+ "routes": {
+  "main": [
+   "Default",
+   "PATH_MAIN",
+   "L01..L05",
+   "L06..L08 droopy",
+   "V1",
+   "L09",
+   "BL1",
+   "L11 Sunleaf (CP1)",
+   "L12",
+   "L13",
+   "C1 Cloud Landing (CP2, W2-1)",
+   "M01..M03",
+   "V2",
+   "M04 (CP2b)..M08",
+   "BL2",
+   "UC Upper Cloudbank (CP4)",
+   "U01",
+   "U02 swaying",
+   "U03",
+   "U04",
+   "BANK (CP5)",
+   "gate",
+   "courtyard",
+   "kitchen / stairs / wall-walk"
+  ],
+  "return_routes": [
+   "Drop from any height (no fall damage) to a lower deck; the Cloud Collar CC1 catches Upper Runner falls",
+   "Beanpod Lift: Allotment <-> garden in 8 s",
+   "Beanpod Lift 2: Cloud Landing <-> Upper Cloudbank in 7 s (after CP4)",
+   "Marked leap: castle bank (12, 50, -17.2) onto the Allotment, then Lift 1",
+   "Launch Leaf: Blossom Islet -> castle bank west tip",
+   "Seed-parachute descent: W2-8 flower -> garden gate (scripted, after collecting W2-8)"
+  ],
+  "shortcuts": [
+   "Pea-vine bridge: Cloud Landing <-> Allotment (12.5 m walk)",
+   "Table north edge -> dresser shelf C (skips shelves A/B)",
+   "Dresser D -> north wall-walk (kitchen to battlements without the stairs)",
+   "Knot Shelf K1 (backflip from L03) -> Vine 1, skipping L04-L08"
+  ],
+  "optional": [
+   "Allotment (W2-6, P3 on the scarecrow hat)",
+   "Bluebell bud (P4) off M05: bait the bee into it",
+   "Root Ledge (P1)",
+   "Cottage roof (P2)",
+   "Jack's cage and Daisy (talkers)",
+   "Giant's boot by the belfry (A40)",
+   "Sir Reginald's cameo on the Giant's chair (story beat)",
+   "Chase the half-dressed goose-wolf round the courtyard (W2-2 finale)"
+  ],
+  "mastery": [
+   "Cloud Hopper moveset exam (W2-7)",
+   "The Harpnapper: kick the loot sack at the top of swinging-pad bounces (W2-4)",
+   "Bell swing at the stalk tip (W2-8)"
+  ],
+  "secrets": [
+   "Root Ledge under the rim (P1), hinted by acorn line A03",
+   "Magic bean under the round oak: Sniff + Ham Slam -> sprout to OAK_TOP",
+   "Bean flower bud on the belfry (W2-8), Sniff trail via the bell",
+   "Dresser top board (P5)",
+   "The real Golden Goose under the tea cosy (W2-2)",
+   "Expert: a triple jump from the Giant's table to the pom-pom (W2-3 alternative)",
+   "Sequence break: the B2 drop to the pom-pom after the W2-8 bell route"
+  ]
+ },
+ "cloud_hopper_rings": [
+  {
+   "id": "R1",
+   "pos": [
+    -18.8,
+    28.8,
+    -12.75
+   ],
+   "radius": 1.5,
+   "facing_rot_y": 20.7,
+   "move": "bounce PUFF01->02",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc"
+  },
+  {
+   "id": "R2",
+   "pos": [
+    -23.3,
+    33.8,
+    -18.7
+   ],
+   "radius": 1.5,
+   "facing_rot_y": 62.1,
+   "move": "bounce PUFF03->04",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc"
+  },
+  {
+   "id": "R3",
+   "pos": [
+    -33.94,
+    37.1,
+    -7.68
+   ],
+   "radius": 1.0,
+   "facing_rot_y": 143.1,
+   "move": "triple jump apex off PUFF06: the centre peaks at 36.79 (about 36.9 at full speed), at least 0.69 m above the ring bottom (36.1) from either half of PUFF06; a running double (centre 35.64-35.75) misses the bottom by 0.35-0.46 m",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc",
+   "r2": true,
+   "r3": true
+  },
+  {
+   "id": "R4",
+   "pos": [
+    -31.83,
+    34.0,
+    -4.56
+   ],
+   "radius": 1.5,
+   "facing_rot_y": -90.0,
+   "move": "long jump PUFF07->08 (low arc threads it; a full single jump passes over)",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc"
+  },
+  {
+   "id": "R5",
+   "pos": [
+    -26.0,
+    43.2,
+    -5.5
+   ],
+   "radius": 1.5,
+   "facing_rot_y": -149.0,
+   "move": "bounce PUFF09->10",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc"
+  },
+  {
+   "id": "R6",
+   "pos": [
+    -21.6,
+    45.0,
+    -8.3
+   ],
+   "radius": 1.5,
+   "facing_rot_y": -90.0,
+   "move": "dive off PUFF11 onto the Upper Cloudbank",
+   "r1": true,
+   "note": "pass = player centre (feet + 0.6 m) crosses the ring disc"
+  }
+ ],
+ "truffles": [
+  {
+   "id": "W2-1",
+   "title": "Up the Beanstalk",
+   "pos": [
+    -9.6,
+    25.0,
+    -16.2
+   ],
+   "reveal": "always visible",
+   "steps": [
+    "Spawn at Default; follow the dirt path north past Daisy the cow to the stalk",
+    "Climb leaves L01-L05, then hop quickly across the droopy leaves L06-L08 before they sag (or backflip from L03 onto the Knot Shelf K1 and jump to Vine 1)",
+    "Jump onto Vine 1, climb to the top, hop onto L09",
+    "Hop to Bouncy Leaf 1; the bounce carries you onto the Sunleaf (checkpoint)",
+    "L12 and L13, then step onto the Cloud Landing",
+    "Walk to the lookout pillow on the Landing's north-west tip"
+   ],
+   "objects": [
+    "leaves L01-L13",
+    "Vine 1",
+    "Bouncy Leaf 1",
+    "Sunleaf",
+    "Cloud Landing"
+   ],
+   "enemies": [
+    "Peapod Poppers PG1/PG2 (near the path, optional)",
+    "Crow Bandit E04 at the Sunleaf"
+   ],
+   "pass_test": "From Default, a replay reaches C1 with y >= 23.9 inside 110 s using single jumps, vine climb and the bounce, spending <= 0.6 s on each droopy leaf; Game.has_truffle('W2-1') is true after touching the pillow. A second replay takes the K1 backflip shortcut and reaches Vine 1 without touching L04-L08. Waiting on a sagged leaf never needs more than a double jump (worst rise 2.0 m)."
+  },
+  {
+   "id": "W2-2",
+   "title": "Free the Golden Goose",
+   "pos": [
+    -13.0,
+    50.0,
+    -39.6
+   ],
+   "reveal": "laid by the real Golden Goose when Mak lifts the tea cosy on the hearth (after the goose-costume wolf is beaten)",
+   "steps": [
+    "Reach the castle bank and enter the gate; the cage holds a 'goose' that honks badly",
+    "S1: from the south wall-walk, backflip onto the gatehouse roof (3.4 m) and Ham Slam S1",
+    "S2: in the kitchen, double-jump up dresser shelves A, B, C (or jump from the table's north edge to C) and Ham Slam S2",
+    "S3: on the north wall-walk, climb the Giant's broom to the NE turret top and Ham Slam S3",
+    "Each switch visibly breaks the disguise (any order): a wolf ear pops out ('HONK.'), then a bushy tail ('Hhhonk?'), then the hood slips over its eyes ('...baa?')",
+    "The cage opens, the portcullis drops and the half-dressed wolf (E16) waddles off round the courtyard. Run behind it on a straight and dive-tackle it (or jump-kick it, or punch it while it is dazed against the portcullis). Two hits: hood off, then suit off; it spins out of the gate in its underwear",
+    "The tea cosy on the kitchen hearth honks. Sniff leads there. Punch the cosy: the real Golden Goose wakes and lays the truffle"
+   ],
+   "objects": [
+    "switches S1-S3 (ham_slam_switch)",
+    "Goose cage (3 costume stages)",
+    "portcullis (drops for the chase)",
+    "GATEHOUSE roof",
+    "dresser",
+    "broom pole",
+    "TEA_COSY",
+    "talkers GOOSE_WOLF and GOLDEN_GOOSE"
+   ],
+   "enemies": [
+    "Woolly Wolf in a goose costume E16 (waddle-flee chase)",
+    "Crow Bandit E14 heckles from the SE spire during the chase; E15 stays on the west wall-walk"
+   ],
+   "pass_test": "Teleport to Spawns/W2-2. Each ham_slam on S1-S3 advances the cage's costume stage by one (ear, tail, hood) with its line, in any order; the third opens the cage within 2 s, drops the portcullis and starts E16 on the oval at 5.5 m/s. A scripted straight run (6.8 m/s or more) plus a dive that touches E16 registers hit 1; a jump kick registers hit 2; E16 then exits through the gate, w2_goose_wolf is set and the portcullis lifts within 2 s. A punch on a running E16 does not count; a punch while it is dazed at the portcullis does. Contact never damages Mak. E16's path never enters x > 16.6 (stairs) or the kitchen arch. Hitting TEA_COSY afterwards spawns Truffle W2-2 at (-13, 50, -39.6) +/- 0.5 m within 3 s; before that it gives a sleepy honk. S1 is reachable by a standing backflip from the wall-walk (replay). A human tester ends the chase in 60 s or less.",
+   "r3": true
+  },
+  {
+   "id": "W2-3",
+   "title": "Fee-Fi-Fo-Hum",
+   "pos": [
+    -12.6,
+    59.6,
+    -36.2
+   ],
+   "reveal": "always visible, on the Giant's nightcap pom-pom",
+   "steps": [
+    "Inside the kitchen: sugar sack, crate, cookbook stack, chair seat (checkpoint CP6), table top",
+    "Cross the table west. The breath cycle is inhale 2.0 s (pull west toward the nose), hold 0.5 s, snore blast 1.6 s (push east), rest 1.2 s",
+    "During blasts hide on the east side of the watch, teacup and loaf (H3)",
+    "Step round to the loaf's west side (H3b) and wait there through the inhale; idling in the open nose zone gets Mak SNEEZED: a 2 s arc over the table back onto the chair cushion ('...bless me...')",
+    "In the 1.2 s rest after a blast, step from H3b onto the beard (its edge touches the H3b box; 1.4 m centre to centre, one short hop): it bounces Mak onto the nightcap pom-pom and the truffle",
+    "The Giant mutters 'Nngh... smells like... bacon?' and sleeps on"
+   ],
+   "objects": [
+    "Giant's table",
+    "pocket watch (sweeping hand)",
+    "teacup",
+    "loaf",
+    "butter dish",
+    "sugar bowl (4 acorns)",
+    "BEARD (bouncy)",
+    "POMPOM",
+    "breath zones H2, H2b, H2c",
+    "talker GIANT (sleep-talk)",
+    "WALL_SCREEN_W, WALL_SCREEN_N and WALL_SCREEN_B1 (block the wall-walk skips)",
+    "GIANT_BODY (not walkable)",
+    "CANDLE (its flame shows the breath phase)"
+   ],
+   "enemies": [
+    "none; the Giant's breath is the hazard"
+   ],
+   "pass_test": "Teleport to CP6. A scripted run that waits in the H3 lee boxes during blasts and in H3b during inhales, then hits BEARD in a rest phase, lands on POMPOM and collects W2-3 in <= 45 s. Standing idle 2 s in H2b during an inhale triggers the sneeze: Mak follows the scripted 2.0 s arc and lands on CHAIR at CP6 (4, 54.4, -34) +/- 0.5 m, health unchanged, touching no collider on the way; the first sneeze per save collects A41 (5). Standing in the open during a blast pushes Mak >= 6 m east. Landing on BEARD during an inhale also sneezes Mak back. CANDLE adds no route: its holder top (56.0) is 3.6 m below POMPOM. Skip check (r2): no walkable surface other than BEARD lies within 3.5 m horizontally and up to 2.5 m below POMPOM's top (59.6); a reach check over every walkable top (running jump 2.43, double 3.54, backflip 3.75 m apex at 7.5 m/s; long jump 6.7 m) finds no route to POMPOM from the west or north wall-walk, B1, SHELF_TOP, TEACUP, LOAF, SUGAR or BUTTER. The only other routes are the table triple jump and the B2 drop, both allowed.",
+   "r2": true,
+   "r3": true
+  },
+  {
+   "id": "W2-4",
+   "title": "The Harpnapper",
+   "pos": [
+    -40.5,
+    46.0,
+    -38.0
+   ],
+   "reveal": "played out by the Golden Harp on the Blossom Islet when Captain Caw (E17) is beaten",
+   "steps": [
+    "On the Upper Cloudbank's west rim, Captain Caw taunts Mak with a singing sack ('I am being HARPNAPPED!') and flies to PERCH1 over LB2",
+    "Long-jump from the west rim onto LB1 (4.6 m, 0.6 m drop) and bounce to LB2",
+    "Bounce in place on the swinging LB2: Caw rides along above it, his loot sack (the harp peeking out) hanging at the top of your bounce. Jump-kick the sack at the apex (hit 1, 3 acorns); he flees to PERCH2 over LB4",
+    "Bounce LB2 -> LB3 -> LB4 through the crosswind and kick the sack again at the top of an LB4 bounce (hit 2)",
+    "Bounce LB5 to the Blossom Islet. Caw sulks in the blossom tree: Ham Slam the islet next to the trunk to shake him down, then punch or kick him (hit 3)",
+    "The sack bursts; the Golden Harp sings 'At last, an audience!' and plays the truffle out. Exit by the Launch Leaf to the castle bank"
+   ],
+   "objects": [
+    "LB1-LB5 (swinging)",
+    "Blossom Islet",
+    "BLOSSOM_TREE (slam shake)",
+    "Launch Leaf",
+    "crosswind H4",
+    "talker GOLDEN_HARP"
+   ],
+   "enemies": [
+    "Captain Caw E17 (Crow Bandit variant)"
+   ],
+   "pass_test": "From Spawns/W2-4: E17 taunts and moves to PERCH1 (y 49.6) and tracks LB2's swing within 0.15 s; a scripted jump_kick at the top of an LB2 bounce that touches the sack sphere (r 1.3, centre y 48.8) registers hit 1 from any swing phase (sample 8 phases); the same at LB4 (centre 49.8) registers hit 2; a ham_slam on ISLET within 2.0 m of BLOSSOM_TREE drops E17 dizzy for 2.5 s; a punch then spawns W2-4 at (-40.5, 46, -38) +/- 0.5 m within 3 s. Caw does not drift while Mak is mid-bounce. Body contact without an attack never damages Mak. After a fall Mak respawns on CP4 with no enemy within 7 m (E13 now patrols the Upper Runner), and E17 waits at the last perch reached. A human tester finishes in 3 attempts or fewer. The round 1 gap checks still hold (3.64-4.16 m).",
+   "r2": true,
+   "r3": true
+  },
+  {
+   "id": "W2-5",
+   "title": "Lost Pages of the Sky",
+   "pos": [
+    9.0,
+    1.0,
+    22.0
+   ],
+   "reveal": "LostPageSet spawns it on the well lid after 5 pages",
+   "steps": [
+    "P1 Root Ledge under the north-west rim (drop off the edge where the acorn line points; climb Vine 0 back)",
+    "P2 on the cottage chimney cap (water butt, woodpile, eave, thatch, chimney)",
+    "P3 on the wolf-mask scarecrow's straw hat on the Allotment: triple-jump onto it along the cleared lane (z -4.5, running west)",
+    "P4 sealed in the Bluebell bud beside M05: stand between Bumble E10 and the bud, hop aside as it charges, and it bursts the bud open (stomp the dizzy bee for good measure)",
+    "P5 on the dresser top board in the Giant's kitchen (x -4..-2)",
+    "Return to the well: the marked leap from the castle bank to the Allotment, then the Beanpod Lift; or ride Lift 2 down to the Cloud Landing"
+   ],
+   "objects": [
+    "5 LostPage nodes, world_id W2, page_index 0-4",
+    "LostPageSet with TruffleMarker at the well"
+   ],
+   "enemies": [
+    "Crow E03 near P2",
+    "Bumble E10 at the bud (P4)"
+   ],
+   "pass_test": "Collecting the five pages in any order spawns W2-5 at (9, 1.0, 22) and shows the 5/5 banner; each page position is reachable by the moves listed in the jump table. P4 check (r2): the bud is not walkable and P4 cannot be collected until E10's charge opens it; a scripted run (stand on M05 west of the bud, side-hop 0.5 s into the 0.8 s wind-up) opens it.",
+   "r2": true
+  },
+  {
+   "id": "W2-6",
+   "title": "Pea Pod Patrol",
+   "pos": [
+    24.0,
+    24.0,
+    0.5
+   ],
+   "reveal": "spawned when E05-E09 are all defeated",
+   "steps": [
+    "Ride the Beanpod Lift from the garden (or walk the pea-vine bridge from the Cloud Landing)",
+    "Five Peapod Poppers (E05-E09) lob 2 volleys, then burrow and resurface at another of the 13 mounds, set in lanes of three (they prefer a lane that already holds a pod)",
+    "Snout Sniff shows a wisp to each occupied mound. Ham Slam beside one: the shockwave runs down its lane and every pod in it pops up stunned for 2.5 s, lying across the lane like skittles",
+    "Belly-slide down the lane: 2 pods = SPARE! (+4 acorns), 3 pods = STRIKE! (+10 acorns, the scarecrow wails 'Not the peas!'). A kick also defeats a stunned pod",
+    "After the third pod the scarecrow shouts 'Reinforcements!' and Bumble Bruisers E11 and E12 start charging",
+    "The fifth pod pops the truffle out of the soil in front of the scarecrow"
+   ],
+   "objects": [
+    "Allotment Cloud",
+    "pod mounds PM01-PM13 in lanes R1-R5",
+    "giant cabbages (cover)",
+    "scarecrow talker"
+   ],
+   "enemies": [
+    "Peapod Poppers E05-E09",
+    "Bumble Bruisers E11, E12"
+   ],
+   "pass_test": "With --mission=W2-6: E05-E09 burrow after 2 volleys and resurface only at PM01-PM13; a ham_slam within 1.6 m of an occupied mound stuns every pod in that lane for 2.5 s; a scripted slam plus slide defeats three pods in one lane and shows STRIKE (seed the resurface RNG so three pods share lane R2); a slide hit on a stunned pod defeats it; E11/E12 stay passive until 3 pods are defeated; defeating E05-E09 spawns Truffle W2-6 at (24, 24, 0.5) +/- 0.5 m within 2 s. The 5 popper nodes share group 'w2_pod_patrol'. No mound lies within 1.0 m of the z -4.5 triple-jump lane (x 25.3..34.5) or inside a cabbage.",
+   "r2": true
+  },
+  {
+   "id": "W2-7",
+   "title": "Cloud Hopper",
+   "pos": [
+    -17.6,
+    44.6,
+    -6.0
+   ],
+   "reveal": "spawned on the Cloud Gong when all 6 rings are passed inside the time limit (start at 34 s, set to measured clean run + 30%)",
+   "steps": [
+    "Touch the start pad west of the Cloud Landing: 6 golden rings light up and the page-turn timer starts",
+    "Bounce PUFF01-PUFF03 (2.6 m rises) through R1 and R2",
+    "Chain jump, double jump, triple jump across the flat puffs PUFF04-PUFF06 (they vanish 0.25 s after landing) and thread R3 at the triple's peak",
+    "Rest on PUFF07, then long-jump east to PUFF08, threading R4 low in the gap",
+    "Bounce PUFF08-PUFF10 up through R5 to the diving-board puff PUFF11",
+    "Dive east through R6 onto the Upper Cloudbank and belly-slide into the Cloud Gong"
+   ],
+   "objects": [
+    "HOP_START",
+    "PUFF01-PUFF11",
+    "rings R1-R6",
+    "Cloud Gong (UC_BELL)"
+   ],
+   "enemies": [
+    "none"
+   ],
+   "pass_test": "A replay of the intended route (jump, double, triple, long jump, dive) passes all 6 rings. Two R3 replays, one taking off from the near half of PUFF06 and one from the far half, both pass R3 (r3: centre y 37.1, r 1.0) with at least 0.3 m to spare, and a running double from PUFF06 misses it. The timer is then set to the measured time + 30% (34 s until measured). A single jump from PUFF06 cannot reach PUFF07 (4.15 m < 4.4 m gap). Missing a ring or timing out resets the rings and re-arms the pad. No enemy crosses the Cloud Hopper or the Upper Cloudbank (E13 is on the Upper Runner).",
+   "r2": true,
+   "r3": true
+  },
+  {
+   "id": "W2-8",
+   "title": "Top of the Stalk",
+   "pos": [
+    -18.0,
+    69.4,
+    -24.0
+   ],
+   "reveal": "inside the closed bean-flower bud on the belfry top; the bud opens when Mak Ham Slams the bell's crown plate. Snout Sniff draws the trail up the vine, onto the bell and up the gallery",
+   "steps": [
+    "From CP7 by the stalk's foot on the castle bank, jump from the bank's south rim to the stalk-tip vine V3 and climb to its top",
+    "Jump onto the tip leaf T3",
+    "The Giant's bell swings east-west under the beanstalk's hook (4 s). When it swings east, hop onto its crown plate",
+    "Ham Slam the crown plate: BONG. The first time per save, a two-shot cutaway shows the ring wave cross the castle and the Giant jolt awake ('FEE! FI! FO!... bacon?') and nod off again; the bean-flower bud on the belfry top bursts open. Later slams just ring (1 s, no input lock)",
+    "Ride the bell west and jump to the B2 gallery spur (double jump, or jump plus ledge grab)",
+    "Jump and grab up to the belfry top (68), step onto the open flower's heart and take the truffle",
+    "The flower bursts into bean seeds. Mak grabs one and rides it on a 12 s spiral down the whole world (castle, Cloud Gong, Allotment, through the lower cloud layer, over the cottage) and lands at the garden gate, where Jack and Daisy cheer"
+   ],
+   "objects": [
+    "V3",
+    "T3",
+    "BELL (pendulum) with BELL_CROWN slam target",
+    "BELL_GALLERY",
+    "B2",
+    "belfry top",
+    "bean flower (bud -> open)",
+    "bean-seed parachute (scripted descent seed_descent_r3)"
+   ],
+   "enemies": [
+    "none on the climb; crow E15 stays on the west wall-walk"
+   ],
+   "pass_test": "From CP7 a replay climbs V3, boards BELL at its east extreme, slams the plate (the flower opens), leaves at the west extreme for BELL_GALLERY and collects W2-8. Check: no walkable surface at y >= 64 lies within 9 m of the belfry centre except BELL's plate, BELL_GALLERY, B2 and the belfry top; the stalk above 62.5 has no collision. The first slam per save plays the BONG cutaway on StoryCam_E_v3 (3.2 s, input locked, skippable with jump after 1.0 s) and Mak is still on the plate afterwards; later slams and later visits play the 1 s in-world beat with no input lock. After the truffle fanfare the seed descent runs: Mak follows seed_descent_r3.waypoints in 12.0 s +/- 0.5 (skippable with jump after 1.5 s, which cuts to the landing), stays at least 1.5 m from every collider except the start flower and the landing ground, and ends standing at CP0 (0, 0, 31) with CP0 active. The descent never plays for any other truffle.",
+   "r2": true,
+   "r3": true
+  }
+ ],
+ "extra_truffle": {
+  "id": "W2-100 (proposed id, core to confirm)",
+  "title": "A Hundred Acorns",
+  "pos": [
+   -5.5,
+   24.0,
+   -13.5
+  ],
+  "reveal": "AcornHundred node (required 100); TruffleMarker on the Cloud Landing centre"
+ },
+ "switches": [
+  {
+   "id": "S1",
+   "pos": [
+    14.0,
+    61.4,
+    -25.4
+   ],
+   "where": "gatehouse roof, 3.4 m above the wall-walk (backflip)",
+   "r1": true
+  },
+  {
+   "id": "S2",
+   "pos": [
+    -4.0,
+    56.0,
+    -41.2
+   ],
+   "where": "dresser shelf C"
+  },
+  {
+   "id": "S3",
+   "pos": [
+    22.0,
+    62.0,
+    -44.0
+   ],
+   "where": "NE turret top (via the broom)"
+  }
+ ],
+ "pages": [
+  {
+   "index": 0,
+   "pos": [
+    -16.6,
+    -4.0,
+    -3.4
+   ],
+   "where": "Root Ledge under the north-west rim of the garden island"
+  },
+  {
+   "index": 1,
+   "pos": [
+    -14.4,
+    8.2,
+    18.9
+   ],
+   "where": "Cottage chimney cap"
+  },
+  {
+   "index": 2,
+   "pos": [
+    24.0,
+    28.3,
+    -4.0
+   ],
+   "where": "On the wolf-mask scarecrow's straw hat (Allotment), triple jump",
+   "r1": true
+  },
+  {
+   "index": 3,
+   "pos": [
+    7.2,
+    35.0,
+    -6.0
+   ],
+   "where": "Sealed in the Bluebell bud beside M05; bait Bumble E10 into charging the bud to open it",
+   "r2": true
+  },
+  {
+   "index": 4,
+   "pos": [
+    -3.0,
+    60.0,
+    -41.2
+   ],
+   "where": "Dresser top board, Giant's kitchen",
+   "r2": true
+  }
+ ],
+ "checkpoints": [
+  {
+   "id": "CP0",
+   "pos": [
+    0.0,
+    0.0,
+    31.0
+   ],
+   "where": "Garden gate"
+  },
+  {
+   "id": "CP1",
+   "pos": [
+    5.44,
+    20.4,
+    -6.22
+   ],
+   "where": "Sunleaf"
+  },
+  {
+   "id": "CP2",
+   "pos": [
+    -4.0,
+    24.0,
+    -12.0
+   ],
+   "where": "Cloud Landing"
+  },
+  {
+   "id": "CP2b",
+   "pos": [
+    1.68,
+    33.2,
+    -3.76
+   ],
+   "where": "Leaf M04 at the top of Vine 2",
+   "r1": true
+  },
+  {
+   "id": "CP3",
+   "pos": [
+    14.5,
+    24.0,
+    -3.0
+   ],
+   "where": "Allotment west (lift dock)"
+  },
+  {
+   "id": "CP4",
+   "pos": [
+    -12.5,
+    44.0,
+    -8.5
+   ],
+   "where": "Upper Cloudbank"
+  },
+  {
+   "id": "CP5",
+   "pos": [
+    8.0,
+    50.0,
+    -19.5
+   ],
+   "where": "Castle apron, west of the gate"
+  },
+  {
+   "id": "CP6",
+   "pos": [
+    4.0,
+    54.4,
+    -34.0
+   ],
+   "where": "Giant's chair seat"
+  },
+  {
+   "id": "CP7",
+   "pos": [
+    -6.0,
+    50.0,
+    -19.5
+   ],
+   "where": "Castle bank by the stalk's foot (W2-8 start)",
+   "r1": true
+  }
+ ],
+ "enemies": [
+  {
+   "id": "E01",
+   "type": "PeapodPopper",
+   "pos": [
+    6.0,
+    0.0,
+    26.0
+   ],
+   "patrol": "static in the garden bed; lobs 1 pea every 2.8 s at range <= 9 m",
+   "teaches": "arcing projectiles and the 'approach between volleys' rhythm on safe ground"
+  },
+  {
+   "id": "E02",
+   "type": "PeapodPopper",
+   "pos": [
+    11.5,
+    0.0,
+    28.5
+   ],
+   "patrol": "static; volleys offset 1.4 s from E01",
+   "teaches": "reading two volley timings"
+  },
+  {
+   "id": "E03",
+   "type": "CrowBandit",
+   "pos": [
+    -12.0,
+    7.0,
+    18.0
+   ],
+   "patrol": "perch on the cottage ridge; swoops along the path within 8 m, recovers low for 1.2 s",
+   "teaches": "punch the crow in its low recovery; acorn theft"
+  },
+  {
+   "id": "E04",
+   "type": "CrowBandit",
+   "pos": [
+    2.4,
+    22.6,
+    -5.0
+   ],
+   "patrol": "perch on a stalk knot above the Sunleaf; swoops across the Sunleaf only",
+   "teaches": "the same fight on a 4.8 m wide leaf, in the air"
+  },
+  {
+   "id": "E05",
+   "type": "PeapodPopper",
+   "pos": [
+    19.0,
+    24.4,
+    -13.5
+   ],
+   "patrol": "starts on its mound; 2 volleys (1 pea every 2.4 s), burrows 1.0 s, travels unseen 2.5 s, resurfaces per pod_lanes.resurface_rule on PM01-PM13; slam stun 2.5 s",
+   "teaches": "W2-6 whack-a-pod: Sniff, Ham Slam, slide",
+   "group": "w2_pod_patrol",
+   "r1": true,
+   "start_mound": "PM01",
+   "r2": true
+  },
+  {
+   "id": "E06",
+   "type": "PeapodPopper",
+   "pos": [
+    25.4,
+    24.4,
+    -13.5
+   ],
+   "patrol": "starts on its mound; 2 volleys (1 pea every 2.4 s), burrows 1.0 s, travels unseen 2.5 s, resurfaces per pod_lanes.resurface_rule on PM01-PM13; slam stun 2.5 s",
+   "teaches": "W2-6 whack-a-pod: Sniff, Ham Slam, slide",
+   "group": "w2_pod_patrol",
+   "r1": true,
+   "start_mound": "PM03",
+   "r2": true
+  },
+  {
+   "id": "E07",
+   "type": "PeapodPopper",
+   "pos": [
+    19.2,
+    24.4,
+    -8.5
+   ],
+   "patrol": "starts on its mound; 2 volleys (1 pea every 2.4 s), burrows 1.0 s, travels unseen 2.5 s, resurfaces per pod_lanes.resurface_rule on PM01-PM13; slam stun 2.5 s",
+   "teaches": "W2-6 whack-a-pod: Sniff, Ham Slam, slide",
+   "group": "w2_pod_patrol",
+   "r1": true,
+   "start_mound": "PM05",
+   "r2": true
+  },
+  {
+   "id": "E08",
+   "type": "PeapodPopper",
+   "pos": [
+    21.2,
+    24.4,
+    1.5
+   ],
+   "patrol": "starts on its mound; 2 volleys (1 pea every 2.4 s), burrows 1.0 s, travels unseen 2.5 s, resurfaces per pod_lanes.resurface_rule on PM01-PM13; slam stun 2.5 s",
+   "teaches": "W2-6 whack-a-pod: Sniff, Ham Slam, slide",
+   "group": "w2_pod_patrol",
+   "r1": true,
+   "start_mound": "PM09",
+   "r2": true
+  },
+  {
+   "id": "E09",
+   "type": "PeapodPopper",
+   "pos": [
+    22.2,
+    24.4,
+    6.5
+   ],
+   "patrol": "starts on its mound; 2 volleys (1 pea every 2.4 s), burrows 1.0 s, travels unseen 2.5 s, resurfaces per pod_lanes.resurface_rule on PM01-PM13; slam stun 2.5 s",
+   "teaches": "W2-6 whack-a-pod: Sniff, Ham Slam, slide",
+   "group": "w2_pod_patrol",
+   "r1": true,
+   "start_mound": "PM12",
+   "r2": true
+  },
+  {
+   "id": "E10",
+   "type": "BumbleBruiser",
+   "pos": [
+    -1.2,
+    34.5,
+    -14.0
+   ],
+   "patrol": "orbit around (-1.2, 34.5, -6.0) r 8.0, 12 s per lap. When Mak stands on M04-M06 within 7 m and is within 6 m of the closed bud, E10 flies to a line-up point 5 m from Mak on the far side from the bud (bees hate bluebells that will not open), lines up 0.8 s (buzz rises, stinger glints) and charges 9 m straight through Mak's spot toward the bud. If Mak hops aside or to the next leaf, the bee smacks into the bud, which bursts open, and E10 lies dizzy in the cup for 2.0 s (stomp to defeat; reuses the E16 plinth-stun code). Elsewhere on M04-M08 (or once the bud is open) it keeps the round 1 hover, line-up and charge.",
+   "teaches": "dodge a charge on narrow leaves, then turn the charge into a tool",
+   "r2": true
+  },
+  {
+   "id": "E11",
+   "type": "BumbleBruiser",
+   "pos": [
+    23.0,
+    26.5,
+    5.0
+   ],
+   "patrol": "circle around the sunflower (18, 26.5, 5) r 5, 9 s per lap; passive (patrol only, no charge) until 3 pods of w2_pod_patrol are defeated",
+   "teaches": "charge-dodge on open ground",
+   "r1": true
+  },
+  {
+   "id": "E12",
+   "type": "BumbleBruiser",
+   "pos": [
+    16.0,
+    26.5,
+    -12.0
+   ],
+   "patrol": "ping-pong line (16, 26.5, -12) <-> (30, 26.5, 2), 7 s each way; passive (patrol only, no charge) until 3 pods of w2_pod_patrol are defeated",
+   "teaches": "two bruisers at once while poppers lob",
+   "r1": true
+  },
+  {
+   "id": "E13",
+   "type": "BumbleBruiser",
+   "pos": [
+    -6.5,
+    49.5,
+    -4.5
+   ],
+   "patrol": "Upper Runner guard (r3). Patrols a straight line from above U01 (-6.5, 49.5, -4.5) to above U04 (2.5, 51.5, -13.2), 6 s each way, and never crosses the Upper Cloudbank. Charges only while Mak stands on U02 or U03: within 0.4 s it moves to a line-up point 5 m from Mak along the runner on the castle side (Mak on U03: about (0.0, 48.2, -15.6); on U02: about (1.7, 47.0, -7.4)) at Mak's centre height, lines up 0.8 s (buzz rises, stinger glints) and charges 9 m at 11 m/s back along the runner toward U01. Dodge: jump straight up (a standing jump clears the bee by about 1 m), or ride the U02 sway out of the line. A hit knocks Mak 3 m along the runner plus 2 m/s up, which lands him on CC1 (from U02 at about r 4.3, az 138; from U03 at about r 3.9, az 55, around the CC1 axis). After a charge it overshoots and spins dizzy for 1.5 s (a jump kick or stomp defeats it), then returns to its line; 2.5 s cooldown. No aggro while Mak is on UC, U01, U04 or the bank.",
+   "teaches": "jump a charge on a narrow swaying leaf; the knock-off is caught by CC1",
+   "r2": true,
+   "r3": true
+  },
+  {
+   "id": "E14",
+   "type": "CrowBandit",
+   "pos": [
+    22.0,
+    62.0,
+    -24.0
+   ],
+   "patrol": "perch on the SE turret; swoops the south wall-walk and the gatehouse roof; joins the E16 brawl in the courtyard once the cage opens; r3: during the E16 chase it stays on the SE spire eave and heckles ('Run, Wolfie, run!') instead of swooping",
+   "teaches": "fighting on a 2 m wall-walk with crenellations",
+   "r1": true,
+   "r3": true
+  },
+  {
+   "id": "E15",
+   "type": "CrowBandit",
+   "pos": [
+    -18.0,
+    62.0,
+    -44.0
+   ],
+   "patrol": "perch on the NW turret; swoops the west wall-walk and balcony B1 only (never the stalk-tip vine or the bell); the west wall-walk is now a 1.7 m lane between the merlons and WALL_SCREEN_W",
+   "teaches": "last check before the W2-8 climb",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "E16",
+   "type": "WoollyWolf (goose-costume variant)",
+   "pos": [
+    13.0,
+    50.8,
+    -35.0
+   ],
+   "r1": true,
+   "patrol": "Inside the goose cage until S1-S3 are pressed. Each switch advances the costume stage, in any order: after the 1st, a grey wolf ear pops out of the bill hood ('HONK.'); after the 2nd, a bushy wolf tail flops out of the suit ('Hhhonk?'); after the 3rd, the hood slides over its eyes ('...baa?'), the cage opens and the portcullis drops (CLANG). Then a waddle-flee chase: no charge and no contact damage (a touch only bumps Mak 2 m). It runs a clockwise oval round the plinth, centre (12.5, 50, -34), radii 3.6 (x) by 6.0 (z), so x 8.9..16.1 and z -40..-28, clear of the Giant's stairs (x 17..20) and the kitchen arch, at 5.5 m/s (6.2 after hit 1). If Mak stands in its path within 4 m it flap-hops over him (0.4 s crouch telegraph, 1.2 m high, 0.6 s airborne). Every second lap it darts for the gate and bonks the portcullis at (14, 50, -25.5), dazed 0.8 s. Hits: a dive tackle (attack while running at 6.8 m/s or more; the oval's 12 m straights allow it) or a jump kick; a punch or kick counts only while it is dazed; a dive under a flap-hop misses. Hit 1: the bill hood flies off ('I can SEE!'). Hit 2: the suit comes off and it spins out through the lifting portcullis in its underwear ('MOTHER!'), sets w2_goose_wolf and leaves the costume behind. If Mak leaves the courtyard the chase pauses (the wolf hides behind the plinth, 'honk?') and the portcullis lifts.",
+   "teaches": "the dive as an attack, against a fleeing target in a walled arena (no other mission uses it in combat)",
+   "r3": true
+  },
+  {
+   "id": "E17",
+   "type": "CrowBandit (Captain Caw variant: feathered tricorne, bulging loot sack holding the Golden Harp)",
+   "pos": [
+    -20.0,
+    44.8,
+    -10.0
+   ],
+   "present_while": "W2-4 not collected",
+   "perches": {
+    "TAUNT": [
+     -20.0,
+     44.8,
+     -10.0
+    ],
+    "PERCH1": [
+     -29.5,
+     49.6,
+     -16.5
+    ],
+    "PERCH2": [
+     -38.0,
+     50.6,
+     -26.0
+    ],
+    "TREE": [
+     -41.6,
+     50.2,
+     -39.0
+    ]
+   },
+   "perch_note": "r3: at PERCH1 and PERCH2 Caw follows the current swing position of the pad below him (LB2, LB4) with a 0.15 s lag, so the sack stays over the pad. Mak bouncing in place meets the sack at the top of every bounce; timing the jump kick at the apex is the whole skill.",
+   "patrol": "On first approach to the Upper Cloudbank's west rim (within 8 m of TAUNT) Caw taunts ('Finders keepers, piglet!') and flies to PERCH1. At a perch he hovers, bobbing 0.2 m, and tracks the pad below (perch_note). He drifts 1 m downwind on H4 gusts only while Mak is not mid-bounce (on CP4, the islet or between pads). No contact damage: if Mak touches him or the sack without attacking, he flaps 1.5 m up ('Missed me!') and settles back after 1.2 s.",
+   "hits": [
+    "Hit 1: a jump kick whose hitbox touches the sack sphere at the top of an LB2 bounce: the harp squeals, 3 acorns drop, Caw flees to PERCH2",
+    "Hit 2: the same at the top of an LB4 bounce: 3 acorns; he flees to the blossom-tree crown and sulks",
+    "Hit 3: a Ham Slam on the islet within 2 m of the trunk shakes him down dizzy (2.5 s); a punch or kick bursts the sack"
+   ],
+   "progress": "a fall respawns Mak at CP4; Caw waits at the last perch reached (hit count kept for the visit)",
+   "defeat": "feathers burst, the tricorne spins off, the Golden Harp lands on the islet singing 'At last, an audience!' and plays the W2-4 truffle out",
+   "teaches": "bounce plus jump kick in a crosswind; no other mission combines them",
+   "r2": true,
+   "r3": true,
+   "sack": {
+    "prop": "loot sack on a 0.8 m rope (3 rope bones) below Caw",
+    "hit_volume": "sphere r 1.3 centred 0.8 m below Caw: y 48.8 at PERCH1 and 49.8 at PERCH2 (Mak's centre height at the top of an LB2/LB4 bounce)",
+    "harp": "the Golden Harp's face peeks out of the sack mouth and sings; the sack is the target",
+    "r3": true
+   }
+  }
+ ],
+ "hazards": [
+  {
+   "id": "H1",
+   "type": "kill_plane",
+   "y": -15.0,
+   "note": "WorldRoot.kill_y = -15; falling respawns at the last checkpoint bookmark (no fall damage elsewhere)"
+  },
+  {
+   "id": "H2",
+   "type": "wind_zone (group wind_zone)",
+   "center": [
+    -4.0,
+    57.4,
+    -34.0
+   ],
+   "size": [
+    10.0,
+    3.6,
+    8.0
+   ],
+   "dir": [
+    1,
+    0,
+    0
+   ],
+   "cycle": [
+    {
+     "phase": "inhale",
+     "s": 2.0,
+     "wind": -2.5,
+     "ground_scale": 0.65
+    },
+    {
+     "phase": "hold",
+     "s": 0.5,
+     "wind": 0.0
+    },
+    {
+     "phase": "snore blast",
+     "s": 1.6,
+     "wind": 11.0,
+     "ground_scale": 0.65
+    },
+    {
+     "phase": "rest",
+     "s": 1.2,
+     "wind": 0.0
+    }
+   ],
+   "telegraph": "Giant's nostrils flare and nightcap rises during the inhale; crumbs and Z particles stream along +x in the blast; low brass 'HRRONK' sfx_giant_snore; r3: the CANDLE flame leans west in the inhale, lies flat east in the blast and stands upright in hold and rest",
+   "r1": true,
+   "sleep_talk": {
+    "every_cycles": 4,
+    "lines": [
+     "Fee... fi... fo... hum... more toast...",
+     "Mother, the goose is sulking again...",
+     "Nngh... smells like... bacon?"
+    ],
+    "rule": "lines 1 and 2 alternate every 4th cycle; line 3 plays instead whenever Mak is within 3 m of the head",
+    "sneeze_line": "...bless me..."
+   },
+   "r3": true
+  },
+  {
+   "id": "H3",
+   "type": "lee_zones (wind x0.15)",
+   "boxes": [
+    {
+     "behind": "WATCH",
+     "center": [
+      0.3,
+      57.0,
+      -32.0
+     ],
+     "size": [
+      2.0,
+      2.4,
+      3.0
+     ]
+    },
+    {
+     "behind": "TEACUP",
+     "center": [
+      -2.0,
+      57.4,
+      -35.6
+     ],
+     "size": [
+      2.6,
+      3.0,
+      2.6
+     ]
+    },
+    {
+     "behind": "LOAF",
+     "center": [
+      -4.9,
+      57.4,
+      -32.6
+     ],
+     "size": [
+      2.0,
+      3.0,
+      4.4
+     ]
+    },
+    {
+     "behind": "BUTTER",
+     "center": [
+      -7.3,
+      56.8,
+      -30.9
+     ],
+     "size": [
+      1.8,
+      2.0,
+      1.4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "H4",
+   "type": "wind_zone crosswind",
+   "center": [
+    -32.0,
+    46.0,
+    -22.0
+   ],
+   "size": [
+    22.0,
+    8.0,
+    26.0
+   ],
+   "dir": [
+    0.3,
+    0,
+    1.0
+   ],
+   "base": 2.5,
+   "gust": 4.5,
+   "gust_every_s": 5.0,
+   "gust_len_s": 1.5,
+   "telegraph": "white wind ribbons streak through 0.5 s before each gust; leaves on tendrils lean"
+  },
+  {
+   "id": "H5",
+   "type": "vanishing puff clouds",
+   "ids": [
+    "PUFF01",
+    "PUFF02",
+    "PUFF03",
+    "PUFF04",
+    "PUFF05",
+    "PUFF06",
+    "PUFF07",
+    "PUFF08",
+    "PUFF09",
+    "PUFF10",
+    "PUFF11"
+   ],
+   "after_touch_s": 0.25,
+   "respawn_s": 4.0,
+   "telegraph": "puff wobbles and greys when touched"
+  },
+  {
+   "id": "H6",
+   "type": "pea projectiles",
+   "damage": 1,
+   "note": "from Peapod Poppers; orange-glinting peas, visible shadow on landing spot"
+  },
+  {
+   "id": "H7",
+   "type": "moving obstacle",
+   "target": "WATCH",
+   "note": "minute hand bar 1.4 x 0.25 x 0.2 m rotates 60 deg/s on the watch face; shoves Mak (add_impulse 4 m/s), no damage"
+  },
+  {
+   "id": "H2b",
+   "type": "wind_zone nose pull (group wind_zone, inhale only)",
+   "center": [
+    -8.5,
+    57.4,
+    -34.0
+   ],
+   "size": [
+    4.0,
+    3.6,
+    8.0
+   ],
+   "dir": [
+    -1,
+    0,
+    0
+   ],
+   "wind_inhale": 4.5,
+   "ground_scale": 0.65,
+   "r1": true,
+   "note": "replaces H2's -2.5 inside this box during the inhale; idle on the ground for 2 s = about 6 m of drift, enough to reach the nose"
+  },
+  {
+   "id": "H2c",
+   "type": "sneeze cannon (inhale only)",
+   "center": [
+    -8.7,
+    56.6,
+    -34.0
+   ],
+   "size": [
+    0.8,
+    1.0,
+    1.6
+   ],
+   "r1": true,
+   "effect": "The Giant snorts and SNEEZES ('ACHOO!'). Mak is launched on a scripted 2.0 s arc along z -34 (feet: from (-8.7, 56.6) up to an apex of 63.5 at x -2.0, then down to the CHAIR seat CP6 (4, 54.4, -34)), lands with a cushion squash and a 0.3 s dizzy wobble, and the Giant mumbles '...bless me...'. Input is locked only during the arc, health is unchanged and the camera follows. The first sneeze per save passes through acorn arc A41. Clearances: 0.8 m over the loaf ridge, 5 m over the teacup, 3 m from the candle. Same retry cost as before (Mak ends on CP6); BEARD and POMPOM are untouched.",
+   "r3": true
+  },
+  {
+   "id": "H3b",
+   "type": "inhale lee zones (H2/H2b wind x0.15 during the inhale)",
+   "r1": true,
+   "boxes": [
+    {
+     "behind": "LOAF (west side)",
+     "center": [
+      -8.2,
+      57.4,
+      -32.6
+     ],
+     "size": [
+      1.0,
+      3.0,
+      4.4
+     ]
+    },
+    {
+     "behind": "BUTTER (west side)",
+     "center": [
+      -10.1,
+      56.8,
+      -30.9
+     ],
+     "size": [
+      0.6,
+      2.0,
+      1.2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "H8",
+   "type": "droopy leaves",
+   "ids": [
+    "L06",
+    "L07",
+    "L08"
+   ],
+   "r1": true,
+   "note": "sag 0.9 m 0.6 s after landing; no damage"
+  }
+ ],
+ "acorn_groups": [
+  {
+   "id": "A01",
+   "shape": "LINE",
+   "count": 8,
+   "pos": [
+    0,
+    0,
+    33
+   ],
+   "rot_y": 0.0,
+   "zone": "Z0",
+   "length": 13.0
+  },
+  {
+   "id": "A02",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    9,
+    0,
+    22
+   ],
+   "rot_y": 0.0,
+   "zone": "Z0",
+   "radius": 2.6
+  },
+  {
+   "id": "A03",
+   "shape": "LINE",
+   "count": 5,
+   "pos": [
+    -11.0,
+    0,
+    3.5
+   ],
+   "rot_y": 41.28,
+   "zone": "Z0",
+   "length": 5.46,
+   "note": "points over the rim toward the hidden Root Ledge"
+  },
+  {
+   "id": "A04",
+   "shape": "CRATE",
+   "count": 5,
+   "pos": [
+    -8.5,
+    0,
+    21.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z0",
+   "note": "Ham Slam crate"
+  },
+  {
+   "id": "A05",
+   "shape": "LINE",
+   "count": 5,
+   "pos": [
+    -13.3,
+    7.2,
+    18.5
+   ],
+   "rot_y": -69.59,
+   "zone": "Z0",
+   "length": 4.59
+  },
+  {
+   "id": "A06",
+   "shape": "POINTS",
+   "count": 8,
+   "pos": [
+    1.59,
+    1.6,
+    4.05
+   ],
+   "rot_y": 0.0,
+   "zone": "Z1",
+   "points": [
+    [
+     1.59,
+     1.6,
+     4.05
+    ],
+    [
+     4.06,
+     2.7,
+     1.89
+    ],
+    [
+     4.54,
+     3.8,
+     -1.33
+    ],
+    [
+     2.82,
+     4.9,
+     -4.01
+    ],
+    [
+     -0.16,
+     6.0,
+     -4.81
+    ],
+    [
+     -2.83,
+     7.1,
+     -3.37
+    ],
+    [
+     -3.76,
+     8.2,
+     -0.48
+    ],
+    [
+     -2.44,
+     9.3,
+     2.33
+    ]
+   ]
+  },
+  {
+   "id": "A07",
+   "shape": "POINTS",
+   "count": 5,
+   "pos": [
+    0.25,
+    9.8,
+    4.02
+   ],
+   "rot_y": 0.0,
+   "zone": "Z1",
+   "points": [
+    [
+     0.25,
+     9.8,
+     4.02
+    ],
+    [
+     0.25,
+     10.85,
+     4.02
+    ],
+    [
+     0.25,
+     11.9,
+     4.02
+    ],
+    [
+     0.25,
+     12.95,
+     4.02
+    ],
+    [
+     0.25,
+     14.0,
+     4.02
+    ]
+   ]
+  },
+  {
+   "id": "A08",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    5.44,
+    20.4,
+    -6.22
+   ],
+   "rot_y": 0.0,
+   "zone": "Z1",
+   "radius": 1.6
+  },
+  {
+   "id": "A09",
+   "shape": "POINTS",
+   "count": 5,
+   "pos": [
+    5.233,
+    18.173946636235375,
+    -1.081
+   ],
+   "rot_y": 0.0,
+   "zone": "Z1",
+   "points": [
+    [
+     5.23,
+     18.17,
+     -1.08
+    ],
+    [
+     5.28,
+     21.0,
+     -2.22
+    ],
+    [
+     5.33,
+     22.43,
+     -3.37
+    ],
+    [
+     5.37,
+     22.01,
+     -4.51
+    ],
+    [
+     5.42,
+     19.87,
+     -5.65
+    ]
+   ]
+  },
+  {
+   "id": "A10",
+   "shape": "LINE",
+   "count": 6,
+   "pos": [
+    -2.0,
+    24,
+    -11.5
+   ],
+   "rot_y": 59.74,
+   "zone": "Z2",
+   "length": 6.95
+  },
+  {
+   "id": "A11",
+   "shape": "LINE",
+   "count": 8,
+   "pos": [
+    1.5,
+    24,
+    -12.3
+   ],
+   "rot_y": -103.9,
+   "zone": "Z2",
+   "length": 10.4
+  },
+  {
+   "id": "A12a",
+   "shape": "CRATE",
+   "count": 5,
+   "pos": [
+    17.5,
+    24,
+    -15.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z2"
+  },
+  {
+   "id": "A12b",
+   "shape": "CRATE",
+   "count": 5,
+   "pos": [
+    32.5,
+    24,
+    -2.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z2"
+  },
+  {
+   "id": "A12c",
+   "shape": "CRATE",
+   "count": 5,
+   "pos": [
+    20.5,
+    24,
+    8.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z2"
+  },
+  {
+   "id": "A13",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    24,
+    24,
+    -4
+   ],
+   "rot_y": 0.0,
+   "zone": "Z2",
+   "radius": 3.0
+  },
+  {
+   "id": "A14",
+   "shape": "LINE",
+   "count": 6,
+   "pos": [
+    15,
+    24,
+    -1
+   ],
+   "rot_y": -90.0,
+   "zone": "Z2",
+   "length": 16.0
+  },
+  {
+   "id": "A15",
+   "shape": "POINTS",
+   "count": 4,
+   "pos": [
+    28.2,
+    27.9,
+    -11.6
+   ],
+   "rot_y": 0.0,
+   "zone": "Z2",
+   "points": [
+    [
+     28.2,
+     27.9,
+     -11.6
+    ],
+    [
+     27.6,
+     28.3,
+     -11.6
+    ],
+    [
+     27.0,
+     28.7,
+     -11.6
+    ],
+    [
+     26.6,
+     29.4,
+     -11.6
+    ]
+   ]
+  },
+  {
+   "id": "A16",
+   "shape": "POINTS",
+   "count": 11,
+   "pos": [
+    -18.1,
+    25.8,
+    -10.9
+   ],
+   "rot_y": 0.0,
+   "zone": "Z3",
+   "points": [
+    [
+     -18.1,
+     25.8,
+     -10.9
+    ],
+    [
+     -19.5,
+     28.4,
+     -14.6
+    ],
+    [
+     -21.6,
+     31.0,
+     -17.8
+    ],
+    [
+     -25.0,
+     32.1,
+     -19.6
+    ],
+    [
+     -28.24,
+     32.1,
+     -15.28
+    ],
+    [
+     -31.48,
+     32.1,
+     -10.96
+    ],
+    [
+     -36.28,
+     34.1,
+     -4.56
+    ],
+    [
+     -28.18,
+     33.3,
+     -4.56
+    ],
+    [
+     -24.5,
+     38.1,
+     -3.0
+    ],
+    [
+     -27.5,
+     42.9,
+     -8.0
+    ],
+    [
+     -24.5,
+     46.6,
+     -8.5
+    ]
+   ],
+   "r1": true
+  },
+  {
+   "id": "A17",
+   "shape": "POINTS",
+   "count": 8,
+   "pos": [
+    -4.56,
+    25.8,
+    -5.49
+   ],
+   "rot_y": 0.0,
+   "zone": "Z3",
+   "points": [
+    [
+     -4.56,
+     25.8,
+     -5.49
+    ],
+    [
+     -4.75,
+     27.0,
+     -2.62
+    ],
+    [
+     -2.74,
+     28.2,
+     -0.63
+    ],
+    [
+     1.68,
+     33.8,
+     -3.76
+    ],
+    [
+     2.54,
+     35.0,
+     -7.22
+    ],
+    [
+     1.28,
+     36.2,
+     -10.84
+    ],
+    [
+     -1.48,
+     37.4,
+     -13.86
+    ],
+    [
+     -4.9,
+     38.6,
+     -13.18
+    ]
+   ]
+  },
+  {
+   "id": "A18",
+   "shape": "POINTS",
+   "count": 5,
+   "pos": [
+    0.6,
+    28.8,
+    -0.9
+   ],
+   "rot_y": 0.0,
+   "zone": "Z3",
+   "points": [
+    [
+     0.6,
+     28.8,
+     -0.9
+    ],
+    [
+     0.6,
+     29.85,
+     -0.9
+    ],
+    [
+     0.6,
+     30.9,
+     -0.9
+    ],
+    [
+     0.6,
+     31.95,
+     -0.9
+    ],
+    [
+     0.6,
+     33.0,
+     -0.9
+    ]
+   ]
+  },
+  {
+   "id": "A19",
+   "shape": "RING",
+   "count": 6,
+   "pos": [
+    7.2,
+    35.2,
+    -6.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z3",
+   "radius": 1.0
+  },
+  {
+   "id": "A20",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    -13.0,
+    44,
+    -8.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z4",
+   "radius": 3.0
+  },
+  {
+   "id": "A21",
+   "shape": "POINTS",
+   "count": 5,
+   "pos": [
+    -24.5,
+    46.4,
+    -12.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z4",
+   "points": [
+    [
+     -24.5,
+     46.4,
+     -12.5
+    ],
+    [
+     -29.5,
+     47.0,
+     -16.5
+    ],
+    [
+     -34.0,
+     47.6,
+     -21.0
+    ],
+    [
+     -38.0,
+     48.0,
+     -26.0
+    ],
+    [
+     -40.5,
+     48.4,
+     -31.5
+    ]
+   ]
+  },
+  {
+   "id": "A22",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    -40.5,
+    46.0,
+    -38.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z4",
+   "radius": 1.8
+  },
+  {
+   "id": "A23",
+   "shape": "POINTS",
+   "count": 4,
+   "pos": [
+    -6.5,
+    45.800000000000004,
+    -4.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z4",
+   "points": [
+    [
+     -6.5,
+     45.8,
+     -4.5
+    ],
+    [
+     -4.0,
+     47.0,
+     -8.0
+    ],
+    [
+     -0.5,
+     48.2,
+     -10.6
+    ],
+    [
+     2.5,
+     49.4,
+     -13.2
+    ]
+   ]
+  },
+  {
+   "id": "A24",
+   "shape": "LINE",
+   "count": 6,
+   "pos": [
+    2.5,
+    50,
+    -17.8
+   ],
+   "rot_y": -74.13,
+   "zone": "Z5",
+   "length": 9.88
+  },
+  {
+   "id": "A25",
+   "shape": "RING",
+   "count": 8,
+   "pos": [
+    13.0,
+    50,
+    -35.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "radius": 3.4
+  },
+  {
+   "id": "A26",
+   "shape": "POINTS",
+   "count": 8,
+   "pos": [
+    18.5,
+    51.5,
+    -27.8
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "points": [
+    [
+     18.5,
+     51.5,
+     -27.8
+    ],
+    [
+     18.5,
+     52.5,
+     -29.4
+    ],
+    [
+     18.5,
+     53.5,
+     -31.0
+    ],
+    [
+     18.5,
+     54.5,
+     -32.6
+    ],
+    [
+     18.5,
+     55.5,
+     -34.2
+    ],
+    [
+     18.5,
+     56.5,
+     -35.8
+    ],
+    [
+     18.5,
+     57.5,
+     -37.4
+    ],
+    [
+     18.5,
+     58.5,
+     -39.0
+    ]
+   ]
+  },
+  {
+   "id": "A27",
+   "shape": "LINE",
+   "count": 8,
+   "pos": [
+    10.0,
+    58.0,
+    -25.0
+   ],
+   "rot_y": 90.0,
+   "zone": "Z6",
+   "length": 20.0,
+   "r1": true,
+   "note": "starts west of the gatehouse block"
+  },
+  {
+   "id": "A28",
+   "shape": "LINE",
+   "count": 8,
+   "pos": [
+    -10.0,
+    58,
+    -43.0
+   ],
+   "rot_y": -90.0,
+   "zone": "Z6",
+   "length": 24.0
+  },
+  {
+   "id": "A29",
+   "shape": "POINTS",
+   "count": 4,
+   "pos": [
+    -4.0,
+    52.5,
+    -41.2
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "points": [
+    [
+     -4.0,
+     52.5,
+     -41.2
+    ],
+    [
+     0.0,
+     54.5,
+     -41.2
+    ],
+    [
+     -4.0,
+     56.5,
+     -41.2
+    ],
+    [
+     0.0,
+     58.5,
+     -41.2
+    ]
+   ]
+  },
+  {
+   "id": "A30",
+   "shape": "LINE",
+   "count": 5,
+   "pos": [
+    0.0,
+    55.6,
+    -33.8
+   ],
+   "rot_y": 90.0,
+   "zone": "Z5",
+   "length": 8.0,
+   "note": "in the snore lane: greed vs timing"
+  },
+  {
+   "id": "A31",
+   "shape": "CRATE",
+   "count": 5,
+   "pos": [
+    -3.5,
+    50,
+    -27.5
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5"
+  },
+  {
+   "id": "A32",
+   "shape": "ARC",
+   "count": 8,
+   "pos": [
+    -18.0,
+    58.0,
+    -24.0
+   ],
+   "rot_y": 180.0,
+   "zone": "Z6",
+   "radius": 5.75,
+   "arc_degrees": 180,
+   "note": "ARC opens toward local -Z; rot_y 180 faces it south"
+  },
+  {
+   "id": "A34",
+   "shape": "ARC",
+   "count": 5,
+   "pos": [
+    0.55,
+    7.2,
+    -0.55
+   ],
+   "rot_y": 0.0,
+   "zone": "Z1",
+   "radius": 3.1,
+   "arc_from_az": -15,
+   "arc_to_az": 75,
+   "note": "along the Knot Shelf K1",
+   "r1": true
+  },
+  {
+   "id": "A35",
+   "shape": "POINTS",
+   "count": 6,
+   "pos": [
+    12.0,
+    49.0,
+    -17.6
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "r1": true,
+   "points": [
+    [
+     12.0,
+     49.0,
+     -17.6
+    ],
+    [
+     12.0,
+     45.0,
+     -15.4
+    ],
+    [
+     12.0,
+     40.5,
+     -13.0
+    ],
+    [
+     12.0,
+     35.5,
+     -10.4
+    ],
+    [
+     12.0,
+     30.5,
+     -7.8
+    ],
+    [
+     12.0,
+     26.0,
+     -5.4
+    ]
+   ],
+   "note": "traces the marked leap from the castle bank onto the Allotment"
+  },
+  {
+   "id": "A36",
+   "shape": "CRATE",
+   "count": 10,
+   "pos": [
+    -18.0,
+    7.6,
+    10.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z0",
+   "note": "on OAK_TOP (magic-bean secret)",
+   "r1": true,
+   "note_r2": "magic-bean payout raised from 5 to 10",
+   "r2": true
+  },
+  {
+   "id": "A37",
+   "shape": "RING",
+   "count": 6,
+   "pos": [
+    -18.0,
+    7.6,
+    10.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z0",
+   "radius": 1.5,
+   "r1": true
+  },
+  {
+   "id": "A38",
+   "shape": "POINTS",
+   "count": 4,
+   "pos": [
+    -9.2,
+    57.2,
+    -36.4
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "points": [
+    [
+     -9.6,
+     57.2,
+     -36.2
+    ],
+    [
+     -8.8,
+     57.2,
+     -36.2
+    ],
+    [
+     -9.2,
+     57.2,
+     -36.8
+    ],
+    [
+     -9.2,
+     57.5,
+     -36.4
+    ]
+   ],
+   "note": "sugar lumps in the sugar bowl",
+   "r1": true,
+   "note_r2": "now ring the sugar bowl's foot on the table (the lid is not walkable)",
+   "r2": true
+  },
+  {
+   "id": "A39",
+   "shape": "DROP",
+   "count": 6,
+   "pos": [
+    -29.5,
+    48.8,
+    -16.5
+   ],
+   "zone": "Z4",
+   "note": "Captain Caw drops 3 acorns at PERCH1 and 3 at PERCH2 when hit (once per save)",
+   "r2": true
+  },
+  {
+   "id": "A40",
+   "shape": "RING",
+   "count": 5,
+   "pos": [
+    -11.0,
+    54.2,
+    -21.1
+   ],
+   "radius": 0.8,
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "note": "on the Giant's boot cuff rim",
+   "r2": true
+  },
+  {
+   "id": "A41",
+   "shape": "POINTS",
+   "count": 5,
+   "pos": [
+    -3.5,
+    63.8,
+    -34.0
+   ],
+   "rot_y": 0.0,
+   "zone": "Z5",
+   "points": [
+    [
+     -6.0,
+     61.6,
+     -34.0
+    ],
+    [
+     -3.5,
+     63.8,
+     -34.0
+    ],
+    [
+     -1.0,
+     63.9,
+     -34.0
+    ],
+    [
+     1.5,
+     61.0,
+     -34.0
+    ],
+    [
+     3.2,
+     57.3,
+     -34.0
+    ]
+   ],
+   "note": "consolation arc along the sneeze trajectory (Mak's centre height); spawns only for the first sneeze per save and is collected by the arc itself",
+   "r3": true
+  }
+ ],
+ "acorn_total": 266,
+ "props_zones": [
+  {
+   "id": "PZ1",
+   "kind": "flower_meadow",
+   "area": "garden island except path (2.2 m) and building pads",
+   "density_per_m2": 1.0,
+   "items": "daisies, foxgloves, hollyhocks, poppies (procedural clusters, wind sway)"
+  },
+  {
+   "id": "PZ2",
+   "kind": "picket_fence",
+   "spline": "island rim inset 1.2 m (ellipse centre (0,14) r 20.8)",
+   "gaps": "south gate z>33, NW peek at (-14.6,-0.6), stalk sector x -4..4 z<-5",
+   "post_spacing": 1.2,
+   "height": 0.9,
+   "color": "#F7F1E3"
+  },
+  {
+   "id": "PZ3",
+   "kind": "vegetable_beds",
+   "boxes": [
+    [
+     2,
+     0,
+     24,
+     12,
+     6
+    ]
+   ],
+   "note": "x 2..14, z 24..30, rows of lettuces and bean canes; E01/E02 live here"
+  },
+  {
+   "id": "PZ4",
+   "kind": "trees",
+   "items": [
+    [
+     12,
+     1.8,
+     28,
+     "apple tree on the knoll, 6 m"
+    ],
+    [
+     -18,
+     0,
+     10,
+     "round oak, 7 m"
+    ],
+    [
+     -17,
+     0,
+     26,
+     "round oak, 6 m"
+    ],
+    [
+     -5,
+     0,
+     33,
+     "pear tree, 5 m"
+    ]
+   ]
+  },
+  {
+   "id": "PZ5",
+   "kind": "rim_rocks_and_roots",
+   "area": "island rim and underside cone",
+   "note": "chunky faceted rocks, hanging roots 2-6 m long"
+  },
+  {
+   "id": "PZ6",
+   "kind": "cloud_puff_trim",
+   "area": "every cloud deck rim",
+   "note": "spheres r 0.8-2.0, 30% overlapping the edge, soft lavender underside",
+   "note_r3": "castle bank south rim between x -12 and 24: trim puffs hang below y 50 only (none above the walkable top), keeping the castle sightline from the spawn",
+   "r3": true
+  },
+  {
+   "id": "PZ7",
+   "kind": "allotment_rows",
+   "boxes": [
+    [
+     14,
+     24,
+     -13.5,
+     16,
+     1.6
+    ],
+    [
+     14,
+     24,
+     -8.5,
+     16,
+     1.6
+    ],
+    [
+     14,
+     24,
+     -3.5,
+     16,
+     1.6
+    ],
+    [
+     14,
+     24,
+     1.5,
+     16,
+     1.6
+    ],
+    [
+     14,
+     24,
+     6.5,
+     14,
+     1.6
+    ]
+   ],
+   "items": "giant carrot tops 1.5 m, lettuce 1.2 m, pea trellis wigwams at (16,24,-2) and (29,24,-9)"
+  },
+  {
+   "id": "PZ8",
+   "kind": "stalk_dressing",
+   "area": "beanstalk 0..59 m",
+   "items": "small decorative leaves every 1.5 m, curling tendrils, hanging bean pods (visual), knots"
+  },
+  {
+   "id": "PZ9",
+   "kind": "castle_dressing",
+   "items": "6 wolf banners (red, iron wolf head) on the south and east walls, lanterns at the gate, ivy and stalk tendrils on the south wall, barrels, a giant spoon leaning by the hearth, jars and plates on the dresser"
+  }
+ ],
+ "build_order": [
+  "1. WorldRoot scene res://scenes/worlds/w2/W2.tscn (world_id W2, display_name 'Beanstalk Skyway', music_key w2_beanstalk, kill_y -15). Add WorldEnvironment, sun, fog and sky from LIGHTING.",
+  "2. Garden island: heightfield mesh from TERRAIN.island + paths + roots; underside cone; trimesh collision for the top only.",
+  "3. Beanstalk: sweep 3 twisted tubes along TERRAIN.stalk.spline; capsule-chain collision (one capsule per spline segment).",
+  "4. Platforms from data/levels/W2.json 'platforms' (leaves, clouds, boxes, discs) in zone order Z0..Z6; leaves face rot_y, stems are visual only.",
+  "5. Castle: bank (ellipse + core box), curtain walls (4 boxes, 2 m thick, 8 m high, gate and partition arches as gaps), wall-walk tops, turrets, belfry (cylinder r 5 to 68), balconies B1/B2 (ring meshes, B2 notch), buttress slot walls (two 0.8 x 3.0 x 8 m boxes at x -19.9 and -16.1, z -19.5..-16.5, y 58..66), merlons.",
+  "6. Kitchen: table, legs, chair, pantry steps, dresser shelves, table objects; then the Giant visual and H2/H3 zones.",
+  "7. Moving and special: Beanpod Lift (AnimatableBody3D), bouncy leaves (group 'bouncy', meta bounce_velocity), puff clouds, broom and vines (group 'climbable'), watch hand.",
+  "8. Gameplay nodes: Spawns, StoryCams (never move later), Checkpoints, Truffles + spawners, Switches + GooseCage, LostPages + LostPageSet, AcornGroups + AcornHundred, enemies.",
+  "9. Visual cloud layers CL1/CL2, cloud sea, props zones, ambient life, local lights.",
+  "10. Verify: python tools/godot.py capture for each StoryCam; walk the main route with a replay; run the pass tests below.",
+  "Round 1 (Docs/levels/W2_amendments.md): droopy leaves, K1, U02 sway, CC1 + BP_CC1, LIFT2, GATEHOUSE, Giant head/beard/pom-pom + H2b/H2c/H3b, tea cosy + E16, pod mounds, scarecrow hat, new puff layout and rings, LB swing, stalk hook + BELL + V3/T3 + BELL_GALLERY (remove the slot walls), talkers, sniff targets, camera hints, broken cloud layers, StoryCam_C_v2/D_v2.",
+  "Round 2 (Docs/levels/W2_amendments.md, section Round 2): WALL_SCREEN_W/N/B1, GIANT_BODY, non-walkable LOAF, SUGAR, BUTTER and TEACUP, short SHELF_TOP; 13 pod mounds in lanes + SPARE/STRIKE; E17 Captain Caw, GOLDEN_HARP, BLOSSOM_TREE; BONG cutaway + StoryCam_E_v2; HIVE bud + E10 bait + SN5; REGINALD cameo; R3 r 1.0 and E13 hold; Cloud Gong; StoryCam_A_v2/B_v2, CH0/CH5/CH6, colour script, value pass, goal beacon, GIANT_BOOT + A40, scale dressing.",
+  "Round 3 (Docs/levels/W2_amendments.md, section Round 3): E13 moved to the Upper Runner; E16 costume stages, portcullis, waddle-flee chase and CH7; H2c sneeze arc and A41; E17 sack tracking; R3 to 37.1; BONG on StoryCam_E_v3 once per save; seed descent (seed_descent_r3, StoryCam_H_v3_rail); gate towers, spires, castle_roof_tile and the south-rim trim; StoryCam_F_v3 crane intro; colossus leaves; CANDLE, GIANT_BACK and the 20x scale dressing; StoryCam_G_v3; bounce families; characters_r3."
+ ],
+ "amendments": {
+  "rounds": [
+   1,
+   2,
+   3
+  ],
+  "doc": "Docs/levels/W2_amendments.md",
+  "note": "Round 1 changes carry \"r1\": true, round 2 \"r2\": true, round 3 \"r3\": true (an entry changed in several rounds carries each flag). Bounce velocities use the game gravity 28 m/s^2 (key bounce_velocity_g28).",
+  "removed": [
+   "W2-8 buttress wall-kick slot (two 0.8 x 3.0 x 8 m walls) [r1]",
+   "B2 notch [r1]",
+   "SUGAR as the W2-3 truffle spot [r1]",
+   "Walkable tops on SUGAR, LOAF, BUTTER and TEACUP (now a domed lid, a steep crust, a glass cloche and hot tea) [r2]",
+   "SHELF_TOP west two metres (now x -4..-2) [r2]",
+   "W2-4 'Leaf Bouncer' as a plain bounce chain (now 'The Harpnapper') [r2]",
+   "Old pod-mound layout of 10 mounds in pairs [r2]",
+   "Name 'Cloud Bell' (now 'Cloud Gong'; id UC_BELL kept) [r2]",
+   "E13 figure-8 over the Upper Cloudbank (it circled CP4) and its W2-7 hold rule [r3]",
+   "E16's W1 charge-and-sidestep fight (now a waddle-flee chase finished by a dive tackle or jump kick) [r3]",
+   "H2c sniffle as a 0.6 s spin and teleport to CP6 (now a scripted sneeze arc that lands on CP6) [r3]",
+   "Captain Caw's hit volume on his own body, his perch over the pad's mean position, and gust drift during bounces [r3]",
+   "R3 centre y 37.3 (now 37.1) [r3]",
+   "BONG cutaway on StoryCam_E_v2 on the first slam of every visit (now StoryCam_E_v3, first slam per save, skippable) [r3]",
+   "World-entry intro as a 1.5 s hold on StoryCam_A_v2 on the first entry of every visit (now the StoryCam_F_v3 crane on the first entry per save) [r3]",
+   "W2-8 exit by the standard page fade (now the seed-parachute descent) [r3]",
+   "Palette key castle_roof_slate #6E4A9E (now castle_roof_tile #A93A2A) [r3]",
+   "Turret cones topping out at 66 (now spires to 75) [r3]",
+   "Cloud-trim puffs above y 50 on the castle bank's south rim between x -12 and 24 [r3]"
+  ]
+ },
+ "pod_mounds": [
+  {
+   "id": "PM01",
+   "pos": [
+    19.0,
+    24.2,
+    -13.5
+   ],
+   "r": 0.7,
+   "row_z": -13.5,
+   "lane": "R1",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM02",
+   "pos": [
+    22.2,
+    24.2,
+    -13.5
+   ],
+   "r": 0.7,
+   "row_z": -13.5,
+   "lane": "R1",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM03",
+   "pos": [
+    25.4,
+    24.2,
+    -13.5
+   ],
+   "r": 0.7,
+   "row_z": -13.5,
+   "lane": "R1",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM04",
+   "pos": [
+    16.0,
+    24.2,
+    -8.5
+   ],
+   "r": 0.7,
+   "row_z": -8.5,
+   "lane": "R2",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM05",
+   "pos": [
+    19.2,
+    24.2,
+    -8.5
+   ],
+   "r": 0.7,
+   "row_z": -8.5,
+   "lane": "R2",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM06",
+   "pos": [
+    22.4,
+    24.2,
+    -8.5
+   ],
+   "r": 0.7,
+   "row_z": -8.5,
+   "lane": "R2",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM07",
+   "pos": [
+    15.0,
+    24.2,
+    -3.5
+   ],
+   "r": 0.7,
+   "row_z": -3.5,
+   "lane": "R3",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM08",
+   "pos": [
+    18.0,
+    24.2,
+    1.5
+   ],
+   "r": 0.7,
+   "row_z": 1.5,
+   "lane": "R4",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM09",
+   "pos": [
+    21.2,
+    24.2,
+    1.5
+   ],
+   "r": 0.7,
+   "row_z": 1.5,
+   "lane": "R4",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM10",
+   "pos": [
+    24.4,
+    24.2,
+    1.5
+   ],
+   "r": 0.7,
+   "row_z": 1.5,
+   "lane": "R4",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM11",
+   "pos": [
+    19.0,
+    24.2,
+    6.5
+   ],
+   "r": 0.7,
+   "row_z": 6.5,
+   "lane": "R5",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM12",
+   "pos": [
+    22.2,
+    24.2,
+    6.5
+   ],
+   "r": 0.7,
+   "row_z": 6.5,
+   "lane": "R5",
+   "r1": true,
+   "r2": true
+  },
+  {
+   "id": "PM13",
+   "pos": [
+    25.4,
+    24.2,
+    6.5
+   ],
+   "r": 0.7,
+   "row_z": 6.5,
+   "lane": "R5",
+   "r1": true,
+   "r2": true
+  }
+ ],
+ "talkers": [
+  {
+   "id": "JACK",
+   "pos": [
+    -7.4,
+    1.3,
+    21.0
+   ],
+   "after_release_pos": [
+    2.0,
+    0.0,
+    31.0
+   ],
+   "r1": true,
+   "lines": [
+    "The wolf traded my beans for a single acorn! Rotten deal!",
+    "(after release) Thank you, sir! Ask me about the Giant's castle any time."
+   ],
+   "behaviour": "caged until JACK_CAGE takes 2 hits; then stands by the garden gate and gives the hint for the selected mission (8 hint lines, one per truffle)",
+   "hint_lines_r2": {
+    "W2-4": "A crow in a hat nicked the Giant's harp. Kick him at the top of a bounce!",
+    "W2-5": "Bees hate bluebells that won't open. Bees are also very stupid.",
+    "W2-7": "Ring the Cloud Gong at the end. Loudly. It's tradition.",
+    "W2-8": "The Giant's bell hangs off the beanstalk's curl. Give it a proper thump."
+   },
+   "r2": true,
+   "hint_lines_r3": {
+    "W2-2": "That goose honks like a wolf. If it runs, don't punch it: run and dive!",
+    "W2-8": "Ring the Giant's bell and the bean flower opens. Hold on to your hat on the way down."
+   },
+   "descent_lines_r3": {
+    "freed": "BRAVO! Did you see that, Daisy? He FLEW!",
+    "caged": "Bravo! Marvellous! Now let me OUT!"
+   },
+   "r3": true
+  },
+  {
+   "id": "DAISY",
+   "pos": [
+    -6.0,
+    0.0,
+    27.0
+   ],
+   "r1": true,
+   "lines": [
+    "I was NOT sold for beans, thank you very much.",
+    "Moo. The Giant snores like a tuba."
+   ],
+   "behaviour": "grazes along PATH_MAIN's west verge (x -9..-4, z 24..30); talk on approach",
+   "descent_line_r3": "Moo! Show-off.",
+   "r3": true
+  },
+  {
+   "id": "SCARECROW",
+   "pos": [
+    24.0,
+    24.0,
+    -4.0
+   ],
+   "r1": true,
+   "lines": [
+    "Halt! This patch belongs to Sir Reginald!",
+    "Reinforcements!",
+    "...I'm only straw, you know.",
+    "Not the peas!"
+   ],
+   "behaviour": "line 2 when the 3rd popper falls (W2-6); line 3 when Mak lands on the hat; 'Not the peas!' on a STRIKE",
+   "r2": true,
+   "descent_line_r3": "(waves his tin cans) Bon voyage! ...I mean, halt!",
+   "r3": true
+  },
+  {
+   "id": "GIANT",
+   "pos": [
+    -10.5,
+    58.2,
+    -34.0
+   ],
+   "r1": true,
+   "lines": "see H2.sleep_talk",
+   "behaviour": "speech bubbles with soft 'Zzz' audio; never blocks input",
+   "lines_r2": [
+    "...kept all the gold... hum... (replaces the first line after the Reginald cameo)",
+    "...bacon? (BONG cutaway)"
+   ],
+   "r2": true,
+   "lines_r3": [
+    "...bless me... (after a sneeze)",
+    "FEE! (later BONGs: a 1 s tuba sting, no cutaway)"
+   ],
+   "r3": true
+  },
+  {
+   "id": "GOOSE_WOLF",
+   "pos": [
+    13.0,
+    50.8,
+    -35.0
+   ],
+   "r1": true,
+   "lines": [
+    "(full costume) HONK.",
+    "(1st switch: a wolf ear pops out) HONK.",
+    "(2nd switch: a bushy tail flops out) Hhhonk?",
+    "(3rd switch: the hood slides over its eyes) ...baa?",
+    "(chase) You'll never catch me on foot!",
+    "(hit 1, hood off) I can SEE!",
+    "(hit 2, underwear) MOTHER!",
+    "(chase paused) honk?"
+   ],
+   "behaviour": "costume stages advance with each switch (any order); after the 3rd the cage opens and E16 starts the chase",
+   "r3": true
+  },
+  {
+   "id": "GOLDEN_GOOSE",
+   "pos": [
+    -14.0,
+    50.0,
+    -40.5
+   ],
+   "r1": true,
+   "lines": [
+    "Hnk? Oh! A gentleman! One moment...",
+    "(lays the truffle) There. Do mind the Giant."
+   ],
+   "behaviour": "under TEA_COSY until it is hit after E16 is beaten"
+  },
+  {
+   "id": "GOLDEN_HARP",
+   "pos": [
+    -40.5,
+    46.0,
+    -37.2
+   ],
+   "lines": [
+    "(in the sack) La-la-LAAA! Somebody! Anybody! I am being HARPNAPPED!",
+    "At last, an audience!",
+    "(after W2-4) Another chorus, sir? No? Philistine."
+   ],
+   "behaviour": "sings from inside Caw's sack during W2-4 (3D audio beacon, golden note VFX); after the defeat stands on the islet and plays a short phrase whenever Mak lands there",
+   "r2": true,
+   "descent_line_r3": "(if W2-4 is collected) Bravo! Encore!",
+   "r3": true
+  },
+  {
+   "id": "REGINALD",
+   "pos": [
+    5.7,
+    61.0,
+    -34.0
+   ],
+   "lines": [
+    "Fee... fi... fo... and the Giant kept ALL the gold. The end.",
+    "Shh! Piglet! He's only just gone off!",
+    "(exit) Hmph. Do try not to wake him. I shan't read it twice."
+   ],
+   "trigger": "first entry into the courtyard (box x 8..20, y 50..60, z -42..-26) or the kitchen (x -16..6, y 50..62, z -42..-26); once per save file",
+   "behaviour": "Sir Reginald (the boss model; no fight, no collision) sits on the Giant's chair-back top reading a red storybook aloud to the Giant; he shows above the partition wall from the courtyard. Line 1 loops until Mak is within 10 m or 8 s pass, then line 2 (shush pose). He snaps the book shut, huffs (Mak's beanie tilts for 1 s if he is within 6 m, cosmetic only) and vanishes in a whirl of red pages (the Router page-turn VFX). Input is never locked.",
+   "after": "the Giant's first sleep-talk line becomes '...kept all the gold... hum...'",
+   "r2": true
+  }
+ ],
+ "sniff_targets": [
+  {
+   "id": "SN1",
+   "target": "BEAN_MOUND",
+   "pos": [
+    -16.4,
+    0.0,
+    11.4
+   ],
+   "effect": "Ham Slam: V5 and BL3 sprout in 1.2 s (big leafy pop, sfx_leaf_boing), crate A36 and ring A37 on OAK_TOP become reachable",
+   "r1": true
+  },
+  {
+   "id": "SN2",
+   "target": "pod mounds PM01-PM10 (only the occupied ones)",
+   "effect": "short scent wisp to each occupied mound (W2-6)",
+   "r1": true
+  },
+  {
+   "id": "SN3",
+   "target": "TEA_COSY",
+   "effect": "after E16 is beaten, the trail leads from the courtyard to the hearth",
+   "r1": true
+  },
+  {
+   "id": "SN4",
+   "target": "W2-8 truffle",
+   "effect": "trail climbs V3, crosses to the bell, then the gallery and the belfry top",
+   "r1": true
+  },
+  {
+   "id": "SN5",
+   "target": "HIVE bud (P4)",
+   "effect": "a short wisp from M05 to the closed bud; ends when the bud opens",
+   "r2": true
+  }
+ ],
+ "camera_hints": [
+  {
+   "id": "CH1",
+   "area": "Lower stalk L01-L08 and K1: cylinder around the stalk axis, r 7, y 0..10",
+   "rule": "bias yaw to the outside of the spiral (camera stays on the far side of Mak from the trunk axis), pitch +8 deg",
+   "r1": true
+  },
+  {
+   "id": "CH2",
+   "area": "Middle stalk M01-M08: cylinder r 7, y 24..39",
+   "rule": "same as CH1",
+   "r1": true
+  },
+  {
+   "id": "CH3",
+   "area": "Stalk tip V3/T3/BELL: box x -17..-5, y 50..68, z -20..-12",
+   "rule": "pull out to 9 m and frame from the south (yaw 0, looking north) so the bell swing reads side-on",
+   "r1": true
+  },
+  {
+   "id": "CH4",
+   "area": "Giant's table: box x -12..1, y 55..60, z -38..-30",
+   "rule": "frame from the south-east, high (pitch -35 deg), so both cover sides and the head are visible",
+   "r1": true
+  },
+  {
+   "id": "TRUNK_FADE",
+   "area": "beanstalk mesh",
+   "rule": "dither-fade any stalk or leaf fragment within 3 m of the camera ray to Mak (vfx shader; camera layer 9 ignore for leaves smaller than 2 m)",
+   "r1": true
+  },
+  {
+   "id": "CH0",
+   "area": "garden gate: box x -4..4, y -1..4, z 29..38 (and the first 4 s after spawning at Default)",
+   "rule": "look-up framing: distance 9.0, pitch +18.6 deg (looking up), pivot height 4.5; the camera ends at about (0, 1.6, 43.5) behind a north-facing Mak. Mak stays at the bottom of the frame (feet at NDC y -0.94) while the castle gate (0.63) and the belfry flower (0.84) are in frame. Any manual camera input or leaving the box releases it (1.2 s blend)",
+   "why": "the default camera (5.4 m, pitch -17) puts the gate at NDC y +2.6 and the belfry at +3.2, far above the frame",
+   "r2": true,
+   "note_r3": "starts after the StoryCam_F_v3 crane (first entry per save) or the 1.0 s StoryCam_A_v2 hold (later entries)",
+   "r3": true
+  },
+  {
+   "id": "CH5",
+   "area": "Reginald cameo (while REGINALD is visible)",
+   "rule": "look-at assist toward (5.7, 62.0, -34.0) for 3 s, pitch clamped to +25 deg; manual input cancels it",
+   "r2": true
+  },
+  {
+   "id": "CH6",
+   "area": "Leaf Bouncer: box x -44..-22, y 42..52, z -42..-10, while E17 is present",
+   "rule": "pitch +10 deg and distance 7.0, so Caw's perch stays in the top third while Mak bounces",
+   "r2": true
+  },
+  {
+   "id": "CH7",
+   "area": "courtyard during the E16 chase: box x 8..17, y 50..57, z -42..-26",
+   "rule": "distance 9.0, pitch -30 deg, yaw biased to look north so the whole oval and the portcullis read; manual input overrides",
+   "r3": true
+  }
+ ],
+ "pod_lanes": {
+  "spacing_m": 3.2,
+  "lanes": {
+   "R1": "z -13.5, PM01-PM03 (x 19..25.4; 3 m east of CABBAGE_A)",
+   "R2": "z -8.5, PM04-PM06",
+   "R3": "z -3.5, PM07 only (keeps the triple-jump lane z -4.5 clear)",
+   "R4": "z 1.5, PM08-PM10",
+   "R5": "z 6.5, PM11-PM13 (x 19..25.4, so a westward slide stops about 2 m inside the cloud edge)"
+  },
+  "resurface_rule": "a burrowed pod picks a free mound; mounds in a lane that already holds an active pod get weight 2, others weight 1; never the mound nearest Mak or one within 3 m of him",
+  "slam": "Ham Slam within 1.6 m of an occupied mound: a shockwave runs along that lane; every pod in it pops 0.4 m up and lies across the lane, stunned 2.5 s",
+  "slide": "a belly slide along the lane knocks over every stunned pod it touches (each counts as defeated)",
+  "bonus": {
+   "2 pods in one slide": "SPARE! banner, +4 acorns",
+   "3 pods in one slide": "STRIKE! banner, +10 acorns, the scarecrow wails 'Not the peas!'"
+  },
+  "r2": true
+ },
+ "scale_dressing_r2": {
+  "items": [
+   "giant copper pans and ladles on WALL_SCREEN_W (kitchen side)",
+   "a plate rack with giant plates r 1.4 on WALL_SCREEN_N",
+   "the gate gets a giant's front door (6 x 7 m, studded) with a knocker ring 1.2 m across, Mak-sized",
+   "a giant fork (9 m) planted in the bank east of the gate as a flagpole with a wolf banner"
+  ],
+  "why": "the castle walls are 8 m, so the Giant's size has to come from props the viewer already knows",
+  "r2": true
+ },
+ "acorn_bonus_note_r2": "Pod Patrol SPARE (+4) and STRIKE (+10) bonuses are extra, repeatable within a visit, and not counted in acorn_total",
+ "seed_descent_r3": {
+  "trigger": "after the W2-8 fanfare, every time W2-8 is collected",
+  "prop": "bean-seed parachute (Tripo P2 prop): a fat golden bean seed as the handle under a dandelion-style canopy of bean silk, 2.4 m across",
+  "duration_s": 12.0,
+  "skip": "jump after 1.5 s cuts to the landing",
+  "speed": "ease in over 0-1.5 s (the first 6 m), cruise at about 16 m/s, ease out over the last 1.0 s",
+  "waypoints": [
+   [
+    -18,
+    70.2,
+    -24
+   ],
+   [
+    -18.6,
+    72.6,
+    -18.5
+   ],
+   [
+    -17.0,
+    66.0,
+    -6.0
+   ],
+   [
+    -7.0,
+    57.5,
+    4.0
+   ],
+   [
+    6.5,
+    50.0,
+    0.5
+   ],
+   [
+    11.5,
+    41.0,
+    -12.0
+   ],
+   [
+    2.0,
+    34.5,
+    -22.5
+   ],
+   [
+    -9.0,
+    29.5,
+    -24.5
+   ],
+   [
+    -21.5,
+    18.0,
+    -13.0
+   ],
+   [
+    -16.5,
+    14.0,
+    1.5
+   ],
+   [
+    -4.5,
+    6.0,
+    12.5
+   ],
+   [
+    -1.6,
+    2.4,
+    24.5
+   ],
+   [
+    0.0,
+    0.0,
+    31.0
+   ]
+  ],
+  "spline": "Catmull-Rom through the waypoints (Mak's feet); total length 174.4 m; one full turn round the stalk (south, east, north, west, south)",
+  "beats": [
+   [
+    "0.0",
+    "D0 flower: the bud bursts into seeds; Mak grabs one (StoryCam_D framing)"
+   ],
+   [
+    "1.5",
+    "D1: lifts clear of B2 and the bell (3.5 m from the bell's sweep); the bell gives a soft ding"
+   ],
+   [
+    "2.4",
+    "D2: over the Upper Cloudbank; the Cloud Gong hums; if W2-4 is collected the harp calls 'Bravo! Encore!' from the islet"
+   ],
+   [
+    "3.4",
+    "D3: south of the stalk with the castle behind him; the Giant's snore rolls out and Zs drift over the wall"
+   ],
+   [
+    "4.5",
+    "D4-D5: over the Allotment; the scarecrow waves his tin cans and pea pods pop up to watch"
+   ],
+   [
+    "6.5",
+    "D6-D7: under the bank's north side, through the swallow loop"
+   ],
+   [
+    "8.0",
+    "D7-D8: punches down through a CL1 patch on the west side (place one CL1 bank across this segment)"
+   ],
+   [
+    "9.6",
+    "D9-D10: over the oak and the cottage chimney smoke; Daisy looks up"
+   ],
+   [
+    "12.0",
+    "D12, landing at CP0: Mak lets go 1.2 m up, lands and tips his beanie; the seed floats away; Jack and Daisy cheer (Jack from his cage if he is not freed)"
+   ]
+  ],
+  "clearance": "measured on the Catmull-Rom spline at 40 samples per segment: stalk 6.8 m, cottage 3.3 m, bell sweep 3.5 m, B2 4.2 m, bank underside 4.9 m, oak 4.8 m, C1 and the Cloud Hopper puffs 5.3 m or more, pear tree 2.9 m at the landing",
+  "camera": "StoryCam_H_v3_rail",
+  "replaces": "the page-fade return, for W2-8 only",
+  "r3": true
+ },
+ "stalk_dressing_r3": {
+  "colossus_leaves": [
+   {
+    "id": "CLV01",
+    "y": 17.0,
+    "az_deg": 180,
+    "note": "west, between L09/BL1 and the Sunleaf; the BL1 -> L11 bounce arc is on the east side"
+   },
+   {
+    "id": "CLV02",
+    "y": 30.5,
+    "az_deg": -110,
+    "note": "north, over the Cloud Landing's far side, between M03 and M04 (V2 is at az 71)"
+   },
+   {
+    "id": "CLV03",
+    "y": 11.5,
+    "az_deg": -100,
+    "note": "north, behind Vine 1 (az 95) as seen from the spawn"
+   },
+   {
+    "id": "CLV04",
+    "y": 54.5,
+    "az_deg": -20,
+    "note": "a canopy over the bank apron near the stalk's foot, 4.5 m above the walkers"
+   },
+   {
+    "id": "CLV05",
+    "y": 19.5,
+    "az_deg": 120,
+    "note": "south-west, above L08 (8.7) and below the Cloud Landing"
+   },
+   {
+    "id": "CLV06",
+    "y": 38.5,
+    "az_deg": 100,
+    "note": "south, above M03 (27.6) and 6.7 m below U01"
+   }
+  ],
+  "spec": "azimuth = atan2(z, x) around the stalk axis at that y (0 = east, -90 = north). Each leaf is 7 m long from the stalk surface and 4.5 m wide, pitched 20 deg up, with a 3 m bean pod hanging under its tip. Visual only (no collision) and in the TRUNK_FADE set. Builder check: no colossus leaf within 3 m vertically of any walkable top in its footprint, and none crossing a bounce or jump arc on the main route.",
+  "why": "the stalk reads as a rope at distance (r 3.0 to 1.5); the leaves widen its silhouette to about 17 m without touching collision, leaf positions or K1",
+  "r3": true
+ },
+ "castle_silhouette_r3": {
+  "spires": "NW and SE turret spires 62..75 and two gate-tower spires 62..74 (LM13, LM17)",
+  "roof_colour": "castle_roof_tile #A93A2A with roof_finial_gold #E8B23A finials and pennants",
+  "rim": "PZ6 trim puffs on the castle bank's south rim between x -12 and 24 hang below y 50 (none above the walkable top), so the rim stays at 50",
+  "measured_from_CH0_eye": {
+   "eye": [
+    0,
+    1.63,
+    43.53
+   ],
+   "bank_rim_elev_deg": "36.8-39.7 depending on azimuth",
+   "gate_tower_spire_tips": "47.5 deg (about 8 deg clear)",
+   "SE_spire_tip": "45.9 deg (+8.3)",
+   "NW_spire_tip": "39.4 deg (+0.6)",
+   "gatehouse_roof": "41.1 deg (+2.0)",
+   "belfry_top": "45.6 deg (+7.9)",
+   "flower": "44.5 deg (+6.5)",
+   "south_wall_top": "39.7 deg (level with the rim, hidden)"
+  },
+  "check": "in a native capture from CH0 at the spawn, at least four spires, the belfry and the flower show above the rim against the sky, and the roofs differ from the sky behind them by at least 25% luminance or 90 deg of hue",
+  "rejected": "moving or lowering the bank (every coordinate in Z5-Z6 would move)",
+  "r3": true
+ },
+ "bounce_families_r3": {
+  "note": "Bounces are the world's identity (four missions use them), so each family must look and sound different",
+  "families": [
+   {
+    "family": "bouncy leaves",
+    "ids": [
+     "BL1",
+     "BL2",
+     "BL3",
+     "BP_CC1",
+     "LAUNCH"
+    ],
+    "look": "teal #3FC6A0 curled leaf; squash and curl",
+    "sound": "low wooden 'boing' (sfx_leaf_boing)"
+   },
+   {
+    "family": "puff clouds",
+    "ids": [
+     "PUFF01-03",
+     "PUFF08-10"
+    ],
+    "look": "white cumulus pillow, puff burst, greys before vanishing",
+    "sound": "soft 'pomf' (sfx_cloud_puff)"
+   },
+   {
+    "family": "swinging blossom pads",
+    "ids": [
+     "LB1-LB5"
+    ],
+    "look": "pink blossom pads #F7A8C8 on tendrils, petal spray",
+    "sound": "a plucked harp string rising per pad: D, F#, A, B, high D (sfx_pad_pluck_1..5)"
+   },
+   {
+    "family": "the Giant's beard",
+    "ids": [
+     "BEARD"
+    ],
+    "look": "ginger bristles; the Giant twitches",
+    "sound": "bristly 'sproing' plus a sleepy grunt (sfx_beard_sproing)"
+   }
+  ],
+  "r3": true
+ },
+ "bong_sequence_r3": {
+  "first_slam_per_save": "Input locked; the bell eases to a stop in 0.3 s; StoryCam_E_v3. 0.0 s BONG and a golden ring wave expands from the bell across the castle; 0.5 s the wave reaches the Giant: startle sit-up (chest and head up 1.8 m, nightcap flies); 0.9 s 'FEE! FI! FO!' tuba, camera shake 0.4, crumbs and leaves fall; 2.0 s '...bacon?'; 2.6 s he slumps back; 3.2 s cut back to Mak and the flower burst. Skippable with jump after 1.0 s.",
+  "later_slams": "a 1 s in-world beat with no input lock and no camera cut: BONG, ring wave, crumbs and leaves fall, a distant 'FEE!' tuba sting",
+  "replaces": "the 4 s StoryCam_E_v2 cutaway on the first slam of every visit",
+  "r3": true
+ },
+ "characters_r3": [
+  {
+   "id": "HERO",
+   "name": "Mr. Mak",
+   "size": "1.2 H",
+   "status": "existing Tripo P2 rig",
+   "new_clips": [
+    "hang from the seed parachute (loop)",
+    "sneeze-launch tumble",
+    "cushion-squash landing",
+    "tip beanie (landing)"
+   ]
+  },
+  {
+   "id": "W2C01",
+   "name": "Sleeping Giant",
+   "size": "20x human scale: head 3.2 W, shoulders 8.2 W, hunched back 15 m above the floor (y 65); upper body and folded arms about 9 W x 15 H x 7 D",
+   "status": "Tripo P2, rigged",
+   "new_clips": [
+    "sneeze (head jerk, nostril flare, 0.4 s)",
+    "'bless me' mumble"
+   ]
+  },
+  {
+   "id": "W2C02",
+   "name": "Golden Goose",
+   "size": "1.0 H",
+   "status": "regenerate as a rigged Tripo P2 (the current mesh is rigid)",
+   "new_clips": [
+    "idle",
+    "startled honk",
+    "waddle",
+    "lay truffle",
+    "peek from under the cosy"
+   ]
+  },
+  {
+   "id": "W2C03",
+   "name": "Woolly Wolf, goose-costume variant (E16)",
+   "size": "1.0 H (1.2 in costume)",
+   "status": "Woolly Wolf rig plus the costume as separate Tripo P2 meshes (bill hood with painted eye, body suit) with slits for the wolf's own ear and tail",
+   "new_clips": [
+    "ear pop",
+    "tail flop",
+    "hood slip",
+    "waddle-run 5.5 m/s",
+    "flap-hop",
+    "portcullis bonk daze",
+    "knock-off hit (x2)",
+    "spin away in underwear"
+   ]
+  },
+  {
+   "id": "W2C04",
+   "name": "Jack",
+   "size": "1.5 H",
+   "status": "Tripo P2, rigged",
+   "new_clips": [
+    "jump-and-cheer",
+    "cage-rattle cheer"
+   ]
+  },
+  {
+   "id": "W2C05",
+   "name": "Daisy the cow",
+   "size": "2.2 L x 1.6 H",
+   "status": "Tripo P2, rigged",
+   "new_clips": [
+    "look up and moo"
+   ]
+  },
+  {
+   "id": "W2C06",
+   "name": "Wolf-mask scarecrow",
+   "size": "2.0 W x 5.0 H",
+   "status": "Tripo P2, rigged",
+   "new_clips": [
+    "tin-can wave"
+   ]
+  },
+  {
+   "id": "W2C07",
+   "name": "Golden Harp",
+   "size": "1.0 H",
+   "status": "regenerate as a rigged Tripo P2 character (the current mesh is a static Trellis-2 prop)",
+   "new_clips": [
+    "sing",
+    "peek and flail from the sack mouth",
+    "sulk",
+    "triumphant strum",
+    "'Encore!' wave"
+   ]
+  },
+  {
+   "id": "W2C08",
+   "name": "Captain Caw (E17)",
+   "size": "0.9 H, 1.6 wingspan; sack 0.9 across on a 0.8 m rope",
+   "status": "Crow Bandit rig plus tricorne; the sack is a separate Tripo P2 prop on three rope bones",
+   "new_clips": [
+    "glide-track (follows the pad)",
+    "sack-hit squeal"
+   ]
+  },
+  {
+   "id": "BOSS",
+   "name": "Sir Reginald Huffington III (cameo)",
+   "size": "3.2 H",
+   "status": "existing boss rig",
+   "new_clips": []
+  },
+  {
+   "id": "ENE-PP",
+   "name": "Peapod Popper",
+   "size": "0.9 H",
+   "status": "enemies workstream",
+   "new_clips": [
+    "pop up to watch (descent)"
+   ]
+  },
+  {
+   "id": "ENE-CB",
+   "name": "Crow Bandit",
+   "size": "0.8 H, 1.4 wingspan",
+   "status": "enemies workstream",
+   "new_clips": [
+    "heckle from a perch (E14)"
+   ]
+  },
+  {
+   "id": "ENE-BB",
+   "name": "Bumble Bruiser",
+   "size": "0.9 H",
+   "status": "enemies workstream",
+   "new_clips": [
+    "overshoot spin-dizzy (E13)"
+   ]
+  },
+  {
+   "id": "AMB-SW",
+   "name": "Swallow",
+   "size": "0.35 L, 0.45 wingspan",
+   "status": "new Tripo P2, wing bones",
+   "new_clips": [
+    "flap",
+    "glide"
+   ]
+  },
+  {
+   "id": "AMB-BF",
+   "name": "Butterfly (white, lemon)",
+   "size": "0.12 wingspan",
+   "status": "new Tripo P2, two texture variants",
+   "new_clips": [
+    "flap loop"
+   ]
+  },
+  {
+   "id": "AMB-BEE",
+   "name": "Tiny ambient bee",
+   "size": "0.15 L",
+   "status": "new Tripo P2",
+   "new_clips": [
+    "hover loop"
+   ]
+  }
+ ]
+}

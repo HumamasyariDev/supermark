@@ -1,0 +1,25 @@
+{
+ "key": "sfx_bellows_pump",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a large leather bellows pumping air, wheezy creaking huff",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:01.588811+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-1965-7da3-80f0-762bdb18fa4b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/N7Piim33Lz28ete9VWy9y_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/sfx_bellows_pump.mp3"
+ ],
+ "completed": "2026-10-17T18:50:08.014958+00:00"
+}

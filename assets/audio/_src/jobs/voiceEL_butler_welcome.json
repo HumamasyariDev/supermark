@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_butler_welcome",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[warmly, slowly] Welcome home, sir.",
+  "voice": "Bill",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:29.368873+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-7048-7e50-a006-45b7cc56f964",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c5/Iq6D7ZroXalWwuN6zJ7du_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 33898
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_butler_welcome.mp3"
+ ],
+ "completed": "2026-10-17T18:51:35.896057+00:00"
+}

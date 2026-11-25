@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W1.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree_v4/birch_tree_v4.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree_v5/birch_tree_v5.glb" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.43, 0.75, 0.27, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="FixR4W1Birch" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8862745, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="PairCam" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99936, -0.035692, -0, 0.035692, 0.99936, 0, 4.5, 8)
+fov = 55
+current = true
+
+[node name="ForkV5" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99083, -0.13511, -0, 0.13511, 0.99083, 3, 5.6, -1.6)
+fov = 40
+
+[node name="ForkV4" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99083, -0.13511, -0, 0.13511, 0.99083, -3, 5.6, -1.6)
+fov = 40
+
+[node name="ForkV5Back" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, 0, 0, 0.99589, -0.090536, -0, -0.090536, -0.99589, 3, 5.8, -10.4)
+fov = 40
+
+[node name="ForkV4Back" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, 0, 0, 0.99589, -0.090536, -0, -0.090536, -0.99589, -3, 5.8, -10.4)
+fov = 40
+
+[node name="GroveLow" type="Camera3D" parent="."]
+transform = Transform3D(0.98995, 0.037597, 0.13633, 0, 0.96401, -0.26585, -0.14142, 0.26318, 0.95433, 2, 1.6, 6)
+fov = 60
+
+[node name="BirchV4" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -6)
+
+[node name="BirchV5" parent="." instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -6)
+
+[node name="BirchV5B" parent="." instance=ExtResource("4")]
+transform = Transform3D(-0.55, 0, 0.95263, 0, 1.1, 0, -0.95263, 0, -0.55, 8.5, 0, -11)
+
+[node name="BirchV5C" parent="." instance=ExtResource("4")]
+transform = Transform3D(-0.475, 0, -0.82272, 0, 0.95, 0, 0.82272, 0, -0.475, -8.5, 0, -12)
+
+[node name="Mak" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+

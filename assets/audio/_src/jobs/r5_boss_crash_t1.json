@@ -1,0 +1,25 @@
+{
+ "key": "r5_boss_crash_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a huge wolf crashes into a brick chimney, heavy impact with bricks tumbling down",
+  "duration_seconds": 1.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:17.086874+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-0eda-7331-87a7-06776a83ba62",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/zJRMjIB7hBt7-jMhlQCpa_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 40167
+  }
+ },
+ "files": [
+  "raw/r5_boss_crash_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:23.472636+00:00"
+}

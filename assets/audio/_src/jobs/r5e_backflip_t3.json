@@ -1,0 +1,25 @@
+{
+ "key": "r5e_backflip_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a backflip spin, two quick flipping whooshes rising",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:34.253665+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-96fd-7991-aa44-9fe9ef27fa6b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5b/3Ei7UpCusa23lvPEWZuhl_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5e_backflip_t3.mp3"
+ ],
+ "completed": "2026-10-17T21:24:40.669150+00:00"
+}

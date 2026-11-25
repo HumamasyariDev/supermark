@@ -1,0 +1,25 @@
+{
+ "key": "sfx_dive",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a forward dive, fast airy whoosh",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:35.763425+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-b484-7931-b2ca-5e2048e7e9b9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/0BTzzlyUDbUi6SwZUUklU_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/sfx_dive.mp3"
+ ],
+ "completed": "2026-10-17T18:49:42.040241+00:00"
+}

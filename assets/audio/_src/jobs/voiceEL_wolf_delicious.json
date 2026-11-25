@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_delicious",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[sneering, pompous] Ah, the piglet. How... delicious.",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:18.160364+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b58-e742-7b90-9a7d-0b4b53724108",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/dY2CD7w5Fid61wP1cVbTf_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 53124
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_delicious.mp3"
+ ],
+ "completed": "2026-10-17T19:31:25.750791+00:00"
+}

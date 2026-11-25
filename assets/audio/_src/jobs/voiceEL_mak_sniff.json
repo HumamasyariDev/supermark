@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_sniff",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[curious, sniffing] Smells like truffles...",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.445860+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-592e-7cb0-9847-52d5ef3400b0",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/lM-qRHSqcO0E4DtxZ4lq0_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 22613
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_sniff.mp3"
+ ],
+ "completed": "2026-10-17T18:51:29.899940+00:00"
+}

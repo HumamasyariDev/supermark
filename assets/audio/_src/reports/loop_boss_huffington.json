@@ -1,0 +1,26 @@
+{
+ "source": "raw/music_boss_a.mp3",
+ "out": "../music/boss_huffington.ogg",
+ "source_duration": 137.87428571428572,
+ "tempo_est": 143.5546875,
+ "loop": {
+  "score": 1.59101054073031,
+  "start": 23.684353741496597,
+  "end": 99.1027664399093,
+  "beats": 176,
+  "cos": 0.9860897064208984,
+  "cos_pre": 0.9894101023674011
+ },
+ "intro": false,
+ "loop_offset_s": 0.0,
+ "loop_s": 75.4184126984127,
+ "crossfade_s": 0.4179591836734694,
+ "measured_input_lufs": -10.83,
+ "gain_db": -5.17,
+ "limited": false,
+ "out_lufs": -16.02,
+ "out_true_peak": -4.07,
+ "seam_sample_jump": 0.022922784090042114,
+ "seam_rms_end_db": -18.00356352624599,
+ "seam_rms_start_db": -19.033128168112636
+}

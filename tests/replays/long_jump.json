@@ -1,0 +1,32 @@
+{
+ "start": {
+  "pos": [
+   -20.0,
+   0.0,
+   20.0
+  ],
+  "yaw_deg": -90
+ },
+ "end_frame": 200,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 90,
+   "hold": "crouch",
+   "frames": 6
+  },
+  {
+   "f": 91,
+   "hold": "jump",
+   "frames": 30
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

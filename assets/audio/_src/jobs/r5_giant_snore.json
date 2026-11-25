@@ -1,0 +1,25 @@
+{
+ "key": "r5_giant_snore",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a sleeping giant's deep rumbling snore with a whistle on the out-breath",
+  "duration_seconds": 3.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:35.331057+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-5620-7a81-a3eb-f04bce3280a3",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/hYb3O0wojl-2UaJoZPkwp_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 73394
+  }
+ },
+ "files": [
+  "raw/r5_giant_snore.mp3"
+ ],
+ "completed": "2026-10-17T20:28:41.634108+00:00"
+}

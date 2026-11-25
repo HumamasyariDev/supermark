@@ -1,0 +1,25 @@
+{
+ "key": "r5_ledge_climb_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small character clambers up onto a ledge, quick cloth rustle and a soft hand slap on stone",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:37.532040+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-7458-73e1-9554-11d6a7b94cf4",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec905/OU8ZYHhgDt11wMqZ0k8zR_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_ledge_climb_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:43.758021+00:00"
+}

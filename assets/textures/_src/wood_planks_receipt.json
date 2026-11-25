@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b30-dffe-73f1-9bfb-38e16a38528b",
+  "arguments": {
+    "prompt": "Wooden floor planks: warm honey-brown planks running vertically with painted grain, soft knots and dark seams. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:47.713498+00:00",
+  "output_file": "wood_planks_raw.png",
+  "sha256": "6e347bccd7d91823b9028dfe20100dc385da58a55332068cad663475fc3ac7b0",
+  "description": ""
+}

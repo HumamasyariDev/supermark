@@ -1,0 +1,25 @@
+{
+ "key": "r5_pole_grab_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: small hands grab a wooden pole firmly, a soft grippy thump",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:37.791257+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-755d-7df3-82f7-09c1e898e3a1",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/bCgOclsRYh2XGliB1jctM_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_pole_grab_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:43.811855+00:00"
+}

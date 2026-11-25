@@ -1,0 +1,11 @@
+{
+ "key": "music_title_a",
+ "endpoint": "fal-ai/lyria3/pro",
+ "input": {
+  "prompt": "Instrumental only, no vocals. A whimsical orchestral storybook overture for the title screen of a cosy adventure game. Opens with a celesta and harp flourish like a giant book falling open, then a bright, hummable main theme on flute and clarinet over bouncing pizzicato strings; warm French horns answer, a cheeky bassoon counter-melody, glockenspiel sparkles, light snare and timpani, building to a joyful, heroic full-orchestra statement. Major key, about 112 BPM, playful, warm British fairy-tale charm, polished modern orchestral recording."
+ },
+ "created": "2026-10-17T18:48:35.009980+00:00",
+ "status": "failed",
+ "request_id": "01a14b31-cadf-7721-a0d3-17caafacc56a",
+ "error": "FalClientHTTPError: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': 'Instrumental only, no vocals. A whimsical orchestral storybook overture for the title screen of a cosy adventure game. Opens with a celesta and harp flourish "
+}

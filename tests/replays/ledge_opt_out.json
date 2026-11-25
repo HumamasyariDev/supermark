@@ -1,0 +1,39 @@
+{
+ "start": {
+  "pos": [
+   25.25,
+   0.0,
+   -3.4
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 150,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    0,
+    1
+   ]
+  },
+  {
+   "f": 12,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "on": "state:ledge_climb",
+   "nth": 1,
+   "delay": 0,
+   "stick": [
+    0,
+    0
+   ]
+  }
+ ],
+ "args": [
+  "--lab-no-ledge-grab"
+ ],
+ "fps": 60,
+ "steer": "world"
+}

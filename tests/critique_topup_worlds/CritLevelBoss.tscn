@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/boss/WolfRooftop.tscn" id="1"]
+
+[node name="CritLevelBoss" type="Node3D"]
+
+[node name="Level" parent="." instance=ExtResource("1")]
+
+[node name="ChimneyLevelCam" type="Camera3D" parent="."]
+transform = Transform3D(0.73751, -0.14891, 0.65872, 0, 0.97539, 0.22049, -0.67534, -0.16261, 0.71936, 11.5, 5.2, -1.5)
+fov = 50
+
+[node name="TrolleyLevelCam" type="Camera3D" parent="."]
+transform = Transform3D(0.85027, -0.10444, 0.51589, 0, 0.98012, 0.19842, -0.52635, -0.16871, 0.83336, 5.2, 2.6, -11)
+fov = 50

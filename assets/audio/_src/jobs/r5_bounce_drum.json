@@ -1,0 +1,25 @@
+{
+ "key": "r5_bounce_drum",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a big drum skin bounce, deep boom with a boing",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:55.733328+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a5d5-7ea3-af68-9c073dc7588c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/-_G2sczjoPlnT0h5yeNNG_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_bounce_drum.mp3"
+ ],
+ "completed": "2026-10-17T20:29:02.232237+00:00"
+}

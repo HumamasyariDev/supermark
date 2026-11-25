@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/camera/mak_camera.gd" id="1_cam"]
+
+[node name="MakCamera" type="Node3D"]
+top_level = true
+physics_interpolation_mode = 2
+script = ExtResource("1_cam")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+physics_interpolation_mode = 2
+current = true
+fov = 62.0
+near = 0.08
+far = 700.0

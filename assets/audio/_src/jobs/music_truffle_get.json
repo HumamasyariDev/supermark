@@ -1,0 +1,25 @@
+{
+ "key": "music_truffle_get",
+ "endpoint": "elevenlabs/music/v2.5",
+ "input": {
+  "prompt": "Very short magical treasure-found jingle: a quick rising harp glissando and celesta sparkle that lands on a bright, celebratory major brass and strings chord. Whimsical storybook orchestra. Instrumental.",
+  "music_length_ms": 4000,
+  "force_instrumental": true,
+  "output_format": "mp3_48000_192"
+ },
+ "created": "2026-10-17T18:48:35.012440+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b31-caf4-74a0-a650-206b9905e811",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b4/4AIEChh3fttOuWRG6Uvnz_music_generated.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "music_generated.mp3",
+   "file_size": 144620
+  }
+ },
+ "files": [
+  "raw/music_truffle_get.mp3"
+ ],
+ "completed": "2026-10-17T18:48:43.317386+00:00"
+}

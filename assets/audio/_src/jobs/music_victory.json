@@ -1,0 +1,25 @@
+{
+ "key": "music_victory",
+ "endpoint": "elevenlabs/music/v2.5",
+ "input": {
+  "prompt": "Short triumphant orchestral victory fanfare for a storybook adventure game: a timpani roll, bright trumpets and French horns playing a rising heroic motif, sparkling glockenspiel and harp, ending on a big joyful major chord that rings out. Instrumental.",
+  "music_length_ms": 8000,
+  "force_instrumental": true,
+  "output_format": "mp3_48000_192"
+ },
+ "created": "2026-10-17T18:48:35.011639+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b31-cacf-76b0-afdf-c177af41a5c4",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b4/PvYtl74wnAlJwA3-0uYF3_music_generated.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "music_generated.mp3",
+   "file_size": 193004
+  }
+ },
+ "files": [
+  "raw/music_victory.mp3"
+ ],
+ "completed": "2026-10-17T18:48:43.446124+00:00"
+}

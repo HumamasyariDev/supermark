@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_butler_book3",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[slowly, kindly] The gingerbread book wants seven, sir.",
+  "voice": "Bill",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:25.751623+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-013e-7dc0-aaa3-92b762e21ab1",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/oMRBGwqtLhN4qbI2i_Pr9_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 53124
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_butler_book3.mp3"
+ ],
+ "completed": "2026-10-17T19:31:32.527698+00:00"
+}

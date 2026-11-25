@@ -1,0 +1,105 @@
+{
+ "script_keys": 94,
+ "missing": {
+  "bounce": [
+   "scripts/worlds/hub_activities.gd:1242"
+  ],
+  "cloud_poof": [
+   "scripts/worlds/w2_fix2.gd:163",
+   "scripts/worlds/w2_life.gd:1695"
+  ],
+  "truffle_sparkle": [
+   "scripts/boss/wolf_boss.gd:2584"
+  ],
+  "whoosh": [
+   "scripts/worlds/w2_life.gd:1801"
+  ]
+ },
+ "loop_keys_called_as_one_shot": {
+  "bee_buzz": [
+   "scripts/worlds/w2_life.gd:1791"
+  ]
+ },
+ "attack_peaks": {
+  "sfx/swish.ogg": {
+   "peak_ms": 60,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_2.ogg": {
+   "peak_ms": 45,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_3.ogg": {
+   "peak_ms": 75,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/swish_4.ogg": {
+   "peak_ms": 75,
+   "window": [
+    40,
+    90
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick.ogg": {
+   "peak_ms": 95,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_2.ogg": {
+   "peak_ms": 100,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_3.ogg": {
+   "peak_ms": 130,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/spin_kick_4.ogg": {
+   "peak_ms": 85,
+   "window": [
+    80,
+    150
+   ],
+   "pass": true
+  },
+  "sfx/jump_kick.ogg": {
+   "peak_ms": 105,
+   "window": [
+    60,
+    160
+   ],
+   "pass": true
+  },
+  "sfx/jump_kick_2.ogg": {
+   "peak_ms": 95,
+   "window": [
+    60,
+    160
+   ],
+   "pass": true
+  }
+ }
+}

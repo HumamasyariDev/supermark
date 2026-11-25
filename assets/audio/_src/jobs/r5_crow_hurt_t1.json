@@ -1,0 +1,25 @@
+{
+ "key": "r5_crow_hurt_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a crow squawks in surprise and pain with ruffled feathers",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:57.657536+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-c2f6-7213-a5a9-b9916e47b630",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/YEIQAsgAZXMWJQEC_qA2O_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_crow_hurt_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:03.786874+00:00"
+}

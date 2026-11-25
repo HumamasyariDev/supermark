@@ -1,0 +1,173 @@
+{
+ "phase": "night01-audio-m3-round5c-redo",
+ "jobs": [
+  {
+   "key": "r5c_giant_sneeze_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: an enormous giant sneezes, a long rising nasal 'ahh... ahh...' breath build-up then a huge explosive 'CHOO' blast of air",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.5,
+   "estimated_usd": 0.005,
+   "max_reserved_usd": 0.0063
+  },
+  {
+   "key": "r5c_giant_sneeze_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: an enormous giant sneezes, a long rising nasal 'ahh... ahh...' breath build-up then a huge explosive 'CHOO' blast of air",
+    "duration_seconds": 2.5,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.5,
+   "estimated_usd": 0.005,
+   "max_reserved_usd": 0.0063
+  },
+  {
+   "key": "r5c_giant_inhale_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a giant takes a very long, deep, airy breath in through the nose, rushing air, no voice",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "estimated_usd": 0.004,
+   "max_reserved_usd": 0.005
+  },
+  {
+   "key": "r5c_giant_inhale_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a giant takes a very long, deep, airy breath in through the nose, rushing air, no voice",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "estimated_usd": 0.004,
+   "max_reserved_usd": 0.005
+  },
+  {
+   "key": "r5c_boss_growl_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a big bad wolf villain growls low and menacing, deep throaty rumble with bared teeth, then a short snarl",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r5c_boss_growl_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a big bad wolf villain growls low and menacing, deep throaty rumble with bared teeth, then a short snarl",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r5c_boss_hurt_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a big burly cartoon wolf gets bonked and lets out a deep comic 'yowch' yelp of pain, low voice, no words",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.2,
+   "estimated_usd": 0.0024,
+   "max_reserved_usd": 0.003
+  },
+  {
+   "key": "r5c_boss_hurt_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a big burly cartoon wolf gets bonked and lets out a deep comic 'yowch' yelp of pain, low voice, no words",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.2,
+   "estimated_usd": 0.0024,
+   "max_reserved_usd": 0.003
+  },
+  {
+   "key": "r5c_boss_balloon_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a rubber balloon is blown up fast with stretching rubber squeaks, then it is let go and flies away with a long rasping farting deflation whistle",
+    "duration_seconds": 3.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 3.0,
+   "estimated_usd": 0.006,
+   "max_reserved_usd": 0.0075
+  },
+  {
+   "key": "r5c_boss_balloon_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon sound effect, isolated, no music: a rubber balloon is blown up fast with stretching rubber squeaks, then it is let go and flies away with a long rasping farting deflation whistle",
+    "duration_seconds": 3.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 3.0,
+   "estimated_usd": 0.006,
+   "max_reserved_usd": 0.0075
+  },
+  {
+   "key": "r5c_chimney_smash_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Sound effect, isolated, dry, no music: a brick chimney is smashed by a heavy body, loud crunching impact, then many hard bricks and mortar chunks clatter and tumble down onto roof tiles",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "estimated_usd": 0.004,
+   "max_reserved_usd": 0.005
+  },
+  {
+   "key": "r5c_chimney_smash_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Sound effect, isolated, dry, no music: a brick chimney is smashed by a heavy body, loud crunching impact, then many hard bricks and mortar chunks clatter and tumble down onto roof tiles",
+    "duration_seconds": 2.0,
+    "prompt_influence": 0.65,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 2.0,
+   "estimated_usd": 0.004,
+   "max_reserved_usd": 0.005
+  }
+ ]
+}

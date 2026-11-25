@@ -1,0 +1,25 @@
+{
+ "key": "r5_hazard_hit",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick hot sizzle burn, comic",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:55.352654+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a455-73d1-82f4-2885720c5767",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/g0z2zqXGUV-z7iuO3AENp_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_hazard_hit.mp3"
+ ],
+ "completed": "2026-10-17T20:29:01.729120+00:00"
+}

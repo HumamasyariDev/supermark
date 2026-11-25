@@ -1,0 +1,26 @@
+{
+ "key": "sfx_truffle_sparkle_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a gentle continuous magical shimmering sparkle, soft twinkling chimes",
+  "duration_seconds": 3.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T18:49:49.178089+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-e8eb-7dd0-9f5c-fea32c735a2d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/QtU1jDd7kofkJCIWDyvrb_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 73394
+  }
+ },
+ "files": [
+  "raw/sfx_truffle_sparkle_loop.mp3"
+ ],
+ "completed": "2026-10-17T18:49:56.367064+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_thunder_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a distant rolling thunder clap",
+  "duration_seconds": 3.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:28.670613+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-3c1a-74a2-b057-a7d04dcb996b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/BR6JJWMbc97iiRBFzWmgz_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 73394
+  }
+ },
+ "files": [
+  "raw/r5_thunder_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:35.179728+00:00"
+}

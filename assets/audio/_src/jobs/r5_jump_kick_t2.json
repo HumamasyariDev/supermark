@@ -1,0 +1,25 @@
+{
+ "key": "r5_jump_kick_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a flying kick, airy whoosh with a light padded thwack",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:31.554683+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-5d02-7eb3-911c-dc6f99905cd3",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec905/AHbBPf7ce1zyCfvD-BR7-_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_jump_kick_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:38.191659+00:00"
+}

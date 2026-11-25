@@ -1,0 +1,25 @@
+{
+ "key": "r5_bee_charge_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: an angry bumblebee revs up and zooms forward, rising buzz into a whoosh",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:03.787874+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-dae8-7bb0-be7e-ad83055f0e3f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec908/ap1rx-6HgvjPP70TbcFYV_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_bee_charge_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:10.305171+00:00"
+}

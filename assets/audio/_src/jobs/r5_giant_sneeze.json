@@ -1,0 +1,25 @@
+{
+ "key": "r5_giant_sneeze",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a giant's enormous comic sneeze",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:35.180730+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-558a-7710-afc2-f0acdf6237dd",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/L-3dGPuc_qdPKEbjlHLqt_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 49571
+  }
+ },
+ "files": [
+  "raw/r5_giant_sneeze.mp3"
+ ],
+ "completed": "2026-10-17T20:28:41.500965+00:00"
+}

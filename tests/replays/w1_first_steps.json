@@ -1,0 +1,89 @@
+{
+ "fps": 60,
+ "steer": "camera",
+ "end_frame": 900,
+ "events": [
+  {
+   "f": 40,
+   "stick": [
+    0,
+    1
+   ]
+  },
+  {
+   "f": 110,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "on": "land",
+   "nth": 1,
+   "delay": 0,
+   "hold": "jump",
+   "frames": 35
+  },
+  {
+   "on": "land",
+   "nth": 2,
+   "delay": 0,
+   "hold": "jump",
+   "frames": 45
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 25,
+   "hold": "crouch",
+   "frames": 5
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 26,
+   "hold": "jump",
+   "frames": 25
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 20,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 45,
+   "hold": "crouch",
+   "frames": 30
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 55,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "on": "land",
+   "nth": 5,
+   "delay": 30,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "on": "land",
+   "nth": 5,
+   "delay": 52,
+   "tap": "crouch"
+  },
+  {
+   "on": "state:slam_land",
+   "nth": 1,
+   "delay": 40,
+   "call": "celebrate"
+  }
+ ]
+}

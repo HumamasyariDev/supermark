@@ -1,0 +1,25 @@
+{
+ "key": "r5_ui_confirm_big",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a magical sparkle confirm chime, warm and bright",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:29:01.730463+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-bd3f-76b1-9153-659f373da0db",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90e/ZI-4twKHo9S8HzI5JMAZn_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_ui_confirm_big.mp3"
+ ],
+ "completed": "2026-10-17T20:29:08.135763+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_roll_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick tumbling forward roll on grass, soft thuds and rustle",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:38.341704+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-7786-7f61-a951-5f306a4f3724",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/hYOp_wucrm1OId8OmoGxB_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_roll_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:44.631250+00:00"
+}

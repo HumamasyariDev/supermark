@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_notlast",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[shouting as he flies away] You haven't seen the last of Huffington!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.813254+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-5a95-7b01-b9bd-5e216ce3ca21",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/30HAbHEiyA758JTnrMiVZ_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 32644
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_notlast.mp3"
+ ],
+ "completed": "2026-10-17T18:51:30.250140+00:00"
+}

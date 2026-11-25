@@ -1,0 +1,26 @@
+{
+ "key": "r5_amb_w2_b",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Game ambience recording, seamless, no music, no voice, no melody: distant gentle wind chimes tinkling slowly in a light breeze, airy",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.45,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:29:06.526792+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-cffa-70b2-bf52-1f794227441c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90f/rOR1Ug3dECgQYU4wR7XqU_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5_amb_w2_b.mp3"
+ ],
+ "completed": "2026-10-17T20:29:18.171164+00:00"
+}

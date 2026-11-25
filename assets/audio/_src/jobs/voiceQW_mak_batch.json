@@ -1,0 +1,29 @@
+{
+ "key": "voiceQW_mak_batch",
+ "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+ "input": {
+  "text": "Tally-ho!\n\nSplendid!\n\nJolly good!\n\nRighto!\n\nHup!\n\nHah!\n\nHoo-hah!\n\nOof!\n\nBlast!\n\nOoh, a truffle!\n\nSmells like truffles...",
+  "prompt": "A cheerful, plucky young British gentleman, cartoon piglet hero. Bright, slightly high and boyish voice, crisp upper-class English accent, energetic and enthusiastic, short punchy delivery.",
+  "language": "English",
+  "max_new_tokens": 900
+ },
+ "created": "2026-10-17T18:51:29.900655+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-725e-7f33-85fa-6f926385d477",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6cf/0P-QQpd1RjhUWOetQZBrk_Zzp7bJX1.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "0P-QQpd1RjhUWOetQZBrk_Zzp7bJX1.mp3",
+   "file_size": null,
+   "duration": 11.336875,
+   "channels": 1,
+   "sample_rate": 24000,
+   "bitrate": null
+  }
+ },
+ "files": [
+  "raw/voiceQW_mak_batch.mp3"
+ ],
+ "completed": "2026-10-17T18:53:27.538100+00:00"
+}

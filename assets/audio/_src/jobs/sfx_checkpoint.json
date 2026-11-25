@@ -1,0 +1,25 @@
+{
+ "key": "sfx_checkpoint",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a fabric bookmark ribbon flapping and a warm bright bell chime",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:54.344295+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-fd16-7ba1-9cbb-317698cde3a8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/KQlsSPWWb2tXDJiOXFXFD_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/sfx_checkpoint.mp3"
+ ],
+ "completed": "2026-10-17T18:50:00.668657+00:00"
+}

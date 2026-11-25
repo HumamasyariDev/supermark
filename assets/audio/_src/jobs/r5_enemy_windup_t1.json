@@ -1,0 +1,25 @@
+{
+ "key": "r5_enemy_windup_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a cartoon wind-up before an attack, short rising stretchy creak",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:50.406939+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-a6a5-7313-a515-ecf00d8fc3f5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/4QZf2jXmC3Vs1aNExRQRh_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_enemy_windup_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:56.665219+00:00"
+}

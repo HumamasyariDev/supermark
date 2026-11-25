@@ -1,0 +1,24 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/foliage.gdshader" id="1_dp1sg"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_dp1sg")
+shader_parameter/base_color = Color(1, 1, 1, 1)
+shader_parameter/tip_color = Color(1, 1, 1, 1)
+shader_parameter/use_texture_alpha = false
+shader_parameter/alpha_cut = 0.4
+shader_parameter/use_vertex_color = true
+shader_parameter/sway_height = 0.6
+shader_parameter/use_color_weight = true
+shader_parameter/wind_direction = Vector3(1, 0, 0.3)
+shader_parameter/wind_strength = 0.1
+shader_parameter/wind_speed = 1.4
+shader_parameter/gust_scale = 0.08
+shader_parameter/flutter = 0.03
+shader_parameter/shadow_tint = Color(0.42, 0.5, 0.58, 1)
+shader_parameter/translucency = 0.15
+shader_parameter/pusher = Vector4(0, -1000, 0, 0.8)
+shader_parameter/colour_variation = 0.18
+shader_parameter/gradient_by_height = false

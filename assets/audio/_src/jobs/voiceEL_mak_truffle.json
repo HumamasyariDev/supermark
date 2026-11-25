@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_truffle",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[gasps, excited] Ooh, a truffle!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.400384+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-58fa-70b1-b5a7-ee2092d6dbeb",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/T1m5Iw-MEwpamwXtnTXwH_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 45601
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_truffle.mp3"
+ ],
+ "completed": "2026-10-17T18:51:29.862908+00:00"
+}

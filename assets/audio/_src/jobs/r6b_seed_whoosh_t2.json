@@ -1,0 +1,25 @@
+{
+ "key": "r6b_seed_whoosh_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a magical upward whoosh with a leafy rustle and a bright sparkle, a big bean seed launching into the sky",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T23:33:52.255891+00:00",
+ "status": "downloaded",
+ "request_id": "01a14c36-fd35-7da1-ba03-8aa6d93d6f23",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaecd63/l2zmz9HZwQQrl2xwNyiyi_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r6b_seed_whoosh_t2.mp3"
+ ],
+ "completed": "2026-10-17T23:34:00.582531+00:00"
+}

@@ -1,0 +1,26 @@
+{
+ "source": "raw/music_w3_a.mp3",
+ "out": "../music/w3_gingerbread_grove.ogg",
+ "source_duration": 165.4334693877551,
+ "tempo_est": 117.45383522727273,
+ "loop": {
+  "score": 1.3357014186622982,
+  "start": 28.490884353741496,
+  "end": 110.89850340136054,
+  "beats": 158,
+  "cos": 0.9425742626190186,
+  "cos_pre": 0.9506952166557312
+ },
+ "intro": false,
+ "loop_offset_s": 0.0,
+ "loop_s": 82.40761904761905,
+ "crossfade_s": 0.5108163265306123,
+ "measured_input_lufs": -11.68,
+ "gain_db": -4.32,
+ "limited": false,
+ "out_lufs": -15.99,
+ "out_true_peak": -3.3,
+ "seam_sample_jump": 0.036687612533569336,
+ "seam_rms_end_db": -19.463186525063897,
+ "seam_rms_start_db": -16.165880194342122
+}

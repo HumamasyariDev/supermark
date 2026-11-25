@@ -1,0 +1,44 @@
+{
+ "phase": "night01-audio-sfx",
+ "jobs": [
+  {
+   "key": "sfx_land_b",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low thump of a small round character landing on soft ground, short and muffled, no ringing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_footstep_wood_1b",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one single small hoof step on a wooden floorboard, a short dull hollow knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_footstep_wood_4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one single light footstep on a wooden plank, soft woody tap",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "key": "sfx_amb_candy_forest_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quiet enchanted forest, soft breeze, gentle twinkles and distant bubbling",
+  "duration_seconds": 8.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T19:31:32.728140+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-1c7d-7f32-8d32-2a5f031c7d3d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b5/cXD9ko70YbFsWeXaWI04Z_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 193767
+  }
+ },
+ "files": [
+  "raw/sfx_amb_candy_forest_loop.mp3"
+ ],
+ "completed": "2026-10-17T19:31:39.884265+00:00"
+}

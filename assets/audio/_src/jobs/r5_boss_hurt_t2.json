@@ -1,0 +1,25 @@
+{
+ "key": "r5_boss_hurt_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a big cartoon wolf yelps in comic pain, a deep owowow howl",
+  "duration_seconds": 1.1,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:22.359706+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-2374-76b2-870b-188bf540cbee",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90a/7w8CfLATFVQjQKURfLJWg_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 27628
+  }
+ },
+ "files": [
+  "raw/r5_boss_hurt_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:28.716916+00:00"
+}

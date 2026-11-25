@@ -1,0 +1,25 @@
+{
+ "key": "r5b_step_jelly_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on wobbly jelly, a soft wet squelch",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:33:03.293327+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b91-6cdf-77a2-9ee8-d4a2f8969db3",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec926/PhlfaDDDweUHAGBo-vgqF_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5b_step_jelly_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:33:09.457814+00:00"
+}

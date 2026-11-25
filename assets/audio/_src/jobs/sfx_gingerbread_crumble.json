@@ -1,0 +1,25 @@
+{
+ "key": "sfx_gingerbread_crumble",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a hard gingerbread cookie crumbling into crumbs",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:56.367936+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-0501-7ea2-98cb-98e498414551",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/F0ZWo-sqItYACKqqTa78d_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/sfx_gingerbread_crumble.mp3"
+ ],
+ "completed": "2026-10-17T18:50:02.778347+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5c_giant_sneeze_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon sound effect, isolated, no music: an enormous giant sneezes, a long rising nasal 'ahh... ahh...' breath build-up then a huge explosive 'CHOO' blast of air",
+  "duration_seconds": 2.5,
+  "prompt_influence": 0.65,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:03:32.526585+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bad-5aa9-7541-bc75-12ac4941e4b8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9dd/ATNC2xNwsOQLePQVPX4Sp_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 60856
+  }
+ },
+ "files": [
+  "raw/r5c_giant_sneeze_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:03:40.399837+00:00"
+}

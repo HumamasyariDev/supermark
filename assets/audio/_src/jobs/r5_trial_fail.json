@@ -1,0 +1,25 @@
+{
+ "key": "r5_trial_fail",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a sad comic deflating trombone wah-wah",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:48.881498+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-8b0e-7040-af96-935fe517e4a1",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/lmIvHbM253LSeUVbLpg0l_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r5_trial_fail.mp3"
+ ],
+ "completed": "2026-10-17T20:28:55.283800+00:00"
+}

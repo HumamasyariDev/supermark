@@ -1,0 +1,25 @@
+{
+ "key": "sfx_ui_move",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft short wooden tick for a menu cursor",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:08.015802+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-3281-7e53-bd6a-e751c846b6b7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/6Z5LtITe1wce5iz8VOGSc_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_ui_move.mp3"
+ ],
+ "completed": "2026-10-17T18:50:14.371446+00:00"
+}

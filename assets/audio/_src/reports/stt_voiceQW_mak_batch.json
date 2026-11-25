@@ -1,0 +1,224 @@
+{
+ "text": "Tallyho! Splendid! Jolly good! Righto! Hup! Huh, hoo-ha! Oof! Blast. Ooh, a truffle. Smells like truffles",
+ "language_code": "eng",
+ "language_probability": 1.0,
+ "words": [
+  {
+   "text": "Tallyho!",
+   "start": 0.06,
+   "end": 0.96,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 0.96,
+   "end": 1.24,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Splendid!",
+   "start": 1.24,
+   "end": 2.0,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 2.0,
+   "end": 2.36,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Jolly",
+   "start": 2.36,
+   "end": 2.66,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 2.66,
+   "end": 2.78,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "good!",
+   "start": 2.78,
+   "end": 3.16,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 3.16,
+   "end": 3.18,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Righto!",
+   "start": 3.62,
+   "end": 4.18,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 4.18,
+   "end": 4.52,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Hup!",
+   "start": 4.52,
+   "end": 4.78,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 4.78,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Huh,",
+   "start": 5.16,
+   "end": 5.32,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 5.32,
+   "end": 5.66,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "hoo-ha!",
+   "start": 5.66,
+   "end": 6.18,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 6.18,
+   "end": 6.18,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Oof!",
+   "start": 6.52,
+   "end": 6.76,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 6.76,
+   "end": 6.76,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Blast.",
+   "start": 7.26,
+   "end": 7.74,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 7.74,
+   "end": 7.74,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Ooh,",
+   "start": 8.22,
+   "end": 8.46,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 8.46,
+   "end": 8.54,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "a",
+   "start": 8.54,
+   "end": 8.56,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 8.56,
+   "end": 8.72,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "truffle.",
+   "start": 8.72,
+   "end": 9.3,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 9.3,
+   "end": 9.3,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "Smells",
+   "start": 9.72,
+   "end": 10.08,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 10.08,
+   "end": 10.12,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "like",
+   "start": 10.12,
+   "end": 10.3,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": " ",
+   "start": 10.3,
+   "end": 10.36,
+   "type": "spacing",
+   "speaker_id": "speaker_0"
+  },
+  {
+   "text": "truffles",
+   "start": 10.36,
+   "end": 11.1,
+   "type": "word",
+   "speaker_id": "speaker_0"
+  }
+ ]
+}

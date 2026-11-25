@@ -1,0 +1,25 @@
+{
+ "key": "r5_enemy_skid_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small creature skids to a stop on dirt, short scraping slide",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:50.330792+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-a657-7e23-867c-86ac44eaf2d9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/sb7IghCQ1lt-e4yysAeYu_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_enemy_skid_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:56.630304+00:00"
+}

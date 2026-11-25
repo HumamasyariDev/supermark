@@ -1,0 +1,25 @@
+{
+ "key": "r5_gummy_jump_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a big rubbery gummy creature jumps, stretchy wobbling boing",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:11.031108+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-f734-7e00-8700-e7e06ec39859",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/vVexJbkckGRNckMuM0dlB_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_gummy_jump_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:17.472753+00:00"
+}

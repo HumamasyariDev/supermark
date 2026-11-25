@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_curses",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[outraged] Curses, Piglet!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.724454+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-5a3d-7de3-ab84-a1bb39e0d8f5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/Tur-lKnXmyXqr33LdVRPU_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 25121
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_curses.mp3"
+ ],
+ "completed": "2026-10-17T18:51:30.211800+00:00"
+}

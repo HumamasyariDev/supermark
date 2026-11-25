@@ -1,0 +1,25 @@
+{
+ "key": "r5_slam_spin_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick twirling midair flip, rising spin whoosh that stops suddenly",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:31.729314+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-5dad-7c23-9bc9-2c8db84c2868",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec905/kCWRcuNz_EHw3WP-jOQXy_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_slam_spin_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:37.803458+00:00"
+}

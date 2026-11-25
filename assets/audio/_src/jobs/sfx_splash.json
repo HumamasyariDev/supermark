@@ -1,0 +1,25 @@
+{
+ "key": "sfx_splash",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a medium splash into water",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:02.779125+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-1e0b-79d0-9cf8-8521a08bba12",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/P0nhkbiVQfFxp7qFou914_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/sfx_splash.mp3"
+ ],
+ "completed": "2026-10-17T18:50:09.043869+00:00"
+}

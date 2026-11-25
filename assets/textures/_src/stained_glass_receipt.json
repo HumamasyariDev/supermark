@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-4d60-72f0-b930-4c81825419b7",
+  "arguments": {
+    "prompt": "Stained glass: jewel-toned rounded glass pieces in amber, ruby, emerald and sapphire with dark lead lines, glowing. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:28.884222+00:00",
+  "output_file": "stained_glass_raw.png",
+  "sha256": "c7f954a15c9c930dc38e1260677595cebc92e5794447d1e61754c44938289afd",
+  "description": ""
+}

@@ -1,0 +1,287 @@
+{
+ "generated_utc": "2026-10-17T23:22:01Z",
+ "engine": "Godot 4.7 (headless, 60 Hz physics)",
+ "profile_file": "game/scenes/player/mak_profile.tres",
+ "profile": {
+  "stick_deadzone": 0.2,
+  "stick_curve": 2.0,
+  "jump_buffer_time": 0.1,
+  "coyote_time": 0.067,
+  "run_top_speed": 7.5,
+  "walk_accel": 7.7,
+  "accel_taper": 0.677,
+  "stop_decel": 7.03,
+  "brake_decel": 28.125,
+  "brake_min_speed": 3.75,
+  "land_speed_keep": 0.92,
+  "overspeed_decel": 7.03,
+  "turn_rate_deg": 337.5,
+  "turn_rate_slow_deg": 1080.0,
+  "turn_slow_speed": 1.2,
+  "slope_speed_factor": 4.0,
+  "stop_speed": 0.05,
+  "skid_angle_deg": 100.0,
+  "skid_min_speed_ratio": 0.5,
+  "skid_decel": 28.125,
+  "skid_max_time": 0.6,
+  "skid_exit_speed": 1.875,
+  "side_flip_velocity": 14.77,
+  "side_flip_speed": 1.9,
+  "gravity": 28.125,
+  "terminal_velocity": 17.58,
+  "long_jump_gravity": 14.06,
+  "air_accel": 10.55,
+  "air_drag": 2.46,
+  "air_side_speed": 2.34,
+  "air_max_speed": 7.5,
+  "air_overspeed_decel": 7.03,
+  "air_max_back_speed": 3.75,
+  "air_back_decel": 14.06,
+  "air_turn_rate_deg": 0.0,
+  "jump_cut_factor": 0.5,
+  "jump_cut_min_velocity": 4.69,
+  "jump_velocity": 10.08,
+  "jump_speed_bonus": 0.25,
+  "jump_forward_mult": 0.8,
+  "chain_window": 0.25,
+  "double_jump_min_speed": 1.0,
+  "double_jump_velocity": 12.42,
+  "triple_jump_min_speed": 4.69,
+  "triple_jump_velocity": 16.41,
+  "long_jump_velocity": 7.15,
+  "long_jump_speed_mult": 1.5,
+  "long_jump_max_speed": 11.25,
+  "long_jump_min_speed": 2.34,
+  "backflip_velocity": 14.77,
+  "backflip_back_speed": 3.75,
+  "stomp_bounce_velocity": 10.5,
+  "wall_kick_window": 0.233,
+  "wall_kick_velocity": 14.77,
+  "wall_kick_speed": 5.6,
+  "wall_contact_min_speed": 3.75,
+  "wall_contact_max_angle_deg": 45.0,
+  "wall_slide_speed": 2.5,
+  "wall_release_speed": 1.2,
+  "ledge_grab_min_height": 0.78,
+  "ledge_grab_max_height": 1.25,
+  "ledge_grab_max_rise": 0.0,
+  "ledge_hang_drop": 1.0,
+  "ledge_climb_time": 0.42,
+  "ledge_climb_fast_time": 0.26,
+  "ledge_regrab_cooldown": 0.35,
+  "ledge_hang_delay": 0.33,
+  "slam_spin_time": 0.5,
+  "slam_rise_velocity": 5.16,
+  "slam_rise_time": 0.333,
+  "slam_drop_speed": 11.72,
+  "slam_land_time": 0.32,
+  "slam_jump_after": 0.12,
+  "slam_radius": 1.6,
+  "dive_boost": 3.52,
+  "dive_max_speed": 11.25,
+  "dive_min_speed": 6.8,
+  "dive_min_speed_air": 6.56,
+  "dive_hop_velocity": 4.9,
+  "belly_slide_friction": 5.5,
+  "slide_turn_rate_deg": 90.0,
+  "rollout_velocity": 7.27,
+  "slide_getup_time": 0.3,
+  "punch_time": 0.24,
+  "kick_time": 0.38,
+  "strike_active_from": 0.05,
+  "strike_active_to": 0.18,
+  "strike_lunge": 2.5,
+  "jump_kick_time": 0.4,
+  "jump_kick_active_to": 0.25,
+  "jump_kick_velocity": 4.9,
+  "crouch_walk_speed": 1.6,
+  "crouch_slide_decel": 7.0,
+  "crouch_slide_min_speed": 3.0,
+  "crouch_capsule_height": 0.85,
+  "steep_slope_angle": 40.0,
+  "slope_slide_accel": 22.0,
+  "slope_slide_friction": 2.0,
+  "slope_slide_max_speed": 14.0,
+  "sniff_walk_speed": 1.6,
+  "sniff_radius": 40.0,
+  "climb_up_speed": 1.9,
+  "climb_down_speed": 3.6,
+  "climb_orbit_rate_deg": 140.0,
+  "pole_jump_velocity": 14.77,
+  "pole_jump_speed": 5.6,
+  "pole_regrab_cooldown": 0.4,
+  "knockback_speed": 4.5,
+  "knockback_up": 6.5,
+  "invulnerable_time": 1.6,
+  "hurt_land_time": 0.4,
+  "fallback_respawn_delay": 1.4,
+  "step_height": 0.36,
+  "floor_snap": 0.32,
+  "floor_max_angle_deg": 60.0,
+  "external_ground_decel": 18.0,
+  "external_air_decel": 0.6,
+  "wind_ground_factor": 0.5,
+  "wind_smoothing": 6.0,
+  "heavy_land_speed": 12.0
+ },
+ "expectations": {
+  "standing_apex_m": 1.891312499999999,
+  "running_apex_m": 2.641437500000001,
+  "double_running_apex_m": 3.752937499999997,
+  "triple_apex_m": 4.924125000000004,
+  "backflip_apex_m": 4.002333333333335,
+  "long_jump_apex_m": 0.9691666666666664,
+  "wall_kick_apex_m": 4.002333333333335,
+  "time_to_90pct_s": 1.35,
+  "time_to_top_s": 1.6166666666666658,
+  "stopping_distance_m": 0.9375
+ },
+ "summary": {
+  "checks": 9,
+  "passed": 9,
+  "cases": 5
+ },
+ "consistency": [],
+ "results": [
+  {
+   "case": "crate_no_ground_hang",
+   "render_fps": 60,
+   "replay": "game/tests/replays/crate_no_ground_hang.json",
+   "trace": "game/tests/results/traces/crate_no_ground_hang.jsonl",
+   "metrics": {
+    "states": [
+     "walk",
+     "jump",
+     "walk",
+     "idle"
+    ],
+    "end_y": 1.001
+   },
+   "checks": [
+    {
+     "name": "no ledge hang on a 1 m crate from the ground",
+     "pass": true,
+     "detail": "walk > jump > walk > idle"
+    },
+    {
+     "name": "ends on top of the crate (end y)",
+     "measured": 1.001,
+     "expected": 1.0,
+     "tolerance": 0.05,
+     "pass": true
+    }
+   ],
+   "rows": 120
+  },
+  {
+   "case": "crawl",
+   "render_fps": 60,
+   "replay": "game/tests/replays/crawl.json",
+   "trace": "game/tests/results/traces/crawl.jsonl",
+   "metrics": {
+    "end_z": -19.7253,
+    "states": [
+     "idle",
+     "crouch",
+     "walk"
+    ]
+   },
+   "checks": [
+    {
+     "name": "crawls through the 1.0 m tunnel",
+     "pass": true,
+     "detail": "end z -19.73"
+    },
+    {
+     "name": "stands up after",
+     "pass": true,
+     "detail": "walk"
+    }
+   ],
+   "rows": 300
+  },
+  {
+   "case": "ledge_blocked",
+   "render_fps": 60,
+   "replay": "game/tests/replays/ledge_blocked.json",
+   "trace": "game/tests/results/traces/ledge_blocked.jsonl",
+   "metrics": {
+    "states": [
+     "walk",
+     "jump",
+     "wall_slide",
+     "fall",
+     "walk"
+    ]
+   },
+   "checks": [
+    {
+     "name": "no grab under blocked headroom",
+     "pass": true,
+     "detail": "walk > jump > wall_slide > fall > walk"
+    }
+   ],
+   "rows": 150
+  },
+  {
+   "case": "ledge_grab_climb",
+   "render_fps": 60,
+   "replay": "game/tests/replays/ledge_grab_climb.json",
+   "trace": "game/tests/results/traces/ledge_grab_climb.jsonl",
+   "metrics": {
+    "end_y": 2.0007,
+    "states": [
+     "walk",
+     "jump",
+     "ledge_hang",
+     "ledge_climb",
+     "fall",
+     "idle"
+    ]
+   },
+   "checks": [
+    {
+     "name": "ledge grabbed",
+     "pass": true,
+     "detail": "walk > jump > ledge_hang > ledge_climb > fall > idle"
+    },
+    {
+     "name": "climbed",
+     "pass": true,
+     "detail": ""
+    },
+    {
+     "name": "stands on the 2.0 m ledge (end y)",
+     "measured": 2.0007,
+     "expected": 2.0,
+     "tolerance": 0.05,
+     "pass": true
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "ledge_opt_out",
+   "render_fps": 60,
+   "replay": "game/tests/replays/ledge_opt_out.json",
+   "trace": "game/tests/results/traces/ledge_opt_out.jsonl",
+   "metrics": {
+    "states": [
+     "walk",
+     "jump",
+     "wall_slide",
+     "fall",
+     "walk"
+    ]
+   },
+   "checks": [
+    {
+     "name": "no grab on a no_ledge_grab body",
+     "pass": true,
+     "detail": "walk > jump > wall_slide > fall > walk"
+    }
+   ],
+   "rows": 150
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "key": "sfx_amb_sky_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: high altitude breezy wind among clouds, airy and gentle, distant birds",
+  "duration_seconds": 8.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T19:31:32.539737+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-1bbd-74e3-870e-f7af13ee7bf8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b5/WgfnPoF2k5n9upI-SUgxI_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 193767
+  }
+ },
+ "files": [
+  "raw/sfx_amb_sky_loop.mp3"
+ ],
+ "completed": "2026-10-17T19:31:39.455901+00:00"
+}

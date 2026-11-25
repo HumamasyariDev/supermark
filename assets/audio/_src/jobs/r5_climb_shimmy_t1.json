@@ -1,0 +1,25 @@
+{
+ "key": "r5_climb_shimmy_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: small hands shimmy up a leafy vine, short leafy rustle and grip",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:37.804303+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-756d-7c71-9620-e32046fcbf49",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/kFPLNaOnOH86Rw39mwmMq_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_climb_shimmy_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:43.993879+00:00"
+}

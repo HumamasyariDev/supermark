@@ -1,0 +1,25 @@
+{
+ "key": "r5_drum_roll",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a snare drum roll building up",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:30.051450+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-417f-73d2-82ad-79d95beac24d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/b6Ch0VJh3scFP5203qbpk_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 49571
+  }
+ },
+ "files": [
+  "raw/r5_drum_roll.mp3"
+ ],
+ "completed": "2026-10-17T20:28:36.571877+00:00"
+}

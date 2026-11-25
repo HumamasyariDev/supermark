@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-4d3c-7280-a2fb-91fa28ae7f20",
+  "arguments": {
+    "prompt": "Giant beanstalk stem surface: vertical fibrous green stalk with lighter ribbed lines and tiny leaf buds, fresh and vibrant. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:28.391772+00:00",
+  "output_file": "beanstalk_skin_raw.png",
+  "sha256": "a99372fc76a14e0e72d2c43519a137f32b00f73f321b6b6a09946e7db8751346",
+  "description": ""
+}

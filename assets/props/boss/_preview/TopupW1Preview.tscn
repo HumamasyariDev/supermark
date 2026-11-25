@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W1.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine/bellows_machine.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine_v2/bellows_machine_v2.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine_v2/bellows_machine_v2_busted.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree/birch_tree.glb" id="6"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree_v2/birch_tree_v2.glb" id="7"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.43, 0.75, 0.27, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="TopupW1Preview" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8862745, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="StoryCam_A" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99504, 0.099504, 0, -0.099504, 0.99504, 1, 5.5, 17)
+fov = 55
+current = true
+
+[node name="CloseCam" type="Camera3D" parent="."]
+transform = Transform3D(0.98801, -0.023553, 0.15257, 0, 0.98829, 0.15257, -0.15438, -0.15074, 0.97645, -0.6, 2.4, 6.4)
+fov = 45
+
+[node name="EmblemCam" type="Camera3D" parent="."]
+transform = Transform3D(-0.49828, -0.10718, 0.86036, 0, 0.99233, 0.12362, -0.86701, 0.061596, -0.49446, 1.98, 1.9, -2)
+fov = 50
+
+[node name="BellowsV1" parent="." instance=ExtResource("3")]
+transform = Transform3D(0.86603, 0, 0.5, 0, 1, 0, -0.5, 0, 0.86603, -6.5, 0, 0)
+
+[node name="BellowsV2" parent="." instance=ExtResource("4")]
+transform = Transform3D(0.86603, 0, 0.5, 0, 1, 0, -0.5, 0, 0.86603, -1.5, 0, 0)
+
+[node name="BellowsV2Busted" parent="." instance=ExtResource("5")]
+transform = Transform3D(0.86603, 0, 0.5, 0, 1, 0, -0.5, 0, 0.86603, 1.6, 0, -7)
+
+[node name="BirchV1" parent="." instance=ExtResource("6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 3.6, 0, -3)
+
+[node name="BirchV2" parent="." instance=ExtResource("7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 8.6, 0, -3)
+
+[node name="Mak" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 1.2, 0, 2.6)

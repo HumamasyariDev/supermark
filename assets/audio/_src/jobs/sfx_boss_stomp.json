@@ -1,0 +1,25 @@
+{
+ "key": "sfx_boss_stomp",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a huge heavy stomp on a brick rooftop, deep boom with rattling debris",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:13.110154+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-4664-7b70-b27c-5c6493c89ecd",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/5k3d2I3NrvV1dxYD-dNJI_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/sfx_boss_stomp.mp3"
+ ],
+ "completed": "2026-10-17T18:50:19.509833+00:00"
+}

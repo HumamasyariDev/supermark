@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-0bc2-75b2-83e0-b55028fe729f",
+  "arguments": {
+    "prompt": "Cobblestone pavement: rounded plump cobbles in warm grey and beige with soft dark gaps. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:59.565692+00:00",
+  "output_file": "cobblestone_raw.png",
+  "sha256": "9574ba573d7cfe629e94ab78101670556c9f1a3425b35adabe6d43bff90452e8",
+  "description": ""
+}

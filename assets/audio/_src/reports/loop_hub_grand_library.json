@@ -1,0 +1,26 @@
+{
+ "source": "raw/music_hub_b.mp3",
+ "out": "../music/hub_grand_library.ogg",
+ "source_duration": 173.29632653061225,
+ "tempo_est": 161.4990234375,
+ "loop": {
+  "score": 1.5970514398069664,
+  "start": 21.89641723356009,
+  "end": 129.91564625850341,
+  "beats": 288,
+  "cos": 0.9757040739059448,
+  "cos_pre": 0.9810376167297363
+ },
+ "intro": false,
+ "loop_offset_s": 0.0,
+ "loop_s": 108.01922902494331,
+ "crossfade_s": 0.4,
+ "measured_input_lufs": -12.44,
+ "gain_db": -3.5600000000000005,
+ "limited": false,
+ "out_lufs": -15.97,
+ "out_true_peak": -3.61,
+ "seam_sample_jump": 0.00858125276863575,
+ "seam_rms_end_db": -14.257959505361054,
+ "seam_rms_start_db": -15.170106394429157
+}

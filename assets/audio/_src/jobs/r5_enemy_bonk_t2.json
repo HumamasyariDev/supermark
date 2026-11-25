@@ -1,0 +1,25 @@
+{
+ "key": "r5_enemy_bonk_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a cartoon creature bumps its head into a wall, comic bonk with a tiny dizzy tweet",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:45.145670+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-921a-7091-8a1c-ac7942683f1c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/AgivyRj6nyvvaaI0uSuft_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_enemy_bonk_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:51.604803+00:00"
+}

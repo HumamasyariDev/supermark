@@ -1,0 +1,681 @@
+{
+ "generated_utc": "2026-10-19T10:04:46Z",
+ "engine": "Godot 4.7 (headless, 60 Hz physics)",
+ "profile_file": "game/scenes/player/mak_profile.tres",
+ "profile": {
+  "stick_deadzone": 0.2,
+  "stick_curve": 2.0,
+  "jump_buffer_time": 0.2,
+  "coyote_time": 0.067,
+  "run_top_speed": 7.5,
+  "walk_accel": 7.7,
+  "accel_taper": 0.677,
+  "stop_decel": 7.03,
+  "brake_decel": 28.125,
+  "brake_min_speed": 3.75,
+  "land_speed_keep": 0.92,
+  "overspeed_decel": 7.03,
+  "turn_rate_deg": 337.5,
+  "turn_rate_slow_deg": 1080.0,
+  "turn_slow_speed": 1.2,
+  "slope_speed_factor": 4.0,
+  "stop_speed": 0.05,
+  "skid_angle_deg": 100.0,
+  "skid_min_speed_ratio": 0.5,
+  "skid_decel": 28.125,
+  "skid_max_time": 0.6,
+  "skid_exit_speed": 1.875,
+  "side_flip_velocity": 14.77,
+  "side_flip_speed": 1.9,
+  "gravity": 28.125,
+  "terminal_velocity": 17.58,
+  "long_jump_gravity": 14.06,
+  "air_accel": 10.55,
+  "air_drag": 2.46,
+  "air_side_speed": 2.34,
+  "air_max_speed": 7.5,
+  "air_overspeed_decel": 7.03,
+  "air_max_back_speed": 3.75,
+  "air_back_decel": 14.06,
+  "air_turn_rate_deg": 0.0,
+  "jump_cut_factor": 0.5,
+  "jump_cut_min_velocity": 4.69,
+  "jump_velocity": 10.08,
+  "jump_speed_bonus": 0.25,
+  "jump_forward_mult": 0.8,
+  "chain_window": 0.25,
+  "double_jump_min_speed": 1.0,
+  "double_jump_velocity": 12.42,
+  "triple_jump_min_speed": 4.69,
+  "triple_jump_velocity": 16.41,
+  "long_jump_velocity": 7.15,
+  "long_jump_speed_mult": 1.5,
+  "long_jump_max_speed": 11.25,
+  "long_jump_min_speed": 2.34,
+  "backflip_velocity": 14.77,
+  "backflip_back_speed": 3.75,
+  "stomp_bounce_velocity": 10.5,
+  "wall_kick_window": 0.233,
+  "wall_kick_velocity": 14.77,
+  "wall_kick_speed": 5.6,
+  "wall_contact_min_speed": 3.75,
+  "wall_contact_max_angle_deg": 45.0,
+  "wall_slide_speed": 2.5,
+  "wall_release_speed": 1.2,
+  "ledge_grab_min_height": 0.78,
+  "ledge_grab_max_height": 1.25,
+  "ledge_grab_max_rise": 0.0,
+  "ledge_hang_drop": 1.0,
+  "ledge_climb_time": 0.42,
+  "ledge_climb_fast_time": 0.26,
+  "ledge_regrab_cooldown": 0.35,
+  "ledge_hang_delay": 0.33,
+  "slam_spin_time": 0.5,
+  "slam_rise_velocity": 5.16,
+  "slam_rise_time": 0.333,
+  "slam_drop_speed": 11.72,
+  "slam_land_time": 0.32,
+  "slam_jump_after": 0.12,
+  "slam_radius": 1.6,
+  "dive_boost": 3.52,
+  "dive_max_speed": 11.25,
+  "dive_min_speed": 6.8,
+  "dive_min_speed_air": 6.56,
+  "dive_hop_velocity": 4.9,
+  "belly_slide_friction": 5.5,
+  "belly_slide_stop_speed": 1.875,
+  "slide_turn_rate_deg": 90.0,
+  "rollout_velocity": 7.27,
+  "slide_getup_time": 0.3,
+  "punch_time": 0.467,
+  "punch2_time": 0.533,
+  "kick_time": 0.867,
+  "strike_active_from": 0.067,
+  "strike_active_to": 0.167,
+  "punch2_active_from": 0.033,
+  "punch2_active_to": 0.133,
+  "kick_active_to": 0.267,
+  "punch_strike_time": 0.133,
+  "punch2_strike_time": 0.1,
+  "strike_lunge": 2.34,
+  "jump_kick_time": 0.4,
+  "jump_kick_active_to": 0.25,
+  "jump_kick_velocity": 4.9,
+  "crouch_walk_speed": 1.6,
+  "crouch_slide_decel": 7.0,
+  "crouch_slide_min_speed": 3.0,
+  "crouch_capsule_height": 0.85,
+  "steep_slope_angle": 38.0,
+  "slope_slide_accel": 49.2,
+  "slope_slide_friction": 0.0,
+  "slope_slide_drag": 2.5,
+  "slope_slide_stick_drag": 0.64,
+  "slope_slide_turn_deg": 86.0,
+  "slope_slide_max_speed": 23.4,
+  "slide_flat_angle": 15.0,
+  "slide_jump_delay": 0.167,
+  "sniff_walk_speed": 1.6,
+  "sniff_radius": 40.0,
+  "climb_up_speed": 1.9,
+  "climb_down_speed": 3.6,
+  "climb_orbit_rate_deg": 140.0,
+  "pole_jump_velocity": 14.77,
+  "pole_jump_speed": 5.6,
+  "pole_regrab_cooldown": 0.4,
+  "knockback_speed": 3.75,
+  "knockback_up": 6.5,
+  "invulnerable_time": 1.0,
+  "hurt_time_soft": 0.8,
+  "hurt_time_medium": 1.0,
+  "hurt_time_hard": 2.667,
+  "knockback_ground_keep": 0.9,
+  "hurt_land_time": 0.4,
+  "fallback_respawn_delay": 1.4,
+  "step_height": 0.36,
+  "floor_snap": 0.32,
+  "floor_max_angle_deg": 60.0,
+  "external_ground_decel": 18.0,
+  "external_air_decel": 0.6,
+  "wind_ground_factor": 0.5,
+  "wind_smoothing": 6.0,
+  "heavy_land_speed": 12.0
+ },
+ "expectations": {
+  "standing_apex_m": 1.891312499999999,
+  "running_apex_m": 2.641437500000001,
+  "double_running_apex_m": 3.752937499999997,
+  "triple_apex_m": 4.924125000000004,
+  "backflip_apex_m": 4.002333333333335,
+  "long_jump_apex_m": 0.9691666666666664,
+  "wall_kick_apex_m": 4.002333333333335,
+  "time_to_90pct_s": 1.35,
+  "time_to_top_s": 1.6166666666666658,
+  "stopping_distance_m": 0.9375
+ },
+ "summary": {
+  "checks": 35,
+  "passed": 35,
+  "cases": 16
+ },
+ "consistency": [],
+ "results": [
+  {
+   "case": "air_pullback_run",
+   "render_fps": 60,
+   "replay": "game/tests/replays/air_pullback_run.json",
+   "trace": "game/tests/results/traces/air_pullback_run.jsonl",
+   "metrics": {
+    "distance_m": 0.13150000000000084,
+    "fs_first": [
+     5.721,
+     5.856,
+     5.99,
+     5.674,
+     5.357,
+     5.04,
+     4.723,
+     4.406
+    ],
+    "fs_land": -3.75,
+    "slide_after_land_m": 0.0
+   },
+   "checks": [
+    {
+     "name": "pulling back shortens a 6 m/s running jump below 2.5 m",
+     "pass": true,
+     "detail": "0.132 m"
+    },
+    {
+     "name": "D039: no landing slide with the stick released",
+     "pass": true,
+     "detail": "0.0 m, idle"
+    }
+   ],
+   "rows": 220
+  },
+  {
+   "case": "air_strafe_stand",
+   "render_fps": 60,
+   "replay": "game/tests/replays/air_strafe_stand.json",
+   "trace": "game/tests/results/traces/air_strafe_stand.jsonl",
+   "metrics": {
+    "lateral_m": 2.5770000000000017,
+    "forward_m": 0.0,
+    "airtime_s": 0.75,
+    "lateral_speed_first": [
+     0.0,
+     0.0,
+     2.44,
+     2.54
+    ],
+    "lateral_speed_max": 3.84,
+    "slide_after_land_m": 0.0
+   },
+   "checks": [
+    {
+     "name": "D039: full side stick corrects a standing jump by at least 1.0 m",
+     "pass": true,
+     "detail": "2.577 m"
+    },
+    {
+     "name": "D039: no landing slide with the stick released",
+     "pass": true,
+     "detail": "0.0 m, idle"
+    }
+   ],
+   "rows": 140
+  },
+  {
+   "case": "backflip",
+   "render_fps": 60,
+   "replay": "game/tests/replays/backflip.json",
+   "trace": "game/tests/results/traces/backflip.jsonl",
+   "metrics": {
+    "apex_m": 4.0032,
+    "takeoff_speed": 0.0,
+    "distance_m": 2.641400000000001,
+    "airtime_s": 1.0833333333333333,
+    "apex_over_capsule": 3.2025599999999996,
+    "backward_distance_m": 2.641400000000001
+   },
+   "checks": [
+    {
+     "name": "backflip apex (m)",
+     "measured": 4.0032,
+     "expected": 4.0023,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: backflip apex (m)",
+     "measured": 4.0032,
+     "expected": 4.0,
+     "tolerance": "5%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    },
+    {
+     "name": "backflip moves backwards",
+     "pass": true,
+     "detail": "-2.64 m"
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "bounce_pad",
+   "render_fps": 60,
+   "replay": "game/tests/replays/bounce_pad.json",
+   "trace": "game/tests/results/traces/bounce_pad.jsonl",
+   "metrics": {
+    "bounce_apex_m": 5.1842,
+    "states": [
+     "walk",
+     "jump",
+     "bounce",
+     "idle"
+    ]
+   },
+   "checks": [
+    {
+     "name": "bounce apex (m)",
+     "measured": 5.1842,
+     "expected": 5.2802,
+     "tolerance": "4%",
+     "pass": true
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "dive_slide",
+   "render_fps": 60,
+   "replay": "game/tests/replays/dive_slide.json",
+   "trace": "game/tests/results/traces/dive_slide.jsonl",
+   "metrics": {
+    "dive_speed": 10.671,
+    "states": [
+     "walk",
+     "dive",
+     "belly_slide",
+     "rollout",
+     "walk"
+    ]
+   },
+   "checks": [
+    {
+     "name": "dive speed (m/s)",
+     "measured": 10.671,
+     "expected": 10.671,
+     "tolerance": "2%",
+     "pass": true
+    },
+    {
+     "name": "dive > belly_slide > rollout",
+     "pass": true,
+     "detail": "walk > dive > belly_slide > rollout > walk"
+    }
+   ],
+   "rows": 220
+  },
+  {
+   "case": "double_jump",
+   "render_fps": 60,
+   "replay": "game/tests/replays/double_jump.json",
+   "trace": "game/tests/results/traces/double_jump.jsonl",
+   "metrics": {
+    "apex_m": 3.7532,
+    "takeoff_speed": 7.501,
+    "distance_m": 7.9609000000000005,
+    "airtime_s": 1.0333333333333332,
+    "apex_over_capsule": 3.00256
+   },
+   "checks": [
+    {
+     "name": "double_jump apex (m)",
+     "measured": 3.7532,
+     "expected": 3.7531,
+     "tolerance": "3%",
+     "pass": true
+    }
+   ],
+   "rows": 260
+  },
+  {
+   "case": "jump_run_full",
+   "render_fps": 60,
+   "replay": "game/tests/replays/jump_run_full.json",
+   "trace": "game/tests/results/traces/jump_run_full.jsonl",
+   "metrics": {
+    "apex_m": 2.6036,
+    "takeoff_speed": 7.151,
+    "distance_m": 6.4963,
+    "airtime_s": 0.8666666666666667,
+    "apex_over_capsule": 2.0828800000000003
+   },
+   "checks": [
+    {
+     "name": "jump apex (m)",
+     "measured": 2.6036,
+     "expected": 2.6036,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: jump apex (m)",
+     "measured": 2.6036,
+     "expected": 2.64,
+     "tolerance": "5%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    }
+   ],
+   "rows": 220
+  },
+  {
+   "case": "jump_stand_full",
+   "render_fps": 60,
+   "replay": "game/tests/replays/jump_stand_full.json",
+   "trace": "game/tests/results/traces/jump_stand_full.jsonl",
+   "metrics": {
+    "apex_m": 1.8922,
+    "takeoff_speed": 0.0,
+    "distance_m": 0.0,
+    "airtime_s": 0.75,
+    "apex_over_capsule": 1.51376
+   },
+   "checks": [
+    {
+     "name": "jump apex (m)",
+     "measured": 1.8922,
+     "expected": 1.8913,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: jump apex (m)",
+     "measured": 1.8922,
+     "expected": 1.89,
+     "tolerance": "5%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "land_stop_long",
+   "render_fps": 60,
+   "replay": "game/tests/replays/land_stop_long.json",
+   "trace": "game/tests/results/traces/land_stop_long.jsonl",
+   "metrics": {
+    "slide_after_land_m": 0.6116000000000001,
+    "end_state": "idle",
+    "land_speed": 9.118
+   },
+   "checks": [
+    {
+     "name": "D039: long-jump landing skid with no stick <= 1.5 m",
+     "pass": true,
+     "detail": "0.612 m"
+    }
+   ],
+   "rows": 240
+  },
+  {
+   "case": "land_stop_run",
+   "render_fps": 60,
+   "replay": "game/tests/replays/land_stop_run.json",
+   "trace": "game/tests/results/traces/land_stop_run.jsonl",
+   "metrics": {
+    "slide_after_land_m": 0.18430000000000035,
+    "end_state": "idle",
+    "land_speed": 5.253
+   },
+   "checks": [
+    {
+     "name": "D039: slide after a running-jump landing with no stick <= 0.35 m",
+     "pass": true,
+     "detail": "0.184 m"
+    },
+    {
+     "name": "ends standing",
+     "pass": true,
+     "detail": "idle"
+    }
+   ],
+   "rows": 220
+  },
+  {
+   "case": "long_jump",
+   "render_fps": 60,
+   "replay": "game/tests/replays/long_jump.json",
+   "trace": "game/tests/results/traces/long_jump.jsonl",
+   "metrics": {
+    "apex_m": 1.8781,
+    "takeoff_speed": 7.151,
+    "distance_m": 12.2948,
+    "airtime_s": 1.05,
+    "apex_over_capsule": 1.50248,
+    "launch_speed": 10.726
+   },
+   "checks": [
+    {
+     "name": "long_jump apex (m)",
+     "measured": 1.8781,
+     "expected": 1.8781,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: long_jump apex (m)",
+     "measured": 1.8781,
+     "expected": 1.88,
+     "tolerance": "5%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    },
+    {
+     "name": "long jump launch speed (m/s)",
+     "measured": 10.726,
+     "expected": 10.7265,
+     "tolerance": "3%",
+     "pass": true
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "moving_platform",
+   "render_fps": 60,
+   "replay": "game/tests/replays/moving_platform.json",
+   "trace": "game/tests/results/traces/moving_platform.jsonl",
+   "metrics": {
+    "x_span_m": 10.0,
+    "y_range": [
+     1.751,
+     1.751
+    ],
+    "states": [
+     "idle"
+    ]
+   },
+   "checks": [
+    {
+     "name": "rides the moving platform (x span > 6 m)",
+     "pass": true,
+     "detail": "10.00 m"
+    },
+    {
+     "name": "stays on it, no fall or flicker",
+     "pass": true,
+     "detail": "y 1.751..1.751, idle"
+    }
+   ],
+   "rows": 300
+  },
+  {
+   "case": "run_accel_stop",
+   "render_fps": 60,
+   "replay": "game/tests/replays/run_accel_stop.json",
+   "trace": "game/tests/results/traces/run_accel_stop.jsonl",
+   "metrics": {
+    "top_speed": 7.5,
+    "time_to_90pct_s": 1.3666666666666667,
+    "stopping_distance_m": 0.9375,
+    "stop_time_s": 0.25
+   },
+   "checks": [
+    {
+     "name": "top speed (m/s)",
+     "measured": 7.5,
+     "expected": 7.5,
+     "tolerance": "1%",
+     "pass": true
+    },
+    {
+     "name": "time to 90% (s)",
+     "measured": 1.3667,
+     "expected": 1.35,
+     "tolerance": "5%",
+     "pass": true
+    },
+    {
+     "name": "stopping distance (m)",
+     "measured": 0.9375,
+     "expected": 0.9375,
+     "tolerance": "10%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: time to 90% (s)",
+     "measured": 1.3667,
+     "expected": 1.33,
+     "tolerance": "6%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    },
+    {
+     "name": "reference parity: stopping distance (m)",
+     "measured": 0.9375,
+     "expected": 0.875,
+     "tolerance": "15%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    }
+   ],
+   "rows": 260
+  },
+  {
+   "case": "side_flip",
+   "render_fps": 60,
+   "replay": "game/tests/replays/side_flip.json",
+   "trace": "game/tests/results/traces/side_flip.jsonl",
+   "metrics": {
+    "apex_m": 4.0023,
+    "takeoff_speed": 6.213,
+    "distance_m": 6.214399999999998,
+    "airtime_s": 1.0833333333333333,
+    "apex_over_capsule": 3.20184
+   },
+   "checks": [
+    {
+     "name": "side_flip apex (m)",
+     "measured": 4.0023,
+     "expected": 4.0023,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "skid before side flip",
+     "pass": true,
+     "detail": "walk > skid > side_flip > walk"
+    }
+   ],
+   "rows": 200
+  },
+  {
+   "case": "triple_jump",
+   "render_fps": 60,
+   "replay": "game/tests/replays/triple_jump.json",
+   "trace": "game/tests/results/traces/triple_jump.jsonl",
+   "metrics": {
+    "apex_m": 4.9248,
+    "takeoff_speed": 7.698,
+    "distance_m": 9.4346,
+    "airtime_s": 1.2,
+    "apex_over_capsule": 3.9398400000000002
+   },
+   "checks": [
+    {
+     "name": "triple_jump apex (m)",
+     "measured": 4.9248,
+     "expected": 4.9241,
+     "tolerance": "3%",
+     "pass": true
+    },
+    {
+     "name": "reference parity: triple_jump apex (m)",
+     "measured": 4.9248,
+     "expected": 4.92,
+     "tolerance": "5%",
+     "pass": true,
+     "reference": "Docs/MOVEMENT_REFERENCE.md"
+    }
+   ],
+   "rows": 340
+  },
+  {
+   "case": "wall_kick",
+   "render_fps": 60,
+   "replay": "game/tests/replays/wall_kick.json",
+   "trace": "game/tests/results/traces/wall_kick.jsonl",
+   "metrics": {
+    "kicks": 4,
+    "kick_heights_m": [
+     1.796,
+     4.695,
+     7.594,
+     10.493
+    ],
+    "apex_after_kick_m": [
+     4.695,
+     7.594,
+     10.493,
+     14.001
+    ],
+    "gain_per_kick_m": [
+     2.899,
+     2.899,
+     2.899,
+     3.508
+    ],
+    "max_height_m": 14.001,
+    "x_range_inside": [
+     -20.6491,
+     -18.8509
+    ]
+   },
+   "checks": [
+    {
+     "name": "at least 4 chained wall kicks",
+     "pass": true,
+     "detail": "4 kicks"
+    },
+    {
+     "name": "rise after a kick (m), free apex bound",
+     "measured": 3.5076,
+     "expected": 4.0023,
+     "tolerance": "35%",
+     "pass": true
+    },
+    {
+     "name": "no wall penetration",
+     "pass": true,
+     "detail": "x -20.649..-18.851"
+    }
+   ],
+   "rows": 330
+  }
+ ]
+}

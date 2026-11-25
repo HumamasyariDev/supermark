@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_jollygood",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[cheerfully] Jolly good!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.491357+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3eb0-7213-922d-4d9e8e5bb43b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/TqjYctQ6dOhK1G7HlcgaO_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 36406
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_jollygood.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.560215+00:00"
+}

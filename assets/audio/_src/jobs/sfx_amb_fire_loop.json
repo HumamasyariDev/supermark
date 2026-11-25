@@ -1,0 +1,26 @@
+{
+ "key": "sfx_amb_fire_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a cosy fireplace crackling steadily, soft pops",
+  "duration_seconds": 6.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T18:50:14.257792+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-4ae2-7a90-8846-ce76a8141f65",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/OruGM_urd0PpKVmaRJAeF_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 145492
+  }
+ },
+ "files": [
+  "raw/sfx_amb_fire_loop.mp3"
+ ],
+ "completed": "2026-10-17T18:50:21.226201+00:00"
+}

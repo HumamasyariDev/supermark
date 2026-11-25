@@ -1,0 +1,12 @@
+{
+ "sfx/enemy_flap.ogg": {
+  "L100_before": -14.27,
+  "gain_db": -1.73,
+  "limited": false
+ },
+ "sfx/enemy_flap_3.ogg": {
+  "L100_before": -13.95,
+  "gain_db": -2.05,
+  "limited": false
+ }
+}

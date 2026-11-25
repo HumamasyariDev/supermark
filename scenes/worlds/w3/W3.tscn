@@ -1,0 +1,136 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/worlds/w3_world.gd" id="1_1wmhp"]
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W3.tres" id="2_16d71"]
+[ext_resource type="Shader" path="res://assets/environment/w3/w3_terrain.gdshader" id="3_nwt0f"]
+[ext_resource type="ArrayMesh" path="res://scenes/worlds/w3/baked/terrain.mesh.res" id="4_tkcv4"]
+[ext_resource type="Shape3D" path="res://scenes/worlds/w3/baked/terrain.shape.res" id="5_krejw"]
+[ext_resource type="ArrayMesh" path="res://scenes/worlds/w3/baked/skirt.mesh.res" id="6_ott1k"]
+[ext_resource type="Script" path="res://scripts/worlds/w3_level.gd" id="7_853x7"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ybpd8"]
+render_priority = 0
+shader = ExtResource("3_nwt0f")
+shader_parameter/grass_color = null
+shader_parameter/grass_light = null
+shader_parameter/grass_dark = null
+shader_parameter/path_color = null
+shader_parameter/crumb_color = null
+shader_parameter/rock_color = null
+shader_parameter/rock_dark = null
+shader_parameter/mud_color = null
+shader_parameter/pink_color = null
+shader_parameter/pink_dark = null
+shader_parameter/icing_color = null
+shader_parameter/shadow_tint = null
+shader_parameter/slope_start = null
+shader_parameter/slope_end = null
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hwbo8"]
+vertex_color_use_as_albedo = true
+roughness = 0.85
+
+[node name="W3" type="Node3D" unique_id=1706879441]
+script = ExtResource("1_1wmhp")
+world_id = "W3"
+display_name = "Gingerbread Grove"
+music_key = "music_w3"
+kill_y = -12.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1612333813]
+environment = ExtResource("2_16d71")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=907031616]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8901961, 0.6901961, 1)
+light_energy = 1.35
+light_angular_distance = 1.5
+shadow_enabled = true
+shadow_blur = 1.4
+directional_shadow_max_distance = 140.0
+
+[node name="Terrain" type="StaticBody3D" parent="." unique_id=242197977]
+collision_mask = 0
+metadata/surface = "grass"
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain" unique_id=1859423702]
+material_override = SubResource("ShaderMaterial_ybpd8")
+mesh = ExtResource("4_tkcv4")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain" unique_id=1072687363]
+shape = ExtResource("5_krejw")
+
+[node name="Skirt" type="MeshInstance3D" parent="Terrain" unique_id=1477409207]
+material_override = SubResource("StandardMaterial3D_hwbo8")
+cast_shadow = 0
+mesh = ExtResource("6_ott1k")
+
+[node name="Spawns" type="Node3D" parent="." unique_id=1897825282]
+
+[node name="Default" type="Marker3D" parent="Spawns" unique_id=457608385]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.05, 48)
+
+[node name="W3-1" type="Marker3D" parent="Spawns" unique_id=1846790139]
+transform = Transform3D(0.35184163, 0, 0.93605953, 0, 1, 0, -0.93605953, 0, 0.35184163, -12, 2.05, 40.5)
+
+[node name="W3-2" type="Marker3D" parent="Spawns" unique_id=148015194]
+transform = Transform3D(0.123601474, 0, -0.9923319, 0, 1, 0, 0.9923319, 0, 0.123601474, 30, 2.05, 44)
+
+[node name="W3-3" type="Marker3D" parent="Spawns" unique_id=1153023412]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 1.45, 25.5)
+
+[node name="W3-4" type="Marker3D" parent="Spawns" unique_id=974053019]
+transform = Transform3D(0.31564906, 0, -0.948876, 0, 1, 0, 0.948876, 0, 0.31564906, 21, 8.25, -24)
+
+[node name="W3-6" type="Marker3D" parent="Spawns" unique_id=1036134215]
+transform = Transform3D(0.48633534, 0, 0.87377226, 0, 1, 0, -0.87377226, 0, 0.48633534, 3, 8.05, -19)
+
+[node name="W3-7" type="Marker3D" parent="Spawns" unique_id=680979174]
+transform = Transform3D(0.123601474, 0, -0.9923319, 0, 1, 0, 0.9923319, 0, 0.123601474, 9, 2.05, 38.5)
+
+[node name="W3-8" type="Marker3D" parent="Spawns" unique_id=478969386]
+transform = Transform3D(0.8571673, 0, 0.5150381, 0, 1, 0, -0.5150381, 0, 0.8571673, 6, 8.05, -24)
+
+[node name="W3-3_bank" type="Marker3D" parent="Spawns" unique_id=1077797666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46, 2.1, 32.5)
+
+[node name="W3-6_kitchen" type="Marker3D" parent="Spawns" unique_id=2106853120]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.4, 104.55, -29)
+
+[node name="W3-6_door_exit" type="Marker3D" parent="Spawns" unique_id=1278587856]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6, 8.05, -21.8)
+
+[node name="StoryCams" type="Node3D" parent="." unique_id=995711782]
+
+[node name="StoryCam_A" type="Camera3D" parent="StoryCams" unique_id=1683040982]
+transform = Transform3D(1, 0, 0, 0, 0.9929882, 0.118212886, 0, -0.118212886, 0.9929882, 0, 16, 66)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_B" type="Camera3D" parent="StoryCams" unique_id=1654923079]
+transform = Transform3D(-0.732426, 0.16362426, -0.66089284, 0, 0.97069263, 0.24032466, 0.6808467, 0.17602003, -0.71096045, -52, 28, -53)
+fov = 58.0
+far = 600.0
+
+[node name="StoryCam_C" type="Camera3D" parent="StoryCams" unique_id=90483568]
+transform = Transform3D(0.8877545, -0.06737462, 0.4553598, 0, 0.9892305, 0.14636564, -0.46031713, -0.12993675, 0.8781939, 66, 20, 28)
+fov = 50.0
+far = 600.0
+
+[node name="StoryCam_D" type="Camera3D" parent="StoryCams" unique_id=704135530]
+transform = Transform3D(0.87709624, -0.25500435, 0.40703183, 0, 0.84742755, 0.5309111, -0.4803146, -0.46566013, 0.7432755, 46, 62, 80)
+fov = 50.0
+far = 600.0
+
+[node name="StoryCam_Intro_1" type="Camera3D" parent="StoryCams" unique_id=1382702332]
+transform = Transform3D(0.91531503, -0.025751514, 0.40191448, 0, 0.99795365, 0.06394101, -0.40273863, -0.058526166, 0.91344196, 2, 22.5, -19)
+fov = 38.0
+far = 600.0
+
+[node name="StoryCam_Intro_2" type="Camera3D" parent="StoryCams" unique_id=1113158191]
+transform = Transform3D(0.6585046, -0.2200345, -0.719692, 0, 0.95630383, -0.29237485, 0.7525767, 0.19253018, 0.62973046, 10, 3.5, 52)
+fov = 50.0
+far = 600.0
+
+[node name="Level" type="Node3D" parent="." unique_id=685557433]
+script = ExtResource("7_853x7")

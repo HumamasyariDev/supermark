@@ -1,0 +1,25 @@
+{
+ "key": "sfx_footstep_grass_3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one tiny footstep on short grass, light rustle",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:42.161096+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-cd82-7121-8faf-0e95b9866121",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6ba/p_INdMrEOA7efUUSMfati_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_footstep_grass_3.mp3"
+ ],
+ "completed": "2026-10-17T18:49:48.805054+00:00"
+}

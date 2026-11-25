@@ -1,0 +1,25 @@
+{
+ "key": "r5_hot_splash_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a splash into thick hot chocolate, gloopy plop with a sizzle",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:36.572970+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-5af9-7921-b453-1ec153b5e148",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/THw8xvclog0q7kwLFhWIY_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_hot_splash_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:42.744025+00:00"
+}

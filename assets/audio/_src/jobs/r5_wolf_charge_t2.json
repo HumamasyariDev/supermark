@@ -1,0 +1,25 @@
+{
+ "key": "r5_wolf_charge_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: claws scrabbling on grass and a quick rushing whoosh as a small animal charges",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:51.605823+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-ab52-74a2-8f03-96016da61816",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/qIHCT5SphHu5DExl0aqJ4_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_wolf_charge_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:58.417411+00:00"
+}

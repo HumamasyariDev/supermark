@@ -1,0 +1,25 @@
+{
+ "key": "r5_leaf_creak",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a giant beanstalk leaf bends with a fibrous creak",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:41.710694+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-6f0b-7342-98bc-cdefc64eedca",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/aW4GAj8ZEgzCBCaVrkh9H_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_leaf_creak.mp3"
+ ],
+ "completed": "2026-10-17T20:28:47.949625+00:00"
+}

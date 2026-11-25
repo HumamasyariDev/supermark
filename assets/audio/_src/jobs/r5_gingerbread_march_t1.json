@@ -1,0 +1,25 @@
+{
+ "key": "r5_gingerbread_march_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one crisp crunchy step of a tiny gingerbread toy soldier with a tiny drum tap",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:04.445452+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-dd80-77a3-9ec6-dbb048dd00b9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec908/mrdyDbcdCmHSlTsAp6DG3_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_gingerbread_march_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:10.490434+00:00"
+}

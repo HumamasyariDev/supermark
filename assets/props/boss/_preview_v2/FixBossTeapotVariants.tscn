@@ -1,0 +1,56 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_BOSS.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/props/boss/boss_chimney/boss_chimney.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/boss/_preview_v2/variants/teapot_lowmetal.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/boss/_preview_v2/variants/teapot_lowmetal_gold.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/props/boss/_preview_v2/variants/teapot_metal085.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/props/boss/_preview_v2/variants/teapot_midmetal.glb" id="6"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.557, 0.51, 0.588, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="FixBossTeapotVariants" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.38, -1.2, 0)
+light_color = Color(1, 0.74, 0.52, 1)
+light_energy = 1.25
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="VariantCam" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.97342, 0.22904, 0, -0.22904, 0.97342, 0, 1.2, 3.4)
+fov = 40
+current = true
+
+[node name="VariantSky" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99106, -0.13341, -0, 0.13341, 0.99106, 0, 0.25, 2.6)
+fov = 40
+
+[node name="PotMetal085" parent="." instance=ExtResource("5")]
+transform = Transform3D(0.93969, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.93969, -1.5, 0, 0)
+
+[node name="PotMetal060" parent="." instance=ExtResource("6")]
+transform = Transform3D(0.93969, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.93969, -0.5, 0, 0)
+
+[node name="PotMetal035" parent="." instance=ExtResource("3")]
+transform = Transform3D(0.93969, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.93969, 0.5, 0, 0)
+
+[node name="PotMetal035Gold" parent="." instance=ExtResource("4")]
+transform = Transform3D(0.93969, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.93969, 1.5, 0, 0)
+
+[node name="Chimney" parent="." instance=ExtResource("2")]
+transform = Transform3D(-0.7, 0, 8.5725e-17, 0, 0.7, 0, -8.5725e-17, 0, -0.7, 0, 0, -3.5)
+

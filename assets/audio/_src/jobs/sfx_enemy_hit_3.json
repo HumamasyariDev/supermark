@@ -1,0 +1,25 @@
+{
+ "key": "sfx_enemy_hit_3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic squeaky toy hit, short squeak and thud",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:35:08.832256+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b5c-6cb8-70b3-9538-1b3414cb274f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7cb/uuCuR0IZM4hvRo_XmEGXl_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_enemy_hit_3.mp3"
+ ],
+ "completed": "2026-10-17T19:35:16.852258+00:00"
+}

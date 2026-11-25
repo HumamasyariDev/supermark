@@ -1,0 +1,25 @@
+{
+ "key": "sfx_gummy_wobble",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a wobbly jelly bounce, squishy boing",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:00.669718+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-15ce-7f01-b737-474383a67428",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/FYg1aejYnnPUt6chyox1T_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/sfx_gummy_wobble.mp3"
+ ],
+ "completed": "2026-10-17T18:50:07.259752+00:00"
+}

@@ -1,0 +1,74 @@
+{
+ "amb_w1_bed": {
+  "intent": "countryside meadow: birds and breeze",
+  "heard": "Continuous birdsong creates a natural, outdoor atmosphere, with intermittent rustling sounds of something moving through foliage. No technical issues are present. GUESS: This audio would be perfect for a tranquil exploration scene in an open-world game, like walking through a forest in *The Legend of Zelda* or *Red Dead Redemption 2*. **Detailed Analysis:**"
+ },
+ "amb_w2_bed": {
+  "intent": "high-altitude wind and distant wind chimes",
+  "heard": "Mysterious, resonant chimes and bells create a continuous, ambient soundscape. The audio is a designed sound effect with no speech or technical flaws. GUESS: This would accompany a save point, inventory screen, or a magical location in a fantasy role-playing game. - **Main topics and themes discussed**: Not applicable, as there is no speech. The audio conveys themes of mystery, magic, and contempl"
+ },
+ "amb_w3_bed": {
+  "intent": "bubbling hot chocolate and candy crunch",
+  "heard": "The audio contains the continuous background sound of bubbling and gurgling water. There is no speech, music, or distortion present. GUESS: This sound would accompany an alchemist brewing a potion, a magical spring, or an underwater cave in a video game. **Detailed Analysis:**"
+ },
+ "amb_hub_bed": {
+  "intent": "fireplace crackle and a ticking clock",
+  "heard": "A continuous background of a crackling fire and a prominent, rhythmic ticking clock. The audio is clean, featuring only these two distinct sound sources with no flaws. GUESS: This would accompany a tense cutscene or loading screen in a horror or mystery video game, where time is running out. **Detailed Analysis:**"
+ },
+ "amb_boss_bed": {
+  "intent": "storm: wind, rain, thunder",
+  "heard": "Continuous, deep rumbling and powerful wind create an ominous, atmospheric background. The recording is clean, with no speech, music, or technical flaws. GUESS: This audio would accompany the player exploring a desolate, storm-swept alien planet or a high mountain peak in a fantasy video game like *The Elder Scrolls V: Skyrim*. ### Audio Analysis"
+ },
+ "giant_snore": {
+  "intent": "a giant snoring",
+  "heard": "A deep, monstrous groan from a large creature. It is a one-off sound event with no audible clicks, distortion, or other technical issues. GUESS: The awakening of a large boss monster, like a dragon or giant, in a dark fantasy role-playing game."
+ },
+ "giant_sneeze": {
+  "intent": "a giant sneezing",
+  "heard": "A single, high-pitched, mournful howl from a dog or puppy. The audio is clear, with no other background noise, clicks, or distortions. GUESS: A pet companion in a video game expressing sadness or loneliness after its owner has been defeated or has left. ***"
+ },
+ "giant_inhale": {
+  "intent": "a giant's deep inhale",
+  "heard": "A single, low-pitched, warbling gurgle, like a cartoon character or creature vocalization. This is a one-off sound effect with no speech, music, or technical issues. GUESS: This is the sound of the character Yoshi from the Super Mario video game franchise, often used when he swallows an enemy or as a general voice clip. *   **Main topics and themes discussed**: Not applicable, as the audio contain"
+ },
+ "boss_growl": {
+  "intent": "a big cartoon wolf growl",
+  "heard": "A high-pitched, cartoonish wail, like a dog or coyote howling. It is a one-off sound event with no background noise or audio defects. GUESS: This sound would accompany a character or pet in a cartoon or family-friendly video game expressing sadness or comical pain. **Detailed Analysis:**"
+ },
+ "boss_hurt": {
+  "intent": "a big cartoon wolf yelping in pain",
+  "heard": "A high-pitched squeaky toy is squeezed repeatedly, creating a whining, melodic sound. It's a series of distinct events with no technical issues in the clear recording. GUESS: This sound would accompany a small, cute character being squeezed or taking minor damage in a cartoonish video game. ***"
+ },
+ "trial_fail": {
+  "intent": "sad trombone wah-wah",
+  "heard": "A single, low-pitched brass instrument note, like a trombone, plays a descending \"sad\" sound. It's a one-off event, clean, with no distortion or background noise. GUESS:This sound would accompany a \"game over\" screen, a character failing a task comically, or a \"womp womp\" moment of failure in a video game or cartoon. ***"
+ },
+ "gummy_melt": {
+  "intent": "gummy candy melting into goo",
+  "heard": "A continuous, bubbling sound of a thick, goopy liquid being poured or sloshing around. No speech, music, or other technical issues are audible. GUESS: Crafting a potion in an alchemy lab or encountering a slime-type monster in a fantasy game. **Detailed Analysis:**"
+ },
+ "boss_balloon": {
+  "intent": "balloon inflating then deflating away",
+  "heard": "A single, high-pitched, synthetic whirring sound effect builds in intensity and then stops. It is a clean, one-off event with no distortion or other sounds. GUESS: This sound would accompany a weapon charging, a portal opening, or a high-tech device activating in a science fiction video game. ***"
+ },
+ "great_truffle_appear": {
+  "intent": "magical golden reveal shimmer",
+  "heard": "A bright, melodic harp-like glissando. It is a clean, one-off musical sound effect with no speech, distortion, or other background noise. GUESS: This would accompany the successful completion of a puzzle or the discovery of a secret item in a fantasy-themed video game. - **Main topics and themes discussed**: There is no discussion. The theme conveyed by the sound is one of magic, discovery, and po"
+ },
+ "death": {
+  "intent": "dizzy faint: slide whistle down and a thud",
+  "heard": "A single, cartoonish slide whistle sound effect rises and falls in pitch. It is a clean, one-off event with no speech, music, or technical faults. GUESS: A character in a cartoon-style video game comically falling, slipping, or getting hit on the head. **Detailed Analysis:**"
+ },
+ "thunder": {
+  "intent": "distant rolling thunder",
+  "heard": "A single, powerful, reverberating boom, like a distant explosion or thunder. This one-off event has a long, fading echo and a deep, low-frequency rumble. GUESS: This would accompany a dramatic cinematic event, such as a large explosion, the casting of a powerful spell, or the arrival of a colossal boss in a video game. **Emotional tone and atmosphere:** The sound immediately establishes an ominous"
+ },
+ "chimney_smash": {
+  "intent": "brick chimney bursting apart",
+  "heard": "A single, wet, gurgling or slurping sound is heard. It is a brief, one-off event with no speech, music, or technical faults. GUESS: This sound would accompany a slime monster moving, an alien's vocalization, or a character drinking a viscous potion in a video game or fantasy movie. ***"
+ },
+ "boss_tornado_loop": {
+  "intent": "swirling tornado wind",
+  "heard": "A one-off cinematic sound effect of a deep, powerful rumble and whooshing noise, building in intensity. The audio is clean with no speech, music, or technical issues. GUESS: The cinematic title screen for an epic sci-fi game (like *Mass Effect* or *Destiny*) or the appearance of a massive spaceship in a cutscene. **Main topics and themes discussed**"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_footstep_wood_1b",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one single small hoof step on a wooden floorboard, a short dull hollow knock",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:24:05.131388+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b52-4b78-7f13-8c94-877450d18bf8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec788/hxWSEPHa1Iich9iPPaD_V_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_footstep_wood_1b.mp3"
+ ],
+ "completed": "2026-10-17T19:24:12.752574+00:00"
+}

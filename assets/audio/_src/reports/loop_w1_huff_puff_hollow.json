@@ -1,0 +1,26 @@
+{
+ "source": "raw/music_w1_a.mp3",
+ "out": "../music/w1_huff_puff_hollow.ogg",
+ "source_duration": 153.6261224489796,
+ "tempo_est": 123.046875,
+ "loop": {
+  "score": 1.5457219678272411,
+  "start": 22.68589569160998,
+  "end": 114.82267573696146,
+  "beats": 192,
+  "cos": 0.9639754891395569,
+  "cos_pre": 0.9575778245925903
+ },
+ "intro": false,
+ "loop_offset_s": 0.0,
+ "loop_s": 92.13678004535147,
+ "crossfade_s": 0.4876190476190476,
+ "measured_input_lufs": -12.22,
+ "gain_db": -3.7799999999999994,
+ "limited": false,
+ "out_lufs": -16.0,
+ "out_true_peak": -3.53,
+ "seam_sample_jump": 0.02332530915737152,
+ "seam_rms_end_db": -17.026272246118445,
+ "seam_rms_start_db": -15.09251884376704
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5e_wall_kick_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a foot kicking off a wooden wall, sharp thump followed by a springy whoosh",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:34.229513+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-96e2-7373-a40e-1f2daf451512",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5b/Q3dF5t_mZ3fxNx75StODA_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5e_wall_kick_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:24:40.277021+00:00"
+}

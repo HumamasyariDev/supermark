@@ -1,0 +1,32 @@
+{
+ "phase": "owner-fix-intro-splash",
+ "jobs": [
+  {
+   "key": "voiceQW_mak_supermak",
+   "endpoint": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+   "input": {
+    "text": "Super Mak!\n\nSuper Mak!\n\nSuper Mak!",
+    "speaker_voice_embedding_file_url": "https://v3b.fal.media/files/b/0aaec7b7/fvwV_kZ8LqAEwHEaEanR7_tmph6xzybs0.safetensors",
+    "reference_text": "Tally-ho! Splendid! Jolly good! Righto!",
+    "language": "English",
+    "max_new_tokens": 300
+   },
+   "quoted_unit": "1000 chars @ $0.09",
+   "quoted_qty": 0.034,
+   "max_reserved_usd": 0.02
+  },
+  {
+   "key": "intro_oink_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one cute little piglet's happy squeaky oink followed by a quick snort, short and bouncy",
+    "duration_seconds": 0.9,
+    "prompt_influence": 0.6,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.9,
+   "max_reserved_usd": 0.01
+  }
+ ]
+}

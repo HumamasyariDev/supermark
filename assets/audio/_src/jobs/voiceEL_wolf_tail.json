@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_tail",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[yelps in pain] Yeowch! My tail!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:18.159021+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b58-e725-7352-97ed-b2d03d5e32be",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/iEP3Shb5hBQ3XWYgmQWle_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 48109
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_tail.mp3"
+ ],
+ "completed": "2026-10-17T19:31:26.060026+00:00"
+}

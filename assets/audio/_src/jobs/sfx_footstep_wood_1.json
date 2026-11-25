@@ -1,0 +1,25 @@
+{
+ "key": "sfx_footstep_wood_1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: one small hoof footstep on a wooden floor, light tap",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:42.344124+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-ce38-7f63-8311-b0fc16141718",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6ba/MMmVSNmfcZMxGotycXz2D_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_footstep_wood_1.mp3"
+ ],
+ "completed": "2026-10-17T18:49:49.004751+00:00"
+}

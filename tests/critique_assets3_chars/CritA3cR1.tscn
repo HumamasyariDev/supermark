@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/critique_assets3_chars/crit_a3c_r1.gd" id="1"]
+
+[node name="CritA3cR1" type="Node3D"]
+script = ExtResource("1")

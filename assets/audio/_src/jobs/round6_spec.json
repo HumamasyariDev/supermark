@@ -1,0 +1,215 @@
+{
+ "phase": "night01-audio-impl-round6-npc-greets",
+ "jobs": [
+  {
+   "key": "r6_npc_greet_piglet_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a cheerful young piglet gives a happy little two-note 'oink-oink!' greeting with a short giggle",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_piglet_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a cheerful young piglet gives a happy little two-note 'oink-oink!' greeting with a short giggle",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_piglet_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a cheerful young piglet gives a happy little two-note 'oink-oink!' greeting with a short giggle",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_cow_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a friendly gentle cow gives one short warm cheerful 'mooo' greeting",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6_npc_greet_cow_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a friendly gentle cow gives one short warm cheerful 'mooo' greeting",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6_npc_greet_cow_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a friendly gentle cow gives one short warm cheerful 'mooo' greeting",
+    "duration_seconds": 1.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.5,
+   "estimated_usd": 0.003,
+   "max_reserved_usd": 0.0037
+  },
+  {
+   "key": "r6_npc_greet_boy_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a young boy gasps a happy surprised 'oh!' followed by a tiny delighted laugh, no words",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.2,
+   "estimated_usd": 0.0024,
+   "max_reserved_usd": 0.003
+  },
+  {
+   "key": "r6_npc_greet_boy_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a young boy gasps a happy surprised 'oh!' followed by a tiny delighted laugh, no words",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.2,
+   "estimated_usd": 0.0024,
+   "max_reserved_usd": 0.003
+  },
+  {
+   "key": "r6_npc_greet_boy_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a young boy gasps a happy surprised 'oh!' followed by a tiny delighted laugh, no words",
+    "duration_seconds": 1.2,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.2,
+   "estimated_usd": 0.0024,
+   "max_reserved_usd": 0.003
+  },
+  {
+   "key": "r6_npc_greet_granny_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a kindly old grandmother gives a warm delighted 'ooh!' hum of welcome, no words",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_granny_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a kindly old grandmother gives a warm delighted 'ooh!' hum of welcome, no words",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_granny_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a kindly old grandmother gives a warm delighted 'ooh!' hum of welcome, no words",
+    "duration_seconds": 1.3,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.3,
+   "estimated_usd": 0.0026,
+   "max_reserved_usd": 0.0033
+  },
+  {
+   "key": "r6_npc_greet_butler_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: an elderly English butler politely clears his throat, one soft dignified 'ahem'",
+    "duration_seconds": 1.1,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.1,
+   "estimated_usd": 0.0022,
+   "max_reserved_usd": 0.0028
+  },
+  {
+   "key": "r6_npc_greet_butler_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: an elderly English butler politely clears his throat, one soft dignified 'ahem'",
+    "duration_seconds": 1.1,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.1,
+   "estimated_usd": 0.0022,
+   "max_reserved_usd": 0.0028
+  },
+  {
+   "key": "r6_npc_greet_butler_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: an elderly English butler politely clears his throat, one soft dignified 'ahem'",
+    "duration_seconds": 1.1,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.1,
+   "estimated_usd": 0.0022,
+   "max_reserved_usd": 0.0028
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_hat_on",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a dapper top hat pops onto a head with a soft cork pop and a bright sparkle",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:44.124298+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-8e1b-7b11-8438-809415fed371",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/ssQ7ALukJ5VlOz2X7YfC9_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_hat_on.mp3"
+ ],
+ "completed": "2026-10-17T20:27:50.488580+00:00"
+}

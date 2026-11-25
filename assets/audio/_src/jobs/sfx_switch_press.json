@@ -1,0 +1,25 @@
+{
+ "key": "sfx_switch_press",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a big wooden floor switch pressed down, chunky click and clunk",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T19:31:32.509231+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-1ba4-70e2-b0df-0b1031e09aab",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b5/WdoAbDseViiizpIFb9qOB_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/sfx_switch_press.mp3"
+ ],
+ "completed": "2026-10-17T19:31:38.607153+00:00"
+}

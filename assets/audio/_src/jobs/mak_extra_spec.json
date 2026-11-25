@@ -1,0 +1,19 @@
+{
+ "phase": "night01-audio-round3",
+ "jobs": [
+  {
+   "key": "voiceQW_mak_extra",
+   "endpoint": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+   "input": {
+    "text": "Ham Slam!\n\nWahey!\n\nCheerio!\n\nOuch!\n\nWhoa-oa-oa!\n\nA top hat! How dashing!\n\nGot it!",
+    "speaker_voice_embedding_file_url": "https://v3b.fal.media/files/b/0aaec7b7/fvwV_kZ8LqAEwHEaEanR7_tmph6xzybs0.safetensors",
+    "reference_text": "Tally-ho! Splendid! Jolly good! Righto!",
+    "language": "English",
+    "max_new_tokens": 600
+   },
+   "quoted_unit": "1000 chars @ $0.09",
+   "quoted_qty": 0.08,
+   "max_reserved_usd": 0.02
+  }
+ ]
+}

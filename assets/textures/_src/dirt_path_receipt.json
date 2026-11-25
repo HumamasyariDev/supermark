@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b30-df9c-7560-9e67-d7ec0aa73b79",
+  "arguments": {
+    "prompt": "Packed earth country path: warm ochre-brown dirt with small rounded pebbles and soft painted cracks. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:48.028906+00:00",
+  "output_file": "dirt_path_raw.png",
+  "sha256": "3b5cac41880bf867e65ffdd6addf77fb33129d5336aedd0a663ca352efef25d2",
+  "description": ""
+}

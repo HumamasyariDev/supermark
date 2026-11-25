@@ -1,0 +1,107 @@
+{
+ "r6_npc_greet_boy_t1": {
+  "raw_dur": 1.2,
+  "dur": 0.43,
+  "active_s": 0.24,
+  "centroid": 1442,
+  "peak": -2.5
+ },
+ "r6_npc_greet_boy_t2": {
+  "raw_dur": 1.2,
+  "dur": 0.9,
+  "active_s": 0.8,
+  "centroid": 1296,
+  "peak": -6.6
+ },
+ "r6_npc_greet_boy_t3": {
+  "raw_dur": 1.2,
+  "dur": 0.46,
+  "active_s": 0.32,
+  "centroid": 1619,
+  "peak": -4.6
+ },
+ "r6_npc_greet_butler_t1": {
+  "raw_dur": 1.08,
+  "dur": 0.93,
+  "active_s": 0.73,
+  "centroid": 1560,
+  "peak": -3.8
+ },
+ "r6_npc_greet_butler_t2": {
+  "raw_dur": 1.08,
+  "dur": 1.06,
+  "active_s": 0.94,
+  "centroid": 3698,
+  "peak": -4.2
+ },
+ "r6_npc_greet_butler_t3": {
+  "raw_dur": 1.08,
+  "dur": 1.02,
+  "active_s": 0.86,
+  "centroid": 2396,
+  "peak": -1.3
+ },
+ "r6_npc_greet_cow_t1": {
+  "raw_dur": 1.48,
+  "dur": 1.48,
+  "active_s": 1.38,
+  "centroid": 765,
+  "peak": -8.5
+ },
+ "r6_npc_greet_cow_t2": {
+  "raw_dur": 1.48,
+  "dur": 1.45,
+  "active_s": 1.33,
+  "centroid": 992,
+  "peak": -8.0
+ },
+ "r6_npc_greet_cow_t3": {
+  "raw_dur": 1.48,
+  "dur": 1.46,
+  "active_s": 1.36,
+  "centroid": 1079,
+  "peak": -7.9
+ },
+ "r6_npc_greet_granny_t1": {
+  "raw_dur": 1.28,
+  "dur": 1.28,
+  "active_s": 1.2,
+  "centroid": 825,
+  "peak": -6.8
+ },
+ "r6_npc_greet_granny_t2": {
+  "raw_dur": 1.28,
+  "dur": 1.1,
+  "active_s": 0.85,
+  "centroid": 687,
+  "peak": -5.2
+ },
+ "r6_npc_greet_granny_t3": {
+  "raw_dur": 1.28,
+  "dur": 1.28,
+  "active_s": 1.14,
+  "centroid": 656,
+  "peak": -4.9
+ },
+ "r6_npc_greet_piglet_t1": {
+  "raw_dur": 1.28,
+  "dur": 1.17,
+  "active_s": 0.81,
+  "centroid": 3525,
+  "peak": -4.7
+ },
+ "r6_npc_greet_piglet_t2": {
+  "raw_dur": 1.28,
+  "dur": 1.22,
+  "active_s": 1.0,
+  "centroid": 3322,
+  "peak": -2.5
+ },
+ "r6_npc_greet_piglet_t3": {
+  "raw_dur": 1.28,
+  "dur": 1.22,
+  "active_s": 0.72,
+  "centroid": 3170,
+  "peak": -5.8
+ }
+}

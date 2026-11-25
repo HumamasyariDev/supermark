@@ -1,0 +1,25 @@
+{
+ "key": "sfx_bellows_break",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a wooden bellows machine breaking apart: creak, crack, clatter and an air hiss",
+  "duration_seconds": 1.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:01.951492+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-1acf-76a0-89fd-e56856ab0897",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/k3NY7Kzsmc7lWDNkmtRtD_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 40167
+  }
+ },
+ "files": [
+  "raw/sfx_bellows_break.mp3"
+ ],
+ "completed": "2026-10-17T18:50:08.548368+00:00"
+}

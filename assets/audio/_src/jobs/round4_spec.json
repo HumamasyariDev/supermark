@@ -1,0 +1,132 @@
+{
+ "phase": "night01-audio-round4",
+ "jobs": [
+  {
+   "key": "sfx_punch_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick padded cartoon punch, soft thump with a tiny swish",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_kick_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick cartoon kick, swish and soft thwack",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_enemy_hit_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic bonk on a cartoon creature's head, hollow padded knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_enemy_hit_3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic squeaky toy hit, short squeak and thud",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_land_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low thump of small hooves landing on grass, short and muffled",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_acorn_collect_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bright pickup blip: a tiny wooden click with a short rising sparkle",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_crow_caw_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a cheeky crow cawing twice, mischievous",
+    "duration_seconds": 1.0,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 1.0,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_cloud_puff_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft cloud puffing apart, gentle airy poof",
+    "duration_seconds": 0.6,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.6,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "sfx_splash_2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small cartoon splash into water",
+    "duration_seconds": 0.7,
+    "prompt_influence": 0.55,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.7,
+   "max_reserved_usd": 0.007
+  },
+  {
+   "key": "music_hub_b",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Gentle, cosy fireside music for an old wood-panelled library at night, the calm home base of a family adventure game. A soft, unhurried harpsichord melody, warm muted string quartet, a mellow clarinet, light pizzicato double bass, a quiet crackling fireplace underneath. Calm, warm, curious and homely, quiet dynamics, slow tempo of about 84 BPM in strict time, repeating 8-bar phrases, no build-up and no ending, designed as seamless background music."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  }
+ ]
+}

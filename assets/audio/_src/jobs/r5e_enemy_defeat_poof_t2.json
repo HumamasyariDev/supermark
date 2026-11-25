@@ -1,0 +1,25 @@
+{
+ "key": "r5e_enemy_defeat_poof_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a puff of smoke poof with a small confetti pop",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:34.204603+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-96c9-7eb2-8410-7cdc75d3f1b9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5b/0-bm_31A7m5wlRoxgMXx3_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5e_enemy_defeat_poof_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:24:40.522370+00:00"
+}

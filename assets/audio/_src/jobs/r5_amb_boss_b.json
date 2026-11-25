@@ -1,0 +1,26 @@
+{
+ "key": "r5_amb_boss_b",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Game ambience recording, seamless, no music, no voice, no melody: distant rolling thunder and heavy wind gusts in a storm",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.45,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:29:08.193537+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-d67e-7211-8d0e-c1c864140c64",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90f/ox7ysBf1snr8Sush1uYYK_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5_amb_boss_b.mp3"
+ ],
+ "completed": "2026-10-17T20:29:19.434631+00:00"
+}

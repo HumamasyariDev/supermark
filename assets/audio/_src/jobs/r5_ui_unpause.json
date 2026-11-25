@@ -1,0 +1,25 @@
+{
+ "key": "r5_ui_unpause",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a storybook opens with a quick page flutter",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:29:01.077811+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-bab6-75b1-8d9f-e792d38a0a56",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90e/nRR-tuDcbHJXndDRBLNi6_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_ui_unpause.mp3"
+ ],
+ "completed": "2026-10-17T20:29:07.421190+00:00"
+}

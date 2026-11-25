@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-4d3f-7a12-bd89-5cd5e220c1a3",
+  "arguments": {
+    "prompt": "Library carpet: deep burgundy wool rug with a subtle gold damask pattern, soft and cosy. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:27.656899+00:00",
+  "output_file": "library_carpet_raw.png",
+  "sha256": "1b0095e81e81f61189671c2e42783a3423869764e04af16b9ab7757e4fa79f5d",
+  "description": ""
+}

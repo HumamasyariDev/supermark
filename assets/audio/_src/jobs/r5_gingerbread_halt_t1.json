@@ -1,0 +1,25 @@
+{
+ "key": "r5_gingerbread_halt_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a tiny toy whistle blast and a crisp heel click",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:09.138664+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-efd3-7082-869a-b083a6d13255",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/L085P6WTGoKRs4mTj8cKw_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_gingerbread_halt_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:15.349970+00:00"
+}

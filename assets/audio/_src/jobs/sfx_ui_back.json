@@ -1,0 +1,25 @@
+{
+ "key": "sfx_ui_back",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a soft low menu back click",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:08.549152+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-3495-7ca0-948d-be649e567525",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/H6oORI-Ce-wwcmeMTuBSa_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_ui_back.mp3"
+ ],
+ "completed": "2026-10-17T18:50:14.602169+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_pea_splat_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small soft pea splats on the ground, tiny wet comic splat",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:03.051504+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-d9e0-7750-83e8-0cee9f7d7b1d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec908/PVL3g1xP39cNqRWtH4jT9_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_pea_splat_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:09.706518+00:00"
+}

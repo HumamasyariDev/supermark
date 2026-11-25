@@ -1,0 +1,25 @@
+{
+ "key": "sfx_pea_pop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a pea pod popping and launching a pea, small pop with a whistle",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:00.755257+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-1629-73d2-bd65-2fe831534cbd",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/ngTcccmeSh_8BIUkyGqRq_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/sfx_pea_pop.mp3"
+ ],
+ "completed": "2026-10-17T18:50:07.050563+00:00"
+}

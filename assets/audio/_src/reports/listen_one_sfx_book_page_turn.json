@@ -1,0 +1,10 @@
+{
+ "utc": "2026-10-17T19:21:35.965323+00:00",
+ "audio": "../sfx/book_page_turn.ogg",
+ "duration_s": 0.523968,
+ "prompt": "Describe this single short sound effect in under 20 words (what physical or cartoon sound it is). Then, on a new line starting with GUESS:, guess what video game action or event it would accompany. Mention any speech, music, noise or distortion.",
+ "request_id": "01a14b4f-3d15-72a3-8e5b-4d2494b1aa7e",
+ "result": {
+  "output": "A short, sharp sound of a page being turned very quickly or a piece of paper ripped.\n\nGUESS: Quickly cycling through menu options, opening a quest log, or turning a page in an in-game book.\n\nThis audio file consists of a single, isolated sound effect. There is no speech, music, or distortion.\n\n- **Main topics and themes discussed:** This is a non-linguistic sound effect and therefore contains no topics or themes.\n\n- **Speakers and their characteristics:** There are no speakers in this audio file.\n\n- **Emotional tone and atmosphere:** The tone is neutral and functional. The sound is quick and sharp, which can create an atmosphere of speed or efficiency, but it is not inherently emotional. It's an abrupt, utilitarian sound.\n\n- **Key points and arguments:** As a sound effect, it makes no points or arguments.\n\n- **Background sounds and context:** The audio is presented in isolation, with no background noise or contextual sounds. The primary noise is the effect itself\u2014a crisp, high-frequency whoosh with a paper-like texture.\n\n- **Language and communication style:** This category is not applicable as there is no language present.\n\n- **Overall mood and sentiment:** The mood is neutral and functional. The sound is designed to provide quick auditory feedback for an action rather than to convey any specific emotion or sentiment."
+ }
+}

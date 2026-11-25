@@ -1,0 +1,25 @@
+{
+ "key": "r5_pea_notice_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a leafy plant pod springs up alert, quick leafy rustle and a squeaky pop",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:03.116172+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-da16-75d0-ac1c-e0aa6d59b7e4",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec908/uV1RsnWHbpbvVJxxTADm0_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_pea_notice_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:09.762751+00:00"
+}

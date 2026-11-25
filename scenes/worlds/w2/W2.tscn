@@ -1,0 +1,145 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/worlds/w2_world.gd" id="1_w2"]
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W2.tres" id="2_env"]
+
+[node name="W2" type="Node3D"]
+script = ExtResource("1_w2")
+world_id = "W2"
+display_name = "Beanstalk Skyway"
+music_key = "w2_beanstalk"
+kill_y = -15.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("2_env")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.558505, -1.178097, 0.000000)
+light_color = Color(1, 0.886, 0.69, 1)
+light_energy = 1.25
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Spawns" type="Node3D" parent="."]
+
+[node name="Default" type="Marker3D" parent="Spawns"]
+position = Vector3(0.000, 0.050, 29.000)
+rotation = Vector3(0, 0.000000, 0)
+
+[node name="W2-1" type="Marker3D" parent="Spawns"]
+position = Vector3(0.000, 0.050, 29.000)
+rotation = Vector3(0, 0.000000, 0)
+
+[node name="W2-5" type="Marker3D" parent="Spawns"]
+position = Vector3(0.000, 0.050, 29.000)
+rotation = Vector3(0, 0.000000, 0)
+
+[node name="W2-6" type="Marker3D" parent="Spawns"]
+position = Vector3(8.000, 0.050, 3.500)
+rotation = Vector3(0, -0.245044, 0)
+
+[node name="W2-4" type="Marker3D" parent="Spawns"]
+position = Vector3(-3.500, 24.050, -12.000)
+rotation = Vector3(0, 1.570796, 0)
+
+[node name="W2-7" type="Marker3D" parent="Spawns"]
+position = Vector3(-3.500, 24.050, -12.000)
+rotation = Vector3(0, 1.570796, 0)
+
+[node name="W2-2" type="Marker3D" parent="Spawns"]
+position = Vector3(-12.000, 44.050, -8.000)
+rotation = Vector3(0, -1.570796, 0)
+
+[node name="W2-3" type="Marker3D" parent="Spawns"]
+position = Vector3(-12.000, 44.050, -8.000)
+rotation = Vector3(0, -1.570796, 0)
+
+[node name="W2-8" type="Marker3D" parent="Spawns"]
+position = Vector3(-6.500, 50.050, -21.800)
+rotation = Vector3(0, 2.617994, 0)
+
+[node name="StoryCams" type="Node3D" parent="."]
+
+[node name="StoryCam_A" type="Camera3D" parent="StoryCams"]
+position = Vector3(26.000, 7.000, 44.000)
+rotation = Vector3(0.381325, 0.463648, 0)
+fov = 62.0
+far = 1500.0
+
+[node name="StoryCam_B" type="Camera3D" parent="StoryCams"]
+position = Vector3(-72.000, 36.000, 6.000)
+rotation = Vector3(-0.026085, -1.306833, 0)
+fov = 56.0
+far = 1500.0
+
+[node name="StoryCam_C" type="Camera3D" parent="StoryCams"]
+position = Vector3(18.000, 74.000, -6.000)
+rotation = Vector3(-0.519146, 0.643501, 0)
+fov = 55.0
+far = 1500.0
+
+[node name="StoryCam_D" type="Camera3D" parent="StoryCams"]
+position = Vector3(-34.000, 82.000, -40.000)
+rotation = Vector3(-0.825122, -2.491722, 0)
+fov = 58.0
+far = 1500.0
+
+[node name="StoryCam_C_v2" type="Camera3D" parent="StoryCams"]
+position = Vector3(6.000, 62.000, -27.000)
+rotation = Vector3(-0.272553, 1.107149, 0)
+fov = 50.0
+far = 1500.0
+
+[node name="StoryCam_D_v2" type="Camera3D" parent="StoryCams"]
+position = Vector3(-4.000, 66.000, -5.000)
+rotation = Vector3(-0.180913, 0.655696, 0)
+fov = 55.0
+far = 1500.0
+
+[node name="StoryCam_A_v2" type="Camera3D" parent="StoryCams"]
+position = Vector3(6.000, 1.000, 44.000)
+rotation = Vector3(0.359936, 0.139096, 0)
+fov = 62.0
+far = 1500.0
+
+[node name="StoryCam_B_v2" type="Camera3D" parent="StoryCams"]
+position = Vector3(-80.000, 38.000, 4.000)
+rotation = Vector3(0.000000, -1.373401, 0)
+fov = 60.0
+far = 1500.0
+
+[node name="StoryCam_E_v2" type="Camera3D" parent="StoryCams"]
+position = Vector3(4.000, 61.000, -27.000)
+rotation = Vector3(-0.179290, 1.134169, 0)
+fov = 48.0
+far = 1500.0
+
+[node name="StoryCam_E_v3" type="Camera3D" parent="StoryCams"]
+position = Vector3(10.000, 68.000, -14.000)
+rotation = Vector3(-0.272388, 1.071450, 0)
+fov = 55.0
+far = 1500.0
+
+[node name="StoryCam_F_v3" type="Camera3D" parent="StoryCams"]
+position = Vector3(40.000, 52.000, 34.000)
+rotation = Vector3(0.027100, 0.572966, 0)
+fov = 52.0
+far = 1500.0
+
+[node name="StoryCam_G_v3" type="Camera3D" parent="StoryCams"]
+position = Vector3(-1.600, 55.950, -30.600)
+rotation = Vector3(0.320917, 1.133005, 0)
+fov = 62.0
+far = 1500.0
+
+[node name="StoryCam_G_v4" type="Camera3D" parent="StoryCams"]
+position = Vector3(-1.600, 56.200, -29.100)
+rotation = Vector3(0.36, 1.09, 0)
+fov = 62.0
+far = 1500.0
+
+[node name="StoryCam_G_v5" type="Camera3D" parent="StoryCams"]
+position = Vector3(-2.500, 57.200, -28.500)
+rotation = Vector3(0.279198, 0.970746, 0)
+fov = 58.0
+far = 1500.0

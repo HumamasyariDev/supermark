@@ -1,0 +1,25 @@
+{
+ "key": "sfx_book_page_turn",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a single paper page turning",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:07.051300+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-2ebb-7690-ae89-550c33e1d850",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/1VveVq3bxMU6XSDMQDWvF_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/sfx_book_page_turn.mp3"
+ ],
+ "completed": "2026-10-17T18:50:13.109390+00:00"
+}

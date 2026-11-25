@@ -1,0 +1,25 @@
+{
+ "key": "r5_pop_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic cork pop",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:42.007116+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-7034-74d3-b22d-6e03e9f2a1c9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/6P8q64Kvg4kGocR4noUy4_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_pop_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:48.249770+00:00"
+}

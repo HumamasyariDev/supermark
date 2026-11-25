@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_jump3",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[joyful shout] Hoo-hah!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.492387+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3ec6-7293-bf5d-eebcdb554834",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/VYGpq5KwMNMZwakM7VW3V_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 19688
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_jump3.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.704011+00:00"
+}

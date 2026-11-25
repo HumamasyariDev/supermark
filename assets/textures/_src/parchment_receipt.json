@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-3c08-7f63-b713-93c6e42aaa4e",
+  "arguments": {
+    "prompt": "Old parchment paper: warm cream paper with subtle tea-stain blotches and soft fibres, very gentle. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:48:10.301031+00:00",
+  "output_file": "parchment_raw.png",
+  "sha256": "9775f5dafdcd876fa0047a7a55b4b5fb720f7318359ce73c76a1b05ade7d5567",
+  "description": ""
+}

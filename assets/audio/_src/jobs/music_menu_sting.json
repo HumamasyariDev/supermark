@@ -1,0 +1,25 @@
+{
+ "key": "music_menu_sting",
+ "endpoint": "elevenlabs/music/v2.5",
+ "input": {
+  "prompt": "Very short whimsical orchestral sting for a storybook game menu: a playful pizzicato and clarinet flourish ending on a cheerful bright chord with a tiny glockenspiel ping. Instrumental.",
+  "music_length_ms": 3000,
+  "force_instrumental": true,
+  "output_format": "mp3_48000_192"
+ },
+ "created": "2026-10-17T18:48:35.012285+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b31-caea-7320-9d0b-64f099ae808a",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b4/eGMQel3jJvyXR-6oboGBp_music_generated.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "music_generated.mp3",
+   "file_size": 144620
+  }
+ },
+ "files": [
+  "raw/music_menu_sting.mp3"
+ ],
+ "completed": "2026-10-17T18:48:42.669665+00:00"
+}

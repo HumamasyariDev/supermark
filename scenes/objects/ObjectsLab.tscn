@@ -1,0 +1,649 @@
+[gd_scene load_steps=39 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/objects/Truffle.tscn" id="Truffle"]
+[ext_resource type="PackedScene" path="res://scenes/objects/Acorn.tscn" id="Acorn"]
+[ext_resource type="PackedScene" path="res://scenes/objects/AcornGroup.tscn" id="AcornGroup"]
+[ext_resource type="PackedScene" path="res://scenes/objects/AcornHundred.tscn" id="AcornHundred"]
+[ext_resource type="PackedScene" path="res://scenes/objects/LostPage.tscn" id="LostPage"]
+[ext_resource type="PackedScene" path="res://scenes/objects/LostPageSet.tscn" id="LostPageSet"]
+[ext_resource type="PackedScene" path="res://scenes/objects/Checkpoint.tscn" id="Checkpoint"]
+[ext_resource type="PackedScene" path="res://scenes/objects/StorybookPortal.tscn" id="StorybookPortal"]
+[ext_resource type="PackedScene" path="res://scenes/objects/WolfDoor.tscn" id="WolfDoor"]
+[ext_resource type="PackedScene" path="res://scenes/objects/MovingPlatform.tscn" id="MovingPlatform"]
+[ext_resource type="PackedScene" path="res://scenes/objects/RotatingPlatform.tscn" id="RotatingPlatform"]
+[ext_resource type="PackedScene" path="res://scenes/objects/FallingPlatform.tscn" id="FallingPlatform"]
+[ext_resource type="PackedScene" path="res://scenes/objects/BouncePad.tscn" id="BouncePad"]
+[ext_resource type="PackedScene" path="res://scenes/objects/WindZone.tscn" id="WindZone"]
+[ext_resource type="PackedScene" path="res://scenes/objects/BellowsMachine.tscn" id="BellowsMachine"]
+[ext_resource type="PackedScene" path="res://scenes/objects/BellowsSet.tscn" id="BellowsSet"]
+[ext_resource type="PackedScene" path="res://scenes/objects/VanishingCloud.tscn" id="VanishingCloud"]
+[ext_resource type="PackedScene" path="res://scenes/objects/HazardVolume.tscn" id="HazardVolume"]
+[ext_resource type="PackedScene" path="res://scenes/objects/KillZone.tscn" id="KillZone"]
+[ext_resource type="PackedScene" path="res://scenes/objects/Climbable.tscn" id="Climbable"]
+[ext_resource type="PackedScene" path="res://scenes/objects/SignPost.tscn" id="SignPost"]
+[ext_resource type="PackedScene" path="res://scenes/objects/NPCTalker.tscn" id="NPCTalker"]
+[ext_resource type="PackedScene" path="res://scenes/objects/TrialRing.tscn" id="TrialRing"]
+[ext_resource type="PackedScene" path="res://scenes/objects/TimeTrial.tscn" id="TimeTrial"]
+[ext_resource type="PackedScene" path="res://scenes/objects/BreakableCrate.tscn" id="BreakableCrate"]
+[ext_resource type="PackedScene" path="res://scenes/objects/SlamSwitch.tscn" id="SlamSwitch"]
+[ext_resource type="PackedScene" path="res://scenes/objects/Cage.tscn" id="Cage"]
+[ext_resource type="PackedScene" path="res://scenes/objects/SniffTarget.tscn" id="SniffTarget"]
+[ext_resource type="PackedScene" path="res://scenes/objects/BuriedTreasure.tscn" id="BuriedTreasure"]
+[ext_resource type="Script" path="res://scripts/objects/lab_director.gd" id="director"]
+[ext_resource type="PackedScene" path="res://assets/props/pickups/golden_truffle/golden_truffle.glb" id="truffle_glb"]
+
+[sub_resource type="ProceduralSkyMaterial" id="sky_mat"]
+sky_top_color = Color(0.25, 0.47, 0.88, 1)
+sky_horizon_color = Color(0.85, 0.8, 0.76, 1)
+sky_curve = 0.12
+ground_bottom_color = Color(0.32, 0.36, 0.25, 1)
+ground_horizon_color = Color(0.9, 0.84, 0.74, 1)
+
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_mat")
+
+[sub_resource type="Environment" id="env"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+ambient_light_energy = 0.55
+tonemap_mode = 2
+tonemap_exposure = 0.95
+tonemap_white = 6.0
+ssao_enabled = true
+ssao_intensity = 1.4
+glow_enabled = true
+glow_intensity = 0.7
+glow_bloom = 0.08
+glow_hdr_threshold = 1.1
+fog_enabled = true
+fog_light_color = Color(0.78, 0.84, 0.95, 1)
+fog_density = 0.0012
+fog_aerial_perspective = 0.15
+fog_sky_affect = 0.3
+adjustment_enabled = true
+adjustment_saturation = 1.12
+
+[sub_resource type="StandardMaterial3D" id="ground_mat"]
+albedo_color = Color(0.33, 0.55, 0.22, 1)
+roughness = 0.95
+
+[sub_resource type="StandardMaterial3D" id="path_mat"]
+albedo_color = Color(0.74, 0.6, 0.4, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="ground_mesh"]
+material = SubResource("ground_mat")
+size = Vector3(120, 1, 90)
+
+[sub_resource type="BoxShape3D" id="ground_shape"]
+size = Vector3(120, 1, 90)
+
+[node name="ObjectsLab" type="Node3D"]
+
+[node name="LabDirector" type="Node3D" parent="."]
+script = ExtResource("director")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.81915, -0.42625, 0.3838, 0, 0.66913, 0.74314, -0.57358, -0.60875, 0.54812, 0, 20, 0)
+light_color = Color(1, 0.93, 0.8, 1)
+light_energy = 1.3
+shadow_enabled = true
+shadow_blur = 1.5
+directional_shadow_max_distance = 120.0
+
+[node name="Fill" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.93969, 0.14454, -0.30998, 0, 0.90631, 0.42262, 0.34202, 0.39713, -0.85165, 0, 20, 0)
+light_color = Color(0.7, 0.8, 1, 1)
+light_energy = 0.3
+
+[node name="Ground" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 0, -0.5, -10)
+
+[node name="Mesh" type="MeshInstance3D" parent="Ground"]
+mesh = SubResource("ground_mesh")
+
+[node name="Shape" type="CollisionShape3D" parent="Ground"]
+shape = SubResource("ground_shape")
+
+[node name="Paths" type="Node3D" parent="."]
+
+[node name="PathA" type="CSGBox3D" parent="Paths"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 3, 0.01, 2.6)
+size = Vector3(52, 0.04, 2.2)
+material = SubResource("path_mat")
+
+[node name="PathB" type="CSGBox3D" parent="Paths"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 3, 0.01, -7)
+size = Vector3(52, 0.04, 2.2)
+material = SubResource("path_mat")
+
+[node name="PathC" type="CSGBox3D" parent="Paths"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 3, 0.01, -20)
+size = Vector3(52, 0.04, 2.2)
+material = SubResource("path_mat")
+
+[node name="StoryCams" type="Node3D" parent="."]
+
+[node name="StoryCam_A" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, -0, 0, 0, 0.84549, 0.53399, -0, -0.53399, 0.84549, 2, 24, 26)
+current = true
+fov = 62.0
+
+[node name="StoryCam_B" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, -0, 0, 0, 0.96121, 0.27582, -0, -0.27582, 0.96121, -9, 4.2, 10.5)
+fov = 55.0
+
+[node name="StoryCam_C" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.98776, 0.035527, -0.15186, 0, 0.97371, 0.22779, 0.15596, -0.22501, 0.96179, -1, 7.5, 6)
+fov = 60.0
+
+[node name="StoryCam_D" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, -0, 0, 0, 0.92848, 0.37139, -0, -0.37139, 0.92848, 3, 7.5, -12)
+fov = 64.0
+
+[node name="StoryCam_E_row_a_right" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, -0, 0, 0, 0.9634, 0.26808, -0, -0.26808, 0.9634, 14, 4.2, 10.5)
+fov = 55.0
+
+[node name="StoryCam_F_books" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, 0, -0, 0, 0.96296, 0.26963, 0, -0.26963, 0.96296, -12.5, 4.5, -18.5)
+fov = 55.0
+
+[node name="StoryCam_G_bellows_hazards" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, -0, 0, 0, 0.93786, 0.34701, -0, -0.34701, 0.93786, 13, 4.5, -17)
+fov = 60.0
+
+[node name="StoryCam_H_truffles_close" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, 0, -0, 0, 0.98503, 0.17238, 0, -0.17238, 0.98503, -18.5, 1.6, 4)
+fov = 50.0
+
+[node name="StoryCam_I_bellows_close" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.74329, -0.24118, 0.62398, 0, 0.93275, 0.36052, -0.66896, -0.26797, 0.69331, 10.5, 3.6, -22.5)
+fov = 50.0
+
+[node name="StoryCam_J_pages_close" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1, 0, -0, 0, 0.97674, 0.21441, 0, -0.21441, 0.97674, -4.4, 1.9, 3.2)
+fov = 50.0
+
+[node name="Plates" type="Node3D" parent="."]
+
+[node name="TruffleGold" parent="." instance=ExtResource("Truffle")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -18, 0, 0)
+truffle_id = "LAB-1"
+use_default_mesh = false
+
+[node name="TruffleGhost" parent="." instance=ExtResource("Truffle")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -15.5, 0, 0)
+truffle_id = "LAB-GHOST"
+
+[node name="AcornRing" parent="." instance=ExtResource("AcornGroup")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -11.5, 0, 0)
+shape = 1
+count = 10
+radius = 1.4
+
+[node name="AcornArc" parent="." instance=ExtResource("AcornGroup")]
+transform = Transform3D(6.1232e-17, 0, 1, 0, 1, -0, -1, 0, 6.1232e-17, -8.5, 0, 1)
+shape = 0
+count = 6
+length = 4.0
+arc_height = 1.2
+
+[node name="Page1" parent="." instance=ExtResource("LostPage")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -6, 0, -0.5)
+world_id = "LAB"
+page_index = 0
+
+[node name="Page2" parent="." instance=ExtResource("LostPage")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -4.4, 0, -1.3)
+world_id = "LAB"
+page_index = 1
+
+[node name="Page3" parent="." instance=ExtResource("LostPage")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -2.8, 0, -0.5)
+world_id = "LAB"
+page_index = 2
+
+[node name="PageSet" parent="." instance=ExtResource("LostPageSet")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -4, 0, -3)
+world_id = "LAB"
+reward_truffle_id = "LAB-PAGES"
+
+[node name="Checkpoint" parent="." instance=ExtResource("Checkpoint")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -0.5, 0, -0.5)
+world_id = "LAB"
+
+[node name="Sign" parent="." instance=ExtResource("SignPost")]
+transform = Transform3D(0.98481, -0, -0.17365, 0, 1, -0, 0.17365, 0, 0.98481, 2.5, 0, 0)
+board_text = "Objects Lab"
+lines = PackedStringArray("Welcome to the Objects Lab.", "Every toy in the toybox lives here.")
+
+[node name="Bramwell" parent="." instance=ExtResource("NPCTalker")]
+transform = Transform3D(-0.96593, 0, 0.25882, 0, 1, -0, -0.25882, -0, -0.96593, 5, 0, -0.3)
+speaker = "Bramwell"
+lines = PackedStringArray("Good afternoon, Master Mak.", "The wolf has made rather a mess of the library.")
+
+[node name="Vine" parent="." instance=ExtResource("Climbable")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 8, 0, -1)
+look = 0
+height = 6.0
+
+[node name="Pole" parent="." instance=ExtResource("Climbable")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 9.6, 0, -1)
+look = 1
+height = 4.5
+pole_radius = 0.12
+
+[node name="Buried" parent="." instance=ExtResource("BuriedTreasure")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 12.5, 0.02, 0.5)
+truffle_id = "LAB-BURIED"
+
+[node name="Crate1" parent="." instance=ExtResource("BreakableCrate")]
+transform = Transform3D(0.97815, 0, 0.20791, 0, 1, -0, -0.20791, 0, 0.97815, 15.5, 0, 0)
+
+[node name="Crate2" parent="." instance=ExtResource("BreakableCrate")]
+transform = Transform3D(0.93969, -0, -0.34202, 0, 1, -0, 0.34202, 0, 0.93969, 16.6, 0, -0.6)
+size = 0.8
+
+[node name="Crate3" parent="." instance=ExtResource("BreakableCrate")]
+transform = Transform3D(0.76604, 0, 0.64279, 0, 1, -0, -0.64279, 0, 0.76604, 16, 1, -0.2)
+size = 0.7
+
+[node name="Switch1" parent="." instance=ExtResource("SlamSwitch")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 19, 0, 1)
+
+[node name="Switch2" parent="." instance=ExtResource("SlamSwitch")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 24, 0, 1)
+button_color = Color(0.3, 0.5, 0.95, 1)
+
+[node name="Cage" parent="." instance=ExtResource("Cage")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 21.5, 0, -1.8)
+reward_truffle_id = "LAB-CAGE"
+switches = Array[NodePath]([NodePath("../Switch1"), NodePath("../Switch2")])
+
+[node name="CageTruffle" parent="Cage/Contents" instance=ExtResource("Truffle")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 0, 0, 0)
+truffle_id = "LAB-CAGED"
+
+[node name="PadLeaf" parent="." instance=ExtResource("BouncePad")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -19, 0, -11)
+look = 0
+
+[node name="PadGumdrop" parent="." instance=ExtResource("BouncePad")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -15.5, 0, -11)
+look = 1
+
+[node name="PadDrum" parent="." instance=ExtResource("BouncePad")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -12, 0, -11)
+look = 2
+
+[node name="MoverWood" parent="." instance=ExtResource("MovingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -8, 1.5, -12)
+travel = Vector3(5, 0, 0)
+speed = 2.0
+
+[node name="MoverBiscuit" parent="." instance=ExtResource("MovingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -8, 3.5, -15)
+travel = Vector3(5, 1.5, 0)
+theme = 4
+size = Vector3(2.6, 0.4, 2.6)
+mode = 0
+auto_loop_square = true
+speed = 1.5
+
+[node name="Faller1" parent="." instance=ExtResource("FallingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 0.5, 2, -12)
+
+[node name="Faller2" parent="." instance=ExtResource("FallingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 3.5, 2.5, -12)
+theme = 1
+
+[node name="Cloud1" parent="." instance=ExtResource("VanishingCloud")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 7.5, 3, -12)
+
+[node name="Cloud2" parent="." instance=ExtResource("VanishingCloud")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 10, 4.5, -14)
+size = Vector3(2.4, 0.8, 2.4)
+
+[node name="Windmill" parent="." instance=ExtResource("RotatingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 17, 7.5, -16)
+radius = 5.0
+degrees_per_second = 18.0
+
+[node name="LeafPlatform" parent="." instance=ExtResource("MovingPlatform")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -19, 3.5, -15)
+theme = 2
+travel = Vector3(0, 2.5, 0)
+speed = 1.0
+size = Vector3(2.6, 0.3, 3.0)
+
+[node name="BookOpen" parent="." instance=ExtResource("StorybookPortal")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -16, 0, -26)
+world_id = "W1"
+book_title = "The Three Little Pigs"
+required_truffles = 0
+route_on_enter = false
+
+[node name="BookLocked" parent="." instance=ExtResource("StorybookPortal")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -9, 0, -26)
+world_id = "W3"
+book_title = "Hansel and Gretel"
+required_truffles = 7
+cover_color = Color(0.25, 0.45, 0.3, 1)
+route_on_enter = false
+
+[node name="WolfDoor" parent="." instance=ExtResource("WolfDoor")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -2, 0, -28)
+required_truffles = 12
+route_on_enter = false
+
+[node name="Wind1" parent="." instance=ExtResource("WindZone")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 6, 1.6, -22.5)
+size = Vector3(3, 3, 7)
+direction = Vector3(0, 0, 1)
+strength = 8.0
+
+[node name="Bellows1" parent="." instance=ExtResource("BellowsMachine")]
+transform = Transform3D(-1, 0, 1.2246e-16, 0, 1, -0, -1.2246e-16, -0, -1, 6, 0, -27.5)
+group_id = "lab"
+wind_zone_path = NodePath("../Wind1")
+
+[node name="Bellows2" parent="." instance=ExtResource("BellowsMachine")]
+transform = Transform3D(-0.93969, -0, -0.34202, 0, 1, -0, 0.34202, -0, -0.93969, 11, 0, -28)
+group_id = "lab"
+start_broken = true
+
+[node name="BellowsReward" parent="." instance=ExtResource("BellowsSet")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 8.5, 0, -24)
+group_id = "lab"
+reward_truffle_id = "LAB-BELLOWS"
+
+[node name="Chocolate" parent="." instance=ExtResource("HazardVolume")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 19, -0.35, -25)
+size = Vector3(8, 1, 6)
+look = 1
+
+[node name="Thorns" parent="." instance=ExtResource("HazardVolume")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 19, 0.4, -30)
+size = Vector3(6, 0.8, 1.5)
+look = 2
+
+[node name="Trial" parent="." instance=ExtResource("TimeTrial")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 26, 0, -6)
+reward_truffle_id = "LAB-TRIAL"
+time_limit = 20.0
+
+[node name="KillFloor" parent="." instance=ExtResource("KillZone")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 0, -30, 0)
+size = Vector3(300, 4, 300)
+
+[node name="Hundred" parent="." instance=ExtResource("AcornHundred")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -11.5, 0, -3)
+required = 100
+reward_truffle_id = "LAB-100"
+
+[node name="Sniff" parent="." instance=ExtResource("SniffTarget")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 12.5, 0.3, 0.5)
+
+[node name="TruffleMesh" parent="." instance=ExtResource("Truffle")]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -21, 0, 0)
+truffle_id = "LAB-MESH"
+visual_scene = ExtResource("truffle_glb")
+visual_scale = 1.4
+
+[node name="Plate0" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -18, 2.4, 0)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Primitive placeholder"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate1" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -21, 2.4, 0)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Truffle (generated mesh)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate2" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -15.5, 2.4, 0)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Ghost (owned)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate3" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -10, 2.4, 0)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Acorns: ring + arc"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate4" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -4.4, 2.6, -0.8)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Lost Pages"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate5" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -0.5, 3.8, -0.5)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Checkpoint bookmark"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate6" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 2.5, 2.9, 0)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Sign"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate7" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 5, 2.9, -0.3)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "NPC (faces player)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate8" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 8.8, 6.9, -1)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Vine / pole"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate9" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 12.5, 1.5, 0.5)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Buried treasure"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate10" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 16, 2.6, -0.3)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Breakable crates"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate11" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 21.5, 4.4, -1)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Slam switches + cage"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate12" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -15.5, 2.6, -11)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Bounce: leaf, gumdrop, drum"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate13" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -6, 5.8, -13)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Moving platforms"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate14" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 2, 4.2, -12)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Falling platforms"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate15" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 8.7, 6.3, -13)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Vanishing clouds"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate16" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 17, 14.2, -16)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Windmill rotor"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate17" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -16, 5.6, -26)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Storybook portal (open)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate18" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -9, 5.6, -26)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Locked book (7)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate19" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, -2, 5.6, -28)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Wolf door (12)"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate20" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 8.5, 3.6, -26)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Bellows + wind"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate21" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 19, 2.2, -27)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Hot chocolate + thorns"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)
+
+[node name="Plate22" type="Label3D" parent="Plates"]
+transform = Transform3D(1, 0, 0, 0, 1, -0, -0, 0, 1, 26, 4.2, -6)
+pixel_size = 0.008
+billboard = 1
+double_sided = true
+text = "Time trial"
+font_size = 56
+outline_size = 14
+modulate = Color(1, 0.96, 0.86, 1)
+outline_modulate = Color(0.25, 0.13, 0.06, 1)

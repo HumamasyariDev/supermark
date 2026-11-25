@@ -1,0 +1,25 @@
+{
+ "key": "r5_seq_step_metal",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small cartoon piglet in little shoes walking briskly across a thin metal sheet, eight separate light clanky footsteps with short gaps between them",
+  "duration_seconds": 4.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:23.380218+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-418c-77f3-a87e-da4ab3211c03",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec904/pMMw6Ym0EBVwpDMJIenyQ_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 109130
+  }
+ },
+ "files": [
+  "raw/r5_seq_step_metal.mp3"
+ ],
+ "completed": "2026-10-17T20:27:31.576528+00:00"
+}

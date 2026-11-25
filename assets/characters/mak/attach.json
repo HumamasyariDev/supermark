@@ -1,0 +1,54 @@
+{
+ "space": "glTF / Godot model space of mak_body.glb (Y up, model faces +Z), metres; offsets are from the socket bone's rest position; both socket bones have identity rest rotation in model space",
+ "mak_beanie": {
+  "socket": "head_top",
+  "offset": [
+   0.0,
+   -0.1326,
+   -0.0097
+  ],
+  "rotation_deg": [
+   0,
+   0,
+   0
+  ]
+ },
+ "mak_tophat": {
+  "socket": "head_top",
+  "offset": [
+   0.0,
+   -0.0825,
+   -0.01
+  ],
+  "rotation_deg_xyz": [
+   -5,
+   0,
+   8
+  ]
+ },
+ "mak_backpack": {
+  "socket": "backpack",
+  "offset": [
+   -0.0,
+   0.1203,
+   0.0189
+  ],
+  "rotation_deg": [
+   0,
+   0,
+   0
+  ]
+ },
+ "sockets_model_space": {
+  "head_top": [
+   -0.0,
+   1.0393,
+   0.0441
+  ],
+  "backpack": [
+   0.0,
+   0.44,
+   -0.2399
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5c_boss_balloon_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon sound effect, isolated, no music: a rubber balloon is blown up fast with stretching rubber squeaks, then it is let go and flies away with a long rasping farting deflation whistle",
+  "duration_seconds": 3.0,
+  "prompt_influence": 0.65,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:03:32.529609+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bad-5aa2-7930-acc3-eb7da995a667",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9dd/mdQxfMisdu5mXbG1td9MM_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 73394
+  }
+ },
+ "files": [
+  "raw/r5c_boss_balloon_t1.mp3"
+ ],
+ "completed": "2026-10-17T21:03:40.450375+00:00"
+}

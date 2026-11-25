@@ -1,0 +1,25 @@
+{
+ "key": "r6_npc_greet_cow_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game character voice sound, clean, isolated, close mic, dry, no music, no reverb: a friendly gentle cow gives one short warm cheerful 'mooo' greeting",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.55,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T23:12:07.221771+00:00",
+ "status": "downloaded",
+ "request_id": "01a14c23-12ca-7282-8dfe-ef03f398214e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaecce1/hAwk-8QbtD3v-NqpeF2wb_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r6_npc_greet_cow_t3.mp3"
+ ],
+ "completed": "2026-10-17T23:12:15.505051+00:00"
+}

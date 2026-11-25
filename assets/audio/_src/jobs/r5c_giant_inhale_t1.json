@@ -1,0 +1,25 @@
+{
+ "key": "r5c_giant_inhale_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon sound effect, isolated, no music: a giant takes a very long, deep, airy breath in through the nose, rushing air, no voice",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.65,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:03:32.526967+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bad-5ac4-7501-acb5-918ad3625171",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9dd/c7fEmT3vaWzC03oBrBHkf_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 49571
+  }
+ },
+ "files": [
+  "raw/r5c_giant_inhale_t1.mp3"
+ ],
+ "completed": "2026-10-17T21:03:40.281141+00:00"
+}

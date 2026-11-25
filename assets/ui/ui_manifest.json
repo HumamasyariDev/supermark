@@ -1,0 +1,124 @@
+{
+  "source_dir": "concepts/v2/refs/pickups_ui",
+  "files": {
+    "icon_truffle.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Golden truffle HUD icon"
+    },
+    "icon_acorn.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Acorn HUD icon"
+    },
+    "icon_page.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Lost Page HUD icon"
+    },
+    "icon_cake.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Victoria sponge health meter, full cake (wedges stack on this exact canvas)"
+    },
+    "icon_cake_slice.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Single cake slice sprite"
+    },
+    "icon_cake_plate.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Empty plate shown under the cake"
+    },
+    "icon_cake_wedge_0.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 0 (0-60 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "icon_cake_wedge_1.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 1 (60-120 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "icon_cake_wedge_2.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 2 (120-180 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "icon_cake_wedge_3.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 3 (180-240 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "icon_cake_wedge_4.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 4 (240-300 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "icon_cake_wedge_5.png": {
+      "size": [
+        512,
+        512
+      ],
+      "note": "Cake wedge 5 (300-360 deg clockwise from 12 o'clock); overlay on the icon_cake.png canvas"
+    },
+    "cover_three_little_pigs.png": {
+      "size": [
+        1024,
+        1365
+      ],
+      "note": "Storybook cover texture for the hub lectern book, 1024x1365 portrait"
+    },
+    "cover_beanstalk.png": {
+      "size": [
+        1024,
+        1365
+      ],
+      "note": "Storybook cover texture for the hub lectern book, 1024x1365 portrait"
+    },
+    "cover_hansel_gretel.png": {
+      "size": [
+        1024,
+        1365
+      ],
+      "note": "Storybook cover texture for the hub lectern book, 1024x1365 portrait"
+    },
+    "parchment_panel.png": {
+      "size": [
+        1024,
+        1024
+      ],
+      "note": "Parchment 9-slice panel, 1024 px with alpha",
+      "nine_slice_margins_px": {
+        "left": 140,
+        "top": 140,
+        "right": 140,
+        "bottom": 140
+      },
+      "godot": "NinePatchRect: patch_margin_left/top/right/bottom = 140; axis_stretch = STRETCH (or TILE_FIT); scale the node down (for example 0.5) for small dialogue boxes"
+    }
+  }
+}

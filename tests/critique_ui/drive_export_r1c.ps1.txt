@@ -1,0 +1,73 @@
+param([string]$Exe, [string]$Out, [string]$Res = "1280x720", [string]$Extra = "")
+# Critic UI r1c, export pass 2: real window, keys posted as WM_KEYDOWN/WM_KEYUP to the game window
+# (independent of which window is in front, other agents' Godot runs steal focus), captures via PrintWindow.
+Add-Type -AssemblyName System.Drawing
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class W2 {
+  [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr h, IntPtr hdc, uint flags);
+  [DllImport("user32.dll")] public static extern bool GetClientRect(IntPtr h, out RECT r);
+  [DllImport("user32.dll")] public static extern bool PostMessage(IntPtr h, uint msg, IntPtr w, IntPtr l);
+  [DllImport("user32.dll")] public static extern uint MapVirtualKey(uint code, uint type);
+  public struct RECT { public int L, T, R, B; }
+}
+"@
+New-Item -ItemType Directory -Force $Out | Out-Null
+$log = Join-Path $Out "export_drive.log"
+"start $(Get-Date -Format o)" | Out-File $log -Encoding utf8
+$args2 = @("--resolution", $Res, "--", "--profile=crit_ui_r1c_export2")
+if ($Extra -ne "") { $args2 += $Extra }
+$p = Start-Process -FilePath $Exe -ArgumentList $args2 -PassThru -RedirectStandardOutput (Join-Path $Out "export_stdout.log") -RedirectStandardError (Join-Path $Out "export_stderr.log")
+function Hwnd { $p.Refresh(); return $p.MainWindowHandle }
+function Shot([string]$name) {
+  $h = Hwnd
+  $r = New-Object W2+RECT; [W2]::GetClientRect($h, [ref]$r) | Out-Null
+  $w = $r.R - $r.L; $hh = $r.B - $r.T
+  if ($w -le 0 -or $hh -le 0) { "shot ${name}: no client rect" | Out-File $log -Append -Encoding utf8; return }
+  $bmp = New-Object System.Drawing.Bitmap $w, $hh
+  $g = [System.Drawing.Graphics]::FromImage($bmp)
+  $hdc = $g.GetHdc()
+  $ok = [W2]::PrintWindow($h, $hdc, 3)   # PW_CLIENTONLY | PW_RENDERFULLCONTENT
+  $g.ReleaseHdc($hdc)
+  $f = Join-Path $Out ("export_" + $name + ".png")
+  $bmp.Save($f, [System.Drawing.Imaging.ImageFormat]::Png)
+  $g.Dispose(); $bmp.Dispose()
+  "shot ${name} ${w}x${hh} printwindow=$ok t=$(((Get-Date) - $t0).TotalSeconds)" | Out-File $log -Append -Encoding utf8
+}
+function Down([byte]$vk) { $sc = [W2]::MapVirtualKey($vk, 0); [W2]::PostMessage((Hwnd), 0x100, [IntPtr]$vk, [IntPtr](1 -bor ($sc -shl 16))) | Out-Null }
+function Up([byte]$vk) { $sc = [W2]::MapVirtualKey($vk, 0); [W2]::PostMessage((Hwnd), 0x101, [IntPtr]$vk, [IntPtr]([int64](1 -bor ($sc -shl 16) -bor (1 -shl 30)) -bor 0x80000000L)) | Out-Null }
+function Key([byte]$vk, [string]$label) { Down $vk; Start-Sleep -Milliseconds 90; Up $vk; Start-Sleep -Milliseconds 300; "key $label" | Out-File $log -Append -Encoding utf8 }
+$t0 = Get-Date
+while ((Hwnd) -eq [IntPtr]::Zero -and ((Get-Date) - $t0).TotalSeconds -lt 60) { Start-Sleep -Milliseconds 500 }
+Start-Sleep -Seconds 10
+Shot "01_title_press"
+Key 0x20 "Space"; Start-Sleep -Seconds 2
+Shot "02_title_menu"
+Key 0x0D "Enter"; Start-Sleep -Seconds 1
+Shot "03_after_enter"
+Start-Sleep -Seconds 12
+Shot "04_hub"
+Key 0x1B "Esc"; Start-Sleep -Seconds 1.5
+Shot "05_hub_pause"
+Key 0x28 "Down"; Key 0x28 "Down"; Start-Sleep -Seconds 0.5
+Shot "06_hub_pause_down2"
+Key 0x0D "Enter"; Start-Sleep -Seconds 1.5
+Shot "07_pause_settings"
+Key 0x1B "Esc"; Start-Sleep -Seconds 1
+Shot "08_back_to_pause"
+Key 0x1B "Esc"; Start-Sleep -Seconds 1
+Down 0x57; Start-Sleep -Milliseconds 1500; Up 0x57; Start-Sleep -Seconds 1
+Shot "09_hub_after_walk_w"
+Key 0x1B "Esc"; Start-Sleep -Seconds 1
+Key 0x28 "Down"; Key 0x28 "Down"; Key 0x28 "Down"; Start-Sleep -Seconds 0.5
+Shot "10_pause_quit_focus"
+Key 0x0D "Enter"; Start-Sleep -Seconds 12
+Shot "11_title_after_quit"
+Key 0x20 "Space"; Start-Sleep -Seconds 2
+Shot "12_title_menu_with_save"
+Key 0x0D "Enter"; Start-Sleep -Seconds 14
+Shot "13_hub_after_continue"
+"elapsed $(((Get-Date) - $t0).TotalSeconds) s; stopping" | Out-File $log -Append -Encoding utf8
+Stop-Process -Id $p.Id -Force
+"done" | Out-File $log -Append -Encoding utf8

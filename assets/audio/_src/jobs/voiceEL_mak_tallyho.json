@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_tallyho",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[excited] Tally-ho!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.489999+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3eb1-7f73-be1d-22b5b9adb581",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/Fa5rJi4pMURxSsD35Sig5_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 17180
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_tallyho.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.812471+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5e_page_collect_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a paper page fluttering followed by a magical twinkling chime",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:34.868199+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-9964-74a2-9a31-6257966ce7f8",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5b/_WXRORHstsB29om3FLLeK_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5e_page_collect_t3.mp3"
+ ],
+ "completed": "2026-10-17T21:24:41.170065+00:00"
+}

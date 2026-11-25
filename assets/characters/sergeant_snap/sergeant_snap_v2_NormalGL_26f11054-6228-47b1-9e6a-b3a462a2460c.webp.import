@@ -1,0 +1,44 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dgkpsk7yw1eip"
+path.s3tc="res://.godot/imported/sergeant_snap_v2_NormalGL_26f11054-6228-47b1-9e6a-b3a462a2460c.webp-675f4a57f52ed2c0a26fdf76e92d571e.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "b0c52ae0599bce91a9bc7e1548afcb75"
+}
+
+[deps]
+
+source_file="res://assets/characters/sergeant_snap/sergeant_snap_v2_NormalGL_26f11054-6228-47b1-9e6a-b3a462a2460c.webp"
+dest_files=["res://.godot/imported/sergeant_snap_v2_NormalGL_26f11054-6228-47b1-9e6a-b3a462a2460c.webp-675f4a57f52ed2c0a26fdf76e92d571e.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
+compress/hdr_compression=1
+compress/normal_map=1
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://assets/characters/sergeant_snap/sergeant_snap_v2_NormalGL_26f11054-6228-47b1-9e6a-b3a462a2460c.webp"
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=1024
+detect_3d/compress_to=0

@@ -1,0 +1,25 @@
+{
+ "key": "r5_roof_tiles_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: clay roof tiles clatter and slide, a few tiles falling",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:23.854958+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-294b-7040-935a-ddce3afa6083",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90a/iIyBTjoiMo7ALXcxL1qEh_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_roof_tiles_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:30.050346+00:00"
+}

@@ -1,0 +1,122 @@
+{
+  "bark": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "541dd7fef52face34ee66d99a611ac63960ff730031fcc62c780da808e4d30a3"
+  },
+  "bookshelf_wood": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "8c05ce22e5a8521315533b067497d1c27bad2e8a01a23dea29cb0bd3e3cfe8e8"
+  },
+  "brick": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "38511c8d4a898156218cacefdf5b9e2ea3ed4681e8b1cc6212123ce92cff9fe5"
+  },
+  "candy_stripes": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "dfe4b02b6e1d891e69dfa79561264d4e0eaa5ceceda556a205720df641ec3000"
+  },
+  "chocolate": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "7e866ee15cebc220a7a10e37e8ccda0770652c2671668ec2e55ddfeabc5de615"
+  },
+  "cliff_rock": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "679322f23b245540e82ed6cfd15ec26f7c3744497d1ce9507f5b08bd1eb50aee"
+  },
+  "cobblestone": {
+    "wrap_err": 4.46,
+    "method": "offset_blend",
+    "sha256": "94608c86f19bac34379f2aac1e6ded1248e8349b0b31d39c74b33b36f4be8537"
+  },
+  "dirt_path": {
+    "wrap_err": 4.6,
+    "method": "offset_blend",
+    "sha256": "b012f1a7c530d5467e6e544983e3fe07d62219d95b8048e284c1f8ede75cb6ac"
+  },
+  "frosting": {
+    "wrap_err": 5.29,
+    "method": "offset_blend",
+    "sha256": "2fd3742c863631c1d6a859ac71300e113f0e880147fcc76a15d137d8dd0e936e"
+  },
+  "gingerbread": {
+    "wrap_err": 4.37,
+    "method": "offset_blend",
+    "sha256": "89bddde31a1d5851bf2815a80ea7876ba9cdf3d80331d6eeebde727c3256bf94"
+  },
+  "grass": {
+    "wrap_err": 6.91,
+    "method": "offset_blend",
+    "sha256": "23d2adea614f7b1e7c3be235471fcf79e9a3187d87a76272446a679ab4794bec"
+  },
+  "parchment": {
+    "wrap_err": 11.26,
+    "method": "offset_blend",
+    "sha256": "8d1923d942a5772b52bcf5a1ceb3d25aa6ddf2e7fb8614507c7fb178cad63fee"
+  },
+  "straw_thatch": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "7a54d6a3640fbdba135a48281f2c794df783f5ca5c88435219b9e150f4f989a2"
+  },
+  "wood_planks": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "33cc6e0fceea1391618ea0cf05aaae4d55047ee3603e31569a3e11de5eaa009c"
+  },
+  "beanstalk_skin": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "1ff589d4e701a454d0a17eb942611ce1b3fb1988fdca410060a4a41e1269a1ee"
+  },
+  "castle_stone": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "f0107852bef61d7ab3958c094d15c98d510593c77140665c22babcecd2356baf"
+  },
+  "damask_wallpaper": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "0bbd67224f1f7d4db19dab28d91158371e82cd43f66d1a9e8fcb86276e3c2b46"
+  },
+  "gumdrop_sugar": {
+    "wrap_err": 10.28,
+    "method": "offset_blend",
+    "sha256": "1a33fcda5334e7c61a12502a6c6ecf08629065487b19ff7b7ae736e0a72c2e84"
+  },
+  "leaf_canopy": {
+    "wrap_err": 9.13,
+    "method": "offset_blend",
+    "sha256": "ab87a749dc2257304c31a8c5dc5e7df51b44699b2b2b79c2d83937865c0dbd93"
+  },
+  "library_carpet": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "38b03e440ee08f7cf7cb47123be1b35e569d5364a71cdac686cfaf8790e1fd08"
+  },
+  "plaster_wall": {
+    "wrap_err": 2.88,
+    "method": "offset_blend",
+    "sha256": "761a0d41b5d72adbce08c0d0f515022c2fa574671fa1ed1ea14a747085f7235d"
+  },
+  "roof_shingles_slate": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "55ddbb9a302ca241efeca39933cf2b8cfba380fa1e79ebd1aaa981fef0087e08"
+  },
+  "roof_tiles": {
+    "wrap_err": 0.0,
+    "method": "edge_fade",
+    "sha256": "3776ad83d383ab3f008a119ad02ae0de6a9ffb7040a14060839022a91b64d489"
+  },
+  "stained_glass": {
+    "wrap_err": 9.61,
+    "method": "offset_blend",
+    "sha256": "d3d267864d61ed230931776da8a51ad531f9790d8c1d5d39202b4e345db39bae"
+  }
+}

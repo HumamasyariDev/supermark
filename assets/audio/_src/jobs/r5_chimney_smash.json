@@ -1,0 +1,25 @@
+{
+ "key": "r5_chimney_smash",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a brick chimney bursts apart, bricks clattering and dust",
+  "duration_seconds": 1.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:17.630548+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-10fa-7ad3-b128-921c12196c4f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90a/PqeAAKZgPPwwXQ50Oat1v_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 43928
+  }
+ },
+ "files": [
+  "raw/r5_chimney_smash.mp3"
+ ],
+ "completed": "2026-10-17T20:28:24.251692+00:00"
+}

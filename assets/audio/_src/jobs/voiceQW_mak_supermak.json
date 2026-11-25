@@ -1,0 +1,30 @@
+{
+ "key": "voiceQW_mak_supermak",
+ "endpoint": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+ "input": {
+  "text": "Super Mak!\n\nSuper Mak!\n\nSuper Mak!",
+  "speaker_voice_embedding_file_url": "https://v3b.fal.media/files/b/0aaec7b7/fvwV_kZ8LqAEwHEaEanR7_tmph6xzybs0.safetensors",
+  "reference_text": "Tally-ho! Splendid! Jolly good! Righto!",
+  "language": "English",
+  "max_new_tokens": 300
+ },
+ "created": "2026-10-19T08:13:18.926972+00:00",
+ "status": "downloaded",
+ "request_id": "01a15338-e827-7be2-8a67-2ce1d0c1978c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaefb50/dijFiGVvPYU95y3Ay3sLe_TIynxPJb.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "dijFiGVvPYU95y3Ay3sLe_TIynxPJb.mp3",
+   "file_size": null,
+   "duration": 3.509625,
+   "channels": 1,
+   "sample_rate": 24000,
+   "bitrate": null
+  }
+ },
+ "files": [
+  "raw/voiceQW_mak_supermak.mp3"
+ ],
+ "completed": "2026-10-19T08:13:30.775986+00:00"
+}

@@ -1,0 +1,302 @@
+{
+ "phase": "night01-audio-voice",
+ "jobs": [
+  {
+   "key": "voiceEL_mak_tallyho",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[excited] Tally-ho!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.019,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_splendid",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[delighted] Splendid!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.021,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_jollygood",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[cheerfully] Jolly good!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.024,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_righto",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[brightly] Righto!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.018,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_jump1",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[short effort] Hup!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.019,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_jump2",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[energetic effort] Hah!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.023,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_jump3",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[joyful shout] Hoo-hah!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.023,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_oof",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[winded] Oof!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.013,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_blast",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[frustrated] Blast!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.019,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_truffle",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[gasps, excited] Ooh, a truffle!",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.032,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_mak_sniff",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[curious, sniffing] Smells like truffles...",
+    "voice": "George",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.043,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_littlepig",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[sinister, theatrical, drawn out] Little pig, little pig...",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.059,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_huffpuff",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[booming, theatrical] I'll huff, and I'll puff!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.047,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_curses",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[outraged] Curses, Piglet!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.026,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_notlast",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[shouting as he flies away] You haven't seen the last of Huffington!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.068,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_wolf_laugh",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[villainous laugh] Mwa ha ha ha ha!",
+    "voice": "Daniel",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.035,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_welcome",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[warmly, slowly] Welcome home, sir.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.035,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceEL_butler_hint",
+   "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+   "input": {
+    "text": "[slowly, kindly] The wolf went into the books, sir. Do mind the pages.",
+    "voice": "Bill",
+    "stability": 0.5,
+    "language_code": "en"
+   },
+   "quoted_unit": "1000 chars @ $0.10",
+   "quoted_qty": 0.07,
+   "max_reserved_usd": 0.01
+  },
+  {
+   "key": "voiceQW_mak_batch",
+   "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+   "input": {
+    "text": "Tally-ho!\n\nSplendid!\n\nJolly good!\n\nRighto!\n\nHup!\n\nHah!\n\nHoo-hah!\n\nOof!\n\nBlast!\n\nOoh, a truffle!\n\nSmells like truffles...",
+    "prompt": "A cheerful, plucky young British gentleman, cartoon piglet hero. Bright, slightly high and boyish voice, crisp upper-class English accent, energetic and enthusiastic, short punchy delivery.",
+    "language": "English",
+    "max_new_tokens": 900
+   },
+   "quoted_unit": "1000 chars @ $0.09",
+   "quoted_qty": 0.12,
+   "max_reserved_usd": 0.02,
+   "lines": [
+    "tallyho",
+    "splendid",
+    "jollygood",
+    "righto",
+    "jump1",
+    "jump2",
+    "jump3",
+    "oof",
+    "blast",
+    "truffle",
+    "sniff"
+   ]
+  },
+  {
+   "key": "voiceQW_wolf_batch",
+   "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+   "input": {
+    "text": "Little pig, little pig...\n\nI'll huff, and I'll puff!\n\nCurses, Piglet!\n\nYou haven't seen the last of Huffington!\n\nMwa ha ha ha ha!",
+    "prompt": "A pompous, theatrical villain, a big bad wolf with a deep, booming, velvety baritone voice and an exaggerated upper-class English accent, hammy and melodramatic, rolling his words with sinister glee.",
+    "language": "English",
+    "max_new_tokens": 900
+   },
+   "quoted_unit": "1000 chars @ $0.09",
+   "quoted_qty": 0.129,
+   "max_reserved_usd": 0.02,
+   "lines": [
+    "littlepig",
+    "huffpuff",
+    "curses",
+    "notlast",
+    "laugh"
+   ]
+  },
+  {
+   "key": "voiceQW_butler_batch",
+   "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+   "input": {
+    "text": "Welcome home, sir.\n\nThe wolf went into the books, sir. Do mind the pages.",
+    "prompt": "An elderly, kindly English butler, a very old tortoise. Slow, soft, slightly creaky and frail voice, calm and warm, refined English accent, unhurried pauses.",
+    "language": "English",
+    "max_new_tokens": 900
+   },
+   "quoted_unit": "1000 chars @ $0.09",
+   "quoted_qty": 0.073,
+   "max_reserved_usd": 0.02,
+   "lines": [
+    "welcome",
+    "hint"
+   ]
+  }
+ ]
+}

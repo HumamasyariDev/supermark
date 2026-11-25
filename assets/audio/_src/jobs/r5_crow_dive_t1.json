@@ -1,0 +1,25 @@
+{
+ "key": "r5_crow_dive_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a crow folds its wings and dives fast, two wing flaps then a sharp descending whoosh",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:56.666283+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-bf16-7300-a6ce-862800eb98a2",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/Jlcn2U_-UJ8vSEd3GvRi8_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_crow_dive_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:03.115104+00:00"
+}

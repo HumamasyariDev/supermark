@@ -1,0 +1,1 @@
+{"fps": 60, "steer": "world", "start": {"pos": [0, 0, 2], "yaw_deg": 0}, "end_frame": 400, "events": [{"f": 5, "call": "celebrate"}]}

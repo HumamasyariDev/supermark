@@ -1,0 +1,25 @@
+{
+ "key": "r5_cage_open",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a metal cage rattles and lifts away, clanky chains",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:42.745127+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-7319-7130-be7c-d00e94ffa449",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/dPBJCINmP_Ib2oPmC7GYp_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_cage_open.mp3"
+ ],
+ "completed": "2026-10-17T20:28:49.131330+00:00"
+}

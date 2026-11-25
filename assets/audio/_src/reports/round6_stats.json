@@ -1,0 +1,98 @@
+{
+ "sfx/npc_greet_piglet": {
+  "file": "sfx/npc_greet_piglet.ogg",
+  "duration_s": 1.221,
+  "channels": 1,
+  "peak_dbfs": -5.87,
+  "active_rms_dbfs": -16.0,
+  "lufs": -17.39,
+  "true_peak": -5.75,
+  "sha256": "9660430c32229fd95c3c1f5cf91bd9f07a2be6339d2c01165870016d481827c7",
+  "preroll_cut_s": 0.046,
+  "source": "raw/r6_npc_greet_piglet_t3.mp3"
+ },
+ "sfx/npc_greet_piglet_2": {
+  "file": "sfx/npc_greet_piglet_2.ogg",
+  "duration_s": 1.173,
+  "channels": 1,
+  "peak_dbfs": -4.67,
+  "active_rms_dbfs": -16.0,
+  "lufs": -17.33,
+  "true_peak": -4.45,
+  "sha256": "b3410ecf148706a43e61d2d841c2c76a0d6477c2ea6218c5d660808c791194e3",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_piglet_t1.mp3"
+ },
+ "sfx/npc_greet_cow": {
+  "file": "sfx/npc_greet_cow.ogg",
+  "duration_s": 1.457,
+  "channels": 1,
+  "peak_dbfs": -8.08,
+  "active_rms_dbfs": -16.0,
+  "lufs": -16.42,
+  "true_peak": -7.93,
+  "sha256": "e4fdac9698bf56eeba61ada5fba5edb99dc0f92e42a8e2ccd1029096d69c7a0e",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_cow_t3.mp3"
+ },
+ "sfx/npc_greet_cow_2": {
+  "file": "sfx/npc_greet_cow_2.ogg",
+  "duration_s": 1.48,
+  "channels": 1,
+  "peak_dbfs": -8.64,
+  "active_rms_dbfs": -16.0,
+  "lufs": -16.55,
+  "true_peak": -8.46,
+  "sha256": "179624d39c8bc81236ba678974400503d970404039d564b045d1b12798d771d8",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_cow_t1.mp3"
+ },
+ "sfx/npc_greet_boy": {
+  "file": "sfx/npc_greet_boy.ogg",
+  "duration_s": 0.903,
+  "channels": 1,
+  "peak_dbfs": -6.76,
+  "active_rms_dbfs": -16.0,
+  "lufs": -16.33,
+  "true_peak": -6.59,
+  "sha256": "5991dd1a806378d653163ecec9ec3599f0cf2842c6a4b4bac30efad959294e0f",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_boy_t2.mp3"
+ },
+ "sfx/npc_greet_boy_2": {
+  "file": "sfx/npc_greet_boy_2.ogg",
+  "duration_s": 0.464,
+  "channels": 1,
+  "peak_dbfs": -4.62,
+  "active_rms_dbfs": -16.0,
+  "lufs": -17.05,
+  "true_peak": -4.55,
+  "sha256": "c23eb525e4342bccde12d89980af42c8fc1ce7f429a46bbb5db04cf26a2bfa4d",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_boy_t3.mp3"
+ },
+ "sfx/npc_greet_granny": {
+  "file": "sfx/npc_greet_granny.ogg",
+  "duration_s": 1.098,
+  "channels": 1,
+  "peak_dbfs": -5.25,
+  "active_rms_dbfs": -16.0,
+  "lufs": -16.98,
+  "true_peak": -5.2,
+  "sha256": "9d9b08f58ea7f75e674f3a19628271b6d7803ca9fec0a0688dc512bd46d5d1d5",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_granny_t2.mp3"
+ },
+ "sfx/npc_greet_granny_2": {
+  "file": "sfx/npc_greet_granny_2.ogg",
+  "duration_s": 1.28,
+  "channels": 1,
+  "peak_dbfs": -6.79,
+  "active_rms_dbfs": -16.0,
+  "lufs": -15.29,
+  "true_peak": -6.74,
+  "sha256": "870ce966575cd065a2900dad7b856bbe71cda713754385f415d42f5dda5ce32b",
+  "preroll_cut_s": 0.0,
+  "source": "raw/r6_npc_greet_granny_t1.mp3"
+ }
+}

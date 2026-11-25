@@ -1,0 +1,25 @@
+{
+ "key": "r5_goose_honk_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a goose honks twice",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:35.890449+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-5850-7293-a4ff-6150644d26ed",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/pojUcMOdp-vIqoLNtCZf5_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_goose_honk_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:42.669862+00:00"
+}

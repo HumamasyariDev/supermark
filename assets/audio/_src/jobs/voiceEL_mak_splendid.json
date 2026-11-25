@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_splendid",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[delighted] Splendid!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.491396+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3eb0-7060-8610-0ce529f4e3fe",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/vnTJMS9ASAW1I5akd4OuN_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 18434
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_splendid.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.834675+00:00"
+}

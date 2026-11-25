@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/critique_w3/bot_harness_r1c.gd" id="1_h"]
+
+[node name="BotW3c" type="Node"]
+script = ExtResource("1_h")

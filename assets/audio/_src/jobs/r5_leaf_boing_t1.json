@@ -1,0 +1,25 @@
+{
+ "key": "r5_leaf_boing_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a giant leaf springs like a trampoline, bouncy boing with leafy rustle",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:41.501843+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-6e3e-71a3-a668-91f677c54172",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/bSxE-c1f3k12-sAV88CL2_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_leaf_boing_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:47.600107+00:00"
+}

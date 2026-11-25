@@ -1,0 +1,25 @@
+{
+ "key": "r5_seq_step_candy",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small cartoon piglet walking briskly across crunchy hard candy and sugar crust, eight separate light crunchy footsteps with short gaps between them",
+  "duration_seconds": 4.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:23.379193+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-418c-7a00-b943-fd113fca15e9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec904/qHyuQKLt5H_15y9jG4zvn_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 109130
+  }
+ },
+ "files": [
+  "raw/r5_seq_step_candy.mp3"
+ ],
+ "completed": "2026-10-17T20:27:31.373145+00:00"
+}

@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/hot_chocolate.gdshader" id="1_gcnyu"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_gcnyu")
+shader_parameter/dark_color = Color(0.24, 0.1, 0.04, 1)
+shader_parameter/mid_color = Color(0.46, 0.22, 0.09, 1)
+shader_parameter/cream_color = Color(0.96, 0.84, 0.68, 1)
+shader_parameter/flow_direction = Vector2(1, 0.2)
+shader_parameter/flow_speed = 0.12
+shader_parameter/swirl_scale = 0.55
+shader_parameter/swirl_strength = 1.4
+shader_parameter/edge_mode = 1
+shader_parameter/edge_width = 0.08
+shader_parameter/bubble_density = 0.5
+shader_parameter/wave_height = 0.05
+shader_parameter/gloss = 0.9
+shader_parameter/round_clip = false
+shader_parameter/highlight_color = Color(1, 0.92, 0.8, 1)

@@ -1,0 +1,25 @@
+{
+ "key": "r5_platform_fall",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a wooden platform drops away with a creak and a falling whoosh",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:47.758330+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-8877-7411-907b-4f5ab666a5aa",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/-_h5-Z-io8gYoXWKNFe3-_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_platform_fall.mp3"
+ ],
+ "completed": "2026-10-17T20:28:54.798280+00:00"
+}

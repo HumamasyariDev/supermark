@@ -1,0 +1,26 @@
+{
+ "key": "r5_amb_w3_b",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Game ambience recording, seamless, no music, no voice, no melody: a candy forest, occasional soft crunching of hard candy, sugar crystals tinkling, gentle breeze",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.45,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:29:07.261522+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-d2da-7ce2-9368-d3b5115346bf",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90f/fRwe9rZviQak9fwuKGcIO_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5_amb_w3_b.mp3"
+ ],
+ "completed": "2026-10-17T20:29:18.648198+00:00"
+}

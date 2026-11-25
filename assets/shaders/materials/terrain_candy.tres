@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/terrain.gdshader" id="1_fc6pn"]
+[ext_resource type="Texture2D" path="res://assets/textures/gingerbread.webp" id="2_tna7j"]
+[ext_resource type="Texture2D" path="res://assets/textures/frosting.webp" id="3_4qfaq"]
+[ext_resource type="Texture2D" path="res://assets/textures/chocolate.webp" id="4_3ivow"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fc6pn")
+shader_parameter/grass_texture = ExtResource("3_4qfaq")
+shader_parameter/dirt_texture = ExtResource("2_tna7j")
+shader_parameter/rock_texture = ExtResource("4_3ivow")
+shader_parameter/grass_tint = Color(1, 1, 1, 1)
+shader_parameter/dirt_tint = Color(1, 1, 1, 1)
+shader_parameter/rock_tint = Color(1, 1, 1, 1)
+shader_parameter/grass_scale = 0.12
+shader_parameter/dirt_scale = 0.2
+shader_parameter/rock_scale = 0.12
+shader_parameter/slope_start = 0.78
+shader_parameter/slope_end = 0.62
+shader_parameter/blend_noise = 0.14
+shader_parameter/triplanar_sharpness = 4.0
+shader_parameter/use_vertex_color_mask = true
+shader_parameter/use_path_mask = false
+shader_parameter/path_mask_rect = Vector4(-60, -60, 120, 120)
+shader_parameter/macro_variation = 0.14
+shader_parameter/shadow_tint = Color(0.5, 0.52, 0.68, 1)
+shader_parameter/grass_brightness = 1.0

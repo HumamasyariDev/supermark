@@ -1,0 +1,25 @@
+{
+ "key": "r5_costume_rip_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: woolly fabric tearing apart quickly, comic rip with a puff of fluff",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:56.631535+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-bef2-7a72-89d8-749675dc2046",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/_VyxhQ4OXX66y2YJTthK6_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_costume_rip_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:03.029278+00:00"
+}

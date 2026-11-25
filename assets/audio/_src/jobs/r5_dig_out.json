@@ -1,0 +1,25 @@
+{
+ "key": "r5_dig_out",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: digging in soft earth, a quick scoop and dirt spray",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:44.031192+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-781c-7751-bb1a-71115e8c95b5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/GHTKRPiGaNH1cipLd8ZNq_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_dig_out.mp3"
+ ],
+ "completed": "2026-10-17T20:28:50.346334+00:00"
+}

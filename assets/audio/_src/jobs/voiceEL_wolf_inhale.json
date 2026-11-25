@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_inhale",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[takes a huge, long, comically deep breath in] Hhhhhhhhhhh...",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T19:31:18.158697+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b58-e725-7740-9065-e005740b3e86",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b4/2cwxAveZektuma53JQsSj_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 26375
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_inhale.mp3"
+ ],
+ "completed": "2026-10-17T19:31:26.134283+00:00"
+}

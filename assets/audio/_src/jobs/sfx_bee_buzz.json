@@ -1,0 +1,26 @@
+{
+ "key": "sfx_bee_buzz",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a chubby bumblebee buzzing steadily",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T18:50:01.167664+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-17c0-7393-a518-0f4131ff7586",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/PMvug1co16KM6GJp4Qnzg_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 55840
+  }
+ },
+ "files": [
+  "raw/sfx_bee_buzz.mp3"
+ ],
+ "completed": "2026-10-17T18:50:08.031624+00:00"
+}

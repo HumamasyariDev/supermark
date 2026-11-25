@@ -1,0 +1,25 @@
+{
+ "key": "r5_sniff_found",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a magical discovery, twinkly rising chime",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:48.987371+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-8b7d-7f93-ab68-e6363198f5fd",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/GN1PfHa6T2WSPwdGBXh3t_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_sniff_found.mp3"
+ ],
+ "completed": "2026-10-17T20:28:55.462125+00:00"
+}

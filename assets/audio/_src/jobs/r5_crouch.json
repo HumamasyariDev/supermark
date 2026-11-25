@@ -1,0 +1,25 @@
+{
+ "key": "r5_crouch",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a short soft cloth rustle as a small character crouches",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:38.927645+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-79cc-78c3-8d5f-34e7d815c7a5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/QjdAzGe0Z6769D2B9bgWA_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_crouch.mp3"
+ ],
+ "completed": "2026-10-17T20:27:45.144580+00:00"
+}

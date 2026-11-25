@@ -1,0 +1,1227 @@
+{
+ "sfx/acorn_chain.ogg": {
+  "L100_before": -11.96,
+  "gain_db": -4.04,
+  "limited": false
+ },
+ "sfx/acorn_chain_2.ogg": {
+  "L100_before": -13.59,
+  "gain_db": -2.41,
+  "limited": false
+ },
+ "sfx/acorn_collect.ogg": {
+  "L100_before": -13.37,
+  "gain_db": -2.63,
+  "limited": false
+ },
+ "sfx/acorn_collect_2.ogg": {
+  "L100_before": -10.33,
+  "gain_db": -5.67,
+  "limited": false
+ },
+ "sfx/bee_charge.ogg": {
+  "L100_before": -10.17,
+  "gain_db": -5.83,
+  "limited": false
+ },
+ "sfx/bee_charge_2.ogg": {
+  "L100_before": -13.08,
+  "gain_db": -2.92,
+  "limited": false
+ },
+ "sfx/bee_down.ogg": {
+  "L100_before": -9.52,
+  "gain_db": -6.48,
+  "limited": false
+ },
+ "sfx/bee_down_2.ogg": {
+  "L100_before": -11.37,
+  "gain_db": -4.63,
+  "limited": false
+ },
+ "sfx/bell.ogg": {
+  "L100_before": -11.04,
+  "gain_db": -4.96,
+  "limited": false
+ },
+ "sfx/bellows_break.ogg": {
+  "L100_before": -11.45,
+  "gain_db": -4.55,
+  "limited": false
+ },
+ "sfx/book_enter.ogg": {
+  "L100_before": -9.98,
+  "gain_db": -6.02,
+  "limited": false
+ },
+ "sfx/book_open.ogg": {
+  "L100_before": -11.9,
+  "gain_db": -4.1,
+  "limited": false
+ },
+ "sfx/book_page_turn.ogg": {
+  "L100_before": -10.26,
+  "gain_db": -5.74,
+  "limited": false
+ },
+ "sfx/book_unlock.ogg": {
+  "L100_before": -13.64,
+  "gain_db": -2.36,
+  "limited": false
+ },
+ "sfx/boss_balloon.ogg": {
+  "L100_before": -9.77,
+  "gain_db": -6.23,
+  "limited": false
+ },
+ "sfx/boss_charge.ogg": {
+  "L100_before": -14.13,
+  "gain_db": -1.87,
+  "limited": false
+ },
+ "sfx/boss_crash.ogg": {
+  "L100_before": -10.79,
+  "gain_db": -5.21,
+  "limited": false
+ },
+ "sfx/boss_crash_2.ogg": {
+  "L100_before": -10.59,
+  "gain_db": -5.41,
+  "limited": false
+ },
+ "sfx/boss_growl.ogg": {
+  "L100_before": -12.38,
+  "gain_db": -3.62,
+  "limited": false
+ },
+ "sfx/boss_growl_2.ogg": {
+  "L100_before": -14.22,
+  "gain_db": -1.78,
+  "limited": false
+ },
+ "sfx/boss_huff_blast.ogg": {
+  "L100_before": -11.04,
+  "gain_db": -4.96,
+  "limited": false
+ },
+ "sfx/boss_hurt.ogg": {
+  "L100_before": -9.76,
+  "gain_db": -6.24,
+  "limited": false
+ },
+ "sfx/boss_hurt_2.ogg": {
+  "L100_before": -11.45,
+  "gain_db": -4.55,
+  "limited": false
+ },
+ "sfx/boss_inhale.ogg": {
+  "L100_before": -11.08,
+  "gain_db": -4.92,
+  "limited": false
+ },
+ "sfx/cage_open.ogg": {
+  "L100_before": -10.22,
+  "gain_db": -5.78,
+  "limited": false
+ },
+ "sfx/cake_slice_gained.ogg": {
+  "L100_before": -13.63,
+  "gain_db": -2.37,
+  "limited": false
+ },
+ "sfx/cake_slice_lost.ogg": {
+  "L100_before": -11.61,
+  "gain_db": -4.39,
+  "limited": false
+ },
+ "sfx/chest_open.ogg": {
+  "L100_before": -9.78,
+  "gain_db": -6.22,
+  "limited": false
+ },
+ "sfx/chime.ogg": {
+  "L100_before": -8.14,
+  "gain_db": -7.86,
+  "limited": false
+ },
+ "sfx/chimney_crash.ogg": {
+  "L100_before": -14.47,
+  "gain_db": -1.53,
+  "limited": false
+ },
+ "sfx/chimney_smash.ogg": {
+  "L100_before": -13.7,
+  "gain_db": -2.3,
+  "limited": false
+ },
+ "sfx/climb_shimmy.ogg": {
+  "L100_before": -13.17,
+  "gain_db": -2.83,
+  "limited": false
+ },
+ "sfx/climb_shimmy_2.ogg": {
+  "L100_before": -13.28,
+  "gain_db": -2.72,
+  "limited": false
+ },
+ "sfx/cloud_puff.ogg": {
+  "L100_before": -23.28,
+  "gain_db": 7.28,
+  "limited": true
+ },
+ "sfx/cloud_puff_2.ogg": {
+  "L100_before": -11.27,
+  "gain_db": -4.73,
+  "limited": false
+ },
+ "sfx/cloud_squish.ogg": {
+  "L100_before": -11.33,
+  "gain_db": -4.67,
+  "limited": false
+ },
+ "sfx/cloud_squish_2.ogg": {
+  "L100_before": -10.51,
+  "gain_db": -5.49,
+  "limited": false
+ },
+ "sfx/costume_rip.ogg": {
+  "L100_before": -12.09,
+  "gain_db": -3.91,
+  "limited": false
+ },
+ "sfx/costume_rip_2.ogg": {
+  "L100_before": -11.15,
+  "gain_db": -4.85,
+  "limited": false
+ },
+ "sfx/crate_break.ogg": {
+  "L100_before": -10.82,
+  "gain_db": -5.18,
+  "limited": false
+ },
+ "sfx/crow_caw.ogg": {
+  "L100_before": -10.8,
+  "gain_db": -5.2,
+  "limited": false
+ },
+ "sfx/crow_caw_2.ogg": {
+  "L100_before": -11.99,
+  "gain_db": -4.01,
+  "limited": false
+ },
+ "sfx/crow_dive_2.ogg": {
+  "L100_before": -22.33,
+  "gain_db": 6.33,
+  "limited": false
+ },
+ "sfx/crow_hurt.ogg": {
+  "L100_before": -12.92,
+  "gain_db": -3.08,
+  "limited": false
+ },
+ "sfx/crow_hurt_2.ogg": {
+  "L100_before": -13.81,
+  "gain_db": -2.19,
+  "limited": false
+ },
+ "sfx/crow_steal.ogg": {
+  "L100_before": -11.68,
+  "gain_db": -4.32,
+  "limited": false
+ },
+ "sfx/crow_steal_2.ogg": {
+  "L100_before": -11.95,
+  "gain_db": -4.05,
+  "limited": false
+ },
+ "sfx/crow_swoop.ogg": {
+  "L100_before": -13.33,
+  "gain_db": -2.67,
+  "limited": false
+ },
+ "sfx/death.ogg": {
+  "L100_before": -14.32,
+  "gain_db": -1.68,
+  "limited": false
+ },
+ "sfx/dig_out.ogg": {
+  "L100_before": -11.77,
+  "gain_db": -4.23,
+  "limited": false
+ },
+ "sfx/door_open.ogg": {
+  "L100_before": -11.53,
+  "gain_db": -4.47,
+  "limited": false
+ },
+ "sfx/door_unlock.ogg": {
+  "L100_before": -10.33,
+  "gain_db": -5.67,
+  "limited": false
+ },
+ "sfx/enemy_block.ogg": {
+  "L100_before": -13.98,
+  "gain_db": -2.02,
+  "limited": false
+ },
+ "sfx/enemy_block_2.ogg": {
+  "L100_before": -13.24,
+  "gain_db": -2.76,
+  "limited": false
+ },
+ "sfx/enemy_bonk.ogg": {
+  "L100_before": -10.11,
+  "gain_db": -5.89,
+  "limited": false
+ },
+ "sfx/enemy_bonk_2.ogg": {
+  "L100_before": -13.0,
+  "gain_db": -3.0,
+  "limited": false
+ },
+ "sfx/enemy_defeat_poof.ogg": {
+  "L100_before": -19.64,
+  "gain_db": 3.64,
+  "limited": false
+ },
+ "sfx/enemy_hit_3.ogg": {
+  "L100_before": -12.12,
+  "gain_db": -3.88,
+  "limited": false
+ },
+ "sfx/enemy_notice.ogg": {
+  "L100_before": -12.59,
+  "gain_db": -3.41,
+  "limited": false
+ },
+ "sfx/enemy_skid.ogg": {
+  "L100_before": -10.32,
+  "gain_db": -5.68,
+  "limited": false
+ },
+ "sfx/enemy_skid_2.ogg": {
+  "L100_before": -11.89,
+  "gain_db": -4.11,
+  "limited": false
+ },
+ "sfx/enemy_windup.ogg": {
+  "L100_before": -12.26,
+  "gain_db": -3.74,
+  "limited": false
+ },
+ "sfx/enemy_windup_2.ogg": {
+  "L100_before": -13.83,
+  "gain_db": -2.17,
+  "limited": false
+ },
+ "sfx/fall_out.ogg": {
+  "L100_before": -13.89,
+  "gain_db": -2.11,
+  "limited": false
+ },
+ "sfx/footstep_candy_1.ogg": {
+  "L100_before": -13.68,
+  "gain_db": -2.32,
+  "limited": false
+ },
+ "sfx/footstep_candy_3.ogg": {
+  "L100_before": -12.76,
+  "gain_db": -3.24,
+  "limited": false
+ },
+ "sfx/footstep_candy_r1.ogg": {
+  "L100_before": -17.84,
+  "gain_db": 1.84,
+  "limited": true
+ },
+ "sfx/footstep_candy_r2.ogg": {
+  "L100_before": -17.59,
+  "gain_db": 1.59,
+  "limited": true
+ },
+ "sfx/footstep_carpet_r1.ogg": {
+  "L100_before": -14.04,
+  "gain_db": -1.96,
+  "limited": false
+ },
+ "sfx/footstep_carpet_r3.ogg": {
+  "L100_before": -18.17,
+  "gain_db": 2.17,
+  "limited": true
+ },
+ "sfx/footstep_carpet_r4.ogg": {
+  "L100_before": -20.44,
+  "gain_db": 4.44,
+  "limited": true
+ },
+ "sfx/footstep_cloud_r2.ogg": {
+  "L100_before": -14.37,
+  "gain_db": -1.63,
+  "limited": false
+ },
+ "sfx/footstep_cloud_r3.ogg": {
+  "L100_before": -11.64,
+  "gain_db": -4.36,
+  "limited": false
+ },
+ "sfx/footstep_cloud_r4.ogg": {
+  "L100_before": -11.64,
+  "gain_db": -4.36,
+  "limited": false
+ },
+ "sfx/footstep_grass_1.ogg": {
+  "L100_before": -11.45,
+  "gain_db": -4.55,
+  "limited": false
+ },
+ "sfx/footstep_grass_2.ogg": {
+  "L100_before": -10.69,
+  "gain_db": -5.31,
+  "limited": false
+ },
+ "sfx/footstep_grass_3.ogg": {
+  "L100_before": -9.83,
+  "gain_db": -6.17,
+  "limited": false
+ },
+ "sfx/footstep_grass_r1.ogg": {
+  "L100_before": -13.56,
+  "gain_db": -2.44,
+  "limited": false
+ },
+ "sfx/footstep_grass_r2.ogg": {
+  "L100_before": -13.81,
+  "gain_db": -2.19,
+  "limited": false
+ },
+ "sfx/footstep_grass_r4.ogg": {
+  "L100_before": -13.66,
+  "gain_db": -2.34,
+  "limited": false
+ },
+ "sfx/footstep_jelly_r1.ogg": {
+  "L100_before": -11.06,
+  "gain_db": -4.94,
+  "limited": false
+ },
+ "sfx/footstep_jelly_r4.ogg": {
+  "L100_before": -12.06,
+  "gain_db": -3.94,
+  "limited": false
+ },
+ "sfx/footstep_metal_r1.ogg": {
+  "L100_before": -12.21,
+  "gain_db": -3.79,
+  "limited": false
+ },
+ "sfx/footstep_metal_r3.ogg": {
+  "L100_before": -12.21,
+  "gain_db": -3.79,
+  "limited": false
+ },
+ "sfx/footstep_metal_r4.ogg": {
+  "L100_before": -13.98,
+  "gain_db": -2.02,
+  "limited": false
+ },
+ "sfx/footstep_stone_2.ogg": {
+  "L100_before": -14.05,
+  "gain_db": -1.95,
+  "limited": false
+ },
+ "sfx/footstep_stone_3.ogg": {
+  "L100_before": -12.73,
+  "gain_db": -3.27,
+  "limited": false
+ },
+ "sfx/footstep_stone_r1.ogg": {
+  "L100_before": -12.83,
+  "gain_db": -3.17,
+  "limited": false
+ },
+ "sfx/footstep_wood_1.ogg": {
+  "L100_before": -24.99,
+  "gain_db": 7.5,
+  "limited": true
+ },
+ "sfx/footstep_wood_2.ogg": {
+  "L100_before": -18.27,
+  "gain_db": 2.27,
+  "limited": true
+ },
+ "sfx/footstep_wood_4.ogg": {
+  "L100_before": -19.41,
+  "gain_db": 2.9,
+  "limited": true
+ },
+ "sfx/footstep_wood_r1.ogg": {
+  "L100_before": -22.74,
+  "gain_db": 3.1,
+  "limited": true
+ },
+ "sfx/footstep_wood_r4.ogg": {
+  "L100_before": -17.87,
+  "gain_db": 1.87,
+  "limited": true
+ },
+ "sfx/gate_open.ogg": {
+  "L100_before": -9.77,
+  "gain_db": -6.23,
+  "limited": false
+ },
+ "sfx/giant_inhale.ogg": {
+  "L100_before": -13.1,
+  "gain_db": -2.9,
+  "limited": false
+ },
+ "sfx/giant_sneeze.ogg": {
+  "L100_before": -11.44,
+  "gain_db": -4.56,
+  "limited": false
+ },
+ "sfx/giant_snore.ogg": {
+  "L100_before": -11.85,
+  "gain_db": -4.15,
+  "limited": false
+ },
+ "sfx/gingerbread_crumble.ogg": {
+  "L100_before": -12.42,
+  "gain_db": -3.58,
+  "limited": false
+ },
+ "sfx/gingerbread_halt.ogg": {
+  "L100_before": -12.51,
+  "gain_db": -3.49,
+  "limited": false
+ },
+ "sfx/gingerbread_halt_2.ogg": {
+  "L100_before": -12.5,
+  "gain_db": -3.5,
+  "limited": false
+ },
+ "sfx/gingerbread_march.ogg": {
+  "L100_before": -13.6,
+  "gain_db": -2.4,
+  "limited": false
+ },
+ "sfx/gingerbread_notice.ogg": {
+  "L100_before": -10.98,
+  "gain_db": -5.02,
+  "limited": false
+ },
+ "sfx/gingerbread_notice_2.ogg": {
+  "L100_before": -9.81,
+  "gain_db": -6.19,
+  "limited": false
+ },
+ "sfx/glass_break.ogg": {
+  "L100_before": -11.49,
+  "gain_db": -4.51,
+  "limited": false
+ },
+ "sfx/glass_break_2.ogg": {
+  "L100_before": -9.37,
+  "gain_db": -6.63,
+  "limited": false
+ },
+ "sfx/goose_honk.ogg": {
+  "L100_before": -12.25,
+  "gain_db": -3.75,
+  "limited": false
+ },
+ "sfx/goose_honk_2.ogg": {
+  "L100_before": -13.17,
+  "gain_db": -2.83,
+  "limited": false
+ },
+ "sfx/great_truffle_appear.ogg": {
+  "L100_before": -10.6,
+  "gain_db": -5.4,
+  "limited": false
+ },
+ "sfx/gumdrop_bounce.ogg": {
+  "L100_before": -11.98,
+  "gain_db": -4.02,
+  "limited": false
+ },
+ "sfx/gummy_boing.ogg": {
+  "L100_before": -9.63,
+  "gain_db": -6.37,
+  "limited": false
+ },
+ "sfx/gummy_jump.ogg": {
+  "L100_before": -12.13,
+  "gain_db": -3.87,
+  "limited": false
+ },
+ "sfx/gummy_jump_2.ogg": {
+  "L100_before": -12.16,
+  "gain_db": -3.84,
+  "limited": false
+ },
+ "sfx/gummy_melt.ogg": {
+  "L100_before": -11.24,
+  "gain_db": -4.76,
+  "limited": false
+ },
+ "sfx/gummy_notice.ogg": {
+  "L100_before": -12.19,
+  "gain_db": -3.81,
+  "limited": false
+ },
+ "sfx/gummy_notice_2.ogg": {
+  "L100_before": -12.83,
+  "gain_db": -3.17,
+  "limited": false
+ },
+ "sfx/gummy_slam.ogg": {
+  "L100_before": -13.54,
+  "gain_db": -2.46,
+  "limited": false
+ },
+ "sfx/gummy_wobble.ogg": {
+  "L100_before": -13.2,
+  "gain_db": -2.8,
+  "limited": false
+ },
+ "sfx/ham_slam.ogg": {
+  "L100_before": -18.44,
+  "gain_db": 2.44,
+  "limited": false
+ },
+ "sfx/hat_on.ogg": {
+  "L100_before": -14.0,
+  "gain_db": -2.0,
+  "limited": false
+ },
+ "sfx/hat_pop.ogg": {
+  "L100_before": -17.99,
+  "gain_db": 1.99,
+  "limited": false
+ },
+ "sfx/hazard_hit.ogg": {
+  "L100_before": -10.12,
+  "gain_db": -5.88,
+  "limited": false
+ },
+ "sfx/heal.ogg": {
+  "L100_before": -10.77,
+  "gain_db": -5.23,
+  "limited": false
+ },
+ "sfx/hot_splash.ogg": {
+  "L100_before": -10.66,
+  "gain_db": -5.34,
+  "limited": false
+ },
+ "sfx/hot_splash_2.ogg": {
+  "L100_before": -10.72,
+  "gain_db": -5.28,
+  "limited": false
+ },
+ "sfx/hurt.ogg": {
+  "L100_before": -13.26,
+  "gain_db": -2.74,
+  "limited": false
+ },
+ "sfx/jelly_wobble.ogg": {
+  "L100_before": -13.29,
+  "gain_db": -2.71,
+  "limited": false
+ },
+ "sfx/jelly_wobble_2.ogg": {
+  "L100_before": -10.92,
+  "gain_db": -5.08,
+  "limited": false
+ },
+ "sfx/jump_1.ogg": {
+  "L100_before": -14.12,
+  "gain_db": -1.88,
+  "limited": false
+ },
+ "sfx/jump_2.ogg": {
+  "L100_before": -12.87,
+  "gain_db": -3.13,
+  "limited": false
+ },
+ "sfx/jump_3.ogg": {
+  "L100_before": -10.39,
+  "gain_db": -5.61,
+  "limited": false
+ },
+ "sfx/jump_kick_2.ogg": {
+  "L100_before": -18.59,
+  "gain_db": 2.59,
+  "limited": false
+ },
+ "sfx/kick.ogg": {
+  "L100_before": -21.81,
+  "gain_db": 5.2,
+  "limited": true
+ },
+ "sfx/kick_2.ogg": {
+  "L100_before": -20.52,
+  "gain_db": 4.52,
+  "limited": false
+ },
+ "sfx/knocker_rattle.ogg": {
+  "L100_before": -13.22,
+  "gain_db": -2.78,
+  "limited": false
+ },
+ "sfx/lance_ready_2.ogg": {
+  "L100_before": -18.08,
+  "gain_db": 2.08,
+  "limited": false
+ },
+ "sfx/lance_thrust.ogg": {
+  "L100_before": -11.95,
+  "gain_db": -4.05,
+  "limited": false
+ },
+ "sfx/lance_thrust_2.ogg": {
+  "L100_before": -20.4,
+  "gain_db": 4.4,
+  "limited": false
+ },
+ "sfx/land.ogg": {
+  "L100_before": -22.06,
+  "gain_db": 6.06,
+  "limited": false
+ },
+ "sfx/land_2.ogg": {
+  "L100_before": -19.18,
+  "gain_db": 3.0,
+  "limited": true
+ },
+ "sfx/land_heavy.ogg": {
+  "L100_before": -25.54,
+  "gain_db": 9.0,
+  "limited": true
+ },
+ "sfx/leaf_boing.ogg": {
+  "L100_before": -19.27,
+  "gain_db": 3.27,
+  "limited": true
+ },
+ "sfx/leaf_boing_2.ogg": {
+  "L100_before": -23.63,
+  "gain_db": 7.63,
+  "limited": true
+ },
+ "sfx/leaf_bounce.ogg": {
+  "L100_before": -13.48,
+  "gain_db": -2.52,
+  "limited": false
+ },
+ "sfx/leaf_creak.ogg": {
+  "L100_before": -14.16,
+  "gain_db": -1.84,
+  "limited": false
+ },
+ "sfx/ledge_climb.ogg": {
+  "L100_before": -14.0,
+  "gain_db": -2.0,
+  "limited": false
+ },
+ "sfx/locked.ogg": {
+  "L100_before": -12.48,
+  "gain_db": -3.52,
+  "limited": false
+ },
+ "sfx/long_jump.ogg": {
+  "L100_before": -12.85,
+  "gain_db": -3.15,
+  "limited": false
+ },
+ "sfx/low_health.ogg": {
+  "L100_before": -21.31,
+  "gain_db": 5.31,
+  "limited": false
+ },
+ "sfx/mud_splat.ogg": {
+  "L100_before": -21.18,
+  "gain_db": 2.9,
+  "limited": true
+ },
+ "sfx/page_collect.ogg": {
+  "L100_before": -11.1,
+  "gain_db": -4.9,
+  "limited": false
+ },
+ "sfx/pea_inhale.ogg": {
+  "L100_before": -10.71,
+  "gain_db": -5.29,
+  "limited": false
+ },
+ "sfx/pea_inhale_2.ogg": {
+  "L100_before": -11.36,
+  "gain_db": -4.64,
+  "limited": false
+ },
+ "sfx/pea_notice.ogg": {
+  "L100_before": -11.4,
+  "gain_db": -4.6,
+  "limited": false
+ },
+ "sfx/pea_notice_2.ogg": {
+  "L100_before": -13.16,
+  "gain_db": -2.84,
+  "limited": false
+ },
+ "sfx/pea_splat_2.ogg": {
+  "L100_before": -18.44,
+  "gain_db": 2.44,
+  "limited": true
+ },
+ "sfx/platform_creak.ogg": {
+  "L100_before": -12.7,
+  "gain_db": -3.3,
+  "limited": false
+ },
+ "sfx/platform_fall.ogg": {
+  "L100_before": -11.94,
+  "gain_db": -4.06,
+  "limited": false
+ },
+ "sfx/pole_grab.ogg": {
+  "L100_before": -19.11,
+  "gain_db": 3.11,
+  "limited": true
+ },
+ "sfx/pop.ogg": {
+  "L100_before": -14.16,
+  "gain_db": -1.84,
+  "limited": false
+ },
+ "sfx/pop_2.ogg": {
+  "L100_before": -13.03,
+  "gain_db": -2.97,
+  "limited": false
+ },
+ "sfx/punch.ogg": {
+  "L100_before": -20.94,
+  "gain_db": 4.94,
+  "limited": true
+ },
+ "sfx/respawn.ogg": {
+  "L100_before": -9.84,
+  "gain_db": -6.16,
+  "limited": false
+ },
+ "sfx/respawn_2.ogg": {
+  "L100_before": -11.63,
+  "gain_db": -4.37,
+  "limited": false
+ },
+ "sfx/ring.ogg": {
+  "L100_before": -12.42,
+  "gain_db": -3.58,
+  "limited": false
+ },
+ "sfx/roll.ogg": {
+  "L100_before": -18.43,
+  "gain_db": 2.43,
+  "limited": true
+ },
+ "sfx/roof_tiles.ogg": {
+  "L100_before": -12.0,
+  "gain_db": -4.0,
+  "limited": false
+ },
+ "sfx/roof_tiles_2.ogg": {
+  "L100_before": -14.25,
+  "gain_db": -1.75,
+  "limited": false
+ },
+ "sfx/rope_snap.ogg": {
+  "L100_before": -18.95,
+  "gain_db": 2.95,
+  "limited": false
+ },
+ "sfx/side_flip.ogg": {
+  "L100_before": -19.27,
+  "gain_db": 3.27,
+  "limited": false
+ },
+ "sfx/side_flip_2.ogg": {
+  "L100_before": -21.64,
+  "gain_db": 5.64,
+  "limited": false
+ },
+ "sfx/skid.ogg": {
+  "L100_before": -11.32,
+  "gain_db": -4.68,
+  "limited": false
+ },
+ "sfx/slam_impact.ogg": {
+  "L100_before": -13.39,
+  "gain_db": -2.61,
+  "limited": false
+ },
+ "sfx/slam_impact_2.ogg": {
+  "L100_before": -10.86,
+  "gain_db": -5.14,
+  "limited": false
+ },
+ "sfx/slam_spin.ogg": {
+  "L100_before": -12.21,
+  "gain_db": -3.79,
+  "limited": false
+ },
+ "sfx/slam_spin_2.ogg": {
+  "L100_before": -12.11,
+  "gain_db": -3.89,
+  "limited": false
+ },
+ "sfx/slide.ogg": {
+  "L100_before": -8.64,
+  "gain_db": -7.36,
+  "limited": false
+ },
+ "sfx/sniff.ogg": {
+  "L100_before": -10.86,
+  "gain_db": -5.14,
+  "limited": false
+ },
+ "sfx/sniff_found.ogg": {
+  "L100_before": -10.87,
+  "gain_db": -5.13,
+  "limited": false
+ },
+ "sfx/spin_kick.ogg": {
+  "L100_before": -11.56,
+  "gain_db": -4.44,
+  "limited": false
+ },
+ "sfx/splash.ogg": {
+  "L100_before": -11.99,
+  "gain_db": -4.01,
+  "limited": false
+ },
+ "sfx/splash_2.ogg": {
+  "L100_before": -12.98,
+  "gain_db": -3.02,
+  "limited": false
+ },
+ "sfx/swish.ogg": {
+  "L100_before": -20.98,
+  "gain_db": 4.98,
+  "limited": false
+ },
+ "sfx/swish_2.ogg": {
+  "L100_before": -13.73,
+  "gain_db": -2.27,
+  "limited": false
+ },
+ "sfx/thunder.ogg": {
+  "L100_before": -10.33,
+  "gain_db": -5.67,
+  "limited": false
+ },
+ "sfx/thunder_2.ogg": {
+  "L100_before": -11.73,
+  "gain_db": -4.27,
+  "limited": false
+ },
+ "sfx/trial_fail.ogg": {
+  "L100_before": -12.26,
+  "gain_db": -3.74,
+  "limited": false
+ },
+ "sfx/trial_start.ogg": {
+  "L100_before": -12.62,
+  "gain_db": -3.38,
+  "limited": false
+ },
+ "sfx/trial_success.ogg": {
+  "L100_before": -10.09,
+  "gain_db": -5.91,
+  "limited": false
+ },
+ "sfx/truffle_appear.ogg": {
+  "L100_before": -10.64,
+  "gain_db": -5.36,
+  "limited": false
+ },
+ "sfx/truffle_get.ogg": {
+  "L100_before": -8.59,
+  "gain_db": -7.41,
+  "limited": false
+ },
+ "sfx/ui_back.ogg": {
+  "L100_before": -14.31,
+  "gain_db": -1.69,
+  "limited": false
+ },
+ "sfx/ui_confirm_big.ogg": {
+  "L100_before": -11.07,
+  "gain_db": -4.93,
+  "limited": false
+ },
+ "sfx/ui_move.ogg": {
+  "L100_before": -13.02,
+  "gain_db": -2.98,
+  "limited": false
+ },
+ "sfx/ui_pause.ogg": {
+  "L100_before": -17.65,
+  "gain_db": 1.65,
+  "limited": false
+ },
+ "sfx/ui_select.ogg": {
+  "L100_before": -12.54,
+  "gain_db": -3.46,
+  "limited": false
+ },
+ "sfx/ui_text_blip_1.ogg": {
+  "L100_before": -17.6,
+  "gain_db": 1.6,
+  "limited": false
+ },
+ "sfx/ui_text_blip_2.ogg": {
+  "L100_before": -17.65,
+  "gain_db": 1.65,
+  "limited": false
+ },
+ "sfx/ui_text_blip_3.ogg": {
+  "L100_before": -17.57,
+  "gain_db": 1.57,
+  "limited": true
+ },
+ "sfx/ui_unpause.ogg": {
+  "L100_before": -8.83,
+  "gain_db": -7.17,
+  "limited": false
+ },
+ "sfx/valve.ogg": {
+  "L100_before": -8.73,
+  "gain_db": -7.27,
+  "limited": false
+ },
+ "sfx/wall_kick.ogg": {
+  "L100_before": -23.7,
+  "gain_db": 7.7,
+  "limited": true
+ },
+ "sfx/wolf_charge.ogg": {
+  "L100_before": -10.23,
+  "gain_db": -5.77,
+  "limited": false
+ },
+ "sfx/wolf_charge_2.ogg": {
+  "L100_before": -10.46,
+  "gain_db": -5.54,
+  "limited": false
+ },
+ "sfx/wolf_cub_baa.ogg": {
+  "L100_before": -11.84,
+  "gain_db": -4.16,
+  "limited": false
+ },
+ "sfx/wolf_cub_growl.ogg": {
+  "L100_before": -11.54,
+  "gain_db": -4.46,
+  "limited": false
+ },
+ "sfx/wolf_cub_growl_2.ogg": {
+  "L100_before": -11.79,
+  "gain_db": -4.21,
+  "limited": false
+ },
+ "sfx/wolf_cub_yelp.ogg": {
+  "L100_before": -11.8,
+  "gain_db": -4.2,
+  "limited": false
+ },
+ "sfx/wolf_cub_yelp_2.ogg": {
+  "L100_before": -10.74,
+  "gain_db": -5.26,
+  "limited": false
+ },
+ "sfx/wolf_gust.ogg": {
+  "L100_before": -14.39,
+  "gain_db": -1.61,
+  "limited": false
+ },
+ "voice/butler_book2.ogg": {
+  "L100_before": -11.91,
+  "gain_db": -4.09,
+  "limited": false
+ },
+ "voice/butler_book3.ogg": {
+  "L100_before": -12.44,
+  "gain_db": -3.56,
+  "limited": false
+ },
+ "voice/butler_hint.ogg": {
+  "L100_before": -13.14,
+  "gain_db": -2.86,
+  "limited": false
+ },
+ "voice/butler_tea.ogg": {
+  "L100_before": -12.28,
+  "gain_db": -3.72,
+  "limited": false
+ },
+ "voice/butler_truffle.ogg": {
+  "L100_before": -11.74,
+  "gain_db": -4.26,
+  "limited": false
+ },
+ "voice/butler_welcome.ogg": {
+  "L100_before": -12.33,
+  "gain_db": -3.67,
+  "limited": false
+ },
+ "voice/butler_wolfdoor.ogg": {
+  "L100_before": -11.8,
+  "gain_db": -4.2,
+  "limited": false
+ },
+ "voice/mak_blast.ogg": {
+  "L100_before": -10.48,
+  "gain_db": -5.52,
+  "limited": false
+ },
+ "voice/mak_cheerio.ogg": {
+  "L100_before": -11.67,
+  "gain_db": -4.33,
+  "limited": false
+ },
+ "voice/mak_gotit.ogg": {
+  "L100_before": -10.32,
+  "gain_db": -5.68,
+  "limited": false
+ },
+ "voice/mak_hamslam.ogg": {
+  "L100_before": -10.22,
+  "gain_db": -5.78,
+  "limited": false
+ },
+ "voice/mak_jollygood.ogg": {
+  "L100_before": -12.23,
+  "gain_db": -3.77,
+  "limited": false
+ },
+ "voice/mak_jump1.ogg": {
+  "L100_before": -12.03,
+  "gain_db": -3.97,
+  "limited": false
+ },
+ "voice/mak_jump2.ogg": {
+  "L100_before": -12.17,
+  "gain_db": -3.83,
+  "limited": false
+ },
+ "voice/mak_jump3.ogg": {
+  "L100_before": -12.4,
+  "gain_db": -3.6,
+  "limited": false
+ },
+ "voice/mak_oof.ogg": {
+  "L100_before": -13.25,
+  "gain_db": -2.75,
+  "limited": false
+ },
+ "voice/mak_ouch.ogg": {
+  "L100_before": -10.68,
+  "gain_db": -5.32,
+  "limited": false
+ },
+ "voice/mak_righto.ogg": {
+  "L100_before": -11.78,
+  "gain_db": -4.22,
+  "limited": false
+ },
+ "voice/mak_sniff.ogg": {
+  "L100_before": -9.79,
+  "gain_db": -6.21,
+  "limited": false
+ },
+ "voice/mak_splendid.ogg": {
+  "L100_before": -10.79,
+  "gain_db": -5.21,
+  "limited": false
+ },
+ "voice/mak_tallyho.ogg": {
+  "L100_before": -10.35,
+  "gain_db": -5.65,
+  "limited": false
+ },
+ "voice/mak_tophat.ogg": {
+  "L100_before": -9.63,
+  "gain_db": -6.37,
+  "limited": false
+ },
+ "voice/mak_truffle.ogg": {
+  "L100_before": -12.58,
+  "gain_db": -3.42,
+  "limited": false
+ },
+ "voice/mak_wahey.ogg": {
+  "L100_before": -11.41,
+  "gain_db": -4.59,
+  "limited": false
+ },
+ "voice/mak_whoa.ogg": {
+  "L100_before": -12.06,
+  "gain_db": -3.94,
+  "limited": false
+ },
+ "voice/wolf_blownaway.ogg": {
+  "L100_before": -12.21,
+  "gain_db": -3.79,
+  "limited": false
+ },
+ "voice/wolf_curses.ogg": {
+  "L100_before": -8.94,
+  "gain_db": -7.06,
+  "limited": false
+ },
+ "voice/wolf_delicious.ogg": {
+  "L100_before": -10.78,
+  "gain_db": -5.22,
+  "limited": false
+ },
+ "voice/wolf_getback.ogg": {
+  "L100_before": -11.35,
+  "gain_db": -4.65,
+  "limited": false
+ },
+ "voice/wolf_huffpuff.ogg": {
+  "L100_before": -10.72,
+  "gain_db": -5.28,
+  "limited": false
+ },
+ "voice/wolf_inhale.ogg": {
+  "L100_before": -11.63,
+  "gain_db": -4.37,
+  "limited": false
+ },
+ "voice/wolf_laugh.ogg": {
+  "L100_before": -12.03,
+  "gain_db": -3.97,
+  "limited": false
+ },
+ "voice/wolf_littlepig.ogg": {
+  "L100_before": -13.8,
+  "gain_db": -2.2,
+  "limited": false
+ },
+ "voice/wolf_notlast.ogg": {
+  "L100_before": -11.28,
+  "gain_db": -4.72,
+  "limited": false
+ },
+ "voice/wolf_panting.ogg": {
+  "L100_before": -11.2,
+  "gain_db": -4.8,
+  "limited": false
+ },
+ "voice/wolf_tail.ogg": {
+  "L100_before": -10.76,
+  "gain_db": -5.24,
+  "limited": false
+ }
+}

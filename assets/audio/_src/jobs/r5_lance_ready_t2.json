@@ -1,0 +1,25 @@
+{
+ "key": "r5_lance_ready_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a candy cane lance swings into position, short swish and a sugary clink",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:10.360464+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-f495-7561-9190-6f77898d989b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/powIE4ozP59hJOJNKzVaP_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_lance_ready_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:16.995849+00:00"
+}

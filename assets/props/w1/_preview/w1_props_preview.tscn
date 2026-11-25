@@ -1,0 +1,104 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/props/w1/windmill_body/windmill_body.glb" id="1"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/windmill_sails/windmill_sails.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/brick_house/brick_house.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/brick_chimney_shaft/brick_chimney_shaft.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/straw_house/straw_house.glb" id="5"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/stick_house/stick_house.glb" id="6"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine/bellows_machine.glb" id="7"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/stone_bridge/stone_bridge.glb" id="8"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/wishing_well/wishing_well.glb" id="9"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/apple_tree/apple_tree.glb" id="10"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree/birch_tree.glb" id="11"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/hay_bale/hay_bale.glb" id="12"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/signpost/signpost.glb" id="13"]
+
+[sub_resource type="ProceduralSkyMaterial" id="sky_m"]
+sky_top_color = Color(0.38, 0.62, 0.9, 1)
+sky_horizon_color = Color(0.8, 0.88, 0.95, 1)
+ground_bottom_color = Color(0.3, 0.42, 0.2, 1)
+ground_horizon_color = Color(0.7, 0.8, 0.6, 1)
+
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_m")
+
+[sub_resource type="Environment" id="env"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+tonemap_mode = 2
+ssao_enabled = true
+glow_enabled = true
+
+[sub_resource type="PlaneMesh" id="ground"]
+size = Vector2(140, 80)
+
+[sub_resource type="StandardMaterial3D" id="gm"]
+albedo_color = Color(0.45, 0.68, 0.3, 1)
+
+[node name="W1PropsPreview" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("env")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866, -0.354, 0.354, 0, 0.707, 0.707, -0.5, -0.612, 0.612, 0, 20, 0)
+light_color = Color(1, 0.95, 0.85, 1)
+light_energy = 1.3
+shadow_enabled = true
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("ground")
+surface_material_override/0 = SubResource("gm")
+
+[node name="StoryCam_A" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.966, 0.259, 0, -0.259, 0.966, 2, 11, 44)
+fov = 60.0
+current = true
+
+[node name="StoryCam_B" type="Camera3D" parent="."]
+transform = Transform3D(0.94, 0, 0.342, 0.06, 0.985, -0.165, -0.337, 0.174, 0.925, 6, 6.5, 22)
+fov = 55.0
+
+[node name="windmill_body_0" parent="." instance=ExtResource("1")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 0, 0, -6)
+
+[node name="windmill_sails_1" parent="." instance=ExtResource("2")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, -0.024, 12.881, -2.387)
+
+[node name="brick_house_2" parent="." instance=ExtResource("3")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, -17, 0, -4)
+
+[node name="brick_chimney_shaft_3" parent="." instance=ExtResource("4")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, -10.7, 0, -4)
+
+[node name="straw_house_4" parent="." instance=ExtResource("5")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 14, 0, -2)
+
+[node name="stick_house_5" parent="." instance=ExtResource("6")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 24, 0, -3)
+
+[node name="bellows_machine_6" parent="." instance=ExtResource("7")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 8, 0, 7)
+
+[node name="stone_bridge_7" parent="." instance=ExtResource("8")]
+transform = Transform3D(0.0000, 0, -1.0000, 0, 1, 0, 1.0000, 0, 0.0000, -4, 0, 9)
+
+[node name="wishing_well_8" parent="." instance=ExtResource("9")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, -27, 0, 6)
+
+[node name="apple_tree_9" parent="." instance=ExtResource("10")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 32, 0, 6)
+
+[node name="birch_tree_10" parent="." instance=ExtResource("11")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 35, 0, -10)
+
+[node name="birch_tree_11" parent="." instance=ExtResource("11")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, -32, 0, -10)
+
+[node name="hay_bale_12" parent="." instance=ExtResource("12")]
+transform = Transform3D(0.9397, 0, -0.3420, 0, 1, 0, 0.3420, 0, 0.9397, 16, 0, 8)
+
+[node name="signpost_13" parent="." instance=ExtResource("13")]
+transform = Transform3D(1.0000, 0, -0.0000, 0, 1, 0, 0.0000, 0, 1.0000, 3, 0, 12)

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_ui_select",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bright pleasant menu confirm chime",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:08.032334+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-328f-7700-aea3-0db6c8a0cb6c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/ym2Uc26ymJEa9pSWD4RXD_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_ui_select.mp3"
+ ],
+ "completed": "2026-10-17T18:50:14.338061+00:00"
+}

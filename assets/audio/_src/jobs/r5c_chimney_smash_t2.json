@@ -1,0 +1,25 @@
+{
+ "key": "r5c_chimney_smash_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Sound effect, isolated, dry, no music: a brick chimney is smashed by a heavy body, loud crunching impact, then many hard bricks and mortar chunks clatter and tumble down onto roof tiles",
+  "duration_seconds": 2.0,
+  "prompt_influence": 0.65,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:03:32.531926+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bad-5be0-7bb0-860b-7d7dd9cecc08",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9dd/irOqbpeqODqWtg7yvY64t_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 49571
+  }
+ },
+ "files": [
+  "raw/r5c_chimney_smash_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:03:41.046242+00:00"
+}

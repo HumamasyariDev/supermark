@@ -1,0 +1,11 @@
+{
+ "request_id": "01a14b59-6748-79c1-9c3f-cd37745602ff",
+ "result": {
+  "speaker_embedding": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b7/fvwV_kZ8LqAEwHEaEanR7_tmph6xzybs0.safetensors",
+   "content_type": "application/x-safetensors",
+   "file_name": "tmph6xzybs0.safetensors",
+   "file_size": 11168
+  }
+ }
+}

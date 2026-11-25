@@ -1,0 +1,9 @@
+music_menu_sting ok ['raw/music_menu_sting.mp3']
+music_truffle_get ok ['raw/music_truffle_get.mp3']
+music_victory ok ['raw/music_victory.mp3']
+music_title_a FalClientHTTPError: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': 'Instrumental only, no vocals. A whimsical orchestral storybook overture for the title screen of a cosy adventure game. Opens with a celesta and harp flourish 
+music_boss_a ok ['raw/music_boss_a.mp3']
+music_w1_a ok ['raw/music_w1_a.mp3']
+music_w2_a ok ['raw/music_w2_a.mp3']
+music_w3_a ok ['raw/music_w3_a.mp3']
+music_hub_a ok ['raw/music_hub_a.mp3']

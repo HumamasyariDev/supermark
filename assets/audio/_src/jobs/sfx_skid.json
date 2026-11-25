@@ -1,0 +1,25 @@
+{
+ "key": "sfx_skid",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: hooves skidding on dirt, short scrape with a little dust",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:36.140534+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-b5fc-78f2-a9cc-0b446cf1c392",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/CQm66bzrgsM_9-2ytnD31_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/sfx_skid.mp3"
+ ],
+ "completed": "2026-10-17T18:49:42.724111+00:00"
+}

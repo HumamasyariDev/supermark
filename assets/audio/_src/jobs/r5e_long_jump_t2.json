@@ -1,0 +1,25 @@
+{
+ "key": "r5e_long_jump_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a long low leap, stretched airy swoosh",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:34.284990+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-971a-7242-826d-464029f93f5c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5b/wTChsiz5LiHqVtCMshCZE_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5e_long_jump_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:24:40.831435+00:00"
+}

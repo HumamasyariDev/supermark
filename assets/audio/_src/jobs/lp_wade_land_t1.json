@@ -1,0 +1,25 @@
+{
+ "key": "lp_wade_land_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a small character landing with both feet in shallow water, a bouncy medium splash with falling droplets",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-19T07:44:06.336216+00:00",
+ "status": "downloaded",
+ "request_id": "01a1531e-29a7-7f10-a3c7-317d83930a3f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaefaa0/OGWC2P5G5RCZk2wDy2epV_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/lp_wade_land_t1.mp3"
+ ],
+ "completed": "2026-10-19T07:44:13.972365+00:00"
+}

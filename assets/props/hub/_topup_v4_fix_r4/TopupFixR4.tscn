@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://assets/props/hub/_topup_v4_fix_r4/topup_fix_r4.gd" id="1"]
+
+[node name="TopupFixR4" type="Node3D"]
+script = ExtResource("1")

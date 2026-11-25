@@ -1,0 +1,14 @@
+{
+ "start": {
+  "pos": [
+   54.5,
+   1.6,
+   -21.0
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 300,
+ "events": [],
+ "fps": 60,
+ "steer": "world"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_heal",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a warm soft healing chime with a gentle sparkle",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:29:00.855529+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-b9d2-7a32-b52e-1693268dfd46",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90e/VueXJPvpkxfB0qS2b6OjA_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_heal.mp3"
+ ],
+ "completed": "2026-10-17T20:29:07.322971+00:00"
+}

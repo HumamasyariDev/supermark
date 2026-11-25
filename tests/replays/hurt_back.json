@@ -1,0 +1,17 @@
+{
+ "start": {
+  "pos": [
+   -12.6,
+   0.0,
+   20.0
+  ],
+  "yaw_deg": 90
+ },
+ "end_frame": 150,
+ "events": [],
+ "args": [
+  "--lab-cocoa"
+ ],
+ "fps": 60,
+ "steer": "world"
+}

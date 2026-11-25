@@ -1,0 +1,36 @@
+[gd_resource type="ShaderMaterial" format=3]
+
+[ext_resource type="Shader" path="res://assets/shaders/outline.gdshader" id="1_t0fos"]
+[ext_resource type="Shader" path="res://assets/shaders/toon.gdshader" id="2_i51bk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ihl4w"]
+render_priority = 0
+shader = ExtResource("1_t0fos")
+shader_parameter/outline_color = Color(0.22, 0.13, 0.12, 1)
+shader_parameter/outline_width = 2.0
+shader_parameter/max_world_width = 0.03
+
+[resource]
+render_priority = 0
+next_pass = SubResource("ShaderMaterial_ihl4w")
+shader = ExtResource("2_i51bk")
+shader_parameter/albedo = Color(1, 0.76, 0.22, 1)
+shader_parameter/use_vertex_color = false
+shader_parameter/use_normal_map = false
+shader_parameter/normal_strength = 0.6
+shader_parameter/triplanar = false
+shader_parameter/triplanar_scale = 0.35
+shader_parameter/uv_scale = Vector2(1, 1)
+shader_parameter/ramp_threshold = 0.05
+shader_parameter/ramp_softness = 0.08
+shader_parameter/shadow_tint = Color(0.58, 0.5, 0.68, 1)
+shader_parameter/spec_strength = 1.2
+shader_parameter/spec_size = 0.35
+shader_parameter/rim_color = Color(1, 0.93, 0.8, 1)
+shader_parameter/rim_strength = 0.9
+shader_parameter/rim_power = 3.0
+shader_parameter/rim_threshold = 0.35
+shader_parameter/roughness_value = 0.8
+shader_parameter/emission_color = Color(1, 0.6, 0.15, 1)
+shader_parameter/emission_energy = 0.35
+shader_parameter/flash_color = Color(1, 1, 1, 1)

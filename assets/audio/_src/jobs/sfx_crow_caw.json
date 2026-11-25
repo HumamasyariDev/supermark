@@ -1,0 +1,25 @@
+{
+ "key": "sfx_crow_caw",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a mischievous crow cawing with a cackle",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:55.051524+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-ffdb-75f2-8002-62b5c888e57f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/U0OlZd64trbewXArqqEN0_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/sfx_crow_caw.mp3"
+ ],
+ "completed": "2026-10-17T18:50:01.950774+00:00"
+}

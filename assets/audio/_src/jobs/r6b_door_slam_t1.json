@@ -1,0 +1,25 @@
+{
+ "key": "r6b_door_slam_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon storybook video game sound effect, clean, isolated, no music, no voice: a heavy old wooden library door slams shut with a deep boom and a short rattle of iron fittings",
+  "duration_seconds": 1.4,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T23:33:52.236492+00:00",
+ "status": "downloaded",
+ "request_id": "01a14c36-fcf0-7800-bb4f-9b3578fdf148",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaecd63/42aspZVpQLyB_HyRnUBvy_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 34524
+  }
+ },
+ "files": [
+  "raw/r6b_door_slam_t1.mp3"
+ ],
+ "completed": "2026-10-17T23:34:00.459188+00:00"
+}

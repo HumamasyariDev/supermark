@@ -1,0 +1,25 @@
+{
+ "key": "r5_fall_out",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a long cartoon falling whistle, descending",
+  "duration_seconds": 1.3,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:55.463290+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a4c6-75b2-b8b7-2f00d9509a3f",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/s9T_vKG83kx8bIdeW6kZz_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 32016
+  }
+ },
+ "files": [
+  "raw/r5_fall_out.mp3"
+ ],
+ "completed": "2026-10-17T20:29:01.807400+00:00"
+}

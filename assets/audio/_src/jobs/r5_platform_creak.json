@@ -1,0 +1,25 @@
+{
+ "key": "r5_platform_creak",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a wooden platform creaks and wobbles under weight",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:47.601453+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-87c5-7c60-b0e4-88803992225c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/eDaV1hzNrpST6NeHG2a4h_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_platform_creak.mp3"
+ ],
+ "completed": "2026-10-17T20:28:54.548831+00:00"
+}

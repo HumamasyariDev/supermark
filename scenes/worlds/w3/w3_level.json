@@ -1,0 +1,7431 @@
+{
+ "area": "W3",
+ "name": "Gingerbread Grove",
+ "tale": "Hansel and Gretel",
+ "status": "proposal v1 + round 1 + round 2 + round 3 amendments (night 01; see Docs/levels/W3_amendments.md)",
+ "units": "metres",
+ "axes": "x east, y up, z south (toward the default camera); Godot forward is -Z; origin = world centre at ground level",
+ "bounds": {
+  "x_min": -60,
+  "x_max": 60,
+  "z_min": -55,
+  "z_max": 55,
+  "note": "Terrain stays inside x -60..60, z -55..55. Since round 3 the floating biscuit balcony hangs in the void at x 70.5..75.5 (z 34.5) with its candyfloss cloud and breeze zone; the map and StoryCams must include x up to 76."
+ },
+ "kill_y": -12.0,
+ "music": {
+  "audio_key": "music_w3",
+  "musical_key": "B-flat major",
+  "tempo_bpm": 132,
+  "meter": "6/8 swing",
+  "instrumentation": "celesta, glockenspiel, pizzicato strings, bassoon melody, brushed snare; a mischievous minor bridge (G minor) for the witch-cottage section"
+ },
+ "world_root": {
+  "world_id": "W3",
+  "display_name": "Gingerbread Grove",
+  "music_key": "music_w3",
+  "kill_y": -12.0
+ },
+ "spawns": [
+  {
+   "id": "Default",
+   "pos": [
+    0,
+    2.0,
+    48
+   ],
+   "rot_y": 0.0,
+   "note": "Faces north through the Storybook Gate."
+  },
+  {
+   "id": "W3-1",
+   "pos": [
+    -12,
+    2.0,
+    40.5
+   ],
+   "target": [
+    -24,
+    36
+   ],
+   "rot_y": 69.4
+  },
+  {
+   "id": "W3-2",
+   "pos": [
+    30,
+    2.0,
+    44
+   ],
+   "target": [
+    38,
+    43
+   ],
+   "rot_y": -82.9
+  },
+  {
+   "id": "W3-3",
+   "pos": [
+    16,
+    1.4,
+    25.5
+   ],
+   "target": [
+    16,
+    18
+   ],
+   "rot_y": 0.0
+  },
+  {
+   "id": "W3-4",
+   "pos": [
+    21,
+    8.2,
+    -24
+   ],
+   "target": [
+    30,
+    -27
+   ],
+   "rot_y": -71.6
+  },
+  {
+   "id": "W3-6",
+   "pos": [
+    3,
+    8.0,
+    -19
+   ],
+   "target": [
+    -6,
+    -24
+   ],
+   "rot_y": 60.9
+  },
+  {
+   "id": "W3-7",
+   "pos": [
+    9,
+    2.0,
+    38.5
+   ],
+   "target": [
+    13,
+    38
+   ],
+   "rot_y": -82.9
+  },
+  {
+   "id": "W3-8",
+   "pos": [
+    6,
+    8.0,
+    -24
+   ],
+   "target": [
+    3,
+    -29
+   ],
+   "rot_y": 31.0
+  },
+  {
+   "id": "W3-3_bank",
+   "pos": [
+    46.0,
+    2.05,
+    32.5
+   ],
+   "rot_y": 0.0,
+   "test_only": true,
+   "note": "R3: test marker on the south bank, 0.9 m behind the last safe footing (terrain about y 1.3), for the long-jump catch of the Royal Digestive (J48)."
+  },
+  {
+   "id": "W3-6_kitchen",
+   "pos": [
+    -2.4,
+    104.5,
+    -29
+   ],
+   "rot_y": 90.0,
+   "note": "Where Mak appears (falling into the hearth ash) after Ham Slamming the chimney cap; faces west into the kitchen."
+  },
+  {
+   "id": "W3-6_door_exit",
+   "pos": [
+    -6,
+    8.0,
+    -21.8
+   ],
+   "rot_y": 180.0,
+   "note": "Where the kitchen front door puts Mak back in the courtyard (facing south)."
+  }
+ ],
+ "story_cams": [
+  {
+   "id": "StoryCam_A",
+   "pos": [
+    0,
+    16,
+    66
+   ],
+   "look_at": [
+    0,
+    6,
+    -18
+   ],
+   "fov": 55,
+   "shows": "Hero view from beyond the south edge: Storybook Gate, glade, bridge, river, cottage on its knoll, Frosting Peak right, falls left.",
+   "rot_deg": [
+    -6.8,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "id": "StoryCam_B",
+   "pos": [
+    -52,
+    28,
+    -53
+   ],
+   "look_at": [
+    14,
+    4,
+    18
+   ],
+   "fov": 58,
+   "shows": "From above the falls cliff looking south-east: falls and pool below, cottage and cauldron, lagoon, Great Lollipop, fort.",
+   "rot_deg": [
+    -13.9,
+    -137.1,
+    0.0
+   ]
+  },
+  {
+   "id": "StoryCam_C",
+   "pos": [
+    66,
+    20,
+    28
+   ],
+   "look_at": [
+    38,
+    11,
+    -26
+   ],
+   "fov": 50,
+   "shows": "From over the Chocolate Falls looking north-west: river, slide flume crossing it, the cake mountain filling the frame.",
+   "rot_deg": [
+    -8.4,
+    27.4,
+    0.0
+   ]
+  },
+  {
+   "id": "StoryCam_D",
+   "pos": [
+    46,
+    62,
+    80
+   ],
+   "look_at": [
+    0,
+    2,
+    -4
+   ],
+   "fov": 50,
+   "shows": "High diorama overview of the whole page; best for 15-minute progress comparisons.",
+   "rot_deg": [
+    -32.1,
+    28.7,
+    0.0
+   ]
+  },
+  {
+   "id": "StoryCam_Intro_1",
+   "pos": [
+    2,
+    22.5,
+    -19
+   ],
+   "look_at": [
+    -2.4,
+    21.8,
+    -29
+   ],
+   "fov": 38,
+   "duration_s": 3.0,
+   "shows": "R2: first entry only. Close on Sir Reginald (wolf_boss.glb, 3.2 m) perched on the cottage chimney top. He lowers his monocle, sniffs: 'Mmm. I smell... PIE.', inflates his chest and floats off north-east over Frosting Peak on his own breath (same exit as the W1 cameo)."
+  },
+  {
+   "id": "StoryCam_Intro_2",
+   "pos": [
+    10,
+    3.5,
+    52
+   ],
+   "look_at": [
+    26,
+    10,
+    38
+   ],
+   "look_at_end": [
+    46,
+    4,
+    43
+   ],
+   "fov": 50,
+   "duration_s": 2.5,
+   "shows": "R2: pan from the Great Lollipop's gumdrop spiral to the fort, where the squad drums. Then cut to the gameplay camera behind Mak at Spawns/Default."
+  }
+ ],
+ "terrain": {
+  "base_height": 1.0,
+  "grid_hint_m": 0.5,
+  "edge": "Beyond the bounds the terrain ends in a cut-cake skirt (gingerbread soil, cream layer, sponge) down to y -8; pink candyfloss cloud cards at y -10.",
+  "op_semantics": {
+   "rect_max / ellipse_max / circle_max": "v = h - (h - low) * smoothstep(0, falloff, d) for d < falloff (d = distance outside the shape, 0 inside; low defaults to base 1.0); H = max(H, v). No effect beyond the falloff.",
+   "ellipse distance": "d = (sqrt((dx/rx)^2 + (dz/rz)^2) - 1) * min(rx, rz)",
+   "rect distance": "signed distance of a rounded box with corner_r, clamped at 0",
+   "hills_add": "H += a * 0.5 * (1 + cos(pi * d / r)) for d < r",
+   "path_flatten": "per path: m = 1 - smoothstep(w/2, w/2 + shoulder, d); H = lerp(H, y_path, m); y_path linear along the nearest segment",
+   "carve_*": "H = bed + (H - bed) * smoothstep(edge, edge + bank, d)",
+   "rect_flatten": "H = lerp(H, h, m) with m = 1 - smoothstep(0, falloff, d) and d = distance outside the rect (0 inside). Forces a flat floor; used for the hedge-maze floor (round 1)."
+  },
+  "ops": [
+   {
+    "id": "south_shelf",
+    "op": "rect_max",
+    "x": [
+     -60,
+     60
+    ],
+    "z": [
+     24,
+     55
+    ],
+    "corner_r": 0,
+    "h": 2.0,
+    "falloff": 8,
+    "note": "Sugar Glade, Lollipop Lawn and the fort sit on this 2 m shelf south of the river."
+   },
+   {
+    "id": "woods_shelf",
+    "op": "rect_max",
+    "x": [
+     -60,
+     -22
+    ],
+    "z": [
+     -14,
+     55
+    ],
+    "corner_r": 6,
+    "h": 3.0,
+    "falloff": 6,
+    "note": "Lollipop Woods, a rolling 3 m shelf west of the glade."
+   },
+   {
+    "id": "woods_hills",
+    "op": "hills_add",
+    "hills": [
+     {
+      "c": [
+       -40,
+       32
+      ],
+      "r": 9,
+      "a": 2.5
+     },
+     {
+      "c": [
+       -52,
+       22
+      ],
+      "r": 8,
+      "a": 3.0
+     },
+     {
+      "c": [
+       -28,
+       45
+      ],
+      "r": 7,
+      "a": 1.5
+     },
+     {
+      "c": [
+       -54,
+       42
+      ],
+      "r": 8,
+      "a": 3.0
+     },
+     {
+      "c": [
+       -34,
+       6
+      ],
+      "r": 6,
+      "a": 1.2
+     }
+    ],
+    "note": "Cosine bumps: a * 0.5 * (1 + cos(pi * d / r)) for d < r."
+   },
+   {
+    "id": "gumdrop_hills",
+    "op": "hills_add",
+    "hills": [
+     {
+      "c": [
+       11,
+       27
+      ],
+      "r": 5,
+      "a": 2.0
+     },
+     {
+      "c": [
+       30,
+       51
+      ],
+      "r": 6,
+      "a": 2.5
+     },
+     {
+      "c": [
+       6,
+       52
+      ],
+      "r": 5,
+      "a": 1.5
+     },
+     {
+      "c": [
+       -14,
+       52
+      ],
+      "r": 5,
+      "a": 1.5
+     }
+    ],
+    "note": "Round gumdrop-shaped mounds; colour them with the gumdrop palette. R3: the (52, 28) mound is removed (the widened river and the balcony runway use that ground)."
+   },
+   {
+    "id": "maze_floor",
+    "op": "rect_flatten",
+    "x": [
+     -58.5,
+     -33.5
+    ],
+    "z": [
+     7.5,
+     24.5
+    ],
+    "h": 4.0,
+    "falloff": 3.0,
+    "note": "R1: flat 4.0 floor for the liquorice hedge maze (overrides the woods hills inside)."
+   },
+   {
+    "id": "cottage_knoll",
+    "op": "rect_max",
+    "x": [
+     -18,
+     9
+    ],
+    "z": [
+     -38,
+     -14
+    ],
+    "corner_r": 4,
+    "h": 8.0,
+    "falloff": 4,
+    "note": "Flat 8 m plateau for the witch's cottage and courtyard; steep frosted sides."
+   },
+   {
+    "id": "peak_base_T1",
+    "op": "ellipse_max",
+    "c": [
+     40,
+     -33
+    ],
+    "r": [
+     19,
+     19
+    ],
+    "h": 8.0,
+    "falloff": 3,
+    "note": "Base tier of Frosting Peak; cake tiers A-E stand on it as separate procedural prisms."
+   },
+   {
+    "id": "falls_cliff",
+    "op": "rect_max",
+    "x": [
+     -60,
+     -30
+    ],
+    "z": [
+     -55,
+     -41.5
+    ],
+    "corner_r": 3,
+    "h": 16.0,
+    "falloff": 1.0,
+    "note": "Rock-candy cliff; near-vertical face at z -41.5..-40.5."
+   },
+   {
+    "id": "hidden_clearing",
+    "op": "circle_max",
+    "c": [
+     -48,
+     -1
+    ],
+    "r": 7,
+    "h": 4.0,
+    "falloff": 3,
+    "note": "Breadcrumb clearing plateau, ringed by a liquorice hedge (see landmarks)."
+   },
+   {
+    "id": "paths",
+    "op": "path_flatten",
+    "note": "Every spline in splines.paths: inside width/2 the height is the spline height; blends back over 'shoulder' metres with smoothstep."
+   },
+   {
+    "id": "river",
+    "op": "carve_spline",
+    "spline": "river",
+    "bed": -0.8,
+    "bank": 3.5,
+    "note": "h = lerp(bed, h, smoothstep(w/2, w/2 + bank, d)); w interpolated along the spline."
+   },
+   {
+    "id": "cocoa_lagoon",
+    "op": "carve_ellipse",
+    "c": [
+     20,
+     10
+    ],
+    "r": [
+     14,
+     11
+    ],
+    "bed": -0.8,
+    "bank": 3.5
+   },
+   {
+    "id": "marshmallow_islet",
+    "op": "circle_max",
+    "c": [
+     21,
+     9
+    ],
+    "r": 3,
+    "h": 1.6,
+    "falloff": 1.5,
+    "low": -0.8
+   },
+   {
+    "id": "syrup_pool",
+    "op": "carve_circle",
+    "c": [
+     -44,
+     -33
+    ],
+    "r": 6,
+    "bed": -0.2,
+    "bank": 2.5,
+    "note": "Shallow pink syrup (0.5 m deep), safe to wade."
+   }
+  ],
+  "materials": {
+   "y >= 7 tops": "biscuit-crumb soil with icing patches",
+   "default": "coconut-ice grass #A6DB72",
+   "slopes > 35 deg": "gingerbread rock #B8733A with icing drip trim",
+   "below y 0.6 near water": "chocolate mud #5A3221",
+   "falls cliff": "pink rock candy #FF8FB8 facets"
+  }
+ },
+ "cake_tiers": [
+  {
+   "id": "tier_A",
+   "c": [
+    42,
+    -36
+   ],
+   "r": [
+    14,
+    12
+   ],
+   "base_y": 7.5,
+   "top_y": 12,
+   "sponge": "#D98F4E",
+   "icing": "#7FE0C2",
+   "note": "R2 palette: caramel sponge, mint icing drips. No cream-and-pink pair (Mak's colours) and no white icing under the slide."
+  },
+  {
+   "id": "tier_B",
+   "c": [
+    44,
+    -39
+   ],
+   "r": [
+    10,
+    9
+   ],
+   "base_y": 7.5,
+   "top_y": 16,
+   "sponge": "#6B3A24",
+   "icing": "#FFE07A",
+   "note": "R2 palette: chocolate sponge, lemon icing. No cream-and-pink pair (Mak's colours) and no white icing under the slide."
+  },
+  {
+   "id": "tier_C",
+   "c": [
+    42,
+    -42
+   ],
+   "r": [
+    7,
+    6
+   ],
+   "base_y": 7.5,
+   "top_y": 20,
+   "sponge": "#E86A8E",
+   "icing": "#5A3221",
+   "note": "R2 palette: raspberry sponge, chocolate ganache. No cream-and-pink pair (Mak's colours) and no white icing under the slide."
+  },
+  {
+   "id": "tier_D",
+   "c": [
+    40,
+    -42
+   ],
+   "r": [
+    4.5,
+    4.5
+   ],
+   "base_y": 7.5,
+   "top_y": 24,
+   "sponge": "#FFE07A",
+   "icing": "#D94A8C",
+   "note": "R2 palette: lemon sponge, magenta berry icing. No cream-and-pink pair (Mak's colours) and no white icing under the slide."
+  },
+  {
+   "id": "tier_E_summit",
+   "c": [
+    39,
+    -42
+   ],
+   "r": [
+    3,
+    3
+   ],
+   "base_y": 7.5,
+   "top_y": 28,
+   "sponge": "#6B3A24",
+   "icing": "#7FE0C2",
+   "note": "R2 palette: chocolate summit, mint icing, red glace cherry #D61F3C. No cream-and-pink pair (Mak's colours) and no white icing under the slide."
+  }
+ ],
+ "splines": {
+  "river": {
+   "id": "river",
+   "surface_y": 0.3,
+   "material": "hot_chocolate",
+   "points": [
+    [
+     -41,
+     -28,
+     7
+    ],
+    [
+     -36,
+     -20,
+     7
+    ],
+    [
+     -29,
+     -11,
+     7
+    ],
+    [
+     -20,
+     -3,
+     8
+    ],
+    [
+     -8,
+     4,
+     8
+    ],
+    [
+     6,
+     9,
+     10
+    ],
+    [
+     34,
+     12,
+     17
+    ],
+    [
+     44,
+     17,
+     17
+    ],
+    [
+     54,
+     21,
+     17
+    ],
+    [
+     63,
+     22,
+     17
+    ]
+   ],
+   "note": "[x, z, width]. Between (6,9) and (34,12) it runs through the Cocoa Lagoon. Exits off the east page edge as the Chocolate Falls. Visible surface/damage footprint = width/2 + 2.0 m (where the bank meets y 0.3). R3: widened to 17 m from (34, 12) to the falls (was 10 / 9 / 8 / 8), so the last safe footing is 8.7-9.7 m (south bank) and 9.4-10.4 m (north bank) from the Royal Digestive's rim: a running double (7.8 m, about 7.4 m with the +0.3 rise) misses, a long jump (12.2 m) makes it from the south bank. The Chocolate Falls are now 17 m wide."
+  },
+  "paths": [
+   {
+    "id": "path_glade_bridge",
+    "width": 4.0,
+    "shoulder": 2.0,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      0,
+      2.0,
+      50
+     ],
+     [
+      0,
+      2.0,
+      40
+     ],
+     [
+      -3,
+      1.8,
+      28
+     ],
+     [
+      -6,
+      1.3,
+      18
+     ],
+     [
+      -6,
+      1.2,
+      13
+     ]
+    ]
+   },
+   {
+    "id": "path_knoll",
+    "width": 4.0,
+    "shoulder": 2.5,
+    "material": "candy_stone",
+    "points": [
+     [
+      -6,
+      1.2,
+      -3.5
+     ],
+     [
+      -2,
+      2.2,
+      -7
+     ],
+     [
+      4,
+      3.8,
+      -9.5
+     ],
+     [
+      8,
+      5.6,
+      -11.5
+     ],
+     [
+      6,
+      7.2,
+      -14.5
+     ],
+     [
+      2,
+      8.0,
+      -17
+     ]
+    ]
+   },
+   {
+    "id": "path_courtyard",
+    "width": 3.5,
+    "shoulder": 1.0,
+    "material": "candy_stone",
+    "points": [
+     [
+      2,
+      8.0,
+      -17
+     ],
+     [
+      -6,
+      8.0,
+      -20.5
+     ]
+    ]
+   },
+   {
+    "id": "path_courtyard_east",
+    "width": 3.0,
+    "shoulder": 1.0,
+    "material": "candy_stone",
+    "points": [
+     [
+      2,
+      8.0,
+      -17
+     ],
+     [
+      9,
+      8.0,
+      -24
+     ]
+    ]
+   },
+   {
+    "id": "path_breadcrumb",
+    "width": 3.0,
+    "shoulder": 2.0,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      -14,
+      2.0,
+      40
+     ],
+     [
+      -24,
+      2.6,
+      36
+     ],
+     [
+      -32,
+      3.4,
+      28
+     ],
+     [
+      -36,
+      4.0,
+      25.5
+     ]
+    ],
+    "note": "R1: ends at the hedge-maze entrance (-36, 4, 25.5); the maze floor itself is flat (maze_floor op)."
+   },
+   {
+    "id": "path_lollipop",
+    "width": 3.0,
+    "shoulder": 1.5,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      2,
+      2.0,
+      40
+     ],
+     [
+      12,
+      2.0,
+      38
+     ]
+    ]
+   },
+   {
+    "id": "path_fort",
+    "width": 3.5,
+    "shoulder": 1.5,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      4,
+      2.0,
+      44
+     ],
+     [
+      14,
+      2.0,
+      48
+     ],
+     [
+      26,
+      2.0,
+      48.5
+     ],
+     [
+      33,
+      2.0,
+      43
+     ],
+     [
+      38,
+      2.0,
+      43
+     ]
+    ]
+   },
+   {
+    "id": "path_dock",
+    "width": 3.0,
+    "shoulder": 1.5,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      2,
+      2.0,
+      36
+     ],
+     [
+      10,
+      1.8,
+      30
+     ],
+     [
+      16,
+      1.4,
+      24
+     ]
+    ]
+   },
+   {
+    "id": "path_pool",
+    "width": 5.0,
+    "shoulder": 2.0,
+    "material": "candy_stone",
+    "points": [
+     [
+      -17,
+      8.0,
+      -31
+     ],
+     [
+      -24,
+      5.8,
+      -31.5
+     ],
+     [
+      -31,
+      2.6,
+      -32.5
+     ],
+     [
+      -37.5,
+      1.0,
+      -33
+     ]
+    ],
+    "note": "R1: widened to 5 m. The north 2.6 m carry the frosting chute (pool_chute, slide surface, fast downhill line for W3-8); the south 2.4 m stay walkable candy stone so R4 still works uphill."
+   },
+   {
+    "id": "path_balcony_runway",
+    "width": 3.0,
+    "shoulder": 1.0,
+    "material": "biscuit_crumb",
+    "points": [
+     [
+      46,
+      2.0,
+      34.5
+     ],
+     [
+      60,
+      2.0,
+      34.5
+     ]
+    ],
+    "note": "R3: flat 14 m run-up for the balcony long jump, between the river bank (z <= 33) and the fort's north wall (z 36). Ends at the page edge, with a crumbled-biscuit take-off lip at x 59-60."
+   }
+  ],
+  "frosting_slide": {
+   "id": "frosting_slide",
+   "width": 3.2,
+   "wall_h": 0.8,
+   "surface": "frosting (friction 0, group slide_surface)",
+   "points": [
+    [
+     39,
+     28.0,
+     -39.4
+    ],
+    [
+     40,
+     26.5,
+     -34
+    ],
+    [
+     48,
+     23.0,
+     -26
+    ],
+    [
+     56,
+     18.0,
+     -16
+    ],
+    [
+     54,
+     13.0,
+     -4
+    ],
+    [
+     48,
+     9.0,
+     8
+    ],
+    [
+     42,
+     6.0,
+     20
+    ],
+    [
+     36,
+     3.0,
+     28
+    ],
+    [
+     32,
+     2.3,
+     33
+    ]
+   ],
+   "note": "Catmull-Rom through these points, U-trough mesh, wafer stilts every 4 m wherever the trough is more than 0.6 m above terrain or a cake tier. Crosses the hot-chocolate river as a wafer-cone flume near (42, 6, 20). R1: two sprinkle boost strips on the outer half of the two bends (+4 m/s once each); the outer wall drops to 0.35 m along them, so a boosted, badly steered slide can fly out (race lost, no damage). R2 (art): blue-raspberry frosting (#8FD0F5) with darker blue walls (#5BB0E6) and rainbow sprinkles, so the slide reads against every tier and the grass. R3: The Sled Joust. Arc landmarks: boost 1 at 30-34 m, boost 2 at 54-58 m, the flume over the widened river (dunk zone) at 61-80 m, finish at 88.8 m. Walls stay 0.8 m in the dunk zone for Mak; only a bumped grenadier is thrown over (scripted cartoon arc).",
+   "boost_strips": [
+    {
+     "id": "slide_boost_1",
+     "arc_m": [
+      30,
+      34
+     ],
+     "from": [
+      55.6,
+      18.5,
+      -17.1
+     ],
+     "to": [
+      56.2,
+      17.2,
+      -13.3
+     ],
+     "side": "outer (east)",
+     "impulse_mps": 4.0,
+     "outer_wall_h": 0.35
+    },
+    {
+     "id": "slide_boost_2",
+     "arc_m": [
+      54,
+      58
+     ],
+     "from": [
+      50.1,
+      10.2,
+      4.1
+     ],
+     "to": [
+      48.3,
+      9.2,
+      7.4
+     ],
+     "side": "outer (south-east)",
+     "impulse_mps": 4.0,
+     "outer_wall_h": 0.35
+    }
+   ],
+   "colors": {
+    "surface": "#8FD0F5",
+    "walls": "#5BB0E6",
+    "sprinkles": "rainbow",
+    "stilts": "#C98A4B"
+   },
+   "dunk_zone_arc_m": [
+    61,
+    80
+   ]
+  },
+  "biscuit_lanes": [
+   {
+    "id": "lane_S",
+    "y": 0.55,
+    "speed": 1.4,
+    "spawn_every_s": 3.4,
+    "offset_s": 0.0,
+    "points": [
+     [
+      6,
+      12
+     ],
+     [
+      12,
+      16
+     ],
+     [
+      27,
+      16
+     ]
+    ],
+    "note": "R3: ends (sinks) at (27, 16). The R1 end (31, 15.2) passed 1.0 m from the Royal Digestive path, so a lane S rider could hop onto the royal without the convoy. The new end is 7.4 m from the moored royal and 6.6 m from the mooring post, beyond any jump from a 2.6 m biscuit."
+   },
+   {
+    "id": "lane_N",
+    "y": 0.55,
+    "speed": 1.4,
+    "spawn_every_s": 3.4,
+    "offset_s": 1.7,
+    "points": [
+     [
+      6,
+      8
+     ],
+     [
+      12,
+      4
+     ],
+     [
+      21,
+      3.6
+     ]
+    ],
+    "note": "R1: ends (sinks) at (21, 3.6), beside the north pier; R3 still hops from it to the pier."
+   },
+   {
+    "id": "lane_E",
+    "y": 0.55,
+    "speed": 2.6,
+    "spawn_every_s": 2.0,
+    "offset_s": 0.0,
+    "points": [
+     [
+      25.0,
+      5.4
+     ],
+     [
+      35.41,
+      8.47
+     ],
+     [
+      45.56,
+      13.53
+     ],
+     [
+      55.02,
+      17.34
+     ],
+     [
+      57.0,
+      18.0
+     ]
+    ],
+    "note": "R1: the fast 'convoy' lane for the Dunk Run. Spawns from the Biscuit Barrel on the islet's north-east shore, runs 3.8 m north of the river centreline and sinks at (57, 18) before the falls. Spacing 5.2 m (edge gap 2.6 m). Same sag rule as the other biscuits (sag 3.0 s, sink 4.5 s), so riders must leapfrog forward from biscuit to biscuit."
+   }
+  ],
+  "liquorice_pipe": {
+   "id": "liquorice_pipe",
+   "diameter": 0.8,
+   "stilt_every": 5.0,
+   "points": [
+    [
+     3,
+     9.6,
+     -29
+    ],
+    [
+     3,
+     8.6,
+     -37.5
+    ],
+    [
+     -14,
+     8.6,
+     -37.5
+    ],
+    [
+     -16,
+     9.0,
+     -50
+    ],
+    [
+     -30,
+     16.6,
+     -50
+    ],
+    [
+     -44,
+     16.6,
+     -50
+    ],
+    [
+     -44,
+     16.6,
+     -42
+    ]
+   ],
+   "note": "Visual hint and VFX path for W3-8: the steam puff travels cauldron -> spout valve in 3 s."
+  },
+  "breadcrumbs": {
+   "along": "path_breadcrumb",
+   "spacing_m": 2.7,
+   "y_offset": 0.15,
+   "total_crumbs": 10,
+   "gate_opens_at": null,
+   "note": "R1: 10 glowing tutorial crumbs from (-14, 2, 40) to the maze entrance. Inside the maze the crows ate the rest: the solution is shown by the Snout Sniff scent trail (maze.scent_nodes) or by crumbs a punched crow drops (relight 15 s). No count gate any more."
+  },
+  "royal_digestive": {
+   "id": "royal_digestive_path",
+   "y": 0.55,
+   "speed": 1.6,
+   "points": [
+    [
+     37.0,
+     13.5
+    ],
+    [
+     44,
+     17
+    ],
+    [
+     54,
+     21
+    ],
+    [
+     59.5,
+     21.9
+    ]
+   ],
+   "length_m": 24.2,
+   "travel_s": 15.1,
+   "note": "R3, W3-3: moored mid-river at the lagoon mouth (37, 13.5) on a 2.2 m rope from mooring_post. Released when Mak lands on the Marshmallow Islet or on any lane_E biscuit (crow_lagoon cackles 0.8 s and pecks the rope), then drifts down the river centreline at 1.6 m/s to the falls lip (59.5, 21.9), 24.2 m, 15.1 s; tips over and respawns moored after 5 s. R1 started at (26.2, 9.6) beside the islet, which a player on the islet could simply step onto."
+  },
+  "pool_chute": {
+   "id": "pool_chute",
+   "width": 2.6,
+   "wall_h": 0.6,
+   "surface": "frosting (friction 0, group slide_surface)",
+   "points": [
+    [
+     -17,
+     8.0,
+     -32.2
+    ],
+    [
+     -24,
+     5.8,
+     -32.7
+    ],
+    [
+     -31,
+     2.6,
+     -33.7
+    ],
+    [
+     -37.0,
+     1.0,
+     -34.0
+    ]
+   ],
+   "note": "R1, W3-8: frosting chute on the north half of path_pool. Belly slide down = fastest line to the Syrup Pool (about 2.3 s vs 2.9 s on foot)."
+  }
+ },
+ "water": [
+  {
+   "id": "river_surface",
+   "type": "hot_chocolate",
+   "y": 0.3,
+   "footprint": "river spline, half-width w/2 + 2.0",
+   "hazard": "hot_chocolate"
+  },
+  {
+   "id": "lagoon_surface",
+   "type": "hot_chocolate",
+   "y": 0.3,
+   "footprint": "ellipse c(20,10) r(16,13)",
+   "hazard": "hot_chocolate"
+  },
+  {
+   "id": "syrup_pool",
+   "type": "syrup_safe",
+   "y": 0.3,
+   "footprint": "circle c(-44,-33) r 7.5",
+   "note": "wading slows run speed to 60%"
+  }
+ ],
+ "landmarks": [
+  {
+   "id": "storybook_gate",
+   "name": "Storybook Gate",
+   "pos": [
+    0,
+    2.0,
+    40
+   ],
+   "footprint": [
+    9,
+    1.5
+   ],
+   "height": 7.5,
+   "note": "Candy-cane arch the player runs through at the start; frames the hero shot."
+  },
+  {
+   "id": "page_lectern",
+   "name": "Page Lectern",
+   "pos": [
+    6,
+    2.0,
+    44
+   ],
+   "footprint": [
+    1.4,
+    1.0
+   ],
+   "height": 1.4,
+   "note": "Open-book lectern; the W3-5 truffle appears here."
+  },
+  {
+   "id": "pretzel_bridge",
+   "name": "Pretzel Bridge",
+   "pos": [
+    -6,
+    1.3,
+    4.5
+   ],
+   "footprint": [
+    3.6,
+    16
+   ],
+   "height": 2.0,
+   "note": "Main river crossing."
+  },
+  {
+   "id": "witch_cottage",
+   "name": "Gingerbread Cottage",
+   "pos": [
+    -6,
+    8.0,
+    -29
+   ],
+   "footprint": [
+    12,
+    10
+   ],
+   "height": 12.0,
+   "note": "Walls x -12..0, z -34..-24, eaves y 13, ridge y 18 (east-west), chimney top y 20 at x -2.4. Door faces south. R1: the chimney top now has a cracked biscuit cap (Ham Slam target). Slamming it drops Mak into the cottage kitchen, built as a pocket set at floor y 100 directly above the footprint (see kitchen_* platforms)."
+  },
+  {
+   "id": "cauldron",
+   "name": "Bubbling Cauldron",
+   "pos": [
+    3,
+    8.0,
+    -29
+   ],
+   "footprint": [
+    4.4,
+    4.4
+   ],
+   "height": 1.9,
+   "note": "Rim top y 9.6, dome lid top y 9.9 (Ham Slam target). Green-pink steam column."
+  },
+  {
+   "id": "frosting_peak",
+   "name": "Frosting Peak",
+   "pos": [
+    42,
+    8.0,
+    -38
+   ],
+   "footprint": [
+    28,
+    24
+   ],
+   "height": 20.0,
+   "note": "Five stacked cake tiers (A 12, B 16, C 20, D 24, summit 28) on the y 8 base. Glace cherry on top."
+  },
+  {
+   "id": "great_lollipop",
+   "name": "The Great Lollipop",
+   "pos": [
+    20,
+    2.0,
+    38
+   ],
+   "footprint": [
+    8,
+    1.6
+   ],
+   "height": 22.4,
+   "note": "Stick r 0.7 from y 2 to 15.5; swirl disc r 4.0 (vertical, x-y plane, 1.6 thick) centred y 19.5; saucer top y 24.4."
+  },
+  {
+   "id": "candy_falls",
+   "name": "Strawberry Syrup Falls",
+   "pos": [
+    -44,
+    16,
+    -37.5
+   ],
+   "footprint": [
+    6,
+    1.6
+   ],
+   "height": 16.0,
+   "note": "Pink syrup curtain x -47..-41 falling from the spout (y 16) into the Syrup Pool (y 0.3)."
+  },
+  {
+   "id": "syrup_pool",
+   "name": "Syrup Pool",
+   "pos": [
+    -44,
+    0.3,
+    -33
+   ],
+   "footprint": [
+    12,
+    12
+   ],
+   "height": 0,
+   "note": "Shallow, safe to wade; feeds the chocolate river."
+  },
+  {
+   "id": "cocoa_lagoon",
+   "name": "Cocoa Lagoon",
+   "pos": [
+    20,
+    0.3,
+    10
+   ],
+   "footprint": [
+    28,
+    22
+   ],
+   "height": 0,
+   "note": "Hot chocolate (hazard) with Marshmallow Islet and drifting biscuit lanes."
+  },
+  {
+   "id": "gingerbread_fort",
+   "name": "Gingerbread Barracks",
+   "pos": [
+    46,
+    2.0,
+    43
+   ],
+   "footprint": [
+    18,
+    14
+   ],
+   "height": 3.6,
+   "note": "Walls x 37..55, z 36..50, 1.6 thick, top y 5.6 (walkway), gate gap on the west wall z 41..45. NE tower x 52..55.4, z 36..39.4, top y 9.2 with a candy pinwheel."
+  },
+  {
+   "id": "hidden_clearing",
+   "name": "Hidden Clearing",
+   "pos": [
+    -48,
+    4.0,
+    -1
+   ],
+   "footprint": [
+    16,
+    16
+   ],
+   "height": 3.0,
+   "note": "Liquorice-bramble hedge ring r 8 (3 m tall, 1.2 thick) with a candy-cane gate in the south gap (3.5 m) at z 7. R1: the gate opens when Mak comes within 4 m of it from the maze side (no crumb count). The only way in is through the maze."
+  },
+  {
+   "id": "chocolate_falls",
+   "name": "Chocolate Falls",
+   "pos": [
+    61,
+    0.3,
+    22
+   ],
+   "footprint": [
+    17,
+    2
+   ],
+   "height": 0,
+   "note": "R3: the river pours off the east page edge 17 m wide into the candyfloss void (VFX), z about 13..30."
+  },
+  {
+   "id": "sugar_ravine",
+   "name": "Sugar Ravine",
+   "pos": [
+    16.5,
+    1.0,
+    -27
+   ],
+   "footprint": [
+    7,
+    26
+   ],
+   "height": -7,
+   "note": "Natural gap between the knoll and the peak base; spanned by the wafer bridge; floor y 1, opens south. R3: now holds the rock-candy spire (page 3) and the invisible sniff stair rising from the wafer bridge; crow_ravine guards it."
+  },
+  {
+   "id": "liquorice_maze",
+   "name": "Liquorice Hedge Maze",
+   "pos": [
+    -46,
+    4.0,
+    16
+   ],
+   "footprint": [
+    24,
+    16
+   ],
+   "height": 2.6,
+   "note": "R1: 6 x 4 cell hedge maze (4 m cells, 3 m corridors) between the trail and the Hidden Clearing. Walls from maze.py / platforms maze_hedge_*."
+  },
+  {
+   "id": "cottage_kitchen",
+   "name": "Cottage Kitchen (pocket set)",
+   "pos": [
+    -6,
+    100.0,
+    -29
+   ],
+   "footprint": [
+    10.8,
+    8.8
+   ],
+   "height": 6,
+   "note": "R1, W3-6: interior room x -11.4..-0.6, z -33.4..-24.6, floor y 100, ceiling y 106. Fixed camera zone KitchenCam. The south wall is single-sided (invisible from the camera side)."
+  },
+  {
+   "id": "tale_easel",
+   "name": "The Wolf's Rewritten Page",
+   "pos": [
+    3.5,
+    2.0,
+    41.5
+   ],
+   "footprint": [
+    1.4,
+    0.8
+   ],
+   "height": 2.2,
+   "note": "R1: easel by the Storybook Gate showing the wolf's version: 'And the Gingerbread Guard ate the house, the children, and the pig. THE END.' Pages tear back to the real text as truffles return (1 strip per truffle)."
+  }
+ ],
+ "platforms": [
+  {
+   "id": "pretzel_bridge",
+   "kind": "bridge_arched",
+   "pos": [
+    -6.0,
+    1.3,
+    4.5
+   ],
+   "size": [
+    3.6,
+    0.5,
+    16.0
+   ],
+   "note": "Deck from z 12.5 (south) to z -3.5 (north), ends top y 1.3, arch apex top y 2.4 at z 4.5. Pretzel rails 0.9 m high both sides; piers at z 1.0 and 8.0. Mesh: pretzel_bridge (visual), collision: 8 box segments following the arc.",
+   "rot_y": 0
+  },
+  {
+   "id": "bridge_page_shelf",
+   "kind": "static_box",
+   "pos": [
+    -2.9,
+    0.65,
+    1.4
+   ],
+   "size": [
+    1.8,
+    0.5,
+    1.6
+   ],
+   "note": "Wafer shelf beside the north pier just above the chocolate (top y 0.9). Lost Page 2 floats on it."
+  },
+  {
+   "id": "cocoa_tin_step",
+   "kind": "static_cylinder",
+   "pos": [
+    -1.6,
+    8.0,
+    -22.6
+   ],
+   "size": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "note": "Cocoa tin, top y 9.2 (radius 0.6)."
+  },
+  {
+   "id": "porch_awning",
+   "kind": "bouncy_box",
+   "pos": [
+    -6.0,
+    10.95,
+    -23.0
+   ],
+   "size": [
+    6.0,
+    0.5,
+    2.0
+   ],
+   "note": "Striped candy awning over the cottage door, top y 11.2. Group 'bouncy', bounce apex 5.2 m above its top (16.4).",
+   "bounce_apex_m": 5.2
+  },
+  {
+   "id": "cottage_dormer_top",
+   "kind": "static_box",
+   "pos": [
+    -6.0,
+    15.75,
+    -26.5
+   ],
+   "size": [
+    2.4,
+    0.5,
+    2.0
+   ],
+   "note": "Flat dormer roof on the front slope, top y 16.0. R3: Lost Page 3 moved to the ravine spire; 3 acorns here instead (dormer_acorns)."
+  },
+  {
+   "id": "cottage_ridge_cap",
+   "kind": "static_box",
+   "pos": [
+    -6.0,
+    17.75,
+    -29.0
+   ],
+   "size": [
+    12.0,
+    0.5,
+    1.6
+   ],
+   "note": "Piped-icing ridge walkway from x -12 to 0, top y 18.0, 1.6 m wide."
+  },
+  {
+   "id": "cottage_chimney",
+   "kind": "static_box",
+   "pos": [
+    -2.4,
+    19.0,
+    -29.0
+   ],
+   "size": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "note": "Chimney on the ridge, top y 20.0 (2.0 x 2.0 m landing). R1: the W3-6 truffle no longer floats here. The top carries a cracked biscuit cap with a slam_sensor (1.6 x 0.6 x 1.6 at (-2.4, 20.3, -29)); Ham Slam -> cap shatters, soot puff, page-turn (0.6 s) -> Mak falls into the kitchen at Spawns/W3-6_kitchen. Gretel calls \"Down here!\" from the flue when Mak is on the ridge."
+  },
+  {
+   "id": "cottage_roof_slopes",
+   "kind": "static_slope",
+   "pos": [
+    -6.0,
+    15.5,
+    -29.0
+   ],
+   "size": [
+    12.8,
+    5.0,
+    9.6
+   ],
+   "note": "Two 50-degree icing roof planes from eaves (y 13, z -24.0 and -34.0) to the ridge (y 18). Too steep to stand: the player slides off. Collision: two rotated boxes."
+  },
+  {
+   "id": "firewood_step",
+   "kind": "static_box",
+   "pos": [
+    3.0,
+    8.4,
+    -26.4
+   ],
+   "size": [
+    1.2,
+    0.8,
+    0.8
+   ],
+   "note": "Candy-stick firewood bundle, top y 8.8."
+  },
+  {
+   "id": "wafer_bridge_peak",
+   "kind": "bridge_flat",
+   "pos": [
+    16.25,
+    8.0,
+    -24.0
+   ],
+   "size": [
+    14.5,
+    0.4,
+    3.0
+   ],
+   "note": "Wafer bridge over the Sugar Ravine from x 9 to x 23.5, deck top y 8.2, no rails (wafer ribs on the edges)."
+  },
+  {
+   "id": "jelly_step_1",
+   "kind": "jelly_sinker",
+   "pos": [
+    26.3,
+    8.25,
+    -25.0
+   ],
+   "size": [
+    2.4,
+    1.5,
+    2.4
+   ],
+   "note": "R1: lime jelly cube, top y 9.0, wobble shader. Squashes 0.15 m on landing (visual); after 0.8 s of standing it sinks 0.5 m over 0.3 s and recovers 0.6 s after Mak leaves. R1 fix (feel blocker): moved onto the wafer bridge's line toward the tier A rim, 2.4 m wide, rot_y 70, sinks after 1.2 s.",
+   "top_y": 9.0,
+   "rot_y": 70,
+   "sink_after_s": 1.2
+  },
+  {
+   "id": "jelly_step_2",
+   "kind": "jelly_sinker",
+   "pos": [
+    29.4,
+    9.0,
+    -26.1
+   ],
+   "size": [
+    2.4,
+    3.0,
+    2.4
+   ],
+   "note": "R1: raspberry jelly cube, top y 10.0, same sink rule. Jump to tier A (+2.0) before it sinks (+2.5 is beyond the standard double). R1 fix (feel blocker): on the bridge line, 2.4 m wide, top raised to 10.5 so the rim is +1.5 (+2.0 once it sinks).",
+   "top_y": 10.5,
+   "rot_y": 70
+  },
+  {
+   "id": "marshmallow_bouncer",
+   "kind": "bouncy_cylinder",
+   "pos": [
+    53.5,
+    12.4,
+    -33.0
+   ],
+   "size": [
+    1.8,
+    0.8,
+    1.8
+   ],
+   "note": "Giant marshmallow on tier A's east ring, top y 12.8, group 'bouncy', bounce apex 5.5 m above top (18.3); lands on tier B. R2: toasted marshmallow (caramel top, cream side), not white-and-pink.",
+   "bounce_apex_m": 5.5,
+   "color": {
+    "top": "#E8B77A",
+    "side": "#FFF1DC"
+   }
+  },
+  {
+   "id": "choc_lift",
+   "kind": "lift",
+   "pos": [
+    51.0,
+    16.15,
+    -41.0
+   ],
+   "size": [
+    2.2,
+    0.3,
+    2.2
+   ],
+   "note": "R2: CALLED lift. Waits at the bottom (top y 16.3) until Mak stands on it, rises to 20.3 in 2.0 s, waits 1.0 s, and returns only after Mak steps off (2.0 s). Worst-case wait about 3 s (was up to 6.5 s). Step off west onto tier C (gap 1.0 m).",
+   "travel": [
+    16.3,
+    20.3
+   ],
+   "mode": "called",
+   "rise_s": 2.0
+  },
+  {
+   "id": "candy_pole_D",
+   "kind": "pole",
+   "pos": [
+    46.6,
+    22.2,
+    -42
+   ],
+   "size": [
+    0.7,
+    4.4,
+    0.7
+   ],
+   "note": "R1: shortened to y 20 -> 23 (was 26) so the pole jump (apex about 26.5) lands on tier D or candle 1, not on the summit. Group 'climbable', radius 0.35. R1 fix (feel blocker): 4.4 m tall (y 20 -> 24.4) so the pole jump crosses tier D's rim; summit is no_ledge_grab so the jump cannot skip the candles."
+  },
+  {
+   "id": "birthday_candle_1",
+   "kind": "flame_candle",
+   "pos": [
+    42.6,
+    24.6,
+    -44.6
+   ],
+   "size": [
+    2.0,
+    1.2,
+    2.0
+   ],
+   "top_y": 25.2,
+   "phase_s": 0.0,
+   "cycle": {
+    "period_s": 3.5,
+    "lit_s": 2.0,
+    "out_s": 1.5,
+    "relight_telegraph_s": 0.4
+   },
+   "note": "R1: striped birthday candle on tier D's east ring (lemon/pink/mint wax). While lit, a 0.9 m wick flame covers the top (hazard: 1 damage, knockback_up 6). The out window travels 1-2-3 every 0.5 s, so the hop 'follows the wave'. Relight telegraph: wick sparks and crackle 0.4 s before the flame returns. R1 fix (feel): 2.0 m diameter perches; candle 2 moved 1.5 m off the pole-jump line (z -42). FIX R1 (feel blocker, 11:50 Bangkok): candles moved off the pole-jump landing line; the jump lands on bare icing between candle 1 (south) and candle 2 (north), marked by a biscuit decal at (43.4, 24, -42)."
+  },
+  {
+   "id": "birthday_candle_2",
+   "kind": "flame_candle",
+   "pos": [
+    42.9,
+    25.2,
+    -39.5
+   ],
+   "size": [
+    2.0,
+    2.4,
+    2.0
+   ],
+   "top_y": 26.4,
+   "phase_s": 0.5,
+   "cycle": {
+    "period_s": 3.5,
+    "lit_s": 2.0,
+    "out_s": 1.5,
+    "relight_telegraph_s": 0.4
+   },
+   "note": "R1: striped birthday candle on tier D's east ring (lemon/pink/mint wax). While lit, a 0.9 m wick flame covers the top (hazard: 1 damage, knockback_up 6). The out window travels 1-2-3 every 0.5 s, so the hop 'follows the wave'. Relight telegraph: wick sparks and crackle 0.4 s before the flame returns. R1 fix (feel): 2.0 m diameter perches; candle 2 moved 1.5 m off the pole-jump line (z -42). FIX R1 (feel blocker, 11:50 Bangkok): candles moved off the pole-jump landing line; the jump lands on bare icing between candle 1 (south) and candle 2 (north), marked by a biscuit decal at (43.4, 24, -42)."
+  },
+  {
+   "id": "birthday_candle_3",
+   "kind": "flame_candle",
+   "pos": [
+    40.9,
+    25.8,
+    -38.3
+   ],
+   "size": [
+    2.0,
+    3.6,
+    2.0
+   ],
+   "top_y": 27.6,
+   "phase_s": 1.0,
+   "cycle": {
+    "period_s": 3.5,
+    "lit_s": 2.0,
+    "out_s": 1.5,
+    "relight_telegraph_s": 0.4
+   },
+   "note": "R1: striped birthday candle on tier D's east ring (lemon/pink/mint wax). While lit, a 0.9 m wick flame covers the top (hazard: 1 damage, knockback_up 6). The out window travels 1-2-3 every 0.5 s, so the hop 'follows the wave'. Relight telegraph: wick sparks and crackle 0.4 s before the flame returns. R1 fix (feel): 2.0 m diameter perches; candle 2 moved 1.5 m off the pole-jump line (z -42). FIX R1 (feel blocker, 11:50 Bangkok): candles moved off the pole-jump landing line; the jump lands on bare icing between candle 1 (south) and candle 2 (north), marked by a biscuit decal at (43.4, 24, -42)."
+  },
+  {
+   "id": "glace_cherry",
+   "kind": "static_sphere",
+   "pos": [
+    38.6,
+    29.2,
+    -43.4
+   ],
+   "size": [
+    2.4,
+    2.4,
+    2.4
+   ],
+   "note": "Giant glace cherry on the summit (decor, solid)."
+  },
+  {
+   "id": "glace_cherry_cap",
+   "kind": "static_cylinder",
+   "pos": [
+    38.6,
+    30.2,
+    -43.4
+   ],
+   "size": [
+    1.4,
+    0.4,
+    1.4
+   ],
+   "note": "R1: flat collision cap on the cherry, top y 30.4 (side somersault or standing double from the summit). 'Cherry on top' acorn ring above."
+  },
+  {
+   "id": "peppermint_pillar",
+   "kind": "static_box",
+   "pos": [
+    40.0,
+    14.5,
+    -26.75
+   ],
+   "size": [
+    2.0,
+    5.0,
+    2.0
+   ],
+   "note": "Peppermint stack on tier A, top y 17. North face at z -27.75 is 3.0 m from tier B's south face: wall-kick chimney."
+  },
+  {
+   "id": "rock_candy_pillar_1",
+   "kind": "static_cylinder",
+   "pos": [
+    -21.6,
+    5.3,
+    -36.0
+   ],
+   "size": [
+    2.4,
+    8.6,
+    2.4
+   ],
+   "note": "R1: rock-candy crystal pillar, top y 9.6, base buried at y 1. Gaps 2.8-3.2 m, rises +1.6 (mastery column). FIX R1 (feel major, 12:00 Bangkok): widened to 2.4 m so the edge gaps are 2.2-2.6 m; pillar 3 is 3.0 m wide so the auto-chained triple jump lands on it.",
+   "top_y": 9.6
+  },
+  {
+   "id": "rock_candy_pillar_2",
+   "kind": "falling_platform",
+   "pos": [
+    -26.2,
+    6.1,
+    -37.4
+   ],
+   "size": [
+    2.4,
+    10.2,
+    2.4
+   ],
+   "note": "R1: sugar-glass pillar (translucent lilac), top y 11.2. Cracks 0.8 s after Mak lands (crackle + shake), the top segment falls, respawns after 4 s. Base buried at y 1. FIX R1 (feel major, 12:00 Bangkok): widened to 2.4 m so the edge gaps are 2.2-2.6 m; pillar 3 is 3.0 m wide so the auto-chained triple jump lands on it.",
+   "top_y": 11.2
+  },
+  {
+   "id": "rock_candy_pillar_3",
+   "kind": "static_cylinder",
+   "pos": [
+    -30.8,
+    6.9,
+    -38.2
+   ],
+   "size": [
+    3.0,
+    11.8,
+    3.0
+   ],
+   "note": "R1: rock-candy crystal pillar, top y 12.8, base buried at y 1. Gaps 2.8-3.2 m, rises +1.6 (mastery column). FIX R1 (feel major, 12:00 Bangkok): widened to 3.0 m so the edge gaps are 2.2-2.6 m; pillar 3 is 3.0 m wide so the auto-chained triple jump lands on it.",
+   "top_y": 12.8
+  },
+  {
+   "id": "rock_candy_pillar_4",
+   "kind": "falling_platform",
+   "pos": [
+    -35.4,
+    7.7,
+    -37.6
+   ],
+   "size": [
+    2.4,
+    13.4,
+    2.4
+   ],
+   "note": "R1: sugar-glass pillar (translucent lilac), top y 14.4. Cracks 0.8 s after Mak lands (crackle + shake), the top segment falls, respawns after 4 s. Base buried at y 1. FIX R1 (feel major, 12:00 Bangkok): widened to 2.4 m so the edge gaps are 2.2-2.6 m; pillar 3 is 3.0 m wide so the auto-chained triple jump lands on it.",
+   "top_y": 14.4
+  },
+  {
+   "id": "pool_rock_1",
+   "kind": "static_cylinder",
+   "pos": [
+    -41.5,
+    0.4,
+    -33.5
+   ],
+   "size": [
+    1.8,
+    1.2,
+    1.8
+   ],
+   "note": "Pink rock-candy boulder in the syrup pool, top y 1.0.",
+   "top_y": 1.0
+  },
+  {
+   "id": "pool_rock_2",
+   "kind": "static_cylinder",
+   "pos": [
+    -43.0,
+    1.3,
+    -35.4
+   ],
+   "size": [
+    1.8,
+    3.0,
+    1.8
+   ],
+   "note": "R1: pink rock-candy boulder, top y 2.8, edge 1.2 m from the grotto floor (+2.2 double while the falls are off).",
+   "top_y": 2.8
+  },
+  {
+   "id": "candy_grotto",
+   "kind": "grotto",
+   "pos": [
+    -44.0,
+    5.0,
+    -39.0
+   ],
+   "size": [
+    4.0,
+    3.5,
+    3.0
+   ],
+   "note": "Niche behind the falls: floor top y 5.0 spanning x -46..-42, z -40.5..-37.5; side walls and a roof slab at y 8.5 (mesh rock_candy_grotto, simple box collision). W3-8 truffle mound at its back. R1: three sugar geodes on the back wall at (-45.2, 6.2, -40.2), (-44, 6.2, -40.3), (-42.8, 6.2, -40.2). Snout Sniff makes the right one glow (random per visit); punch or kick it to crack it and release the W3-8 truffle. Wrong geodes burst into 2 acorns."
+  },
+  {
+   "id": "grotto_geodes",
+   "kind": "sniff_geode_set",
+   "pos": [
+    -44.0,
+    6.2,
+    -40.25
+   ],
+   "size": [
+    3.6,
+    1.0,
+    0.6
+   ],
+   "members": [
+    [
+     -45.2,
+     6.2,
+     -40.2
+    ],
+    [
+     -44.0,
+     6.2,
+     -40.3
+    ],
+    [
+     -42.8,
+     6.2,
+     -40.2
+    ]
+   ],
+   "note": "R1: sniff_target + breakable (punch/kick). One holds the truffle; chosen at random on world load. R2: a wrong geode cracks with a sour 'pfft', drops 2 acorns and knocks 6 s off the falls timer (the HUD sand-timer visibly jumps; if 3 s or less remain, the trickle warning starts at once).",
+   "wrong_penalty_s": 6.0
+  },
+  {
+   "id": "syrup_spout",
+   "kind": "static_box",
+   "pos": [
+    -44.0,
+    15.8,
+    -39.3
+   ],
+   "size": [
+    3.0,
+    0.6,
+    4.4
+   ],
+   "note": "Wafer gutter from the cliff top lip (z -41.5) out to z -37.1 at y 16; the falls pour from its tip."
+  },
+  {
+   "id": "pool_chute",
+   "kind": "slide_trough",
+   "pos": [
+    -27.0,
+    4.5,
+    -33.2
+   ],
+   "size": [
+    20.0,
+    0.6,
+    2.6
+   ],
+   "note": "R1: frosting chute along splines.pool_chute (north half of path_pool), group slide_surface. Fast W3-8 line."
+  },
+  {
+   "id": "biscuit_dock",
+   "kind": "bridge_flat",
+   "pos": [
+    16.0,
+    1.2,
+    21.05
+   ],
+   "size": [
+    2.4,
+    0.4,
+    4.9
+   ],
+   "note": "South wafer jetty, deck top y 1.4, z 23.5 -> 18.6."
+  },
+  {
+   "id": "wafer_pier_north",
+   "kind": "bridge_flat",
+   "pos": [
+    20.0,
+    1.2,
+    -1.7
+   ],
+   "size": [
+    2.4,
+    0.4,
+    4.6
+   ],
+   "note": "North wafer pier, deck top y 1.4, z -4.0 -> 0.6."
+  },
+  {
+   "id": "biscuit_raft",
+   "kind": "moving_raft",
+   "pos": [
+    0.0,
+    0.55,
+    0.0
+   ],
+   "size": [
+    2.6,
+    0.3,
+    2.6
+   ],
+   "note": "Template: digestive biscuit (AnimatableBody3D), top y 0.7, follows lanes at 1.4 m/s; dips 0.15 m when stood on; after 3.0 s of continuous standing it sags 0.4 m and sinks fully at 4.5 s (then despawns). Sinks at the lane end over 1.5 s."
+  },
+  {
+   "id": "royal_digestive",
+   "kind": "moving_raft_royal",
+   "pos": [
+    37.0,
+    0.55,
+    13.5
+   ],
+   "size": [
+    3.2,
+    0.4,
+    3.2
+   ],
+   "top_y": 0.75,
+   "note": "R3, W3-3: gold-iced Royal Digestive (AnimatableBody3D), top y 0.75, never sags, carries the W3-3 truffle as a child (+1.0). Moored mid-river at the lagoon mouth (37, 13.5); see splines.royal_digestive. Reachable only from the lane_E convoy (J47) or by a long jump from a bank (J48)."
+  },
+  {
+   "id": "mooring_post",
+   "kind": "static_cylinder",
+   "pos": [
+    35.0,
+    0.7,
+    12.6
+   ],
+   "size": [
+    0.5,
+    3.0,
+    0.5
+   ],
+   "note": "R3: liquorice piling in the river at the lagoon mouth, from the bed (-0.8) to top y 2.2, rounded candy-cane knob (no_stand: Mak slides off). crow_lagoon perches on it; a 2.2 m liquorice rope ties the Royal Digestive.",
+   "no_stand": true
+  },
+  {
+   "id": "biscuit_barrel",
+   "kind": "decor_spawner",
+   "pos": [
+    23.2,
+    2.0,
+    6.6
+   ],
+   "size": [
+    1.4,
+    1.6,
+    1.4
+   ],
+   "note": "R1: tipped biscuit barrel on the islet's north-east shore that launches the lane_E biscuits (visual only; spawn point (25, 5.4))."
+  },
+  {
+   "id": "sugar_cube_1",
+   "kind": "static_box",
+   "pos": [
+    40.4,
+    2.6,
+    46.6
+   ],
+   "size": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "note": "Solid sugar-cube block, top y 3.2."
+  },
+  {
+   "id": "sugar_cube_2",
+   "kind": "static_box",
+   "pos": [
+    39.4,
+    3.2,
+    47.4
+   ],
+   "size": [
+    1.2,
+    2.4,
+    1.2
+   ],
+   "note": "Two stacked sugar cubes, top y 4.4."
+  },
+  {
+   "id": "fort_pole",
+   "kind": "pole",
+   "pos": [
+    51.4,
+    7.9,
+    37.0
+   ],
+   "size": [
+    0.7,
+    4.6,
+    0.7
+   ],
+   "note": "Candy-cane pole on the north wall walkway, y 5.6 -> 10.2."
+  },
+  {
+   "id": "parade_drum",
+   "kind": "static_cylinder",
+   "pos": [
+    46.0,
+    2.5,
+    43.0
+   ],
+   "size": [
+    2.4,
+    1.0,
+    2.4
+   ],
+   "note": "Sergeant Snap's parade drum, top y 3.0."
+  },
+  {
+   "id": "fort_wall_crumble",
+   "kind": "breakable_wall_decal",
+   "pos": [
+    46,
+    3.8,
+    43
+   ],
+   "size": [
+    18,
+    3.6,
+    14
+   ],
+   "note": "R1: wherever Sergeant Snap's charge hits an inner fort wall face, his lance sticks for 2.5 s and a 1.6 m chunk crumbles (decal + debris), dropping 5 acorns. At most 3 chunks per visit (15 acorns, not counted in the 100 total)."
+  },
+  {
+   "id": "gumdrop_1",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    13.0,
+    2.8,
+    38.0
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "Bouncy gumdrop on a liquorice stalk, dome top y 3.6, bounce apex 4.6 m above top. R1: HAPPY face, giggles when bounced (normal bounce only).",
+   "bounce_apex_m": 4.6,
+   "color": "#E8435A",
+   "top_y": 3.6,
+   "face": "happy"
+  },
+  {
+   "id": "gumdrop_2",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    15.05,
+    5.4,
+    42.95
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "Bouncy gumdrop on a liquorice stalk, dome top y 6.2, bounce apex 4.6 m above top. R1: HAPPY face, giggles when bounced (normal bounce only).",
+   "bounce_apex_m": 4.6,
+   "color": "#FF9A3C",
+   "top_y": 6.2,
+   "face": "happy"
+  },
+  {
+   "id": "gumdrop_3",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    20.0,
+    8.0,
+    45.0
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "Bouncy gumdrop on a liquorice stalk, dome top y 8.8, bounce apex 4.6 m above top. R1: HAPPY face, giggles when bounced (normal bounce only).",
+   "bounce_apex_m": 4.6,
+   "color": "#FFE07A",
+   "top_y": 8.8,
+   "face": "happy"
+  },
+  {
+   "id": "gumdrop_4",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    24.95,
+    10.6,
+    42.95
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "Bouncy gumdrop on a liquorice stalk, dome top y 11.4, bounce apex 4.6 m above top. R1: HAPPY face, giggles when bounced (normal bounce only).",
+   "bounce_apex_m": 4.6,
+   "color": "#7FE0C2",
+   "top_y": 11.4,
+   "face": "happy"
+  },
+  {
+   "id": "gumdrop_5",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    27.0,
+    13.6,
+    38.0
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "R1: GRUMPY gumdrop (frown, 'Hmph!'), dome top y 14.4. A normal landing gives a weak 2.0 m bounce; a Ham Slam onto it gives a 7.0 m super-bounce (dome squashes flat, 'Oof!'). No bob.",
+   "bounce_apex_m": 2.0,
+   "color": "#8FB8FF",
+   "top_y": 14.4,
+   "slam_bounce_apex_m": 7.0,
+   "face": "grumpy",
+   "deflate": {
+    "after": "none"
+   }
+  },
+  {
+   "id": "gumdrop_6",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    24.95,
+    16.6,
+    33.05
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "R1: GRUMPY gumdrop (frown, 'Hmph!'), dome top y 17.4. A normal landing gives a weak 2.0 m bounce; a Ham Slam onto it gives a 7.0 m super-bounce (dome squashes flat, 'Oof!'). R2: deflates for 2 s ONLY after a slam-bounce (not after a weak bounce). While deflated it is a solid, non-bouncy sagging dome ('Oof'): Mak stands on it, he does not fall through. A weak hop followed by a slam on the way down always works.",
+   "bounce_apex_m": 2.0,
+   "color": "#C79BFF",
+   "top_y": 17.4,
+   "slam_bounce_apex_m": 7.0,
+   "face": "grumpy",
+   "deflate": {
+    "after": "slam_bounce_only",
+    "duration_s": 2.0,
+    "while_deflated": "solid, no bounce"
+   }
+  },
+  {
+   "id": "gumdrop_7",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    20.0,
+    19.6,
+    31.0
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "R1: GRUMPY gumdrop (frown, 'Hmph!'), dome top y 20.4. A normal landing gives a weak 2.0 m bounce; a Ham Slam onto it gives a 7.0 m super-bounce (dome squashes flat, 'Oof!'). R2: deflates for 2 s ONLY after a slam-bounce (not after a weak bounce). While deflated it is a solid, non-bouncy sagging dome ('Oof'): Mak stands on it, he does not fall through. A weak hop followed by a slam on the way down always works.",
+   "bounce_apex_m": 2.0,
+   "color": "#FF7FAF",
+   "top_y": 20.4,
+   "slam_bounce_apex_m": 7.0,
+   "face": "grumpy",
+   "deflate": {
+    "after": "slam_bounce_only",
+    "duration_s": 2.0,
+    "while_deflated": "solid, no bounce"
+   }
+  },
+  {
+   "id": "gumdrop_8",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    9.0,
+    2.8,
+    34.0
+   ],
+   "size": [
+    2.6,
+    1.6,
+    2.6
+   ],
+   "note": "R1: moved out of the spiral. Grumpy TUTORIAL gumdrop beside Spawns/W3-7 with a sign 'Grumpy gumdrops need a firm hand: Ham Slam!'. A slam-bounce collects the 6-acorn ring at y 10. No bob.",
+   "bounce_apex_m": 2.0,
+   "color": "#E8435A",
+   "top_y": 3.6,
+   "slam_bounce_apex_m": 7.0,
+   "face": "grumpy"
+  },
+  {
+   "id": "lollipop_saucer",
+   "kind": "static_cylinder",
+   "pos": [
+    20.0,
+    23.95,
+    38.0
+   ],
+   "size": [
+    4.0,
+    0.9,
+    4.0
+   ],
+   "note": "Candy saucer crowning the Great Lollipop, top y 24.4 (radius 2.0). W3-7 truffle here. R1: reached by a slam-bounce from gumdrop 7 (+4.0)."
+  },
+  {
+   "id": "jelly_spring",
+   "kind": "bouncy_cylinder",
+   "pos": [
+    -10.0,
+    1.4,
+    -7.5
+   ],
+   "size": [
+    1.6,
+    0.8,
+    1.6
+   ],
+   "note": "Shortcut spring at the knoll foot, encased in a sugar shell until Ham Slammed. Bounce apex 9.5 m and add_impulse (0, 0, -6) so the player lands on the knoll rim near (-10, 8, -15).",
+   "bounce_apex_m": 9.5
+  },
+  {
+   "id": "biscuit_balcony",
+   "kind": "static_box",
+   "pos": [
+    73.0,
+    0.75,
+    34.5
+   ],
+   "size": [
+    5.0,
+    0.5,
+    2.4
+   ],
+   "note": "R3: hangs in the void on a liquorice rope from balcony_cloud, x 70.5..75.5, z 33.3..35.7, top y 1.0. Gap from the page edge (x 60, y 2) 10.0 m with a 1.0 m drop: a running double (about 8.3 m with the drop) and a running triple (about 9.6 m) miss; a long jump (about 13 m) makes it at 77 %. Landing zone x 70.5..73.5 (the gumdrop takes the east end). A fall is a void respawn at CP6.",
+   "top_y": 1.0
+  },
+  {
+   "id": "kitchen_floor",
+   "kind": "static_box",
+   "pos": [
+    -6,
+    99.75,
+    -29
+   ],
+   "size": [
+    11.4,
+    0.5,
+    9.4
+   ],
+   "note": "R1 kitchen: biscuit-tile floor, top y 100."
+  },
+  {
+   "id": "kitchen_wall_W",
+   "kind": "static_box",
+   "pos": [
+    -11.7,
+    103,
+    -29
+   ],
+   "size": [
+    0.6,
+    6,
+    9.4
+   ],
+   "note": "Gingerbread wall with icing trim."
+  },
+  {
+   "id": "kitchen_wall_E",
+   "kind": "static_box",
+   "pos": [
+    -0.3,
+    103,
+    -29
+   ],
+   "size": [
+    0.6,
+    6,
+    9.4
+   ],
+   "note": "Hearth wall; the flue opens above the hearth."
+  },
+  {
+   "id": "kitchen_wall_N",
+   "kind": "static_box",
+   "pos": [
+    -6,
+    103,
+    -33.7
+   ],
+   "size": [
+    12.0,
+    6,
+    0.6
+   ],
+   "note": "Oven wall; candy-jar shelves, the wolf's 'Piglet Pie' recipe card."
+  },
+  {
+   "id": "kitchen_wall_S",
+   "kind": "static_box",
+   "pos": [
+    -6,
+    103,
+    -24.3
+   ],
+   "size": [
+    12.0,
+    6,
+    0.6
+   ],
+   "note": "Front wall, single-sided mesh (culled from the camera side) with a 1.6 x 2.4 door gap at x -6.8..-5.2; collision as two boxes either side plus a lintel."
+  },
+  {
+   "id": "kitchen_ceiling",
+   "kind": "static_box",
+   "pos": [
+    -6,
+    106.25,
+    -29
+   ],
+   "size": [
+    12.0,
+    0.5,
+    9.4
+   ],
+   "note": "Exposed wafer rafters, ceiling y 106 (backflip clearance 0.75 m)."
+  },
+  {
+   "id": "kitchen_oven",
+   "kind": "static_box",
+   "pos": [
+    -6,
+    101.7,
+    -32.6
+   ],
+   "size": [
+    3.4,
+    3.4,
+    1.6
+   ],
+   "note": "R2: raised to 3.4 m (top y 103.4) and set in an alcove between two floor-to-ceiling pantry cupboards, so its top can only be reached from the front, inside the blast lane. Top is safe (heat-shimmer VFX only); the blast comes out of the door. Backflip target (J26): stand in the lane at about (-6, 100, -30.8), back to the oven, facing KitchenCam, and backflip in the cold window. R3: no_ledge_grab on the south, east and west faces (a standing double from the lane plus a ledge grab was a bypass). The backflip mark moves to (-6, 100, -29.9), 1.9 m from the face: in the predicted arc the feet cross the lip at about +3.85 (0.45 m spare) and land about 0.8 m inside the top. From the R2 mark (1.0 m) the body met the face at about +2.2 and only a ledge grab saved it.",
+   "top_y": 103.4,
+   "no_ledge_grab": true,
+   "no_ledge_grab_faces": [
+    "south",
+    "east",
+    "west"
+   ]
+  },
+  {
+   "id": "kitchen_dresser",
+   "kind": "decor",
+   "pos": [
+    -11.05,
+    100.6,
+    -29.0
+   ],
+   "size": [
+    0.6,
+    1.2,
+    2.4
+   ],
+   "note": "R2: no longer a platform. Low plate rack against the west wall, decor only, NO collision (a standable dresser would let Mak step up to the oven top and skip the backflip). Removes the repeat of W2's giant-kitchen dresser."
+  },
+  {
+   "id": "cage_release_cleat",
+   "kind": "hit_target",
+   "pos": [
+    -7.3,
+    103.7,
+    -33.0
+   ],
+   "size": [
+    0.4,
+    0.4,
+    0.4
+   ],
+   "note": "R2: rope cleat on the oven top's west corner (not where the backflip lands, so the punch is a deliberate action). Punch, kick, jump kick or Ham Slam releases it. Rope: cleat -> ceiling hook (-7.3, 106, -33.0) -> pulley (-9.4, 106, -26) -> cage."
+  },
+  {
+   "id": "kids_cage",
+   "kind": "cage",
+   "pos": [
+    -9.4,
+    103.35,
+    -26.0
+   ],
+   "size": [
+    1.6,
+    1.9,
+    1.6
+   ],
+   "note": "Candy-cane cage hanging on a liquorice rope (ceiling pulley at (-9.4, 106, -26), rope over to the cleat). Hansel and Gretel inside. On release it drops onto the flour sacks (bottom 100.8), bursts open in a flour cloud. R2: the rope now runs from the pulley along the ceiling to a hook above the oven and down to the cleat on the oven top."
+  },
+  {
+   "id": "flour_sacks",
+   "kind": "static_box",
+   "pos": [
+    -9.4,
+    100.4,
+    -26.0
+   ],
+   "size": [
+    2.0,
+    0.8,
+    2.0
+   ],
+   "note": "Pile of flour sacks under the cage, top y 100.8."
+  },
+  {
+   "id": "kitchen_table",
+   "kind": "static_box",
+   "pos": [
+    -2.2,
+    100.45,
+    -25.8
+   ],
+   "size": [
+    2.4,
+    0.9,
+    1.4
+   ],
+   "note": "R2: moved to the south-east corner (x -3.4..-1.0, z -26.5..-25.1) so a double jump from the table cannot reach the oven top (5.4 m away). Top y 100.9, mixing bowls."
+  },
+  {
+   "id": "kitchen_door",
+   "kind": "door_trigger",
+   "pos": [
+    -6,
+    101.2,
+    -24.4
+   ],
+   "size": [
+    1.6,
+    2.4,
+    0.6
+   ],
+   "note": "Barred by the Guard until the cage opens (Hansel lifts the bar). Touch -> page-turn -> Spawns/W3-6_door_exit."
+  },
+  {
+   "id": "hearth_ash",
+   "kind": "decor",
+   "pos": [
+    -2.4,
+    100.15,
+    -29
+   ],
+   "size": [
+    2.0,
+    0.3,
+    2.0
+   ],
+   "note": "Cold hearth with an ash pile; soot puff when Mak lands."
+  },
+  {
+   "id": "maze_hedge_01",
+   "kind": "hedge_wall",
+   "pos": [
+    -58.0,
+    5.3,
+    16.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    17.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_02",
+   "kind": "hedge_wall",
+   "pos": [
+    -54.0,
+    5.3,
+    10.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_03",
+   "kind": "hedge_wall",
+   "pos": [
+    -54.0,
+    5.3,
+    18.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_04",
+   "kind": "hedge_wall",
+   "pos": [
+    -46.0,
+    5.3,
+    10.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_05",
+   "kind": "hedge_wall",
+   "pos": [
+    -46.0,
+    5.3,
+    18.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_06",
+   "kind": "hedge_wall",
+   "pos": [
+    -42.0,
+    5.3,
+    12.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    9.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_07",
+   "kind": "hedge_wall",
+   "pos": [
+    -42.0,
+    5.3,
+    22.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_08",
+   "kind": "hedge_wall",
+   "pos": [
+    -38.0,
+    5.3,
+    14.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_09",
+   "kind": "hedge_wall",
+   "pos": [
+    -38.0,
+    5.3,
+    22.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    5.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_10",
+   "kind": "hedge_wall",
+   "pos": [
+    -34.0,
+    5.3,
+    16.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    17.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_11",
+   "kind": "hedge_wall",
+   "pos": [
+    -54.0,
+    5.3,
+    8.0
+   ],
+   "size": [
+    9.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_12",
+   "kind": "hedge_wall",
+   "pos": [
+    -40.0,
+    5.3,
+    8.0
+   ],
+   "size": [
+    13.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_13",
+   "kind": "hedge_wall",
+   "pos": [
+    -48.0,
+    5.3,
+    12.0
+   ],
+   "size": [
+    5.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_14",
+   "kind": "hedge_wall",
+   "pos": [
+    -40.0,
+    5.3,
+    12.0
+   ],
+   "size": [
+    5.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_15",
+   "kind": "hedge_wall",
+   "pos": [
+    -54.0,
+    5.3,
+    16.0
+   ],
+   "size": [
+    9.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_16",
+   "kind": "hedge_wall",
+   "pos": [
+    -40.0,
+    5.3,
+    16.0
+   ],
+   "size": [
+    5.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_17",
+   "kind": "hedge_wall",
+   "pos": [
+    -50.0,
+    5.3,
+    20.0
+   ],
+   "size": [
+    9.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_18",
+   "kind": "hedge_wall",
+   "pos": [
+    -48.0,
+    5.3,
+    24.0
+   ],
+   "size": [
+    21.0,
+    2.6,
+    1.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_19",
+   "kind": "hedge_wall",
+   "pos": [
+    -52.0,
+    5.3,
+    7.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    3.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_hedge_20",
+   "kind": "hedge_wall",
+   "pos": [
+    -44.0,
+    5.3,
+    7.0
+   ],
+   "size": [
+    1.0,
+    2.6,
+    3.0
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "maze_block_41",
+   "kind": "hedge_wall",
+   "pos": [
+    -40.0,
+    5.3,
+    14.0
+   ],
+   "size": [
+    3.02,
+    2.6,
+    3.02
+   ],
+   "color": "#3F9A63"
+  },
+  {
+   "id": "kitchen_pantry_W",
+   "kind": "static_box",
+   "pos": [
+    -8.55,
+    103.0,
+    -32.6
+   ],
+   "size": [
+    1.7,
+    6.0,
+    1.6
+   ],
+   "note": "R2: floor-to-ceiling candy-jar pantry, west of the oven (x -9.4..-7.7). Closes the oven's side so its top cannot be reached from outside the blast lane. Not standable (meets the ceiling). R3: no_ledge_grab on every face.",
+   "no_ledge_grab": true
+  },
+  {
+   "id": "kitchen_pantry_E",
+   "kind": "static_box",
+   "pos": [
+    -3.45,
+    103.0,
+    -32.6
+   ],
+   "size": [
+    1.7,
+    6.0,
+    1.6
+   ],
+   "note": "R2: matching pantry east of the oven (x -4.3..-2.6). Biscuit tins and the wolf's 'Piglet Pie, R.H. III' recipe card move here, at eye level beside the oven. R3: no_ledge_grab on every face.",
+   "no_ledge_grab": true
+  },
+  {
+   "id": "kitchen_proscenium",
+   "kind": "decor",
+   "pos": [
+    -6,
+    103.0,
+    -23.95
+   ],
+   "size": [
+    18.0,
+    11.0,
+    0.1
+   ],
+   "note": "R2 (art): storybook-page border card facing south (KitchenCam side), with an 11.4 x 6.0 m window cut out at the room opening (x -11.7..-0.3, y 100..106). Torn-paper edge, gold filigree, warm parchment #F3E2C4 shading to #6B3A24 at the outside. Fills the overscan of the fixed camera so the frame never shows sky or the set's exterior. No collision."
+  },
+  {
+   "id": "nibble_tile_S",
+   "kind": "hit_target",
+   "pos": [
+    -8.8,
+    9.0,
+    -23.85
+   ],
+   "size": [
+    0.9,
+    0.9,
+    0.3
+   ],
+   "note": "R2: biscuit tile at shoulder height beside the cottage door (south wall). Punch or kick: tile chips off (3 acorns, once per visit), Gretel's voice from the flue (smoke pulse): 'Nibble, nibble, little mouse... oh, it's not the wolf? HELP, we're in the kitchen!'"
+  },
+  {
+   "id": "nibble_tile_W",
+   "kind": "hit_target",
+   "pos": [
+    -12.15,
+    9.0,
+    -29.0
+   ],
+   "size": [
+    0.3,
+    0.9,
+    0.9
+   ],
+   "note": "R2: west wall tile. Hansel: 'Who's nibbling our house? ...Please be a hero. Please be a hero.'"
+  },
+  {
+   "id": "nibble_tile_E",
+   "kind": "hit_target",
+   "pos": [
+    0.15,
+    9.0,
+    -26.5
+   ],
+   "size": [
+    0.3,
+    0.9,
+    0.9
+   ],
+   "note": "R2: east wall tile, inside the cauldron's blob ring (r 3-6), so it carries risk. Gretel: 'Down the CHIMNEY, Mister Pig! That's how villains do it!'"
+  },
+  {
+   "id": "nibble_tile_N",
+   "kind": "hit_target",
+   "pos": [
+    -6.0,
+    9.0,
+    -34.15
+   ],
+   "size": [
+    0.9,
+    0.9,
+    0.3
+   ],
+   "note": "R2: north wall tile on the W3-8 sprint line. Hansel: 'He's stolen our crumbs AND our story!'"
+  },
+  {
+   "id": "islet_barrel_stack",
+   "kind": "static_box",
+   "pos": [
+    23.6,
+    1.5,
+    10.2
+   ],
+   "size": [
+    1.6,
+    4.6,
+    4.0
+   ],
+   "note": "R3: three tipped biscuit barrels stacked on the islet's east rim (x 22.8..24.4, z 8.2..12.2, from the bed to top y 3.8). Blocks every east and south-east run-up on the 6 m islet, so a long jump from the islet toward the royal (11.7 m away) is impossible; the north-east rim to lane E (J45) stays open. Dressing: one barrel spills digestives into the lane E launch chute.",
+   "top_y": 3.8
+  },
+  {
+   "id": "balcony_gumdrop",
+   "kind": "bouncy_gumdrop",
+   "pos": [
+    74.5,
+    1.5,
+    34.5
+   ],
+   "size": [
+    2.0,
+    1.0,
+    2.0
+   ],
+   "top_y": 2.0,
+   "bounce_apex_m": 7.0,
+   "face": "happy",
+   "color": "#FFE07A",
+   "note": "R3: candyfloss-stuffed happy gumdrop on the balcony's east end. Its bounce (apex 7.0 m, feet about y 9) lifts Mak into balcony_breeze, which carries him back west over the gap: the way home (J94). An overshooting long jump that lands on it is sent home too."
+  },
+  {
+   "id": "balcony_cloud",
+   "kind": "decor",
+   "pos": [
+    73.0,
+    11.5,
+    34.5
+   ],
+   "size": [
+    7.0,
+    3.0,
+    4.0
+   ],
+   "note": "R3: candyfloss cloud holding the balcony's liquorice rope. Puffs its cheeks every 3 s and exhales pink streak particles westward (the breeze read)."
+  },
+  {
+   "id": "backflip_flour_mark",
+   "kind": "decor",
+   "pos": [
+    -6.0,
+    100.02,
+    -29.9
+   ],
+   "size": [
+    1.2,
+    0.02,
+    1.2
+   ],
+   "note": "R3: a pig-hoof print in spilled flour on the tiles: the backflip take-off mark, readable from KitchenCam."
+  },
+  {
+   "id": "ravine_spire",
+   "kind": "static_cylinder",
+   "pos": [
+    15.4,
+    7.0,
+    -33.6
+   ],
+   "size": [
+    2.0,
+    12.0,
+    2.0
+   ],
+   "top_y": 13.0,
+   "no_ledge_grab": true,
+   "note": "R3: rock-candy spire (pink-lilac, faceted crystal like the MA4 pillars) rising from the ravine floor (y 1) to top y 13.0; Lost Page 3 on top. Unreachable except by the sniff stair: from the wafer bridge it is 7.1 m away and 4.8 m up, from the knoll lip 5.4 m and 5.0 m up, from the peak base 4.6 m and 5.0 m up (a triple jump peaks at 4.92). no_ledge_grab on its sides."
+  },
+  {
+   "id": "sniff_slab_1",
+   "kind": "sniff_reveal_platform",
+   "pos": [
+    14.4,
+    9.05,
+    -27.4
+   ],
+   "size": [
+    1.6,
+    0.3,
+    1.6
+   ],
+   "top_y": 9.2,
+   "group": "sniff_reveal",
+   "note": "R3: clear sugar-glass slab, always solid, almost invisible (alpha 0.08, one glint sweep every 2 s, a faint sparkle where it meets the light). Snout Sniff within 14 m makes every sniff_reveal slab glow amber for 6 s. Edge gaps 0.6-0.9 m, rises +1.0."
+  },
+  {
+   "id": "sniff_slab_2",
+   "kind": "sniff_reveal_platform",
+   "pos": [
+    16.6,
+    10.05,
+    -28.8
+   ],
+   "size": [
+    1.6,
+    0.3,
+    1.6
+   ],
+   "top_y": 10.2,
+   "group": "sniff_reveal",
+   "note": "R3: clear sugar-glass slab, always solid, almost invisible (alpha 0.08, one glint sweep every 2 s, a faint sparkle where it meets the light). Snout Sniff within 14 m makes every sniff_reveal slab glow amber for 6 s. Edge gaps 0.6-0.9 m, rises +1.0."
+  },
+  {
+   "id": "sniff_slab_3",
+   "kind": "sniff_reveal_platform",
+   "pos": [
+    14.4,
+    11.05,
+    -30.2
+   ],
+   "size": [
+    1.6,
+    0.3,
+    1.6
+   ],
+   "top_y": 11.2,
+   "group": "sniff_reveal",
+   "note": "R3: clear sugar-glass slab, always solid, almost invisible (alpha 0.08, one glint sweep every 2 s, a faint sparkle where it meets the light). Snout Sniff within 14 m makes every sniff_reveal slab glow amber for 6 s. Edge gaps 0.6-0.9 m, rises +1.0."
+  },
+  {
+   "id": "sniff_slab_4",
+   "kind": "sniff_reveal_platform",
+   "pos": [
+    16.6,
+    12.05,
+    -31.6
+   ],
+   "size": [
+    1.6,
+    0.3,
+    1.6
+   ],
+   "top_y": 12.2,
+   "group": "sniff_reveal",
+   "note": "R3: clear sugar-glass slab, always solid, almost invisible (alpha 0.08, one glint sweep every 2 s, a faint sparkle where it meets the light). Snout Sniff within 14 m makes every sniff_reveal slab glow amber for 6 s. Edge gaps 0.6-0.9 m, rises +1.0."
+  },
+  {
+   "id": "crow_nest_trunk",
+   "kind": "static_cylinder",
+   "pos": [
+    -48.0,
+    7.3,
+    -1.0
+   ],
+   "size": [
+    1.2,
+    6.6,
+    1.2
+   ],
+   "no_ledge_grab": true,
+   "no_wall_kick": true,
+   "climbable": false,
+   "note": "R3: twisted liquorice lollipop-tree trunk from the clearing floor (4.0) to 10.6. Not climbable, no wall kick, no ledge grab: the only way up is a bounce off the Gummy Brute's back."
+  },
+  {
+   "id": "crow_nest",
+   "kind": "static_cylinder",
+   "pos": [
+    -48.0,
+    10.8,
+    -1.0
+   ],
+   "size": [
+    3.2,
+    0.4,
+    3.2
+   ],
+   "top_y": 11.0,
+   "note": "R3: the crows' nest of stolen breadcrumbs on top of a 7 m lollipop tree, top y 11.0, r 1.6, rim of crumbs and wrappers. Truffle W3-1 sits in it. A triple jump from the floor peaks at 8.9 (hands about 10.1): out of reach. The brute bounce (feet about 11.6) lands on it. The rim is ledge-grabbable as a forgiving catch for a slightly short bounce."
+  }
+ ],
+ "truffles": [
+  {
+   "id": "W3-1",
+   "name": "The Breadcrumb Trail",
+   "pos": [
+    -48,
+    11.8,
+    -1
+   ],
+   "note": "R3: in the crows' nest on the lollipop tree in the Hidden Clearing; reached only by bouncing off the stalker brute's back (J97)."
+  },
+  {
+   "id": "W3-2",
+   "name": "Sergeant Snap",
+   "pos": [
+    46,
+    3.8,
+    43
+   ],
+   "spawn_on_event": true
+  },
+  {
+   "id": "W3-3",
+   "name": "The Dunk Run",
+   "pos": [
+    37.0,
+    1.55,
+    13.5
+   ],
+   "parent": "royal_digestive",
+   "note": "R3: rides on the Royal Digestive (local offset (0, 1.0, 0)), moored mid-river at (37, 13.5) until released."
+  },
+  {
+   "id": "W3-4",
+   "name": "The Sled Joust",
+   "pos": [
+    39.0,
+    28.9,
+    -40.0
+   ],
+   "parent": "crumb_sled",
+   "note": "R3: rides in the basket of Corporal Crumb's sled (starts at the summit slide gate). Bumping Crumb pops it 4 m ahead into the trough (0.6 m above the surface, static); slide through it. If missed it slides on and rests in the runout at (30.5, 2.9, 34.5): never lost. The rocket-candle crash also drops it there."
+  },
+  {
+   "id": "W3-5",
+   "name": "Lost Pages of the Grove",
+   "pos": [
+    6,
+    3.6,
+    44
+   ],
+   "spawn_on_event": true
+  },
+  {
+   "id": "W3-6",
+   "name": "The Kitchen Cage",
+   "pos": [
+    -8.6,
+    101.2,
+    -27.6
+   ],
+   "spawn_on_event": true,
+   "note": "R1: Gretel hands it over when the cage opens (inside the kitchen pocket set)."
+  },
+  {
+   "id": "W3-7",
+   "name": "Gumdrop Hop",
+   "pos": [
+    20,
+    25.2,
+    38
+   ]
+  },
+  {
+   "id": "W3-8",
+   "name": "The Cauldron's Secret",
+   "pos": [
+    -44.0,
+    5.8,
+    -39.6
+   ],
+   "spawn_on_event": true,
+   "note": "R1: released from the sniffed sugar geode at the grotto back wall."
+  }
+ ],
+ "checkpoints": [
+  {
+   "id": "CP0_glade",
+   "pos": [
+    0,
+    2.0,
+    45
+   ],
+   "note": "Start bookmark (Default spawn)."
+  },
+  {
+   "id": "CP1_woods_fork",
+   "pos": [
+    -35.5,
+    3.9,
+    27.5
+   ],
+   "note": "R1: moved to the maze entrance (was on the new maze wall line)."
+  },
+  {
+   "id": "CP2_bridge_north",
+   "pos": [
+    -6,
+    1.2,
+    -5
+   ]
+  },
+  {
+   "id": "CP3_courtyard",
+   "pos": [
+    3,
+    8.0,
+    -18
+   ]
+  },
+  {
+   "id": "CP4_tier_A",
+   "pos": [
+    34,
+    12.0,
+    -27.5
+   ],
+   "note": "Top of the jelly steps."
+  },
+  {
+   "id": "CP5_tier_C",
+   "pos": [
+    47.5,
+    20.0,
+    -44
+   ]
+  },
+  {
+   "id": "CP6_fort_gate",
+   "pos": [
+    33,
+    2.0,
+    43
+   ]
+  },
+  {
+   "id": "CP7_lagoon_dock",
+   "pos": [
+    16,
+    1.4,
+    24.5
+   ]
+  },
+  {
+   "id": "CP8_syrup_pool",
+   "pos": [
+    -33.0,
+    2.09,
+    -31.0
+   ],
+   "note": "R1 QA fix: was embedded in the PoolChute collision; now on dry bank beside the chute."
+  },
+  {
+   "id": "CP9_summit",
+   "pos": [
+    41.0,
+    28.0,
+    -41.5
+   ],
+   "note": "R1: summit bookmark next to the slide gate. R3: a failed joust page-turns back here; the joust restarts 1.0 s after respawn."
+  },
+  {
+   "id": "CP10_islet",
+   "pos": [
+    21.0,
+    1.6,
+    9.0
+   ],
+   "note": "R1: islet bookmark; a failed Dunk Run restarts here."
+  },
+  {
+   "id": "CP11_fort_yard",
+   "pos": [
+    35.0,
+    2.0,
+    43.0
+   ],
+   "rot_y": -90.0,
+   "fight_only": true,
+   "note": "R2: inactive bookmark used only by the Sergeant Snap fight: phase 3/4 restart point, inside the west gate, facing east. R1 QA fix: moved to x 35, outside the x 41-51 patrol lanes."
+  }
+ ],
+ "enemies": [
+  {
+   "id": "grenadier_bridge_1",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     -10,
+     1.2,
+     -5.5
+    ],
+    [
+     -2,
+     1.2,
+     -5.5
+    ]
+   ],
+   "teaches": "First enemy: the lance blocks frontal punches, so stomp from above or hit from behind."
+  },
+  {
+   "id": "grenadier_bridge_2",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     -2,
+     1.2,
+     -6.8
+    ],
+    [
+     -10,
+     1.2,
+     -6.8
+    ]
+   ],
+   "teaches": "Pairs march in step; stomp one and bounce onto the other."
+  },
+  {
+   "id": "crow_bridge",
+   "type": "crow_bandit",
+   "perch": [
+    -13,
+    7.5,
+    10
+   ],
+   "patrol": [
+    [
+     -13,
+     7.5,
+     10
+    ],
+    [
+     -6,
+     2.5,
+     6
+    ],
+    [
+     -13,
+     7.5,
+     2
+    ]
+   ],
+   "teaches": "Telegraphed dive over the bridge rails; punch it in the low swoop recovery."
+  },
+  {
+   "id": "crow_woods_A",
+   "type": "crow_bandit",
+   "perch": [
+    -46,
+    7.0,
+    18
+   ],
+   "patrol": [
+    [
+     -46,
+     7.0,
+     18
+    ],
+    [
+     -44,
+     4.8,
+     16.5
+    ],
+    [
+     -46,
+     7.0,
+     18
+    ]
+   ],
+   "teaches": "R1: perches on the maze hedge above junction (3,2). Dives at Mak; punching it bursts out 6 eaten crumbs that relight the next two maze cells for 15 s."
+  },
+  {
+   "id": "crow_woods_B",
+   "type": "crow_bandit",
+   "perch": [
+    -52,
+    7.0,
+    16
+   ],
+   "patrol": [
+    [
+     -52,
+     7.0,
+     16
+    ],
+    [
+     -50.5,
+     4.8,
+     14
+    ],
+    [
+     -52,
+     7.0,
+     16
+    ]
+   ],
+   "teaches": "R1: same, above junction (1,1), the last turn before the exit."
+  },
+  {
+   "id": "brute_clearing",
+   "type": "gummy_brute",
+   "patrol": [
+    [
+     -55.5,
+     4.0,
+     19.0
+    ]
+   ],
+   "teaches": "R2: starts in maze dead end (0,2) at (-55.5, 4, 19). Every 5 s it hop-slams over the hedges toward Mak's cell: 1.0 s telegraph (red-orange shadow ring r 1.5 on Mak's position, 'BOING' plus a wobble), arc apex y 10 (clears the thorn crown at 7.8), landing shockwave r 1.5 (damage 1, knockback 6). Punchable for 1.5 s after landing (standard Gummy Brute counter); melts after 3 hits and reforms after 10 s in the dead end farthest from Mak. Its back stays a trampoline: a bounce gives a 6 m apex (feet about y 11.6), enough to clear a hedge and its crown into the next cell (J96, a skilled shortcut); landing on a crown still hurts. When the clearing gate opens it follows Mak into the clearing for the finale (replaces the static clearing brute; enemy count unchanged). R3: it does not hop until Mak reaches junction (3,2) (first crow perch); hops 1-3 come every 7 s, then every 5 s. In the clearing it hop-slams at Mak every 4 s; bait it under the crows' nest, dodge the 1.0 s ring, then jump on its wobbling back during the 1.5 s window: the 6 m bounce lands Mak in the nest (J97). Punching it melts it after 3 hits and it reforms at the gate 10 s later: a lesson, not a soft-lock.",
+   "behaviour": "maze_stalker",
+   "clips_needed": [
+    "hop_slam_windup",
+    "hop_arc",
+    "land_wobble",
+    "melt",
+    "reform"
+   ],
+   "stalker_ramp": {
+    "first_hop_after": "Mak reaches junction (3,2), cell centre (-44, 4, 18)",
+    "interval_s": [
+     7,
+     7,
+     7,
+     5
+    ],
+    "note": "intervals for hops 1-3 are 7 s, then 5 s"
+   },
+   "finale": {
+    "where": "Hidden Clearing (after the gate opens)",
+    "hop_interval_s": 4.0,
+    "target": "Mak's position",
+    "trunk_clamp": "landing point clamped to r >= 1.6 from the trunk (-48, -1); inside r 2.5 it snaps to r 1.6 on Mak's side",
+    "wobble_window_s": 1.5,
+    "back_bounce_apex_m": 6.0,
+    "melt": "after 3 hits; reforms after 10 s at the clearing gate (-48, 4, 5)"
+   }
+  },
+  {
+   "id": "sentry_cottage",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     -9.5,
+     8.0,
+     -20.5
+    ],
+    [
+     -2.5,
+     8.0,
+     -20.5
+    ]
+   ],
+   "teaches": "Door sentry; refresher before the roof climb."
+  },
+  {
+   "id": "crow_ridge",
+   "type": "crow_bandit",
+   "perch": [
+    -11,
+    18.3,
+    -29
+   ],
+   "patrol": [
+    [
+     -11,
+     18.3,
+     -29
+    ],
+    [
+     -6,
+     16.8,
+     -26.5
+    ],
+    [
+     -11,
+     18.3,
+     -29
+    ]
+   ],
+   "teaches": "R3: dives at the dormer (now 3 acorns, page 3 moved to the ravine spire): pressure on a high ledge with a safe fall."
+  },
+  {
+   "id": "crow_ravine",
+   "type": "crow_bandit",
+   "perch": [
+    16.0,
+    13.6,
+    -34.2
+   ],
+   "patrol": [
+    [
+     16.0,
+     13.6,
+     -34.2
+    ],
+    [
+     15.5,
+     11.0,
+     -30.4
+    ],
+    [
+     16.0,
+     13.6,
+     -34.2
+    ]
+   ],
+   "teaches": "R3: guards Lost Page 3 from the spire top. When Mak stands on a sniff slab it cackles (0.8 s, shadow ring on the slab) and dives; step to the next slab during the cackle, or punch it in the low swoop. A hit or a missed step drops Mak to the ravine floor (no fall damage; walk out south)."
+  },
+  {
+   "id": "grenadier_tierA_1",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     42,
+     12,
+     -28.5
+    ],
+    [
+     49,
+     12,
+     -28.5
+    ]
+   ],
+   "teaches": "R1: LOBBER variant (gobstopper satchel instead of a lance): lobs a gobstopper every 2.5 s at Mak when he is on tier A within 12 m and on screen; red ring decal 1.0 s before impact. Stomp or punch freely (no lance).",
+   "variant": "lobber"
+  },
+  {
+   "id": "grenadier_tierA_2",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     49,
+     12,
+     -27.3
+    ],
+    [
+     42,
+     12,
+     -27.3
+    ]
+   ],
+   "teaches": "R1: LOBBER variant (gobstopper satchel instead of a lance): lobs a gobstopper every 2.5 s at Mak when he is on tier A within 12 m and on screen; red ring decal 1.0 s before impact. Stomp or punch freely (no lance).",
+   "variant": "lobber"
+  },
+  {
+   "id": "brute_tierB",
+   "type": "gummy_brute",
+   "patrol": [
+    [
+     38,
+     16,
+     -34.5
+    ],
+    [
+     50,
+     16,
+     -34.5
+    ]
+   ],
+   "teaches": "Its back is a trampoline: bounce from it straight up to tier C (optional shortcut past the lift)."
+  },
+  {
+   "id": "sergeant_snap",
+   "type": "gingerbread_grenadier_sergeant",
+   "patrol": [
+    [
+     40,
+     5.6,
+     36.8
+    ],
+    [
+     52,
+     5.6,
+     36.8
+    ]
+   ],
+   "teaches": "R2: mini-boss with four phases and four different answers: drum slam, dive under the lance sweep, climb and stomp, drum-bounce slam. No wall-charge (that is W1-7 and BOSS P2).",
+   "phases": [
+    {
+     "phase": 1,
+     "where": "north wall walkway (y 5.6)",
+     "does": "Beats a snare at 132 BPM (synced to music_w3), invulnerable. squad_1..4 march on the beat in a line, lances forward.",
+     "player_answer": "Stomp them one by one, or Ham Slam the parade drum when any is within 7 m: every grenadier within 7 m falls on its back for 2.5 s (any hit defeats). Drum rearms after 6 s (drumskin glows)."
+    },
+    {
+     "phase": 2,
+     "where": "yard",
+     "does": "Leaps into the yard and advances at 2.5 m/s spinning his lance-mace: a tilted disc, radius 3.0 m, 0.6-1.4 m above the floor at the front rising to 1.4-2.4 m at the back of each turn, so a jump over it is caught. Telegraph 1.0 s before each spin: plume shake, 'Hup-hup!', and a red-orange arc decal (r 3.0) on the floor. Spins for 4 s, pauses 1.2 s (catching his breath, lance planted), repeats.",
+     "player_answer": "Dive or belly-slide into his boots under the sweep (the gap below 0.6 m fits a diving pig): he trips face-first for 2.5 s; stomp = hit 1. Alternative: if his spin touches the parade drum, the lance BONGs off it and he is dizzy for 1.5 s; a stomp then also counts as hit 1. The first time he spins, a toppled squad grenadier shouts 'Get under it! Under!'. Being hit by the sweep: damage 1, knockback 6."
+    },
+    {
+     "phase": 3,
+     "where": "north walkway",
+     "does": "Hops back to the walkway and lobs gobstoppers: 3 per volley, 1.6 s apart, 2 s pause, red ring decal 1.0 s ahead.",
+     "player_answer": "Climb by the sugar cubes (J50-J52), a backflip with your back to any wall (J54) or a triple jump across the yard (J55). Stomp him on the walkway = hit 2. He tumbles into the yard."
+    },
+    {
+     "phase": 4,
+     "where": "parade drum",
+     "does": "'Double-time!' He runs to his stand mark on the drum's west rim (44.2, 2.0, 43.0), raises both drumsticks (0.8 s telegraph: sticks high, 'Ah-ONE, ah-TWO!') and beats a 2.0 s roll. Each beat pops anything standing on the drumskin 0.8 m up. While drumming his lance is slung on his back and his shako guards his head (a stomp bounces off, no hit). If he finishes a roll, squad_reinforcement_1/2 march in through the west gate (only while fewer than 2 are alive), then he does one lance-sweep advance (phase 2 attack, 4 s) and returns to the drum.",
+     "player_answer": "Be on the drum (top y 3.0, +1.0 from the yard) during his telegraph or roll and Ham Slam it (each drum pop gives slam height): BOOM throws him 3 m backwards onto his back for 2.5 s; stomp = hit 3, defeat. His shako rolls away and the truffle bursts from the drum (46, 3.8, 43)."
+    }
+   ],
+   "phase_restart": {
+    "checkpoint": "CP11_fort_yard",
+    "rule": "Dying in phase 3 or 4 restarts that phase with the squad (and any reinforcements) already defeated and Snap's earned hits kept. Dying in phase 1 or 2 restarts the fight from CP6_fort_gate."
+   },
+   "clips_needed": [
+    "idle_snare",
+    "march_bark",
+    "leap_down",
+    "spin_telegraph",
+    "lance_sweep_loop",
+    "trip_faceplant",
+    "dizzy",
+    "stomped",
+    "walkway_lob",
+    "tumble",
+    "drumroll_telegraph",
+    "drumroll",
+    "flipped_back",
+    "defeat_shako_roll"
+   ]
+  },
+  {
+   "id": "squad_1",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     41,
+     2,
+     39
+    ],
+    [
+     51,
+     2,
+     39
+    ]
+   ],
+   "teaches": "R1: marches on Snap's beat in a line with the others; the drum slam topples the whole line."
+  },
+  {
+   "id": "squad_2",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     41,
+     2,
+     41.5
+    ],
+    [
+     51,
+     2,
+     41.5
+    ]
+   ],
+   "teaches": "R1: marches on Snap's beat in a line with the others; the drum slam topples the whole line."
+  },
+  {
+   "id": "squad_3",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     41,
+     2,
+     44.5
+    ],
+    [
+     51,
+     2,
+     44.5
+    ]
+   ],
+   "teaches": "R1: marches on Snap's beat in a line with the others; the drum slam topples the whole line."
+  },
+  {
+   "id": "squad_4",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     41,
+     2,
+     47
+    ],
+    [
+     51,
+     2,
+     47
+    ]
+   ],
+   "teaches": "R1: marches on Snap's beat in a line with the others; the drum slam topples the whole line."
+  },
+  {
+   "id": "brute_lawn",
+   "type": "gummy_brute",
+   "patrol": [
+    [
+     24,
+     2.0,
+     29
+    ],
+    [
+     30,
+     2.0,
+     28
+    ]
+   ],
+   "teaches": "R1: moved east (the tutorial gumdrop now stands at (9, 34)). Wanders the lawn by the slide runout; easy acorn source."
+  },
+  {
+   "id": "crow_lagoon",
+   "type": "crow_bandit",
+   "perch": [
+    35.0,
+    2.4,
+    12.6
+   ],
+   "scripted": true,
+   "patrol": [
+    [
+     35.0,
+     2.4,
+     12.6
+    ],
+    [
+     36,
+     6,
+     10
+    ],
+    [
+     48,
+     6,
+     15
+    ]
+   ],
+   "teaches": "R2, W3-3: R3: perches on the mid-river mooring post; when Mak lands on the islet or on lane E it pecks the rope (0.8 s cackle) to release the Royal Digestive, then stays: it shadows the convoy at y 6. 1.6 s after Mak lands on a lane_E biscuit it picks that biscuit: 0.8 s cackle plus a red-orange shadow ring on the biscuit, then it pecks; the biscuit cracks and sinks over 0.5 s (Mak can still jump off during the crack). Falling in is the normal hot-chocolate rule (damage 1, knockback up). Hopping forward during the cackle dodges it. After each peck it does a 1.2 s low swoop recovery at about y 1.6 above the lane: punch or jump kick it then to burst it (5 acorns, 'Caw-plunk!' feather gag) and end the harassment. Never targets the Royal Digestive, lane S or lane N.",
+   "target_delay_s": 1.6,
+   "telegraph_s": 0.8
+  },
+  {
+   "id": "squad_reinforcement_1",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     37.5,
+     2.0,
+     42
+    ],
+    [
+     44,
+     2.0,
+     42
+    ]
+   ],
+   "spawn_on_event": "snap_roll_complete",
+   "teaches": "R2: marches in through the west gate when Snap completes a phase-4 drumroll (at most 2 alive at once)."
+  },
+  {
+   "id": "squad_reinforcement_2",
+   "type": "gingerbread_grenadier",
+   "patrol": [
+    [
+     37.5,
+     2.0,
+     44
+    ],
+    [
+     44,
+     2.0,
+     44
+    ]
+   ],
+   "spawn_on_event": "snap_roll_complete",
+   "teaches": "R2: marches in through the west gate when Snap completes a phase-4 drumroll (at most 2 alive at once)."
+  },
+  {
+   "id": "sled_grenadier_1",
+   "type": "gingerbread_grenadier",
+   "variant": "sled_rider",
+   "patrol": [
+    [
+     40.4,
+     28.0,
+     -40.9
+    ]
+   ],
+   "speed_k_start": 0.78,
+   "swap_halves_at_arc_m": [
+    20,
+    46,
+    66
+   ],
+   "catch_zone_arc_m": [
+    62,
+    78
+   ],
+   "teaches": "R3, W3-4: rides a biscuit sled behind Crumb. Swaps trough halves at the listed arcs (0.4 s lean telegraph). When Mak is within 3 m behind it glances back (0.6 s telegraph, \"Halt, swine!\") and swipes its lance across its half for 0.4 s: damage 1 and -30 % speed. Answer: switch halves during the telegraph, or bump it first (a bump interrupts the swipe). Bumped in the dunk zone (arc 61-80, the flume over the river) it flies over the wall into the hot chocolate (\"DUNKED!\", crumbles); bumped on a boost strip it flies out over the lowered wall; elsewhere it spins out 1.5 s and drops behind. Tune k so a clean run catches it in the dunk zone."
+  },
+  {
+   "id": "sled_grenadier_2",
+   "type": "gingerbread_grenadier",
+   "variant": "sled_rider",
+   "patrol": [
+    [
+     37.6,
+     28.0,
+     -40.9
+    ]
+   ],
+   "speed_k_start": 0.6,
+   "swap_halves_at_arc_m": [
+    12,
+    22,
+    40
+   ],
+   "catch_zone_arc_m": [
+    24,
+    34
+   ],
+   "teaches": "R3, W3-4: same rules as sled_grenadier_1; slower, so a clean run catches it around slide_boost_1 (arc 30-34): the first chance to bump an enemy over the lowered wall."
+  }
+ ],
+ "hazards": [
+  {
+   "id": "hot_chocolate",
+   "type": "damage_surface",
+   "damage": 1,
+   "knockback_up": 10,
+   "area": "river spline (width/2 + 2.0 m) + lagoon ellipse (r + 2.0) at y <= 0.45",
+   "note": "Brown surface with orange glowing bubble pops (#FF8A3D) and steam so it reads as hot."
+  },
+  {
+   "id": "falls_curtain",
+   "type": "wind_zone",
+   "box_center": [
+    -44,
+    8,
+    -37
+   ],
+   "box_size": [
+    6,
+    16,
+    1.6
+   ],
+   "wind": [
+    0,
+    -14,
+    3
+   ],
+   "note": "Pushes down and out; makes the pool-rock double jumps fail. R1: disabled for 18 s (was 35 s) by W3-8, with a 3 s trickle warning inside the last 3 s. R2: each wrong geode in the grotto subtracts 6 s from the remaining off-time."
+  },
+  {
+   "id": "cauldron_blobs",
+   "type": "projectile",
+   "origin": [
+    3,
+    9.9,
+    -29
+   ],
+   "interval_s": 4.5,
+   "radius_range": [
+    3,
+    6
+   ],
+   "damage": 1,
+   "note": "Lobs a hot gumdrop blob; a red ring decal telegraphs the landing 1.0 s ahead."
+  },
+  {
+   "id": "page_edge_void",
+   "type": "kill_plane",
+   "kill_y": -12.0,
+   "note": "Outside the page edges the world falls into candyfloss clouds."
+  },
+  {
+   "id": "oven_blast",
+   "type": "timed_hazard",
+   "box_center": [
+    -6,
+    101.1,
+    -28.2
+   ],
+   "box_size": [
+    3.4,
+    2.2,
+    7.2
+   ],
+   "damage": 1,
+   "knockback_up": 6,
+   "cycle": {
+    "period_s": 4.0,
+    "cold_s": 2.0,
+    "glow_telegraph_s": 1.0,
+    "blast_s": 1.0
+   },
+   "push_mps": [
+    0,
+    0,
+    8
+   ],
+   "note": "R2: widened to 3.4 m (x -7.7..-4.3) to match the oven face exactly, so every way onto the oven top starts inside the lane. Cycle unchanged: 2.0 s cold, 1.0 s glow telegraph (door glows orange and rattles), 1.0 s blast (damage 1, knockback_up 6, push +z 8 m/s). The blast volume stops at y 102.2; the oven top (103.4) is safe."
+  },
+  {
+   "id": "hedge_thorns",
+   "type": "damage_volume",
+   "on": "top of every maze_hedge_* (1.2 m tall)",
+   "damage": 1,
+   "knockback_up": 6,
+   "note": "R1: bramble crown; stops hedge-top shortcuts except a triple jump."
+  },
+  {
+   "id": "candle_flames",
+   "type": "timed_hazard",
+   "on": "birthday_candle_1..3 tops",
+   "damage": 1,
+   "knockback_up": 6,
+   "note": "R1: see the candle cycle."
+  },
+  {
+   "id": "gobstopper",
+   "type": "projectile",
+   "from": "lobber grenadiers, Sergeant Snap phase 3",
+   "damage": 1,
+   "splash_r": 1.0,
+   "telegraph_s": 1.0,
+   "note": "R1: hard candy ball lobbed in an arc; red ring decal at the landing point 1.0 s ahead; bounces once and shatters."
+  },
+  {
+   "id": "balcony_breeze",
+   "type": "wind_zone",
+   "box_center": [
+    67.5,
+    7.75,
+    34.5
+   ],
+   "box_size": [
+    17.0,
+    6.5,
+    4.0
+   ],
+   "wind": [
+    -10,
+    0,
+    0
+   ],
+   "note": "R3: westward candyfloss breeze from balcony_cloud, y 4.5..11 only. A long jump out peaks at about y 3.9 and never enters it; a double or triple attempt (apex 5.75 / 6.9) does and is pushed back. Tune so a gumdrop bounce with the stick held west lands 2-4 m inside the page edge (x 56-58), and with no stick input lands at or just short of the edge."
+  }
+ ],
+ "acorn_groups": [
+  {
+   "id": "glade_ring",
+   "kind": "ring",
+   "center": [
+    0.0,
+    2.6,
+    45.0
+   ],
+   "radius": 3.0,
+   "count": 8,
+   "note": "Around the start bookmark."
+  },
+  {
+   "id": "glade_to_bridge",
+   "kind": "line",
+   "from": [
+    -1.0,
+    2.6,
+    34.0
+   ],
+   "to": [
+    -5.5,
+    1.9,
+    19.0
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "bridge_deck",
+   "kind": "line",
+   "from": [
+    -6.0,
+    2.0,
+    11.0
+   ],
+   "to": [
+    -6.0,
+    2.0,
+    -1.5
+   ],
+   "count": 5,
+   "note": "Follows the arch; y +0.6 above deck."
+  },
+  {
+   "id": "knoll_path",
+   "kind": "line",
+   "from": [
+    -1.0,
+    2.9,
+    -7.6
+   ],
+   "to": [
+    7.0,
+    6.5,
+    -12.4
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "trail_1",
+   "kind": "line",
+   "from": [
+    -17.0,
+    2.6,
+    39.0
+   ],
+   "to": [
+    -28.0,
+    3.6,
+    32.0
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "trail_2",
+   "kind": "points",
+   "count": 5,
+   "note": "R1: along the maze solution.",
+   "points": [
+    [
+     -36,
+     4.6,
+     18
+    ],
+    [
+     -40,
+     4.6,
+     18
+    ],
+    [
+     -44,
+     4.6,
+     16
+    ],
+    [
+     -48,
+     4.6,
+     14
+    ],
+    [
+     -52,
+     4.6,
+     12
+    ]
+   ]
+  },
+  {
+   "id": "trail_3",
+   "kind": "line",
+   "from": [
+    -29.5,
+    3.9,
+    30.5
+   ],
+   "to": [
+    -35,
+    4.6,
+    26.2
+   ],
+   "count": 5,
+   "note": "R1: last stretch to the maze entrance."
+  },
+  {
+   "id": "clearing_ring",
+   "kind": "ring",
+   "center": [
+    -48.0,
+    11.6,
+    -1.0
+   ],
+   "radius": 1.2,
+   "count": 8,
+   "note": "R3: on the crows' nest rim."
+  },
+  {
+   "id": "crate_forkA_dead_end",
+   "kind": "crate",
+   "pos": [
+    -40,
+    4.0,
+    10
+   ],
+   "count": 5,
+   "note": "R1: maze dead end (4,0). Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "crate_forkB_dead_end",
+   "kind": "crate",
+   "pos": [
+    -56,
+    4.0,
+    18
+   ],
+   "count": 5,
+   "note": "R1: maze dead end (0,2). Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "gumdrop_hop",
+   "kind": "points",
+   "points": [
+    [
+     13,
+     5.8,
+     38
+    ],
+    [
+     15.05,
+     8.4,
+     42.95
+    ],
+    [
+     20,
+     11,
+     45
+    ],
+    [
+     24.95,
+     13.6,
+     42.95
+    ],
+    [
+     27,
+     17.9,
+     38
+    ],
+    [
+     24.95,
+     20.9,
+     33.05
+    ],
+    [
+     20,
+     23.9,
+     31
+    ]
+   ],
+   "count": 7,
+   "note": "One acorn above each gumdrop (R1: 5-7 sit on the slam-bounce arcs)."
+  },
+  {
+   "id": "lollipop_base",
+   "kind": "ring",
+   "center": [
+    20.0,
+    2.6,
+    38.0
+   ],
+   "radius": 2.8,
+   "count": 8,
+   "note": ""
+  },
+  {
+   "id": "crate_fort_1",
+   "kind": "crate",
+   "pos": [
+    53.0,
+    2.0,
+    48.0
+   ],
+   "count": 5,
+   "note": "Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "crate_fort_2",
+   "kind": "crate",
+   "pos": [
+    39.5,
+    2.0,
+    38.5
+   ],
+   "count": 5,
+   "note": "Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "fort_wall_walk",
+   "kind": "line",
+   "from": [
+    38.8,
+    6.2,
+    49.2
+   ],
+   "to": [
+    50.0,
+    6.2,
+    49.2
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "islet_ring",
+   "kind": "ring",
+   "center": [
+    21.0,
+    2.2,
+    9.0
+   ],
+   "radius": 1.9,
+   "count": 8,
+   "note": ""
+  },
+  {
+   "id": "lane_S_air",
+   "kind": "line",
+   "from": [
+    13.0,
+    1.5,
+    16.0
+   ],
+   "to": [
+    27.0,
+    1.5,
+    16.0
+   ],
+   "count": 5,
+   "note": "Collected while riding biscuits on lane S."
+  },
+  {
+   "id": "crate_courtyard_1",
+   "kind": "crate",
+   "pos": [
+    7.0,
+    8.0,
+    -33.0
+   ],
+   "count": 5,
+   "note": "Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "crate_courtyard_2",
+   "kind": "crate",
+   "pos": [
+    -15.0,
+    8.0,
+    -17.0
+   ],
+   "count": 5,
+   "note": "Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "ridge_line",
+   "kind": "line",
+   "from": [
+    -11.0,
+    18.6,
+    -29.0
+   ],
+   "to": [
+    -5.0,
+    18.6,
+    -29.0
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "wafer_bridge_line",
+   "kind": "line",
+   "from": [
+    11.0,
+    8.8,
+    -24.0
+   ],
+   "to": [
+    21.0,
+    8.8,
+    -24.0
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "tierA_south",
+   "kind": "line",
+   "from": [
+    36.0,
+    12.6,
+    -26.6
+   ],
+   "to": [
+    48.5,
+    12.6,
+    -26.6
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "tierB_arena",
+   "kind": "ring",
+   "center": [
+    44.0,
+    16.6,
+    -33.2
+   ],
+   "radius": 2.2,
+   "count": 8,
+   "note": "In the Gummy Brute's arena."
+  },
+  {
+   "id": "tierC_east",
+   "kind": "line",
+   "from": [
+    48.0,
+    20.6,
+    -38.5
+   ],
+   "to": [
+    47.8,
+    20.6,
+    -45.5
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "summit_ring",
+   "kind": "ring",
+   "center": [
+    39.6,
+    28.6,
+    -41.2
+   ],
+   "radius": 1.8,
+   "count": 8,
+   "note": "Around the cherry side of the summit."
+  },
+  {
+   "id": "slide_1",
+   "kind": "line",
+   "from": [
+    44.0,
+    25.2,
+    -30.0
+   ],
+   "to": [
+    52.0,
+    21.0,
+    -21.0
+   ],
+   "count": 5,
+   "note": "Along the slide centre line, 0.6 m above the surface."
+  },
+  {
+   "id": "slide_2",
+   "kind": "line",
+   "from": [
+    55.5,
+    17.0,
+    -13.0
+   ],
+   "to": [
+    52.0,
+    12.0,
+    -1.0
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "slide_3",
+   "kind": "line",
+   "from": [
+    46.0,
+    8.4,
+    11.0
+   ],
+   "to": [
+    40.0,
+    5.4,
+    22.5
+   ],
+   "count": 5,
+   "note": ""
+  },
+  {
+   "id": "cliff_secret_ring",
+   "kind": "ring",
+   "center": [
+    -54.0,
+    16.6,
+    -51.0
+   ],
+   "radius": 2.0,
+   "count": 8,
+   "note": "Hidden behind the giant cupcake."
+  },
+  {
+   "id": "pool_arc",
+   "kind": "line",
+   "from": [
+    -38.5,
+    1.6,
+    -33.0
+   ],
+   "to": [
+    -42.5,
+    3.2,
+    -35.3
+   ],
+   "count": 5,
+   "note": "Arc over the first pool rocks."
+  },
+  {
+   "id": "balcony_line",
+   "kind": "line",
+   "from": [
+    53.0,
+    2.6,
+    34.5
+   ],
+   "to": [
+    59.0,
+    2.6,
+    34.5
+   ],
+   "count": 5,
+   "note": "R3: along the new balcony runway."
+  },
+  {
+   "id": "crate_ravine",
+   "kind": "crate",
+   "pos": [
+    16.5,
+    1.0,
+    -33.0
+   ],
+   "count": 5,
+   "note": "Ham Slam or punch: 5 acorns."
+  },
+  {
+   "id": "maze_pockets",
+   "kind": "points",
+   "points": [
+    [
+     -40.8,
+     4.6,
+     22
+    ],
+    [
+     -39.2,
+     4.6,
+     22
+    ],
+    [
+     -52.8,
+     4.6,
+     18
+    ],
+    [
+     -51.2,
+     4.6,
+     18
+    ],
+    [
+     -56,
+     4.6,
+     9.2
+    ],
+    [
+     -56,
+     4.6,
+     10.8
+    ]
+   ],
+   "count": 6,
+   "note": "R1: two in each of three maze dead ends."
+  },
+  {
+   "id": "slam_tutorial_ring",
+   "kind": "ring",
+   "center": [
+    9.0,
+    10.0,
+    34.0
+   ],
+   "radius": 1.0,
+   "count": 6,
+   "note": "R1: above the tutorial gumdrop; only a slam-bounce reaches it."
+  },
+  {
+   "id": "cherry_on_top",
+   "kind": "ring",
+   "center": [
+    38.6,
+    31.2,
+    -43.4
+   ],
+   "radius": 1.0,
+   "count": 8,
+   "note": "R1: above the glace cherry; side somersault (or a standing double) from the summit."
+  },
+  {
+   "id": "dunk_run_line",
+   "kind": "line",
+   "from": [
+    30,
+    1.5,
+    6.9
+   ],
+   "to": [
+    50,
+    1.5,
+    15.4
+   ],
+   "count": 5,
+   "note": "R1: over lane_E; collected while leapfrogging the convoy."
+  },
+  {
+   "id": "kitchen_dresser",
+   "kind": "line",
+   "from": [
+    -4.9,
+    103.9,
+    -32.6
+   ],
+   "to": [
+    -6.1,
+    103.9,
+    -32.6
+   ],
+   "count": 3,
+   "note": "R2: id kept; moved to the oven top's east half (backflip reward). Kitchen pocket set."
+  },
+  {
+   "id": "cottage_nibble_tiles",
+   "kind": "points",
+   "points": [
+    [
+     -8.8,
+     9.0,
+     -23.4
+    ],
+    [
+     -12.6,
+     9.0,
+     -29.0
+    ],
+    [
+     0.6,
+     9.0,
+     -26.5
+    ],
+    [
+     -6.0,
+     9.0,
+     -34.6
+    ]
+   ],
+   "count": 12,
+   "per_point": 3,
+   "note": "R2: 3 acorns burst from each nibble tile when punched (once each per visit)."
+  },
+  {
+   "id": "dormer_acorns",
+   "kind": "line",
+   "from": [
+    -6.8,
+    16.6,
+    -26.5
+   ],
+   "to": [
+    -5.2,
+    16.6,
+    -26.5
+   ],
+   "count": 3,
+   "note": "R3: replaces Lost Page 3 on the dormer."
+  }
+ ],
+ "acorn_total": 226,
+ "pages": [
+  {
+   "index": 1,
+   "pos": [
+    -52,
+    16.8,
+    -50.5
+   ],
+   "where": "Falls cliff top, beside the giant cupcake; reach via the rock-candy pillars."
+  },
+  {
+   "index": 2,
+   "pos": [
+    -2.9,
+    1.6,
+    1.4
+   ],
+   "where": "Under the Pretzel Bridge on a wafer shelf just above the hot chocolate."
+  },
+  {
+   "index": 3,
+   "pos": [
+    15.4,
+    14.0,
+    -33.6
+   ],
+   "where": "R3: on top of the rock-candy spire in the Sugar Ravine, guarded by crow_ravine. The way up is four invisible sugar-glass slabs from the wafer bridge; Snout Sniff makes them glow."
+  },
+  {
+   "index": 4,
+   "pos": [
+    53.7,
+    10.0,
+    37.7
+   ],
+   "where": "Top of the fort's watchtower (crates, wall walkway, pole)."
+  },
+  {
+   "index": 5,
+   "pos": [
+    72.0,
+    1.8,
+    34.5
+   ],
+   "where": "R3: on the floating biscuit balcony beyond the page edge: a 10 m long jump out; the balcony gumdrop and the cloud's breeze bring you home."
+  }
+ ],
+ "props_zones": [
+  {
+   "id": "woods_lollipops",
+   "type": "scatter",
+   "polygon": [
+    [
+     -60,
+     -12
+    ],
+    [
+     -24,
+     -12
+    ],
+    [
+     -20,
+     20
+    ],
+    [
+     -16,
+     52
+    ],
+    [
+     -60,
+     52
+    ]
+   ],
+   "items": {
+    "lollipop_tree": 0.035,
+    "gumdrop_bush": 0.03,
+    "candy_corn_tuft": 0.12,
+    "icing_flower": 0.08
+   },
+   "exclude": [
+    "paths +1.5 m",
+    "hidden_clearing hedge ring",
+    "river bank",
+    "liquorice_maze footprint x -59..-33, z 7..25 (+1 m)"
+   ],
+   "density_unit": "per m2"
+  },
+  {
+   "id": "glade_flowers",
+   "type": "scatter",
+   "polygon": [
+    [
+     -16,
+     30
+    ],
+    [
+     14,
+     30
+    ],
+    [
+     14,
+     54
+    ],
+    [
+     -16,
+     54
+    ]
+   ],
+   "items": {
+    "icing_flower": 0.15,
+    "candy_corn_tuft": 0.1,
+    "lollipop_tree": 0.006
+   },
+   "exclude": [
+    "paths +1 m"
+   ]
+  },
+  {
+   "id": "lollipop_lawn",
+   "type": "scatter",
+   "polygon": [
+    [
+     10,
+     24
+    ],
+    [
+     34,
+     24
+    ],
+    [
+     34,
+     54
+    ],
+    [
+     10,
+     54
+    ]
+   ],
+   "items": {
+    "gumdrop_bush": 0.03,
+    "icing_flower": 0.08,
+    "peppermint_rock": 0.01
+   },
+   "exclude": [
+    "gumdrop ring r 9 around (20,38)",
+    "slide runout",
+    "paths"
+   ]
+  },
+  {
+   "id": "north_bank",
+   "type": "scatter",
+   "polygon": [
+    [
+     -22,
+     -12
+    ],
+    [
+     12,
+     -12
+    ],
+    [
+     60,
+     -8
+    ],
+    [
+     60,
+     4
+    ],
+    [
+     -10,
+     0
+    ]
+   ],
+   "items": {
+    "chocolate_chip_boulder": 0.01,
+    "candy_corn_tuft": 0.08,
+    "lollipop_tree": 0.008
+   },
+   "exclude": [
+    "paths",
+    "river bank"
+   ]
+  },
+  {
+   "id": "knoll_garden",
+   "type": "scatter",
+   "polygon": [
+    [
+     -18,
+     -14
+    ],
+    [
+     9,
+     -14
+    ],
+    [
+     9,
+     -38
+    ],
+    [
+     -18,
+     -38
+    ]
+   ],
+   "items": {
+    "icing_flower": 0.06,
+    "gumdrop_bush": 0.015
+   },
+   "exclude": [
+    "cottage footprint +1 m",
+    "courtyard paths",
+    "cauldron r 4"
+   ]
+  },
+  {
+   "id": "peak_drips",
+   "type": "decor",
+   "note": "Icing drips around every cake tier rim (procedural), sprinkles scatter on tier tops (0.3 per m2), candles on tier B (6 lit candles as decor, not collidable)."
+  },
+  {
+   "id": "cliff_top",
+   "type": "scatter",
+   "polygon": [
+    [
+     -60,
+     -55
+    ],
+    [
+     -30,
+     -55
+    ],
+    [
+     -30,
+     -42
+    ],
+    [
+     -60,
+     -42
+    ]
+   ],
+   "items": {
+    "rock_candy_cluster": 0.02,
+    "icing_flower": 0.05
+   },
+   "exclude": [
+    "giant cupcake r 4",
+    "spout"
+   ]
+  },
+  {
+   "id": "fences",
+   "type": "spline_fences",
+   "segments": [
+    {
+     "along": "path_glade_bridge",
+     "side": "both",
+     "from_z": 36,
+     "to_z": 18,
+     "item": "candy_cane_fence"
+    },
+    {
+     "along": "south edge z 54.5",
+     "x": [
+      -30,
+      34
+     ],
+     "item": "candy_cane_fence"
+    },
+    {
+     "along": "knoll rim (south and east, skip path mouth and wafer bridge)",
+     "item": "gingerbread_picket_fence"
+    },
+    {
+     "along": "path_breadcrumb",
+     "side": "east",
+     "from": 0,
+     "to": 0.4,
+     "item": "candy_cane_fence"
+    }
+   ]
+  }
+ ],
+ "lighting": {
+  "time_of_day": "late afternoon golden hour",
+  "sun": {
+   "rotation_deg": [
+    -38,
+    -45,
+    0
+   ],
+   "color": "#FFE3B0",
+   "energy": 1.3,
+   "shadow": "PSSM 4 splits, max distance 140 m",
+   "note": "Sun in the south-west; light travels north-east, so the hero shot from the south is warm and side-lit."
+  },
+  "sky": {
+   "type": "ProceduralSkyMaterial",
+   "top": "#8FD3F4",
+   "horizon": "#FFD6E8",
+   "ground_horizon": "#F7C6D9",
+   "ground_bottom": "#C98FB0",
+   "sun_disc_scale": 1.5,
+   "clouds": "pink-white candyfloss cloud cards drifting at 0.6 m/s"
+  },
+  "ambient": {
+   "source": "sky",
+   "color": "#BFD9F2",
+   "energy": 0.6
+  },
+  "fog": {
+   "color": "#F8D3E2",
+   "depth_begin": 60,
+   "depth_end": 220,
+   "density": 0.004,
+   "aerial_perspective": 0.4
+  },
+  "post": {
+   "glow": {
+    "intensity": 0.7,
+    "bloom": 0.08,
+    "hdr_threshold": 1.1
+   },
+   "tonemap": "ACES or AgX, exposure 1.0",
+   "ssao": true,
+   "ssil": false
+  },
+  "rim": "Characters keep the core rim-light setup."
+ },
+ "palette": {
+  "gingerbread": "#B8733A",
+  "gingerbread_dark": "#7A4523",
+  "icing_white": "#FFF7EE",
+  "candy_pink": "#FF7FAF",
+  "bubblegum": "#FFB3D1",
+  "mint": "#7FE0C2",
+  "chocolate": "#5A3221",
+  "hot_chocolate": "#6B3A24",
+  "choc_foam": "#C89A72",
+  "lemon": "#FFE07A",
+  "liquorice": "#2B1E2E",
+  "gumdrop_red": "#E8435A",
+  "gumdrop_orange": "#FF9A3C",
+  "coconut_ice_grass": "#A6DB72",
+  "biscuit_path": "#E2B77A",
+  "syrup_pink": "#FF5C9A",
+  "hazard_glow": "#FF8A3D",
+  "collectible_gold": "#FFC93C",
+  "topiary_mint": "#3F9A63",
+  "topiary_dark": "#2E7A4C",
+  "candyfloss_mist": "#F8D3E2",
+  "slide_frosting": "#8FD0F5",
+  "slide_wall": "#5BB0E6",
+  "toasted_marshmallow_top": "#E8B77A",
+  "marshmallow_side": "#FFF1DC",
+  "berry_magenta": "#D94A8C",
+  "caramel": "#D98F4E"
+ },
+ "ambient_life": [
+  "Candy-wrapper butterflies (pink, mint, lemon) in the glade, woods and knoll garden; 20-30 instances.",
+  "Lavender-pink smoke puffs from the cottage chimney drifting east; green-pink steam column from the cauldron.",
+  "Steam wisps and slow foam swirls on the hot chocolate; orange bubble pops every 0.5-2 s per 10 m of river.",
+  "Sprinkles falling from lollipop trees like leaves; sugar sparkles drifting in sunbeams in the woods.",
+  "Small songbirds (blue tits) hopping on the breadcrumb trail, scattering when Mak runs past.",
+  "Candy pinwheel spinning on the fort tower; striped pennants on the fort walls; weathervane (wolf silhouette) on the cottage roof.",
+  "Biscuits drifting on the lagoon; Chocolate Falls splashing into the void with candyfloss clouds below.",
+  "Lit candles flickering on cake tier B; icing drips with a slow gloss shimmer."
+ ],
+ "routes": {
+  "main": {
+   "color": "#D62828",
+   "desc": "Spawn -> Storybook Gate -> Pretzel Bridge -> knoll path -> courtyard -> wafer bridge -> jelly beat (jump-jump-double) -> tier A -> marshmallow bouncer -> tier B -> chocolate lift -> tier C -> candy pole -> tier D -> candle wave -> summit",
+   "points": [
+    [
+     0,
+     48
+    ],
+    [
+     0,
+     40
+    ],
+    [
+     -3,
+     28
+    ],
+    [
+     -6,
+     13
+    ],
+    [
+     -6,
+     -3.5
+    ],
+    [
+     -2,
+     -7
+    ],
+    [
+     4,
+     -9.5
+    ],
+    [
+     8,
+     -11.5
+    ],
+    [
+     6,
+     -14.5
+    ],
+    [
+     2,
+     -17
+    ],
+    [
+     9,
+     -24
+    ],
+    [
+     23.5,
+     -24
+    ],
+    [
+     27.1,
+     -22.3
+    ],
+    [
+     30.3,
+     -25.2
+    ],
+    [
+     32.5,
+     -27.2
+    ],
+    [
+     42,
+     -26.5
+    ],
+    [
+     52.5,
+     -29
+    ],
+    [
+     53.5,
+     -33
+    ],
+    [
+     52.5,
+     -36.5
+    ],
+    [
+     51,
+     -41
+    ],
+    [
+     48.5,
+     -41.5
+    ],
+    [
+     46.6,
+     -42
+    ],
+    [
+     44.3,
+     -43.2
+    ],
+    [
+     43.3,
+     -44
+    ],
+    [
+     43.4,
+     -41.5
+    ],
+    [
+     42.9,
+     -39.2
+    ],
+    [
+     40,
+     -40.5
+    ]
+   ]
+  },
+  "return": [
+   {
+    "id": "R1_frosting_slide",
+    "color": "#1F77B4",
+    "desc": "Summit -> slide -> south bank by the fort (W3-4, The Sled Joust).",
+    "points": [
+     [
+      39,
+      -39.4
+     ],
+     [
+      40,
+      -34
+     ],
+     [
+      48,
+      -26
+     ],
+     [
+      56,
+      -16
+     ],
+     [
+      54,
+      -4
+     ],
+     [
+      48,
+      8
+     ],
+     [
+      42,
+      20
+     ],
+     [
+      36,
+      28
+     ],
+     [
+      32,
+      33
+     ]
+    ]
+   },
+   {
+    "id": "R2_knoll_drop",
+    "color": "#1F77B4",
+    "desc": "Drop off the knoll's south face to the north bank (no fall damage), cross the bridge.",
+    "points": [
+     [
+      -8,
+      -15
+     ],
+     [
+      -8,
+      -6
+     ],
+     [
+      -6,
+      -3.5
+     ]
+    ]
+   },
+   {
+    "id": "R3_biscuit_lanes",
+    "color": "#1F77B4",
+    "desc": "North pier -> lane N biscuits -> islet -> lane S -> south dock (second river crossing). R1: lane N now ends beside the pier.",
+    "points": [
+     [
+      20,
+      -4
+     ],
+     [
+      20,
+      0.6
+     ],
+     [
+      20,
+      4
+     ],
+     [
+      21,
+      9
+     ],
+     [
+      20,
+      16
+     ],
+     [
+      16,
+      18.6
+     ],
+     [
+      16,
+      24
+     ]
+    ]
+   },
+   {
+    "id": "R4_pool_wade",
+    "color": "#1F77B4",
+    "desc": "R1: around the east side of the maze and clearing, west bank of the river, wade the Syrup Pool, up the walkable half of path_pool.",
+    "points": [
+     [
+      -32,
+      26
+     ],
+     [
+      -31,
+      6
+     ],
+     [
+      -38,
+      0
+     ],
+     [
+      -42,
+      -12
+     ],
+     [
+      -46,
+      -20
+     ],
+     [
+      -48,
+      -27
+     ],
+     [
+      -44,
+      -33
+     ],
+     [
+      -37.5,
+      -33
+     ],
+     [
+      -32,
+      -32.5
+     ],
+     [
+      -24,
+      -31
+     ],
+     [
+      -17,
+      -31
+     ]
+    ]
+   },
+   {
+    "id": "R5_jelly_spring",
+    "color": "#1F77B4",
+    "desc": "Shortcut: Ham Slam the sugar shell, spring from the north bank straight onto the knoll.",
+    "points": [
+     [
+      -10,
+      -7.5
+     ],
+     [
+      -10,
+      -15
+     ]
+    ]
+   },
+   {
+    "id": "R6_ravine_exit",
+    "color": "#1F77B4",
+    "desc": "Fall into the Sugar Ravine and walk out south to the north bank.",
+    "points": [
+     [
+      16.5,
+      -24
+     ],
+     [
+      16.5,
+      -10
+     ]
+    ]
+   }
+  ],
+  "mastery": [
+   {
+    "id": "MA1_gumdrop_hop",
+    "color": "#8E44AD",
+    "desc": "W3-7 spiral of 8 bouncy gumdrops around the Great Lollipop.",
+    "points": [
+     [
+      13.0,
+      38.0
+     ],
+     [
+      15.050252531694166,
+      42.94974746830583
+     ],
+     [
+      20.0,
+      45.0
+     ],
+     [
+      24.94974746830583,
+      42.94974746830583
+     ],
+     [
+      27.0,
+      38.0
+     ],
+     [
+      24.949747468305834,
+      33.05025253169417
+     ],
+     [
+      20.0,
+      31.0
+     ],
+     [
+      15.050252531694168,
+      33.05025253169417
+     ],
+     [
+      20,
+      38
+     ]
+    ]
+   },
+   {
+    "id": "MA2_peppermint_kick",
+    "color": "#8E44AD",
+    "desc": "Wall-kick between the peppermint pillar and tier B's south face (skips the bouncer).",
+    "points": [
+     [
+      40,
+      -25.5
+     ],
+     [
+      40,
+      -29.2
+     ],
+     [
+      41,
+      -31.5
+     ]
+    ]
+   },
+   {
+    "id": "MA3_brute_bounce",
+    "color": "#8E44AD",
+    "desc": "Bounce off the Gummy Brute's back from tier B to tier C (skips the lift).",
+    "points": [
+     [
+      44,
+      -34.5
+     ],
+     [
+      44,
+      -37.5
+     ]
+    ]
+   },
+   {
+    "id": "MA4_cliff_pillars",
+    "color": "#8E44AD",
+    "desc": "R1: four rock-candy pillars, 2.8-3.2 m gaps, +1.6 each, pillars 2 and 4 are crumbling sugar glass; then the cliff top (page 1).",
+    "points": [
+     [
+      -17.5,
+      -36
+     ],
+     [
+      -21.6,
+      -36.0
+     ],
+     [
+      -26.2,
+      -37.4
+     ],
+     [
+      -30.8,
+      -38.2
+     ],
+     [
+      -35.4,
+      -37.6
+     ],
+     [
+      -35.4,
+      -42.5
+     ],
+     [
+      -44,
+      -46
+     ]
+    ]
+   }
+  ],
+  "secret": [
+   {
+    "id": "SE1_grotto",
+    "color": "#E67E22",
+    "desc": "R1 W3-8: slam the cauldron lid, sprint round the cottage, belly-slide the pool chute, two chained doubles through the stopped falls (18 s).",
+    "points": [
+     [
+      3,
+      -29
+     ],
+     [
+      2,
+      -36
+     ],
+     [
+      -14,
+      -36
+     ],
+     [
+      -17,
+      -32.2
+     ],
+     [
+      -24,
+      -32.7
+     ],
+     [
+      -31,
+      -33.7
+     ],
+     [
+      -37,
+      -34
+     ],
+     [
+      -41.5,
+      -33.5
+     ],
+     [
+      -43.0,
+      -35.4
+     ],
+     [
+      -44,
+      -39
+     ]
+    ]
+   },
+   {
+    "id": "SE2_balcony",
+    "color": "#E67E22",
+    "desc": "R3: 14 m runway, 10 m long jump from the page edge to the floating balcony (page 5); home by gumdrop bounce into the westward breeze.",
+    "points": [
+     [
+      46,
+      34.5
+     ],
+     [
+      60,
+      34.5
+     ],
+     [
+      72,
+      34.5
+     ]
+    ]
+   },
+   {
+    "id": "SE3_cupcake_ring",
+    "color": "#E67E22",
+    "desc": "Acorn ring behind the giant cupcake on the cliff top.",
+    "points": [
+     [
+      -44,
+      -46
+     ],
+     [
+      -54,
+      -51
+     ]
+    ]
+   },
+   {
+    "id": "SE4_sniff_stair",
+    "color": "#E67E22",
+    "desc": "R3: from the wafer bridge, sniff, then climb four invisible sugar-glass slabs to the ravine spire (page 3) under crow_ravine.",
+    "points": [
+     [
+      14.4,
+      -25.0
+     ],
+     [
+      14.4,
+      -27.4
+     ],
+     [
+      16.6,
+      -28.8
+     ],
+     [
+      14.4,
+      -30.2
+     ],
+     [
+      16.6,
+      -31.6
+     ],
+     [
+      15.4,
+      -33.6
+     ]
+    ]
+   }
+  ],
+  "signature": [
+   {
+    "id": "SG1_dunk_run",
+    "color": "#C0392B",
+    "desc": "R3, W3-3: lane S -> islet (release) -> lane E convoy leapfrog under crow pecks -> Royal Digestive (or a long jump from a bank).",
+    "points": [
+     [
+      16,
+      21
+     ],
+     [
+      16,
+      18
+     ],
+     [
+      20,
+      16
+     ],
+     [
+      21,
+      11
+     ],
+     [
+      24,
+      6.5
+     ],
+     [
+      35.4,
+      8.5
+     ],
+     [
+      42,
+      11.8
+     ],
+     [
+      44,
+      15.5
+     ]
+    ]
+   },
+   {
+    "id": "SG2_maze",
+    "color": "#C0392B",
+    "desc": "W3-1: sniff-led maze solution.",
+    "points": [
+     [
+      -36,
+      25.5
+     ],
+     [
+      -36,
+      22
+     ],
+     [
+      -36,
+      18
+     ],
+     [
+      -44,
+      18
+     ],
+     [
+      -44,
+      14
+     ],
+     [
+      -52,
+      14
+     ],
+     [
+      -52,
+      10
+     ],
+     [
+      -48,
+      10
+     ],
+     [
+      -48,
+      7
+     ],
+     [
+      -48,
+      -1
+     ]
+    ]
+   }
+  ]
+ },
+ "jumps": [
+  {
+   "id": "J01",
+   "route": "main",
+   "from": "T1 ground (y 8)",
+   "to": "jelly_step_1 (y 9.0)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J02",
+   "route": "main",
+   "from": "jelly_step_1",
+   "to": "jelly_step_2 (y 10.0)",
+   "move": "single / chained double",
+   "gap_m": 2.6,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J03",
+   "route": "main",
+   "from": "jelly_step_2 (before it sinks)",
+   "to": "tier A rim (y 12)",
+   "move": "double (chain)",
+   "gap_m": 2.0,
+   "rise_m": 2.0,
+   "column": "standard",
+   "check": "OK at 2.0 m; after 0.8 s the jelly sinks and the rise becomes 2.5 m (beyond standard): the beat is jump-jump-double"
+  },
+  {
+   "id": "J05",
+   "route": "main",
+   "from": "tier A (y 12)",
+   "to": "marshmallow_bouncer (y 12.8)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 0.8,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J06",
+   "route": "main",
+   "from": "bouncer apex 18.3",
+   "to": "tier B (y 16)",
+   "move": "bounce object",
+   "gap_m": 1.1,
+   "rise_m": 4.0,
+   "column": "object-assisted",
+   "check": "OK (object)"
+  },
+  {
+   "id": "J07",
+   "route": "main",
+   "from": "choc_lift top (y 20.3)",
+   "to": "tier C (y 20)",
+   "move": "step/single",
+   "gap_m": 1.0,
+   "rise_m": -0.3,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J08",
+   "route": "main",
+   "from": "candy_pole_D top (feet about 22.5)",
+   "to": "tier D (y 24)",
+   "move": "pole jump",
+   "gap_m": 2.1,
+   "rise_m": 1.5,
+   "column": "standard",
+   "check": "OK (pole jump apex about 26.5; cannot reach the summit 28)"
+  },
+  {
+   "id": "J10",
+   "route": "main",
+   "from": "tier D (y 24)",
+   "to": "birthday_candle_1 (y 25.2)",
+   "move": "single (timed: flame out)",
+   "gap_m": 0.6,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double); timing window 1.5 s"
+  },
+  {
+   "id": "J11",
+   "route": "main",
+   "from": "candle_1",
+   "to": "candle_2 (y 26.4)",
+   "move": "single (timed)",
+   "gap_m": 1.1,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double); window opens 0.5 s after candle 1"
+  },
+  {
+   "id": "J12",
+   "route": "main",
+   "from": "candle_2",
+   "to": "candle_3 (y 27.6)",
+   "move": "single (timed)",
+   "gap_m": 0.95,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J13",
+   "route": "main",
+   "from": "candle_3",
+   "to": "summit E (y 28)",
+   "move": "single",
+   "gap_m": 1.1,
+   "rise_m": 0.4,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J20",
+   "route": "W3-6",
+   "from": "courtyard (y 8)",
+   "to": "cocoa_tin_step (y 9.2)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J21",
+   "route": "W3-6",
+   "from": "cocoa tin",
+   "to": "porch_awning (y 11.2)",
+   "move": "double",
+   "gap_m": 0.8,
+   "rise_m": 2.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 2.2 m up)"
+  },
+  {
+   "id": "J22",
+   "route": "W3-6",
+   "from": "awning bounce apex 16.4",
+   "to": "dormer top (y 16)",
+   "move": "bounce object",
+   "gap_m": 2.5,
+   "rise_m": 4.8,
+   "column": "object-assisted",
+   "check": "OK (object)"
+  },
+  {
+   "id": "J23",
+   "route": "W3-6",
+   "from": "dormer top (y 16)",
+   "to": "ridge cap (y 18)",
+   "move": "double",
+   "gap_m": 0.7,
+   "rise_m": 2.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 2.2 m up)"
+  },
+  {
+   "id": "J24",
+   "route": "W3-6",
+   "from": "ridge cap (y 18)",
+   "to": "chimney top (y 20)",
+   "move": "double",
+   "gap_m": 0.0,
+   "rise_m": 2.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 2.2 m up)"
+  },
+  {
+   "id": "J25",
+   "route": "W3-6",
+   "from": "chimney top (y 20)",
+   "to": "kitchen hearth (y 100, pocket set)",
+   "move": "Ham Slam (event)",
+   "gap_m": 0.0,
+   "rise_m": 0.0,
+   "column": "event",
+   "check": "Slam sensor -> page-turn teleport"
+  },
+  {
+   "id": "J26",
+   "route": "W3-6",
+   "from": "kitchen floor (y 100) inside the blast lane at (-6, -29.9), back to the oven, 1.9 m from its face",
+   "to": "oven top (y 103.4)",
+   "move": "backflip",
+   "gap_m": 0.0,
+   "rise_m": 3.4,
+   "column": "signature",
+   "check": "R3: backflip apex 4.0 m, 2.6 m backwards; feet cross the oven lip at about +3.85 and land about 0.8 m inside the top, under the 106 ceiling (head 105.25). Must start in the 2.0 s cold window. Standing double + ledge grab fails (no_ledge_grab). A side somersault from a skid inside the lane is the accepted expert alternative (also apex 4.0, also inside the lane)."
+  },
+  {
+   "id": "J30",
+   "route": "W3-8",
+   "from": "cauldron yard (y 8)",
+   "to": "firewood_step (y 8.8)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 0.8,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J31",
+   "route": "W3-8",
+   "from": "firewood_step",
+   "to": "cauldron rim/lid (y 9.6-9.9)",
+   "move": "single",
+   "gap_m": 0.2,
+   "rise_m": 1.1,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J32",
+   "route": "W3-8",
+   "from": "wading (bed y -0.2)",
+   "to": "pool_rock_1 (y 1.0)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J33",
+   "route": "W3-8",
+   "from": "pool_rock_1",
+   "to": "pool_rock_2 (y 2.8)",
+   "move": "double (chain)",
+   "gap_m": 0.6,
+   "rise_m": 1.8,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J34",
+   "route": "W3-8",
+   "from": "pool_rock_2",
+   "to": "grotto floor (y 5.0)",
+   "move": "double (chain)",
+   "gap_m": 1.2,
+   "rise_m": 2.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double); fails while the falls run (curtain wind)"
+  },
+  {
+   "id": "J40",
+   "route": "W3-3",
+   "from": "biscuit_dock (y 1.4)",
+   "to": "lane S biscuit (y 0.7)",
+   "move": "single",
+   "gap_m": 1.3,
+   "rise_m": -0.7,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J41",
+   "route": "W3-3",
+   "from": "lane S biscuit",
+   "to": "next biscuit same lane",
+   "move": "single",
+   "gap_m": 1.9,
+   "rise_m": 0.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J42",
+   "route": "W3-3",
+   "from": "lane S biscuit (y 0.7)",
+   "to": "Marshmallow Islet (y 1.6)",
+   "move": "running/single",
+   "gap_m": 2.7,
+   "rise_m": 0.9,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J43",
+   "route": "R3",
+   "from": "islet (y 1.6)",
+   "to": "lane N biscuit (y 0.7)",
+   "move": "single",
+   "gap_m": 0.7,
+   "rise_m": -0.9,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J44",
+   "route": "R3",
+   "from": "lane N biscuit (y 0.7) at its end (21, 3.6)",
+   "to": "wafer_pier_north (y 1.4)",
+   "move": "running/single",
+   "gap_m": 1.7,
+   "rise_m": 0.7,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J45",
+   "route": "W3-3",
+   "from": "islet rim (y 1.6)",
+   "to": "lane E biscuit (y 0.7)",
+   "move": "single",
+   "gap_m": 1.1,
+   "rise_m": -0.9,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J46",
+   "route": "W3-3",
+   "from": "lane E biscuit",
+   "to": "next lane E biscuit ahead (same lane, same speed)",
+   "move": "running single",
+   "gap_m": 2.6,
+   "rise_m": 0.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double); each hop gains 5.2 m on the Royal Digestive"
+  },
+  {
+   "id": "J47",
+   "route": "W3-3",
+   "from": "lane E biscuit alongside",
+   "to": "Royal Digestive (y 0.75)",
+   "move": "single",
+   "gap_m": 0.9,
+   "rise_m": 0.05,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up single, 2.2 m up double)"
+  },
+  {
+   "id": "J48",
+   "route": "W3-3 alt",
+   "from": "south or north bank, last safe footing (x 37-58)",
+   "to": "Royal Digestive (y 0.75)",
+   "move": "long jump",
+   "gap_m": 8.7,
+   "rise_m": 0.3,
+   "column": "signature",
+   "check": "R3: river 17 m wide. Measured on the baked heightmap, the last safe footing (terrain above y 0.45) is 8.7-9.7 m from the royal rim on the south bank and 9.4-10.4 m on the north bank. Running single 6.5 and running double 7.8 m (about 7.4 with the +0.3 rise) miss everywhere; a long jump (12.2 m) makes it from the south bank at x 44-58 (71-77 %). A chained running triple (about 8.85 m) only just reaches near the falls lip (x 57-59): accepted expert alternative."
+  },
+  {
+   "id": "J50",
+   "route": "W3-2/page 4",
+   "from": "fort yard (y 2)",
+   "to": "sugar_cube_1 (y 3.2)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J51",
+   "route": "W3-2/page 4",
+   "from": "sugar_cube_1",
+   "to": "sugar_cube_2 (y 4.4)",
+   "move": "single",
+   "gap_m": 0.0,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J52",
+   "route": "W3-2/page 4",
+   "from": "sugar_cube_2",
+   "to": "fort wall walkway (y 5.6)",
+   "move": "single",
+   "gap_m": 0.4,
+   "rise_m": 1.2,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J53",
+   "route": "page 4",
+   "from": "fort_pole top (y 10.2)",
+   "to": "tower top (y 9.2)",
+   "move": "pole jump",
+   "gap_m": 0.6,
+   "rise_m": -1.0,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J54",
+   "route": "W3-2",
+   "from": "fort yard (y 2), back to a wall 0.8-1.4 m away",
+   "to": "wall walkway (y 5.6)",
+   "move": "backflip",
+   "gap_m": 0.0,
+   "rise_m": 3.6,
+   "column": "any climb",
+   "check": "Backflip apex 4.0 m R3: retagged \"any climb\": a running double (apex 3.75) or a single plus ledge grab also reaches 3.6, so this is not a backflip or triple showcase."
+  },
+  {
+   "id": "J55",
+   "route": "W3-2",
+   "from": "fort yard (run 8 m+)",
+   "to": "wall walkway (y 5.6)",
+   "move": "triple jump",
+   "gap_m": 1.0,
+   "rise_m": 3.6,
+   "column": "any climb",
+   "check": "Triple apex 4.9 m R3: retagged \"any climb\": a running double (apex 3.75) or a single plus ledge grab also reaches 3.6, so this is not a backflip or triple showcase."
+  },
+  {
+   "id": "J60",
+   "route": "W3-7",
+   "from": "lawn (y 2)",
+   "to": "gumdrop_1 (y 3.6)",
+   "move": "single (max)",
+   "gap_m": 0.0,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J61",
+   "route": "W3-7",
+   "from": "gumdrop n (1-3, happy)",
+   "to": "gumdrop n+1 (+2.6 m)",
+   "move": "bounce + air steer",
+   "gap_m": 2.76,
+   "rise_m": 2.6,
+   "column": "object-assisted",
+   "check": "OK (normal bounce apex 4.6)"
+  },
+  {
+   "id": "J62",
+   "route": "W3-7",
+   "from": "gumdrop_4 (y 11.4, happy)",
+   "to": "gumdrop_5 (y 14.4, grumpy)",
+   "move": "bounce, then Ham Slam onto it",
+   "gap_m": 2.76,
+   "rise_m": 3.0,
+   "column": "object-assisted",
+   "check": "OK (apex 4.6 > 3.0 + 0.6)"
+  },
+  {
+   "id": "J63",
+   "route": "W3-7",
+   "from": "gumdrop_5 / gumdrop_6 (grumpy)",
+   "to": "gumdrop_6 / gumdrop_7 (+3.0)",
+   "move": "slam-bounce",
+   "gap_m": 2.76,
+   "rise_m": 3.0,
+   "column": "signature (slam-bounce)",
+   "check": "OK (7.0 m slam apex); a normal 2.0 m bounce cannot reach"
+  },
+  {
+   "id": "J64",
+   "route": "W3-7",
+   "from": "gumdrop_7 (y 20.4)",
+   "to": "lollipop_saucer (y 24.4)",
+   "move": "slam-bounce + air steer",
+   "gap_m": 3.7,
+   "rise_m": 4.0,
+   "column": "signature (slam-bounce)",
+   "check": "OK (7.0 m slam apex, 3.0 m to spare)"
+  },
+  {
+   "id": "J65",
+   "route": "W3-7 tutorial",
+   "from": "gumdrop_8 (lawn, y 3.6)",
+   "to": "acorn ring (y 10)",
+   "move": "slam-bounce",
+   "gap_m": 0.0,
+   "rise_m": 6.4,
+   "column": "signature (slam-bounce)",
+   "check": "Teaches the move next to the spawn"
+  },
+  {
+   "id": "J70",
+   "route": "MA4/page 1",
+   "from": "knoll rim (y 8)",
+   "to": "rock_candy_pillar_1 (y 9.6)",
+   "move": "running single / double",
+   "gap_m": 3.24,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (mastery limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J71",
+   "route": "MA4/page 1",
+   "from": "pillar_1",
+   "to": "pillar_2 (y 11.2, crumbles)",
+   "move": "chained double",
+   "gap_m": 3.0,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (mastery limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J72",
+   "route": "MA4/page 1",
+   "from": "pillar_2",
+   "to": "pillar_3 (y 12.8)",
+   "move": "chained double (within 0.8 s)",
+   "gap_m": 2.87,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (mastery limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J73",
+   "route": "MA4/page 1",
+   "from": "pillar_3",
+   "to": "pillar_4 (y 14.4, crumbles)",
+   "move": "chained double",
+   "gap_m": 2.84,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (mastery limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J74",
+   "route": "MA4/page 1",
+   "from": "pillar_4",
+   "to": "falls cliff top (y 16)",
+   "move": "chained double (within 0.8 s)",
+   "gap_m": 2.9,
+   "rise_m": 1.6,
+   "column": "mastery",
+   "check": "OK (mastery limit 5.5 m gap / 1.6 m up)"
+  },
+  {
+   "id": "J80",
+   "route": "MA2",
+   "from": "tier A (y 12)",
+   "to": "tier B (y 16) via 2-3 kicks",
+   "move": "wall kick",
+   "gap_m": 3.0,
+   "rise_m": 4.0,
+   "column": "mastery",
+   "check": "OK"
+  },
+  {
+   "id": "J81",
+   "route": "MA3",
+   "from": "brute back bounce",
+   "to": "tier C (y 20) from tier B",
+   "move": "bounce object",
+   "gap_m": 1.5,
+   "rise_m": 4.0,
+   "column": "object-assisted",
+   "check": "OK (object)"
+  },
+  {
+   "id": "J82",
+   "route": "summit secret",
+   "from": "summit (y 28)",
+   "to": "glace_cherry_cap (y 30.4)",
+   "move": "side somersault (or standing double)",
+   "gap_m": 0.3,
+   "rise_m": 2.4,
+   "column": "signature",
+   "check": "Side somersault apex 4.0 m"
+  },
+  {
+   "id": "J90",
+   "route": "page 2",
+   "from": "north bank shore (y ~0.4, z -0.6)",
+   "to": "bridge_page_shelf (y 0.9)",
+   "move": "running jump",
+   "gap_m": 1.2,
+   "rise_m": 0.5,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J91",
+   "route": "page 2",
+   "from": "bridge_page_shelf (y 0.9)",
+   "to": "north bank (y ~0.6-1.0)",
+   "move": "single",
+   "gap_m": 1.4,
+   "rise_m": 0.1,
+   "column": "standard",
+   "check": "OK (limit 3.5 m gap / 1.2 m up)"
+  },
+  {
+   "id": "J92",
+   "route": "R5",
+   "from": "jelly_spring",
+   "to": "knoll rim (y 8)",
+   "move": "bounce object",
+   "gap_m": 7.0,
+   "rise_m": 6.6,
+   "column": "object-assisted",
+   "check": "OK (object)"
+  },
+  {
+   "id": "J93",
+   "route": "page 5",
+   "from": "page edge (x 60, y 2) after the 14 m runway",
+   "to": "floating biscuit balcony (x 70.5, top 1.0)",
+   "move": "long jump",
+   "gap_m": 10.0,
+   "rise_m": -1.0,
+   "column": "signature",
+   "check": "R3: long jump about 13 m with the 1 m drop (77 %). Running double about 8.3 m and running triple about 9.6 m miss; a double or triple also climbs into balcony_breeze and is pushed back. Fall = void, respawn CP6."
+  },
+  {
+   "id": "J94",
+   "route": "page 5",
+   "from": "balcony_gumdrop (top 2.0)",
+   "to": "page edge (x 56-60, y 2)",
+   "move": "gumdrop bounce + westward breeze",
+   "gap_m": 10.0,
+   "rise_m": 0.0,
+   "column": "object",
+   "check": "R3: bounce apex 7 m into the -10 m/s breeze (in-zone about 1.1 s) plus air control: lands 2-4 m inside the edge with the stick held west."
+  },
+  {
+   "id": "J95",
+   "route": "W3-1 skip",
+   "from": "maze corridor (y 4)",
+   "to": "over a hedge (thorn crown top y 7.8)",
+   "move": "triple jump",
+   "gap_m": 1.0,
+   "rise_m": 0.0,
+   "column": "retired (not a designed skip)",
+   "check": "R3: retired. A triple needs about 14 m of chained runway and travels 9.2 m, which overshoots cell (2,0) into the exit hedges. The thorn crown still lets a triple clear a hedge, but no route counts on it. J96 (brute bounce) is the maze skip."
+  },
+  {
+   "id": "J27",
+   "route": "W3-6",
+   "from": "oven top (103.4)",
+   "to": "kitchen floor outside the lane (x < -7.7)",
+   "move": "timed drop / single",
+   "gap_m": 0.0,
+   "rise_m": -3.4,
+   "column": "standard",
+   "check": "R2: the drop lands in the lane; walk west out of it inside the cold window."
+  },
+  {
+   "id": "J96",
+   "route": "W3-1 skip",
+   "from": "Gummy Brute's back (about y 5.6)",
+   "to": "over a hedge into the next cell",
+   "move": "bounce",
+   "gap_m": 1.0,
+   "rise_m": 0.0,
+   "column": "mastery skip",
+   "check": "R2: brute bounce apex 6 m (feet about 11.6) clears the crown (7.8)."
+  },
+  {
+   "id": "J97",
+   "route": "W3-1 finale",
+   "from": "Gummy Brute's back while it wobbles (about y 5.6, r 1.6 from the trunk)",
+   "to": "crows' nest (top 11.0)",
+   "move": "bounce off the brute",
+   "gap_m": 0.0,
+   "rise_m": 5.4,
+   "column": "signature (object)",
+   "check": "R3: bounce apex 6 m puts the feet at about 11.6 (0.6 m spare); drift 0.3 m inward over the r 1.6 nest. A triple from the floor tops out at 8.9."
+  },
+  {
+   "id": "J98",
+   "route": "page 3 (sniff stair)",
+   "from": "wafer bridge deck (8.2), north edge",
+   "to": "sniff_slab_1 (9.2)",
+   "move": "single",
+   "gap_m": 0.7,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "R3: standing or walking single (apex 1.89). Invisible until sniffed; crow_ravine dives on a 0.8 s cackle."
+  },
+  {
+   "id": "J99",
+   "route": "page 3 (sniff stair)",
+   "from": "sniff_slab_1",
+   "to": "sniff_slab_2 (10.2)",
+   "move": "single",
+   "gap_m": 0.6,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "R3: standing or walking single (apex 1.89). Invisible until sniffed; crow_ravine dives on a 0.8 s cackle."
+  },
+  {
+   "id": "J100",
+   "route": "page 3 (sniff stair)",
+   "from": "sniff_slab_2",
+   "to": "sniff_slab_3 (11.2)",
+   "move": "single",
+   "gap_m": 0.6,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "R3: standing or walking single (apex 1.89). Invisible until sniffed; crow_ravine dives on a 0.8 s cackle."
+  },
+  {
+   "id": "J101",
+   "route": "page 3 (sniff stair)",
+   "from": "sniff_slab_3",
+   "to": "sniff_slab_4 (12.2)",
+   "move": "single",
+   "gap_m": 0.6,
+   "rise_m": 1.0,
+   "column": "standard",
+   "check": "R3: standing or walking single (apex 1.89). Invisible until sniffed; crow_ravine dives on a 0.8 s cackle."
+  },
+  {
+   "id": "J102",
+   "route": "page 3 (sniff stair)",
+   "from": "sniff_slab_4 (12.2)",
+   "to": "ravine_spire top (13.0)",
+   "move": "single",
+   "gap_m": 0.4,
+   "rise_m": 0.8,
+   "column": "standard",
+   "check": "R3: easy last step onto the visible spire."
+  },
+  {
+   "id": "J103",
+   "route": "page 3 negative",
+   "from": "wafer bridge / knoll lip / peak base",
+   "to": "ravine_spire top (13.0)",
+   "move": "any",
+   "gap_m": 4.6,
+   "rise_m": 4.8,
+   "column": "negative test",
+   "check": "R3: must fail from all three: rises 4.8-5.0 m against a triple apex of 4.92 m with 4.6-7.1 m gaps."
+  }
+ ],
+ "build_order": [
+  "1 WorldRoot scene res://scenes/worlds/w3/W3.tscn (world_id W3, kill_y -12), WorldEnvironment + sun from 'lighting'.",
+  "2 Terrain heightmap from terrain.ops at 0.5 m (241 x 221 samples) -> mesh + HeightMapShape3D/trimesh on layer 1; skirt at the edges.",
+  "3 Water surfaces (river, lagoon, pool) + hot_chocolate hazard Area3D; falls curtain + wind zone; Chocolate Falls VFX.",
+  "4 Cake tiers A-E as elliptic prisms (32-48 segments) with drip trims; StaticBody3D convex/cylinder collision scaled per ellipse.",
+  "5 Paths are already in the heightmap; add path material blend; then bridges, docks, pier, wafer bridge.",
+  "6 Landmark meshes (cottage, cauldron, fort, Great Lollipop, gate, grotto, spout) with simple box collision per 'platforms'.",
+  "7 Platforms in list order (steps, pillars, poles, bouncers, lift, gumdrops, rocks). Then the slide trough + stilts.",
+  "8 Moving systems: biscuit lane spawners, chocolate lift, bobbing gumdrops 7-8, cauldron lid event, falls stop event, hedge gate.",
+  "9 Truffles, pages, acorn groups, checkpoints, spawns (Spawns/Default + mission markers), StoryCams A-D.",
+  "10 Enemies and their patrols; props scatter; ambient life; music key.",
+  "11 Verify: tools/godot.py capture for each StoryCam; walk the main route and every jump in 'jumps' with --spawn markers.",
+  "12 R1: hedge maze (maze_hedge_* + thorn crowns, maze_floor op), scent nodes for Snout Sniff, crow crumb drop + 15 s relight.",
+  "13 R1: kitchen pocket set at floor y 100 (kitchen_*), KitchenCam zone, oven_blast cycle, cage + cleat + flour sacks, chimney slam teleport, door exit.",
+  "14 R1: Dunk Run: lane_E spawner, Royal Digestive with truffle child, mooring post + crow_lagoon release, falls tip + 5 s respawn, CP10_islet.",
+  "15 R1: candles (flame cycle), jelly sinkers, shortened pole, glace_cherry_cap, crumbling pillars, pool chute, slide boost strips, CP9_summit, Crumb 'Race again?'.",
+  "16 R1: verify with the jump table rows J01-J95 and the pass tests in Docs/levels/W3_amendments.md.",
+  "17 R3: river widening (re-bake terrain), mooring/royal/lane S/barrel stack, balcony + runway + gumdrop + breeze, sniff stair + spire, crows' nest tree, oven metas + flour mark.",
+  "18 R3: Sled Joust (sled grenadiers, Crumb thief logic, truffle pop, rocket gag, escape reset), world_state loader.",
+  "19 R3: verify J26, J48, J93, J94, J97-J103 and the R3 pass tests in Docs/levels/W3_amendments.md."
+ ],
+ "requests_to_other_workstreams": [
+  "player: a 'slide_surface' group (or meta) that forces belly-slide state on the frosting trough; wading speed multiplier in syrup.",
+  "player/objects: bounce apex is specified in metres; convert with v = sqrt(2 * g * apex) using the player's rising gravity.",
+  "core: id for the 100-acorn truffle is not defined in DESIGN_V2; proposal 'W3-100' (bonus, spawns above the player).",
+  "objects: Ham-Slam-able sugar shell (jelly spring), cauldron lid event bus, hedge gate opened by breadcrumb count.",
+  "enemies: Sergeant Snap variant (shako + drum-major mace-lance), 3 stomps, active after the 4-squad is cleared.",
+  "player: landing on a 'bouncy' body while ground pounding uses meta 'slam_bounce_velocity' when present (gumdrops: normal 2.0 m / slam 7.0 m apex).",
+  "player/camera: fixed camera zones (Area3D group 'camera_zone' exposing get_camera_transform()) for the kitchen; bodies in group 'camera_exclude' are excluded from the spring arm (maze hedges).",
+  "player: backflip, side somersault, long jump and triple jump are required by W3 missions (J26, J48, J54/J55, J82, J93); keep their apexes at the MOVEMENT_REFERENCE values.",
+  "objects: jelly_sinker, flame_candle cycle, falling_platform with respawn (sugar glass), hit_target (cleat), cage drop + open, oven timed hazard, door_trigger teleport, slam_sensor -> teleport, lane spawner with per-lane speed, Royal Digestive (truffle child, falls tip, respawn), sniff_geode_set, slide boost strip.",
+  "enemies: grenadier 'lobber' variant (gobstopper satchel prop, 2.5 s cadence), Sergeant Snap 4-phase script (charge wall-stick, walkway lob, drum flip), crow_lagoon scripted rope peck, squad toppled by the drum event (radius 7 m, 2.5 s).",
+  "meshes: Tripo P2 character models for Sergeant Snap, Corporal Crumb, Hansel, Gretel, Mother Treacle and a blue tit; props listed in Docs/levels/W3_amendments.md (oven, cage, dresser, candles, Royal Digestive, hedge thorn crown, easel).",
+  "core: rename W3-3 to 'The Dunk Run' and W3-6 to 'The Kitchen Cage' in DESIGN_V2 / mission select.",
+  "W1 owner: W1 Lost Page 4 sits in a grotto behind the Spring Grotto waterfall; 'behind the waterfall' is W3-8's brief, please move P4 elsewhere.",
+  "R2 player/camera: follow-offset camera zone (MazeCam: player + (0, 6.5, 4.5), FOV 55, 0.6 s blend); FogVolume support for the maze mist with emissive/unshaded scent, crumbs and acorns showing through.",
+  "R2 enemies: Sergeant Snap phase 2 lance sweep (tilted disc hitbox, trip on dive/slide contact), phase 4 drum-mark drumroll with drumskin pops and slam-flip, phase restart at CP11_fort_yard; crow_lagoon convoy harassment; gummy_brute maze_stalker hop-slam with melt/reform.",
+  "R2 objects: oven_blast width 3.4; called lift mode for choc_lift; lane_E biscuit peck-crack (0.5 s sink); gumdrop deflate only after slam-bounce (solid while deflated); wrong-geode -6 s falls timer; nibble hit_targets with once-per-visit acorns; Crumb inner-line offset and once-per-race bump.",
+  "R2 core/story: W3 intro cameo (StoryCam_Intro_1/2, wolf_boss on the chimney, first entry only, skippable).",
+  "R2 meshes/art: cake tier recolour, blue-raspberry slide, toasted marshmallows, spearmint topiary maze dressing, kitchen pantries + proscenium page border, Gretel recolour.",
+  "R3 player: honour no_ledge_grab (per body, optional no_ledge_grab_faces) and no_wall_kick metas; group sniff_reveal (Snout Sniff within 14 m -> on_sniffed() on every member, 6 s); per-zone sniff root (maze.sniff_rule: 0.8 s); wind_zone already exists (balcony_breeze).",
+  "R3 enemies: sled_rider grenadier variant (spline follower with k x Mak profile, half swaps, glance-back swipe, thrown_out / dunked / spin_out); brute_clearing stalker ramp and clearing finale (trunk clamp, 1.5 s bounce window); crow_ravine slab dive; post-W3-2 parade band state (non-hostile squad, Snap idle).",
+  "R3 objects: royal release on islet OR lane E; mooring post no_stand; sniff_reveal_platform (invisible solid slab, glint, amber glow); balcony gumdrop apex 7.0; truffle pop on sled bump (static in trough, falls back to the runout); crumb_escape page-turn to CP9; world_state loader (W3 scenery by truffles held).",
+  "R3 meshes/art: ravine spire (rock-candy, 2 x 12 m), sugar-glass slab material, crows' nest tree (trunk 1.2 x 6.6, nest r 1.6), islet barrel stack, balcony cloud with puff, flour hoof-print decal, 17 m Chocolate Falls VFX, warm-white chimney smoke variant.",
+  "R3 core: rename W3-4 to \"The Sled Joust\" in DESIGN_V2 and mission select."
+ ],
+ "revision": "2026-10-18-n01-r4 (round 3 critique applied)",
+ "maze": {
+  "id": "liquorice_maze",
+  "origin_nw": [
+   -58.0,
+   8.0
+  ],
+  "cell_m": 4.0,
+  "cols": 6,
+  "rows": 4,
+  "floor_y": 4.0,
+  "wall_h": 2.6,
+  "wall_t": 1.0,
+  "cell_centre": "x = -56 + 4c, z = 10 + 4r (c 0..5 west->east, r 0..3 north->south)",
+  "passages": [
+   [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   [
+    [
+     5,
+     2
+    ],
+    [
+     4,
+     2
+    ]
+   ],
+   [
+    [
+     4,
+     2
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   [
+    [
+     3,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   [
+    [
+     2,
+     1
+    ],
+    [
+     1,
+     1
+    ]
+   ],
+   [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ]
+   ],
+   [
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     0
+    ]
+   ],
+   [
+    [
+     5,
+     0
+    ],
+    [
+     4,
+     0
+    ]
+   ],
+   [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   [
+    [
+     3,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   [
+    [
+     2,
+     3
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   [
+    [
+     1,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ],
+   [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     2
+    ]
+   ],
+   [
+    [
+     4,
+     2
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   [
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   [
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   [
+    [
+     2,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   [
+    [
+     1,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     0
+    ]
+   ]
+  ],
+  "solid_cells": [
+   [
+    4,
+    1
+   ]
+  ],
+  "entrance": {
+   "edge": "south of cell (5,3)",
+   "pos": [
+    -36,
+    4.0,
+    24.0
+   ],
+   "width": 3.0
+  },
+  "exit": {
+   "edge": "north of cell (2,0)",
+   "pos": [
+    -48,
+    4.0,
+    8.0
+   ],
+   "width": 3.0,
+   "leads_to": "hedge gate of the Hidden Clearing at (-48, 4, 7)"
+  },
+  "solution_cells": [
+   [
+    5,
+    3
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "scent_nodes": [
+   [
+    -36,
+    4.6,
+    25.5
+   ],
+   [
+    -36,
+    4.6,
+    22
+   ],
+   [
+    -36,
+    4.6,
+    18
+   ],
+   [
+    -40,
+    4.6,
+    18
+   ],
+   [
+    -44,
+    4.6,
+    18
+   ],
+   [
+    -44,
+    4.6,
+    14
+   ],
+   [
+    -48,
+    4.6,
+    14
+   ],
+   [
+    -52,
+    4.6,
+    14
+   ],
+   [
+    -52,
+    4.6,
+    10
+   ],
+   [
+    -48,
+    4.6,
+    10
+   ],
+   [
+    -48,
+    4.6,
+    7
+   ],
+   [
+    -48,
+    4.6,
+    -1
+   ]
+  ],
+  "junctions": [
+   [
+    5,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "dead_ends": {
+   "(4,0)": "crate_forkA_dead_end (5 acorns)",
+   "(0,2)": "crate_forkB_dead_end (5 acorns)",
+   "(4,3)": "2 acorns",
+   "(1,2)": "2 acorns",
+   "(0,0)": "the wolf's rewritten page pinned to the hedge + 2 acorns",
+   "(3,0)": "crow_woods_A's nest (cosmetic)"
+  },
+  "thorn_crown": {
+   "type": "hazard",
+   "damage": 1,
+   "knockback_up": 6,
+   "height_above_wall_top": [
+    0.0,
+    1.2
+   ],
+   "note": "Every hedge segment carries a bramble crown hazard 1.2 m tall on top (red candy berries + thorns read as danger). Single and double jumps over a hedge hit it; a triple jump (apex 4.9 m) clears it: a deliberate mastery skip."
+  },
+  "camera": "R2: MazeCam camera zone overrides the spring arm inside the maze (see camera_zones). Hedges stay in 'camera_exclude' as a fallback.",
+  "mist": {
+   "id": "candyfloss_mist",
+   "kind": "FogVolume box",
+   "center": [
+    -46,
+    6.25,
+    16
+   ],
+   "size": [
+    25,
+    4.5,
+    17
+   ],
+   "y_range": [
+    4.0,
+    8.5
+   ],
+   "color": "#F8D3E2",
+   "density": 0.18,
+   "visibility_from_maze_cam_m": 12,
+   "note": "R2: pink-white candyfloss mist filling the maze up to y 8.5. From MazeCam, Mak's cell and its neighbours read clearly and the far half of the maze fades out, so the layout cannot be read from above. The sniff scent trail, glowing crumbs, crows' eyes and acorns are unshaded/emissive and show through it. From StoryCam B and D the maze reads as a soft pink cloud bank with green topiary tops."
+  },
+  "dressing": "R2 (art): hedges are spearmint-leaf topiary (sugar-coated jelly leaves, faces #3F9A63, shadow #2E7A4C) on liquorice-stick frames visible only as black corner posts (#2B1E2E, 0.3 m). Thorn crown: liquorice thorns with red-orange candy berries (#FF5A3C) so the hazard reads. No longer a black grid from the story cameras.",
+  "sniff_rule": {
+   "zone": "maze.mist box",
+   "root_s": 0.8,
+   "trail_s": 6.0,
+   "trail_len_m": 12,
+   "note": "R3: in the candyfloss mist the scent is faint: Mak plants his snout and is rooted for 0.8 s before the trail flows (6 s, next 12 m). Outside the maze, Snout Sniff is unchanged. A sniff started inside the 1.0 s hop telegraph gets hit. Punching a crow for its 15 s crumb trail needs no rooting."
+  }
+ },
+ "camera_zones": [
+  {
+   "id": "KitchenCam",
+   "area_box": {
+    "center": [
+     -6,
+     103,
+     -29
+    ],
+    "size": [
+     10.8,
+     6,
+     8.8
+    ]
+   },
+   "camera_pos": [
+    -6,
+    104.4,
+    -21.0
+   ],
+   "look_at": [
+    -6,
+    101.0,
+    -29.4
+   ],
+   "fov": 50,
+   "note": "R2 (art): moved in from z -19 and tilted down (pitch about 22 deg), FOV 62 -> 50, so the room fills the frame. Any overscan lands on the kitchen_proscenium page border, never sky. Mak at the backflip mark (-6, 100, -30.8) faces this camera."
+  },
+  {
+   "id": "MazeCam",
+   "type": "follow_offset",
+   "area_box": {
+    "center": [
+     -46,
+     6,
+     16
+    ],
+    "size": [
+     25,
+     6,
+     17
+    ]
+   },
+   "offset_from_player": [
+    0,
+    6.5,
+    4.5
+   ],
+   "look_at_offset": [
+    0,
+    0.6,
+    0
+   ],
+   "fov": 55,
+   "blend_s": 0.6,
+   "note": "R2: high follow camera (about 55 deg down, always facing north, so controls stay stable) while Mak is inside the maze. Camera y is about 10.5, above the crown (7.8): it never sits inside a hedge. Request to player/camera: a camera_zone whose get_camera_transform() returns player position + offset."
+  }
+ ],
+ "npcs": [
+  {
+   "id": "hansel",
+   "pos": [
+    -9.7,
+    102.4,
+    -26.0
+   ],
+   "where": "in the kitchen cage",
+   "lines": [
+    "Mister Pig! Stand on the flour mark, back to the oven, crouch and jump to flip backwards!",
+    "I'll get the door bar!"
+   ],
+   "post_rescue_pos": [
+    -11.2,
+    1.4,
+    17.0
+   ],
+   "home_pos": [
+    -8.0,
+    8.0,
+    -22.6
+   ],
+   "post_rescue_lines": [
+    "A pig went down the chimney, the wolf went up the flue; the crumbs are on the trail again, and so, dear sir, are you!",
+    "The gumdrops that are grumpy need a slam to make them bounce; the drummer's very pompous, but his drum is what will count!"
+   ]
+  },
+  {
+   "id": "gretel",
+   "pos": [
+    -9.1,
+    102.4,
+    -26.0
+   ],
+   "where": "in the kitchen cage",
+   "lines": [
+    "Down here! Down the chimney!",
+    "The wolf said we'd taste better with custard!"
+   ],
+   "post_rescue_pos": [
+    -8.8,
+    1.4,
+    17.0
+   ],
+   "home_pos": [
+    -4.0,
+    8.0,
+    -22.6
+   ],
+   "post_rescue_lines": [
+    "Glass you cannot see, a step you cannot spot: give that snout a sniff, and climb up to the top!",
+    "The biscuit with the crown will float off down the stream; hop the fast ones, Mister Pig, and catch it like a dream!"
+   ]
+  },
+  {
+   "id": "mother_treacle",
+   "pos": [
+    -10.0,
+    1.4,
+    16.5
+   ],
+   "where": "sitting on her suitcase at the south end of the Pretzel Bridge, gazing at her cottage",
+   "lines": [
+    "Evicted! By biscuits!",
+    "Lost the crumb trail, dearie? Use that splendid snout.",
+    "Grumpy gumdrops only listen to a firm Ham Slam.",
+    "Sugar glass, dearie. You can't see it, but you can SMELL it."
+   ],
+   "note": "Talker: one hint per unfinished mission, in mission order.",
+   "home_pos": [
+    -6.0,
+    8.0,
+    -23.2
+   ],
+   "home_after": [
+    "W3-1",
+    "W3-6",
+    "W3-8"
+   ],
+   "home_lines": [
+    "Home again! Mind the crumbs, I've only just swept."
+   ]
+  },
+  {
+   "id": "corporal_crumb",
+   "pos": [
+    39.0,
+    28.0,
+    -40.3
+   ],
+   "where": "R3: on his biscuit sled in the summit slide gate with the W3-4 truffle in its basket; flees down the slide when Mak lands on the summit.",
+   "lines": [
+    "Finders keepers, Piglet!",
+    "Can't catch me! I'm the gingerbread... CORPORAL!",
+    "Rocket candle, don't fail me now!",
+    "Ta-ta, trotters!"
+   ],
+   "note": "R3: no longer a race rival. He holds the inner half of the trough and leads the sled squad. Speed = k x Mak's measured clean no-boost speed profile, k start value 0.92, head start about 2.0 s. Tune k so (a) a clean no-boost run is >= 1.0 s behind him at 15 m to go and (b) a run that takes slide_boost_1 is within 3 m of him at that mark. Bump from behind or the side (belly slide, contact <= 1.2 m, any number of times): truffle pops 4 m ahead; he spins into the wall, dazed. Within 3 m of him at 15 m to go: he lights a rocket candle, zooms ahead, overshoots the finish arch into the marshmallow pile; the truffle drops in the runout. If he reaches the arch first: \"Ta-ta, trotters!\", scampers to the fort gate, page-turn returns Mak to CP9_summit within 2 s and the sleds reset. No talker, no par time, no \"Again?\".",
+   "joust": {
+    "trigger": "Mak lands on tier_E_summit (or CP9 respawn + 1.0 s)",
+    "k_start": 0.92,
+    "head_start_s": 2.0,
+    "line": "inner",
+    "bump_contact_m": 1.2,
+    "mak_hitstop_s": 0.15,
+    "truffle_pop_ahead_m": 4.0,
+    "rocket_gag": {
+     "within_m": 3.0,
+     "at_m_to_go": 15.0
+    }
+   }
+  },
+  {
+   "id": "sir_reginald_cameo",
+   "pos": [
+    -2.4,
+    20.0,
+    -29.0
+   ],
+   "model": "game/assets/characters/wolf_boss/wolf_boss.glb",
+   "where": "on the cottage chimney top, intro only",
+   "lines": [
+    "Mmm. I smell... PIE."
+   ],
+   "note": "R2: boss model and procedural idle, no fight logic, no collision. Exits by floating north-east (4 s), then despawns. Plays once per save on first W3 entry; skippable."
+  }
+ ],
+ "missions": [
+  {
+   "id": "W3-1",
+   "name": "The Breadcrumb Trail",
+   "spawn": "W3-1",
+   "verbs": [
+    "Snout Sniff in mist (0.8 s root)",
+    "navigation under pressure",
+    "punch crows",
+    "brute stalker counter",
+    "brute-back bounce to the nest"
+   ],
+   "pass_test": "Spawn W3-1; follow the 10 crumbs; assert MazeCam active inside the maze; assert no brute hop before Mak reaches junction (3,2); then hops every 7 s (x3) and every 5 s, each with a 1.0 s ring; sniff at each junction: assert a 0.8 s root, then the target is the next scent node; a sniff started inside a hop telegraph is hit. Gate opens within 4 m; brute follows into the clearing and hops at Mak every 4 s with its landing clamped to r >= 1.6 from the trunk; bounce on its back in the 1.5 s wobble -> land in crow_nest (top 11.0) -> W3-1 collected in < 180 s. Negative: triple jump from the clearing floor at the trunk fails to reach the nest; wall kick off the trunk is refused; double jump into a hedge -> damage; from MazeCam the exit cell is not visible from the entrance. Recovery: melt the brute (3 hits) -> it reforms at the gate in 10 s. Mastery: J96 brute bounce over maze_hedge_13."
+  },
+  {
+   "id": "W3-2",
+   "name": "Sergeant Snap",
+   "spawn": "W3-2",
+   "verbs": [
+    "drum Ham Slam",
+    "dive / belly slide under the sweep",
+    "backflip / triple / cubes + stomp",
+    "drum-bounce slam"
+   ],
+   "pass_test": "Spawn W3-2; slam the drum with the squad inside 7 m -> all 4 toppled; phase 2: assert a 1.0 s arc telegraph, dive into Snap's boots -> tripped >= 2 s; stomp (hit 1). Negative: a single or double jump over the sweep is hit. Phase 3: backflip to the walkway, stomp (hit 2). Phase 4: assert Snap reaches his drum mark and telegraphs 0.8 s; stand on the drum, slam during the roll -> flipped; stomp (hit 3) -> W3-2 at the drum. Restart: die in phase 4 -> respawn at CP11_fort_yard in phase 4 with no squad alive and 2 hits kept. Every attack telegraphed >= 0.5 s."
+  },
+  {
+   "id": "W3-3",
+   "name": "The Dunk Run",
+   "spawn": "W3-3",
+   "verbs": [
+    "islet release",
+    "forced convoy leapfrog under crow pecks",
+    "punch / jump kick the crow",
+    "long jump from a bank (expert alt)"
+   ],
+   "pass_test": "Spawn W3-3; board lane S -> assert royal NOT released; hop to the islet -> royal released (0.8 s cackle) from (37, 13.5); board lane E; assert a peck telegraph 1.6 s after each landing; hop forward during the cackle -> no damage; hop onto the royal -> W3-3 collected before royal x > 58 (royal travel 15.1 s). Negative 1: release, return to the dock, run the south bank, running double at the passing royal -> must miss. Negative 2: ride lane S to its end (27, 16) -> no jump reaches the royal or the mooring post. Negative 3: no jump from the islet reaches the moored royal (barrel stack). Negative 4: hop from lane N's end onto lane E -> releases the royal. Alt: from Spawns/W3-3_bank (46, 2, 29.5) long jump at the passing royal -> collected. Fail: royal over the falls -> respawn moored after 5 s."
+  },
+  {
+   "id": "W3-4",
+   "name": "The Sled Joust",
+   "spawn": "W3-4",
+   "verbs": [
+    "climb (jelly beat, bouncer, lift, pole, candle wave)",
+    "belly slide",
+    "boost lines",
+    "lane switch under lance swipes",
+    "sled bumps (knock-outs, dunks)"
+   ],
+   "pass_test": "Spawn W3-4; climb; land on the summit -> joust_start, three sleds depart, Crumb about 2.0 s ahead. Scripted clean no-boost slide without bumps: sled_grenadier_2 caught in arc 24-34 m, sled_grenadier_1 in 62-78 m, Crumb reaches the arch first -> crumb_escape -> Mak at CP9 within 2 s, sleds reset. Scripted slide taking slide_boost_1: Mak within 3 m of Crumb at 15 m to go -> rocket gag -> truffle in the runout -> collected. Bumps: G2 on boost 1 -> thrown out; G1 in the dunk zone -> DUNKED event; Crumb -> truffle pops 4 m ahead, slide through it -> W3-4 collected. Every lance swipe has a 0.6 s telegraph; switching halves during it -> no damage. Assert no talker, no par time. choc_lift waits at the bottom and rises within 0.2 s of boarding."
+  },
+  {
+   "id": "W3-5",
+   "name": "Lost Pages of the Grove",
+   "spawn": "Default",
+   "verbs": [
+    "explore",
+    "sniff stair (page 3)",
+    "long jump 10 m (page 5)",
+    "mastery pillars (page 1)"
+   ],
+   "pass_test": "--unlock-all teleport to each page; assert page_collected x5 and W3-5 at the lectern. Page 3: from the wafer bridge, sniff -> 4 slabs glow 6 s; climb J98-J102. Negative J103: the spire cannot be reached from the bridge, knoll or peak base. Page 5: from the runway, long jump J93 lands on the balcony; running double and triple miss; gumdrop bounce with stick west lands on the page edge (J94)."
+  },
+  {
+   "id": "W3-6",
+   "name": "The Kitchen Cage",
+   "spawn": "W3-6",
+   "verbs": [
+    "nibble the house (optional)",
+    "roof climb",
+    "Ham Slam chimney",
+    "timed backflip inside the blast lane",
+    "punch",
+    "timed exit"
+   ],
+   "pass_test": "Spawn W3-6; roof sequence J20-J24; slam the chimney cap -> player y > 99 within 2 s, KitchenCam active; wait for oven_state == cold; step to the flour mark (-6, 100, -29.9), backflip -> feet clear the lip, land on the oven top (103.4) before the blast; punch the cleat -> cage open; W3-6 collected; exit through the door in a cold window -> Spawns/W3-6_door_exit. Negative: a standing double jump + ledge grab at the oven face fails (no_ledge_grab); no position outside the lane reaches the oven top (pantries, no_ledge_grab); a running double from the table fails. Alt: side somersault from a skid inside the lane succeeds. Human check: KitchenCam shows no sky; the glow telegraph is visible for the full 1.0 s; the flour mark reads from KitchenCam."
+  },
+  {
+   "id": "W3-7",
+   "name": "Gumdrop Hop",
+   "spawn": "W3-7",
+   "verbs": [
+    "bounce",
+    "slam-bounce"
+   ],
+   "pass_test": "Spawn W3-7; tutorial slam on gumdrop_8 reaches y >= 10; spiral: normal bounces 1-4, slam-bounces 5-7, saucer; W3-7 collected. Automated: weak bounce (2.0 m) from 5-7 cannot reach the next top. R2 automated: from a weak bounce on gumdrop_6 and on gumdrop_7, a slam on the descent lands on the same dome and produces the 7.0 m launch; after a slam-bounce the dome is solid and non-bouncy for 2 s."
+  },
+  {
+   "id": "W3-8",
+   "name": "The Cauldron's Secret",
+   "spawn": "W3-8",
+   "verbs": [
+    "Ham Slam lid",
+    "sprint",
+    "belly slide chute",
+    "chained doubles",
+    "Snout Sniff (wrong guess costs 6 s)",
+    "punch geode"
+   ],
+   "pass_test": "Spawn W3-8; slam lid; assert falls off for 18 s; scripted run reaches the grotto <= 15 s from falls-off; sniff -> one geode glows; punch it -> W3-8 collected. Negative: with the falls on, J34 fails. R2 negative: after a 13 s scripted run, punching two wrong geodes makes the falls resume before the third punch (timer -12 s)."
+  }
+ ],
+ "characters": [
+  {
+   "id": "mr_mak",
+   "role": "hero",
+   "size_m": 1.2,
+   "status": "existing Tripo P2 (game/assets/characters/mak)",
+   "description": "Cream-white piglet, grey beanie, small brown backpack; pink snout and inner ears."
+  },
+  {
+   "id": "wolf_boss",
+   "role": "villain cameo (intro, chimney)",
+   "size_m": 3.2,
+   "status": "existing Tripo P2, rigged (game/assets/characters/wolf_boss)",
+   "description": "Sir Reginald Huffington III: pear-shaped wolf, huge belly and chest, golden monocle, burgundy tailcoat, mustard waistcoat, cane. No hat. Needs procedural clips: sniff, chest-inflate, float-away."
+  },
+  {
+   "id": "gingerbread_grenadier",
+   "role": "enemy (lance; squad, bridge pair, sentry, reinforcements, W3-4 sled riders, post-W3-2 parade band)",
+   "size_m": 1.35,
+   "status": "existing Tripo P2 (assets_src/enemies/gingerbread_grenadier)",
+   "description": "Cookie soldier, tall red busby, icing piping, gumdrop buttons, icing moustache, candy-cane lance. Extra clips: topple onto back, lie-and-shout ('Get under it!'). R3 sled-rider clips (on the W3-M27 biscuit sled): sled_crouch, lean_L/R, glance_back, lance_swipe_back, spin_out, thrown_out (cartoon arc), dunked (splash and crumble). Parade: march with the lance shouldered (existing march clip)."
+  },
+  {
+   "id": "gingerbread_grenadier_lobber",
+   "role": "enemy variant (tier A)",
+   "size_m": 1.35,
+   "status": "same Tripo P2 mesh + prop swap",
+   "description": "The grenadier without a lance, a striped satchel of gobstoppers on the hip, one gobstopper raised. Clip: overarm lob."
+  },
+  {
+   "id": "sergeant_snap",
+   "role": "mini-boss (W3-2)",
+   "size_m": 1.8,
+   "status": "existing Tripo P2 mesh (game/assets/characters/sergeant_snap); needs rig + R2 clips",
+   "description": "Broad gingerbread sergeant, very tall shako with a pink plume, white icing sash with candy medal, gold epaulettes, huge curled icing moustache, drum-major lance-mace with a peppermint knob, snare drum on a strap. R2 clips: spin_telegraph, lance_sweep_loop, trip_faceplant, drumroll_telegraph, drumroll, flipped_back. R3: post-W3-2 band leader reuses idle_snare on the walkway with the shako on (no new clip)."
+  },
+  {
+   "id": "corporal_crumb",
+   "role": "truffle thief, sled leader (W3-4 The Sled Joust)",
+   "size_m": 1.1,
+   "status": "NEW Tripo P2 (+ sled 1.6 x 0.6 x 2.2 and rocket candle props)",
+   "description": "Small round gingerbread corporal with a cracked edge, aviator goggles, long striped scarf, cheeky grin; the W3-4 truffle in his sled basket. R3 clips: sled_crouch, lean_L/R, look_back_taunt, bump_spin_out, truffle_pop, rocket_light, rocket_ride, crash_into_marshmallow, hop_out_and_wave (\"Ta-ta, trotters!\"), scamper. No \"Again?\" wave."
+  },
+  {
+   "id": "gummy_brute",
+   "role": "enemy (maze stalker, tier B, lawn)",
+   "size_m": 1.6,
+   "status": "existing Tripo P2",
+   "description": "Big translucent raspberry gummy bear, hunched, fists up. R2 clips for the maze stalker: hop_slam_windup, hop_arc, land_wobble, melt, reform. R3 finale: wobble window clip must read as \"jump on me\" (back flattens, belly jiggles) for 1.5 s after each landing."
+  },
+  {
+   "id": "crow_bandit",
+   "role": "enemy (bridge, maze x2, ridge, ravine spire guard, lagoon)",
+   "size_m": 0.9,
+   "status": "existing Tripo P2",
+   "description": "Lanky black crow, red bandit mask, striped neckerchief, plain cloth loot sack. R2 clips for crow_lagoon: cackle, peck_dive, low_swoop, burst ('Caw-plunk!')."
+  },
+  {
+   "id": "hansel",
+   "role": "caged NPC (kitchen), nibble voice; R3: hint NPC by Mother Treacle after W3-6, then at the cottage door",
+   "size_m": 1.0,
+   "status": "NEW Tripo P2",
+   "description": "Young brown rabbit boy, green shorts with braces, patched cap, freckles, one ear flopped, pocket of breadcrumbs. Brave but worried. R3 clips: cage_rattle, cheer, idle_talk, walk."
+  },
+  {
+   "id": "gretel",
+   "role": "caged NPC (kitchen), nibble voice; R3: hint NPC by Mother Treacle after W3-6, then at the cottage door",
+   "size_m": 0.95,
+   "status": "NEW Tripo P2",
+   "description": "R2 recolour: young GINGER-CARAMEL rabbit girl (#C98A4B fur, not cream) in a red pinafore with a white apron, plaited ribbon round one ear, hands on hips, bossy and clever. R3 clips: cage_rattle, hands_on_hips_talk, cheer, walk."
+  },
+  {
+   "id": "mother_treacle",
+   "role": "hint NPC (bridge); R3: moves home to the cottage doorway after W3-1, W3-6 and W3-8",
+   "size_m": 1.3,
+   "status": "NEW Tripo P2",
+   "description": "Elderly stout badger baker: tall crooked patchwork pointed hat, flour-dusted apron, round spectacles, wooden spoon, sitting on a carpet-bag suitcase. R3 clips: sit_suitcase_talk, stand_up, walk_with_suitcase, doorway_wave."
+  },
+  {
+   "id": "blue_tit",
+   "role": "ambient creature (instanced)",
+   "size_m": 0.15,
+   "status": "NEW Tripo P2",
+   "description": "Plump blue tit, blue cap, yellow belly; hops and flutters off when Mak runs past."
+  }
+ ],
+ "events": {
+  "chimney_slam": "slam_sensor on chimney cap -> page-turn 0.6 s -> Spawns/W3-6_kitchen; KitchenCam zone active.",
+  "cage_release": "cage_release_cleat hit -> rope runs out -> cage drops 2.4 m in 0.4 s onto flour_sacks -> flour cloud -> door unbarred -> truffle W3-6 spawns.",
+  "royal_release": "R3: Mak lands on the Marshmallow Islet or on any lane_E biscuit while the Royal Digestive is moored -> crow_lagoon cackles 0.8 s and pecks the rope -> royal follows its path (15.1 s to the falls); crow_lagoon starts harassing lane E (crow_peck). Lane S no longer releases it.",
+  "royal_over_falls": "royal reaches x 59.5 -> tips, page flutter -> after 5 s respawns moored; crow returns.",
+  "drum_slam": "Ham Slam on parade_drum top while armed -> shockwave r 7: grenadiers within topple 2.5 s; in phase 4, if Snap is at his drum mark (telegraph or roll) he is thrown 3 m and lies on his back 2.5 s; rearm 6 s.",
+  "cauldron_lid": "Ham Slam lid -> 3 s steam puff along the liquorice pipe -> valve shuts -> falls off 18 s (HUD sand timer, 3 s trickle warning).",
+  "maze_gate": "Mak within 4 m of the clearing gate (maze side) -> gate swings open; brute_clearing follows Mak into the clearing and switches to its finale hop rule.",
+  "crow_crumbs": "crow_woods_A/B defeated -> 6 crumbs scatter onto the next 2 solution cells, glowing 15 s.",
+  "intro_cameo": "First W3 entry -> StoryCam_Intro_1 (3.0 s, wolf on the chimney) -> StoryCam_Intro_2 (2.5 s, lollipop to fort) -> gameplay camera. Skippable.",
+  "nibble_tile": "nibble_tile_* hit -> tile chips (3 acorns, once per visit) -> line from the flue with a smoke pulse.",
+  "crow_peck": "crow_lagoon targets Mak's lane_E biscuit 1.6 s after he lands -> 0.8 s cackle + ring -> peck -> biscuit cracks and sinks over 0.5 s. Ends when crow_lagoon is defeated or the royal is caught.",
+  "brute_hop": "brute_clearing (maze_stalker): no hops until Mak reaches junction (3,2); then every 7 s for hops 1-3, every 5 s after -> 1.0 s ring telegraph on Mak -> hop-slam landing (r 1.5). R3 clearing finale: every 4 s at Mak, landing clamped off the nest trunk; 1.5 s wobble = bounce window.",
+  "wrong_geode": "wrong grotto geode punched -> 2 acorns + falls timer -6 s.",
+  "snap_roll_complete": "Snap finishes a phase-4 drumroll -> squad_reinforcement_1/2 enter (max 2 alive).",
+  "snap_phase_restart": "Mak dies in Snap phase 3 or 4 -> respawn at CP11_fort_yard, phase restarts with the squad defeated and earned hits kept.",
+  "nest_bounce": "R3: Mak bounces off brute_clearing's back within 3 m of the trunk -> camera tilts up 10 degrees for the arc; landing in crow_nest plays the crows' outraged \"CAW!\" from the hedge ring.",
+  "joust_start": "R3: Mak lands on the summit -> Crumb: \"Finders keepers, Piglet!\" -> Crumb and both sled grenadiers push off 0.5 s later (about 2.0 s before Mak can reach the gate).",
+  "sled_bump": "R3: Mak belly-slides into a sled within 1.2 m from behind or the side -> grenadier: thrown out (boost strip or dunk zone) or 1.5 s spin-out; Crumb: truffle pops 4 m ahead. Mak hitstop 0.15 s. No per-race limit.",
+  "crumb_rocket": "R3: Mak within 3 m of Crumb at 15 m to go -> rocket candle -> overshoots the arch into the marshmallow pile -> truffle drops in the runout (30.5, 2.9, 34.5).",
+  "crumb_escape": "R3: Crumb reaches the finish arch first -> \"Ta-ta, trotters!\" -> scampers to the fort gate -> page-turn to CP9_summit within 2 s, sleds and truffle reset."
+ },
+ "round1": {
+  "adopted": [
+   "kitchen interior rescue (W3-6)",
+   "peak rhythm rework (jellies, candles, pillars)",
+   "sniff-led maze (W3-1)",
+   "Dunk Run (W3-3)",
+   "Sergeant Snap 4-phase fight + lobbers",
+   "grumpy slam-bounce gumdrops (W3-7)",
+   "floating balcony long jump, cherry side somersault, fort backflip/triple",
+   "W3-8 18 s sprint with chute",
+   "W3-4 summit checkpoint, rematch talker, boost strips, Crumb rocket gag",
+   "characters as Tripo P2 models"
+  ],
+  "rejected": [
+   "north-bank triple-jump shortcut onto the knoll (7 m rise, beyond a triple)",
+   "inside-line slide jump (the trough has no tight bend; saves < 0.4 s)",
+   "slam switch on the dresser (W2-2 already opens a cage with slam switches; a punchable rope cleat instead)",
+   "moving biscuit shelf in the jelly beat (scope; the sinker timing carries the beat)",
+   "moving the W3-7 saucer higher (kept 24.4; grumpy weak bounce forces the slam instead)"
+  ]
+ },
+ "characters_note": "Every character is a rigged Tripo P2 image-to-3D model; no procedural stand-ins in the final build. R3 adds no new character ids: the Sled Joust reuses the grenadier and Crumb, the band reuses the squad and Snap.",
+ "round2": {
+  "adopted": [
+   "oven-top backflip (dresser removed; pantries close the oven's sides; blast lane 3.4 m)",
+   "gumdrop 6/7 deflate only after a slam-bounce, solid while deflated",
+   "Sergeant Snap phase 2 lance sweep you dive under; phase 4 drumroll on his drum mark (drum-bounce slam); phase checkpoints",
+   "wrong geode costs 6 s of falls time",
+   "nibble-the-house tiles with Hansel and Gretel voice lines",
+   "crow_lagoon harasses the lane E convoy (forced leapfrog, punchable)",
+   "maze stalker brute + candyfloss mist + MazeCam",
+   "Crumb bump during the slide race (inner line vs boosts)",
+   "called chocolate lift",
+   "art: honest hero shot + intro cameo of the wolf, maze recolour and camera, palette fixes for hero readability, blue slide, KitchenCam reframe"
+  ],
+  "rejected": [
+   "boost-strip knock-out of Crumb into a 'Disqualified' bush (second DQ gag next to the rocket gag; a solo par run is an anticlimax)",
+   "phase-4 lure where Snap charges the drum (still a charge-into-object fight; replaced by the drumroll mark)",
+   "moving the Great Lollipop or fort into the spawn frame (layout change; the intro pan shows them instead)"
+  ]
+ },
+ "world_state": {
+  "note": "R3: persistent changes read on world load from Game.has_truffle(). All 8 truffles stay live (D023); these change the scenery, NPCs and hints only.",
+  "after_W3-1": [
+   "path_breadcrumb and the maze solution: 40 crumb decals relit permanently (soft emissive gold), so the trail is whole again.",
+   "The crows' nest stays empty; crow_woods_A/B remain (they still steal acorns)."
+  ],
+  "after_W3-2": [
+   "squad_1..4 become a parade band: non-hostile, no hurtboxes, marching a loop of the yard on the beat of music_w3 (existing march clip, lances shouldered).",
+   "sergeant_snap stands on the north walkway with his shako back on, beating the snare (existing idle_snare clip) as the band leader; no fight logic.",
+   "squad_reinforcement_1/2 never spawn. The yard is free to roam (crates, cubes, pole and page 4 unchanged)."
+  ],
+  "after_W3-6": [
+   "hansel at (-11.2, 1.4, 17.0) and gretel at (-8.8, 1.4, 17.0), either side of Mother Treacle; they take over the hints, in rhyme.",
+   "sentry_cottage is gone (Hansel lifted the bar; the guard fled). The kitchen cage stays open."
+  ],
+  "after_W3-1_W3-6_W3-8": [
+   "mother_treacle moves home to the cottage doorway (-6, 8.0, -23.2), facing south; hansel (-8.0, 8.0, -22.6) and gretel (-4.0, 8.0, -22.6) follow.",
+   "Chimney smoke turns from lavender #C9B6F2 to warm white #FFF4E0 and a baking-bread steam puff plays every 6 s.",
+   "StoryCam_B before/after pair for the video: the same frame with the smoke colour and the family at the door."
+  ]
+ },
+ "round3": {
+  "adopted": [
+   "Dunk Run skip closed (river 17 m from the lagoon mouth to the falls, royal moored mid-river at (37, 13.5), release on islet or lane E, lane S shortened, islet barrel stack)",
+   "W3-4 becomes The Sled Joust (Crumb steals the truffle; two sled grenadiers; bumps, dunks, lance swipes; no rival race, no \"Again?\", no \"Cheat!\")",
+   "jump table re-checked against MOVEMENT_REFERENCE arcs; floating balcony is a 10 m long jump (x 70.5..75.5, z 34.5) with a gumdrop + breeze return; J54/J55 retagged; J95 retired",
+   "oven locked to the backflip (no_ledge_grab) and the backflip mark moved to 1.9 m from the face so the predicted arc clears the lip",
+   "sugar-glass sniff stair to a rock-candy spire in the Sugar Ravine (new home of page 3); crow_ravine guards it; 3 acorns on the dormer",
+   "maze finale: crows' nest on a lollipop tree, reached only by bouncing off the stalker brute",
+   "maze-only sniff root (0.8 s) and stalker ramp (first hop at junction (3,2), 7 s then 5 s)",
+   "the tale repairs itself (crumbs relit, parade band, Hansel and Gretel join Treacle, family home + white smoke)",
+   "data fix: jelly_step_1 top_y 9.0"
+  ],
+  "rejected": [
+   "release on the islet only (a hop from lane N's end onto lane E bypassed it; lane E now also releases)",
+   "mooring at (29.0, 9.6) (3.4 m from the islet rim: a plain jump the moment it is released)",
+   "river widths 15 / 14 m (bank gap = half the width, 7.0-7.5 m: a running double still reaches)",
+   "balcony at x 69.5 (9.5 m: a chained triple with the 1 m drop reaches about 9.6 m)",
+   "happy gumdrop + long jump back from the balcony (a long jump cannot start in the air); replaced by bounce + breeze",
+   "sugar-glass niche on the knoll wall at (10.8, 6.0, -29) (a 1.8 m drop from the knoll lip and 3.5 m from the wafer bridge: a walk-off freebie)",
+   "moving Page 2 (every page set keeps one easy page)"
+  ]
+ }
+}

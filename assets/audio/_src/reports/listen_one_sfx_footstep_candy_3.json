@@ -1,0 +1,10 @@
+{
+ "utc": "2026-10-17T19:18:08.956633+00:00",
+ "audio": "../sfx/footstep_candy_3.ogg",
+ "duration_s": 0.26,
+ "prompt": "Describe this single short sound effect in under 20 words (what physical or cartoon sound it is). Then, on a new line starting with GUESS:, guess what video game action or event it would accompany. Mention any speech, music, noise or distortion.",
+ "request_id": "01a14b4b-c9cc-7b30-9591-039384f2f571",
+ "result": {
+  "output": "Please provide the audio file for analysis. I am ready to analyze it but no file was included in your request.\n\nOnce you provide the audio, I will perform the following analysis:\n\nI will first listen to the single short sound effect and describe it in under 20 words.\n\n**GUESS:** I will then guess a video game action or event it might accompany.\n\nFollowing that, I will provide a detailed breakdown covering:\n\n*   **Main topics and themes:** Analyzing the sonic theme (e.g., futuristic, magical, organic, comedic).\n*   **Speakers and their characteristics:** Noting if any speech is present or if it's purely a non-vocal sound.\n*   **Emotional tone and atmosphere:** Describing the feeling the sound evokes (e.g., powerful, weak, surprising, humorous).\n*   **Key points and arguments:** Breaking down the sonic components (e.g., the attack, decay, sustain, release) that \"argue\" for its purpose.\n*   **Background sounds and context:** Identifying any reverb, echo, or layering that suggests an environment, as well as any noise or distortion.\n*   **Language and communication style:** Interpreting the non-verbal \"language\" of the sound and what it communicates to the player (e.g., success, failure, danger).\n*   **Overall mood and sentiment:** A summary of the sound's impact and intended feeling."
+ }
+}

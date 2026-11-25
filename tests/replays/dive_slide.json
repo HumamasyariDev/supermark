@@ -1,0 +1,32 @@
+{
+ "start": {
+  "pos": [
+   -20.0,
+   0.0,
+   20.0
+  ],
+  "yaw_deg": -90
+ },
+ "end_frame": 220,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 90,
+   "tap": "attack"
+  },
+  {
+   "on": "state:belly_slide",
+   "nth": 1,
+   "delay": 30,
+   "tap": "jump"
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

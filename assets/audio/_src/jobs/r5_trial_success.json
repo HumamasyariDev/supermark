@@ -1,0 +1,25 @@
+{
+ "key": "r5_trial_success",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a happy bright success chime, ascending bells",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:48.852307+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-8af1-77f2-9f42-da963b8383ce",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/BYfCL-UmJ8cQnPztna_Wf_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r5_trial_success.mp3"
+ ],
+ "completed": "2026-10-17T20:28:55.732078+00:00"
+}

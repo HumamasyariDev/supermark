@@ -1,0 +1,2655 @@
+[
+ {
+  "key": "music_title",
+  "group": "music",
+  "measured": -15.9,
+  "volume_db": -8.1,
+  "files": 1
+ },
+ {
+  "key": "music_hub",
+  "group": "music",
+  "measured": -15.9,
+  "volume_db": -6.1,
+  "files": 1
+ },
+ {
+  "key": "music_w1",
+  "group": "music",
+  "measured": -16.0,
+  "volume_db": -8.0,
+  "files": 1
+ },
+ {
+  "key": "music_w2",
+  "group": "music",
+  "measured": -16.0,
+  "volume_db": -8.0,
+  "files": 1
+ },
+ {
+  "key": "music_w3",
+  "group": "music",
+  "measured": -16.0,
+  "volume_db": -8.0,
+  "files": 1
+ },
+ {
+  "key": "music_boss",
+  "group": "music",
+  "measured": -15.9,
+  "volume_db": -10.6,
+  "files": 1
+ },
+ {
+  "key": "music_hub_lively",
+  "group": "music",
+  "measured": -15.9,
+  "volume_db": -8.1,
+  "files": 1
+ },
+ {
+  "key": "music_victory",
+  "group": "jingle",
+  "measured": -14.0,
+  "volume_db": -5.0,
+  "files": 1
+ },
+ {
+  "key": "music_truffle_get",
+  "group": "jingle",
+  "measured": -13.8,
+  "volume_db": -5.2,
+  "files": 1
+ },
+ {
+  "key": "music_menu_sting",
+  "group": "jingle",
+  "measured": -15.9,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "acorn_chain",
+  "group": "pickup",
+  "measured": -15.98,
+  "volume_db": -1.0,
+  "files": 2
+ },
+ {
+  "key": "acorn_chain_2",
+  "group": "pickup",
+  "measured": -15.95,
+  "volume_db": -1.1,
+  "files": 1
+ },
+ {
+  "key": "acorn_collect",
+  "group": "pickup",
+  "measured": -16.01,
+  "volume_db": -1.0,
+  "files": 2
+ },
+ {
+  "key": "acorn_collect_2",
+  "group": "pickup",
+  "measured": -16.08,
+  "volume_db": -0.9,
+  "files": 1
+ },
+ {
+  "key": "backflip",
+  "group": "action",
+  "measured": -15.73,
+  "volume_db": -3.3,
+  "files": 3
+ },
+ {
+  "key": "backflip_2",
+  "group": "action",
+  "measured": -15.95,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "backflip_3",
+  "group": "action",
+  "measured": -16.07,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "bee_charge",
+  "group": "enemy",
+  "measured": -15.91,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "bee_charge_2",
+  "group": "enemy",
+  "measured": -15.91,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "bee_down",
+  "group": "enemy",
+  "measured": -15.98,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "bee_down_2",
+  "group": "enemy",
+  "measured": -16.07,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "bell",
+  "group": "world",
+  "measured": -15.99,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "bellows_break",
+  "group": "impact",
+  "measured": -16.05,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "bellows_pump",
+  "group": "world",
+  "measured": -16.4,
+  "volume_db": -2.6,
+  "files": 2
+ },
+ {
+  "key": "bellows_pump_2",
+  "group": "world",
+  "measured": -16.44,
+  "volume_db": -2.6,
+  "files": 1
+ },
+ {
+  "key": "belly_slide_loop",
+  "group": "loop",
+  "measured": -24.3,
+  "volume_db": -4.7,
+  "files": 1
+ },
+ {
+  "key": "book_enter",
+  "group": "reward",
+  "measured": -16.16,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "book_open",
+  "group": "world",
+  "measured": -16.0,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "book_page_turn",
+  "group": "world",
+  "measured": -16.32,
+  "volume_db": -2.7,
+  "files": 1
+ },
+ {
+  "key": "book_unlock",
+  "group": "reward",
+  "measured": -15.97,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "boss_balloon",
+  "group": "boss",
+  "measured": -16.15,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "boss_charge",
+  "group": "boss",
+  "measured": -15.95,
+  "volume_db": 0.9,
+  "files": 1
+ },
+ {
+  "key": "boss_crash",
+  "group": "impact",
+  "measured": -15.96,
+  "volume_db": 1.0,
+  "files": 2
+ },
+ {
+  "key": "boss_crash_2",
+  "group": "impact",
+  "measured": -15.96,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "boss_growl",
+  "group": "boss_voice",
+  "measured": -15.34,
+  "volume_db": 0.3,
+  "files": 2
+ },
+ {
+  "key": "boss_growl_2",
+  "group": "boss_voice",
+  "measured": -15.98,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "boss_huff_blast",
+  "group": "impact",
+  "measured": -16.03,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "boss_hurt",
+  "group": "boss_voice",
+  "measured": -16.01,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "boss_inhale",
+  "group": "boss",
+  "measured": -15.93,
+  "volume_db": 0.9,
+  "files": 1
+ },
+ {
+  "key": "boss_stomp",
+  "group": "impact",
+  "measured": -16.49,
+  "volume_db": 1.4,
+  "files": 1
+ },
+ {
+  "key": "boss_tornado_loop",
+  "group": "loop",
+  "measured": -20.8,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "bounce_drum",
+  "group": "action",
+  "measured": -16.06,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "cage_open",
+  "group": "world",
+  "measured": -16.04,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "cake_slice_gained",
+  "group": "pickup",
+  "measured": -16.01,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "cake_slice_lost",
+  "group": "pickup",
+  "measured": -15.96,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "checkpoint",
+  "group": "pickup",
+  "measured": -15.85,
+  "volume_db": -1.2,
+  "files": 1
+ },
+ {
+  "key": "chest_open",
+  "group": "reward",
+  "measured": -15.94,
+  "volume_db": 0.9,
+  "files": 1
+ },
+ {
+  "key": "chime",
+  "group": "world",
+  "measured": -15.94,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "chimney_crash",
+  "group": "impact",
+  "measured": -15.9,
+  "volume_db": 0.9,
+  "files": 1
+ },
+ {
+  "key": "chimney_smash",
+  "group": "impact",
+  "measured": -16.0,
+  "volume_db": 1.0,
+  "files": 2
+ },
+ {
+  "key": "chimney_smash_2",
+  "group": "impact",
+  "measured": -16.12,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "climb_shimmy",
+  "group": "foley",
+  "measured": -15.64,
+  "volume_db": -8.4,
+  "files": 2
+ },
+ {
+  "key": "climb_shimmy_2",
+  "group": "foley",
+  "measured": -15.77,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "cloud_puff",
+  "group": "action",
+  "measured": -16.64,
+  "volume_db": -2.4,
+  "files": 2
+ },
+ {
+  "key": "cloud_puff_2",
+  "group": "action",
+  "measured": -16.23,
+  "volume_db": -2.8,
+  "files": 1
+ },
+ {
+  "key": "cloud_squish",
+  "group": "action",
+  "measured": -15.88,
+  "volume_db": -3.1,
+  "files": 2
+ },
+ {
+  "key": "cloud_squish_2",
+  "group": "action",
+  "measured": -15.81,
+  "volume_db": -3.2,
+  "files": 1
+ },
+ {
+  "key": "costume_rip",
+  "group": "enemy",
+  "measured": -15.84,
+  "volume_db": -2.2,
+  "files": 2
+ },
+ {
+  "key": "costume_rip_2",
+  "group": "enemy",
+  "measured": -15.84,
+  "volume_db": -2.2,
+  "files": 1
+ },
+ {
+  "key": "crackle",
+  "group": "world",
+  "measured": -14.92,
+  "volume_db": -4.1,
+  "files": 1
+ },
+ {
+  "key": "crate_break",
+  "group": "impact",
+  "measured": -16.19,
+  "volume_db": 1.2,
+  "files": 3
+ },
+ {
+  "key": "crate_break_2",
+  "group": "impact",
+  "measured": -16.24,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "crate_break_3",
+  "group": "impact",
+  "measured": -16.23,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "crouch",
+  "group": "foley",
+  "measured": -15.59,
+  "volume_db": -8.4,
+  "files": 1
+ },
+ {
+  "key": "crow_caw",
+  "group": "enemy",
+  "measured": -16.09,
+  "volume_db": -1.9,
+  "files": 2
+ },
+ {
+  "key": "crow_caw_2",
+  "group": "enemy",
+  "measured": -16.02,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "crow_dive",
+  "group": "enemy",
+  "measured": -16.29,
+  "volume_db": -1.7,
+  "files": 2
+ },
+ {
+  "key": "crow_dive_2",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "crow_hurt",
+  "group": "enemy",
+  "measured": -16.01,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "crow_hurt_2",
+  "group": "enemy",
+  "measured": -16.07,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "crow_steal",
+  "group": "enemy",
+  "measured": -16.04,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "crow_steal_2",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "crow_swoop",
+  "group": "enemy",
+  "measured": -16.01,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "death",
+  "group": "action",
+  "measured": -15.93,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "dig_out",
+  "group": "action",
+  "measured": -16.13,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "dive",
+  "group": "action",
+  "measured": -14.75,
+  "volume_db": -4.2,
+  "files": 3
+ },
+ {
+  "key": "dive_2",
+  "group": "action",
+  "measured": -14.77,
+  "volume_db": -4.2,
+  "files": 1
+ },
+ {
+  "key": "dive_3",
+  "group": "action",
+  "measured": -14.78,
+  "volume_db": -4.2,
+  "files": 1
+ },
+ {
+  "key": "door_open",
+  "group": "world",
+  "measured": -15.97,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "door_slam",
+  "group": "impact",
+  "measured": -16.42,
+  "volume_db": 1.4,
+  "files": 2
+ },
+ {
+  "key": "door_slam_2",
+  "group": "impact",
+  "measured": -16.61,
+  "volume_db": 1.6,
+  "files": 1
+ },
+ {
+  "key": "door_unlock",
+  "group": "reward",
+  "measured": -16.05,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "drum_boom",
+  "group": "impact",
+  "measured": -14.66,
+  "volume_db": -0.3,
+  "files": 1
+ },
+ {
+  "key": "drum_roll",
+  "group": "world",
+  "measured": -15.19,
+  "volume_db": -3.8,
+  "files": 1
+ },
+ {
+  "key": "enemy_block",
+  "group": "enemy",
+  "measured": -15.91,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "enemy_block_2",
+  "group": "enemy",
+  "measured": -15.83,
+  "volume_db": -2.2,
+  "files": 1
+ },
+ {
+  "key": "enemy_bonk",
+  "group": "enemy",
+  "measured": -16.06,
+  "volume_db": -1.9,
+  "files": 2
+ },
+ {
+  "key": "enemy_bonk_2",
+  "group": "enemy",
+  "measured": -16.03,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "enemy_defeat_poof",
+  "group": "enemy",
+  "measured": -16.53,
+  "volume_db": -1.5,
+  "files": 3
+ },
+ {
+  "key": "enemy_defeat_poof_2",
+  "group": "enemy",
+  "measured": -15.97,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "enemy_defeat_poof_3",
+  "group": "enemy",
+  "measured": -17.64,
+  "volume_db": -0.4,
+  "files": 1
+ },
+ {
+  "key": "enemy_flap",
+  "group": "enemy",
+  "measured": -15.8,
+  "volume_db": -2.2,
+  "files": 3
+ },
+ {
+  "key": "enemy_flap_2",
+  "group": "enemy",
+  "measured": -15.3,
+  "volume_db": -2.7,
+  "files": 1
+ },
+ {
+  "key": "enemy_flap_3",
+  "group": "enemy",
+  "measured": -16.08,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "enemy_hit",
+  "group": "enemy",
+  "measured": -16.45,
+  "volume_db": -1.6,
+  "files": 4
+ },
+ {
+  "key": "enemy_hit_2",
+  "group": "enemy",
+  "measured": -16.29,
+  "volume_db": -1.7,
+  "files": 1
+ },
+ {
+  "key": "enemy_hit_3",
+  "group": "enemy",
+  "measured": -16.46,
+  "volume_db": -1.5,
+  "files": 1
+ },
+ {
+  "key": "enemy_hit_4",
+  "group": "enemy",
+  "measured": -16.37,
+  "volume_db": -1.6,
+  "files": 1
+ },
+ {
+  "key": "enemy_hit_metal",
+  "group": "enemy",
+  "measured": -16.09,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "enemy_notice",
+  "group": "enemy",
+  "measured": -15.98,
+  "volume_db": -2.0,
+  "files": 3
+ },
+ {
+  "key": "enemy_notice_2",
+  "group": "enemy",
+  "measured": -16.06,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "enemy_notice_3",
+  "group": "enemy",
+  "measured": -15.92,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "enemy_skid",
+  "group": "enemy",
+  "measured": -16.02,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "enemy_skid_2",
+  "group": "enemy",
+  "measured": -15.98,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "enemy_windup",
+  "group": "enemy",
+  "measured": -16.08,
+  "volume_db": -1.9,
+  "files": 2
+ },
+ {
+  "key": "enemy_windup_2",
+  "group": "enemy",
+  "measured": -16.09,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "fall_out",
+  "group": "action",
+  "measured": -15.99,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "gate_open",
+  "group": "world",
+  "measured": -16.11,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "giant_inhale",
+  "group": "world_big",
+  "measured": -16.1,
+  "volume_db": -0.9,
+  "files": 2
+ },
+ {
+  "key": "giant_inhale_2",
+  "group": "world_big",
+  "measured": -15.98,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "giant_sneeze",
+  "group": "world_big",
+  "measured": -16.1,
+  "volume_db": -0.9,
+  "files": 2
+ },
+ {
+  "key": "giant_sneeze_2",
+  "group": "world_big",
+  "measured": -16.12,
+  "volume_db": -0.9,
+  "files": 1
+ },
+ {
+  "key": "giant_snore",
+  "group": "world_big",
+  "measured": -15.94,
+  "volume_db": -1.1,
+  "files": 1
+ },
+ {
+  "key": "gingerbread_crumble",
+  "group": "enemy",
+  "measured": -16.03,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "gingerbread_halt",
+  "group": "enemy",
+  "measured": -16.0,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "gingerbread_halt_2",
+  "group": "enemy",
+  "measured": -15.95,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "gingerbread_march",
+  "group": "enemy",
+  "measured": -16.16,
+  "volume_db": -1.8,
+  "files": 2
+ },
+ {
+  "key": "gingerbread_march_2",
+  "group": "enemy",
+  "measured": -16.12,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "gingerbread_notice",
+  "group": "enemy",
+  "measured": -16.12,
+  "volume_db": -1.9,
+  "files": 2
+ },
+ {
+  "key": "gingerbread_notice_2",
+  "group": "enemy",
+  "measured": -16.04,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "glass_break",
+  "group": "impact",
+  "measured": -15.91,
+  "volume_db": 0.9,
+  "files": 2
+ },
+ {
+  "key": "glass_break_2",
+  "group": "impact",
+  "measured": -15.88,
+  "volume_db": 0.9,
+  "files": 1
+ },
+ {
+  "key": "goose_honk",
+  "group": "world",
+  "measured": -16.05,
+  "volume_db": -3.0,
+  "files": 2
+ },
+ {
+  "key": "goose_honk_2",
+  "group": "world",
+  "measured": -16.02,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "great_truffle_appear",
+  "group": "reward",
+  "measured": -15.98,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "gumdrop_bounce",
+  "group": "action",
+  "measured": -16.33,
+  "volume_db": -2.7,
+  "files": 3
+ },
+ {
+  "key": "gumdrop_bounce_2",
+  "group": "action",
+  "measured": -16.37,
+  "volume_db": -2.6,
+  "files": 1
+ },
+ {
+  "key": "gumdrop_bounce_3",
+  "group": "action",
+  "measured": -16.45,
+  "volume_db": -2.6,
+  "files": 1
+ },
+ {
+  "key": "gummy_boing",
+  "group": "enemy",
+  "measured": -16.38,
+  "volume_db": -1.6,
+  "files": 2
+ },
+ {
+  "key": "gummy_boing_2",
+  "group": "enemy",
+  "measured": -16.68,
+  "volume_db": -1.3,
+  "files": 1
+ },
+ {
+  "key": "gummy_jump",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "gummy_jump_2",
+  "group": "enemy",
+  "measured": -15.97,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "gummy_melt",
+  "group": "enemy",
+  "measured": -16.11,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "gummy_notice",
+  "group": "enemy",
+  "measured": -15.97,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "gummy_notice_2",
+  "group": "enemy",
+  "measured": -15.95,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "gummy_slam",
+  "group": "impact",
+  "measured": -15.66,
+  "volume_db": 0.2,
+  "files": 2
+ },
+ {
+  "key": "gummy_slam_2",
+  "group": "impact",
+  "measured": -15.33,
+  "volume_db": 0.2,
+  "files": 1
+ },
+ {
+  "key": "gummy_wobble",
+  "group": "enemy",
+  "measured": -16.03,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "gust_loop",
+  "group": "loop",
+  "measured": -20.2,
+  "volume_db": -8.8,
+  "files": 1
+ },
+ {
+  "key": "gust_whoosh",
+  "group": "action",
+  "measured": -15.52,
+  "volume_db": -3.5,
+  "files": 1
+ },
+ {
+  "key": "ham_slam",
+  "group": "impact",
+  "measured": -16.11,
+  "volume_db": 1.1,
+  "files": 2
+ },
+ {
+  "key": "ham_slam_2",
+  "group": "impact",
+  "measured": -16.18,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "hat_on",
+  "group": "action",
+  "measured": -15.96,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "hat_pop",
+  "group": "boss",
+  "measured": -15.98,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "hazard_hit",
+  "group": "action",
+  "measured": -15.55,
+  "volume_db": -3.4,
+  "files": 1
+ },
+ {
+  "key": "heal",
+  "group": "pickup",
+  "measured": -15.99,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "hot_choc_bubble_loop",
+  "group": "loop",
+  "measured": -23.9,
+  "volume_db": -5.1,
+  "files": 1
+ },
+ {
+  "key": "hot_splash",
+  "group": "action",
+  "measured": -16.08,
+  "volume_db": -2.9,
+  "files": 2
+ },
+ {
+  "key": "hot_splash_2",
+  "group": "action",
+  "measured": -15.98,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "hurt",
+  "group": "action",
+  "measured": -15.97,
+  "volume_db": -3.0,
+  "files": 2
+ },
+ {
+  "key": "hurt_2",
+  "group": "action",
+  "measured": -15.92,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "jelly_wobble",
+  "group": "action",
+  "measured": -16.08,
+  "volume_db": -2.9,
+  "files": 2
+ },
+ {
+  "key": "jelly_wobble_2",
+  "group": "action",
+  "measured": -16.14,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "jump_1",
+  "group": "action",
+  "measured": -15.66,
+  "volume_db": -3.3,
+  "files": 4
+ },
+ {
+  "key": "jump_1_3",
+  "group": "action",
+  "measured": -15.24,
+  "volume_db": -3.8,
+  "files": 1
+ },
+ {
+  "key": "jump_1_5",
+  "group": "action",
+  "measured": -16.1,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "jump_1_6",
+  "group": "action",
+  "measured": -15.26,
+  "volume_db": -3.7,
+  "files": 1
+ },
+ {
+  "key": "jump_2",
+  "group": "action",
+  "measured": -16.14,
+  "volume_db": -2.9,
+  "files": 4
+ },
+ {
+  "key": "jump_2_2",
+  "group": "action",
+  "measured": -16.22,
+  "volume_db": -2.8,
+  "files": 1
+ },
+ {
+  "key": "jump_2_3",
+  "group": "action",
+  "measured": -16.12,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "jump_2_5",
+  "group": "action",
+  "measured": -16.19,
+  "volume_db": -2.8,
+  "files": 1
+ },
+ {
+  "key": "jump_3",
+  "group": "action",
+  "measured": -16.0,
+  "volume_db": -3.0,
+  "files": 3
+ },
+ {
+  "key": "jump_3_2",
+  "group": "action",
+  "measured": -15.99,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "jump_3_3",
+  "group": "action",
+  "measured": -16.15,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "jump_kick",
+  "group": "action",
+  "measured": -15.82,
+  "volume_db": -3.2,
+  "files": 2
+ },
+ {
+  "key": "jump_kick_2",
+  "group": "action",
+  "measured": -15.96,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "kick",
+  "group": "action",
+  "measured": -17.54,
+  "volume_db": -1.5,
+  "files": 3
+ },
+ {
+  "key": "kick_2",
+  "group": "action",
+  "measured": -16.1,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "kick_3",
+  "group": "action",
+  "measured": -18.33,
+  "volume_db": -0.7,
+  "files": 1
+ },
+ {
+  "key": "knocker_rattle",
+  "group": "world",
+  "measured": -15.92,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "lance_ready",
+  "group": "enemy",
+  "measured": -16.58,
+  "volume_db": -1.4,
+  "files": 2
+ },
+ {
+  "key": "lance_ready_2",
+  "group": "enemy",
+  "measured": -15.98,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "lance_thrust",
+  "group": "enemy",
+  "measured": -16.0,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "lance_thrust_2",
+  "group": "enemy",
+  "measured": -15.94,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "land",
+  "group": "action",
+  "measured": -16.36,
+  "volume_db": -2.6,
+  "files": 4
+ },
+ {
+  "key": "land_2",
+  "group": "action",
+  "measured": -17.51,
+  "volume_db": -1.5,
+  "files": 1
+ },
+ {
+  "key": "land_3",
+  "group": "action",
+  "measured": -15.94,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "land_4",
+  "group": "action",
+  "measured": -15.97,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "land_heavy",
+  "group": "impact",
+  "measured": -16.42,
+  "volume_db": 0.2,
+  "files": 3
+ },
+ {
+  "key": "land_heavy_2",
+  "group": "impact",
+  "measured": -16.25,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "land_heavy_3",
+  "group": "impact",
+  "measured": -16.45,
+  "volume_db": 1.2,
+  "files": 1
+ },
+ {
+  "key": "leaf_boing",
+  "group": "action",
+  "measured": -16.87,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "leaf_boing_2",
+  "group": "action",
+  "measured": -17.3,
+  "volume_db": -1.7,
+  "files": 1
+ },
+ {
+  "key": "leaf_bounce",
+  "group": "action",
+  "measured": -15.68,
+  "volume_db": -3.3,
+  "files": 1
+ },
+ {
+  "key": "leaf_creak",
+  "group": "foley",
+  "measured": -16.04,
+  "volume_db": -8.0,
+  "files": 1
+ },
+ {
+  "key": "ledge_climb",
+  "group": "foley",
+  "measured": -16.14,
+  "volume_db": -7.9,
+  "files": 2
+ },
+ {
+  "key": "ledge_climb_2",
+  "group": "foley",
+  "measured": -16.3,
+  "volume_db": -7.7,
+  "files": 1
+ },
+ {
+  "key": "ledge_grab",
+  "group": "foley",
+  "measured": -17.12,
+  "volume_db": -6.9,
+  "files": 3
+ },
+ {
+  "key": "ledge_grab_2",
+  "group": "foley",
+  "measured": -17.29,
+  "volume_db": -6.7,
+  "files": 1
+ },
+ {
+  "key": "ledge_grab_3",
+  "group": "foley",
+  "measured": -17.06,
+  "volume_db": -6.9,
+  "files": 1
+ },
+ {
+  "key": "locked",
+  "group": "world",
+  "measured": -15.95,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "long_jump",
+  "group": "action",
+  "measured": -16.02,
+  "volume_db": -3.0,
+  "files": 3
+ },
+ {
+  "key": "long_jump_2",
+  "group": "action",
+  "measured": -15.98,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "long_jump_3",
+  "group": "action",
+  "measured": -16.05,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "low_health",
+  "group": "pickup",
+  "measured": -15.97,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "mud_splat",
+  "group": "action",
+  "measured": -19.24,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "npc_greet_boy",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "npc_greet_boy_2",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "npc_greet_cow",
+  "group": "enemy",
+  "measured": -15.94,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "npc_greet_cow_2",
+  "group": "enemy",
+  "measured": -15.93,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "npc_greet_granny",
+  "group": "enemy",
+  "measured": -15.94,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "npc_greet_granny_2",
+  "group": "enemy",
+  "measured": -15.94,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "npc_greet_piglet",
+  "group": "enemy",
+  "measured": -15.96,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "npc_greet_piglet_2",
+  "group": "enemy",
+  "measured": -15.99,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "page_collect",
+  "group": "pickup",
+  "measured": -16.18,
+  "volume_db": -0.8,
+  "files": 3
+ },
+ {
+  "key": "page_collect_2",
+  "group": "pickup",
+  "measured": -16.05,
+  "volume_db": -0.9,
+  "files": 1
+ },
+ {
+  "key": "page_collect_3",
+  "group": "pickup",
+  "measured": -16.19,
+  "volume_db": -0.8,
+  "files": 1
+ },
+ {
+  "key": "pea_inhale",
+  "group": "enemy",
+  "measured": -15.8,
+  "volume_db": -2.2,
+  "files": 2
+ },
+ {
+  "key": "pea_inhale_2",
+  "group": "enemy",
+  "measured": -15.82,
+  "volume_db": -2.2,
+  "files": 1
+ },
+ {
+  "key": "pea_notice",
+  "group": "enemy",
+  "measured": -15.82,
+  "volume_db": -2.2,
+  "files": 2
+ },
+ {
+  "key": "pea_notice_2",
+  "group": "enemy",
+  "measured": -15.61,
+  "volume_db": -2.4,
+  "files": 1
+ },
+ {
+  "key": "pea_pop",
+  "group": "enemy",
+  "measured": -16.95,
+  "volume_db": -1.1,
+  "files": 1
+ },
+ {
+  "key": "pea_splat",
+  "group": "enemy",
+  "measured": -15.93,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "pea_splat_2",
+  "group": "enemy",
+  "measured": -17.22,
+  "volume_db": -0.8,
+  "files": 1
+ },
+ {
+  "key": "platform_creak",
+  "group": "foley",
+  "measured": -16.23,
+  "volume_db": -7.8,
+  "files": 1
+ },
+ {
+  "key": "platform_fall",
+  "group": "impact",
+  "measured": -15.97,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "pole_grab",
+  "group": "foley",
+  "measured": -17.29,
+  "volume_db": -6.7,
+  "files": 2
+ },
+ {
+  "key": "pole_grab_2",
+  "group": "foley",
+  "measured": -17.08,
+  "volume_db": -6.9,
+  "files": 1
+ },
+ {
+  "key": "pop",
+  "group": "action",
+  "measured": -16.02,
+  "volume_db": -3.0,
+  "files": 2
+ },
+ {
+  "key": "pop_2",
+  "group": "action",
+  "measured": -16.05,
+  "volume_db": -2.9,
+  "files": 1
+ },
+ {
+  "key": "punch",
+  "group": "action",
+  "measured": -16.51,
+  "volume_db": -2.5,
+  "files": 4
+ },
+ {
+  "key": "punch_2",
+  "group": "action",
+  "measured": -16.63,
+  "volume_db": -2.4,
+  "files": 1
+ },
+ {
+  "key": "punch_3",
+  "group": "action",
+  "measured": -16.25,
+  "volume_db": -2.8,
+  "files": 1
+ },
+ {
+  "key": "punch_4",
+  "group": "action",
+  "measured": -16.64,
+  "volume_db": -2.4,
+  "files": 1
+ },
+ {
+  "key": "respawn",
+  "group": "action",
+  "measured": -15.7,
+  "volume_db": -3.3,
+  "files": 2
+ },
+ {
+  "key": "respawn_2",
+  "group": "action",
+  "measured": -15.71,
+  "volume_db": -3.3,
+  "files": 1
+ },
+ {
+  "key": "ring",
+  "group": "pickup",
+  "measured": -16.03,
+  "volume_db": -1.0,
+  "files": 1
+ },
+ {
+  "key": "roll",
+  "group": "action",
+  "measured": -17.45,
+  "volume_db": -1.6,
+  "files": 2
+ },
+ {
+  "key": "roll_2",
+  "group": "action",
+  "measured": -17.05,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "roof_tiles",
+  "group": "impact",
+  "measured": -16.0,
+  "volume_db": 1.0,
+  "files": 2
+ },
+ {
+  "key": "roof_tiles_2",
+  "group": "impact",
+  "measured": -15.96,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "rope_snap",
+  "group": "world",
+  "measured": -15.97,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "seed_whoosh",
+  "group": "action",
+  "measured": -16.88,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "seed_whoosh_2",
+  "group": "action",
+  "measured": -17.26,
+  "volume_db": -1.7,
+  "files": 1
+ },
+ {
+  "key": "side_flip",
+  "group": "action",
+  "measured": -15.95,
+  "volume_db": -3.1,
+  "files": 2
+ },
+ {
+  "key": "side_flip_2",
+  "group": "action",
+  "measured": -15.94,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "skid",
+  "group": "foley",
+  "measured": -16.09,
+  "volume_db": -7.9,
+  "files": 3
+ },
+ {
+  "key": "skid_2",
+  "group": "foley",
+  "measured": -16.09,
+  "volume_db": -7.9,
+  "files": 1
+ },
+ {
+  "key": "skid_3",
+  "group": "foley",
+  "measured": -16.16,
+  "volume_db": -7.8,
+  "files": 1
+ },
+ {
+  "key": "slam_impact",
+  "group": "impact",
+  "measured": -16.05,
+  "volume_db": 1.1,
+  "files": 2
+ },
+ {
+  "key": "slam_impact_2",
+  "group": "impact",
+  "measured": -16.11,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "slam_spin",
+  "group": "action",
+  "measured": -16.14,
+  "volume_db": -2.9,
+  "files": 2
+ },
+ {
+  "key": "slam_spin_2",
+  "group": "action",
+  "measured": -16.27,
+  "volume_db": -2.7,
+  "files": 1
+ },
+ {
+  "key": "slide",
+  "group": "action",
+  "measured": -15.76,
+  "volume_db": -3.2,
+  "files": 1
+ },
+ {
+  "key": "slide_loop_candy",
+  "group": "loop",
+  "measured": -23.5,
+  "volume_db": -5.5,
+  "files": 1
+ },
+ {
+  "key": "slide_loop_grass",
+  "group": "loop",
+  "measured": -23.6,
+  "volume_db": -5.4,
+  "files": 1
+ },
+ {
+  "key": "slide_loop_stone",
+  "group": "loop",
+  "measured": -23.6,
+  "volume_db": -5.4,
+  "files": 1
+ },
+ {
+  "key": "slide_loop_wood",
+  "group": "loop",
+  "measured": -23.2,
+  "volume_db": -5.8,
+  "files": 1
+ },
+ {
+  "key": "sniff",
+  "group": "foley",
+  "measured": -15.93,
+  "volume_db": -8.1,
+  "files": 1
+ },
+ {
+  "key": "sniff_found",
+  "group": "pickup",
+  "measured": -16.06,
+  "volume_db": -0.9,
+  "files": 1
+ },
+ {
+  "key": "spin_kick",
+  "group": "action",
+  "measured": -16.0,
+  "volume_db": -3.0,
+  "files": 4
+ },
+ {
+  "key": "spin_kick_2",
+  "group": "action",
+  "measured": -16.0,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "spin_kick_3",
+  "group": "action",
+  "measured": -16.01,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "spin_kick_4",
+  "group": "action",
+  "measured": -15.93,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "splash",
+  "group": "action",
+  "measured": -15.93,
+  "volume_db": -3.1,
+  "files": 2
+ },
+ {
+  "key": "splash_2",
+  "group": "action",
+  "measured": -16.0,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "swish",
+  "group": "action",
+  "measured": -15.98,
+  "volume_db": -3.0,
+  "files": 4
+ },
+ {
+  "key": "swish_2",
+  "group": "action",
+  "measured": -16.02,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "swish_3",
+  "group": "action",
+  "measured": -15.96,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "swish_4",
+  "group": "action",
+  "measured": -15.99,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "switch_press",
+  "group": "pickup",
+  "measured": -16.91,
+  "volume_db": -0.1,
+  "files": 1
+ },
+ {
+  "key": "thunder",
+  "group": "boss",
+  "measured": -16.0,
+  "volume_db": 1.0,
+  "files": 2
+ },
+ {
+  "key": "thunder_2",
+  "group": "boss",
+  "measured": -15.99,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "trial_fail",
+  "group": "reward",
+  "measured": -16.1,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "trial_start",
+  "group": "reward",
+  "measured": -16.05,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "trial_success",
+  "group": "reward",
+  "measured": -15.97,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "truffle_appear",
+  "group": "reward",
+  "measured": -16.04,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "truffle_get",
+  "group": "reward",
+  "measured": -16.14,
+  "volume_db": 1.1,
+  "files": 1
+ },
+ {
+  "key": "truffle_sparkle_loop",
+  "group": "loop",
+  "measured": -16.4,
+  "volume_db": -12.6,
+  "files": 1
+ },
+ {
+  "key": "ui_back",
+  "group": "ui_soft",
+  "measured": -16.02,
+  "volume_db": -9.0,
+  "files": 1
+ },
+ {
+  "key": "ui_confirm_big",
+  "group": "ui",
+  "measured": -15.99,
+  "volume_db": -5.0,
+  "files": 1
+ },
+ {
+  "key": "ui_error",
+  "group": "ui",
+  "measured": -17.0,
+  "volume_db": -4.0,
+  "files": 1
+ },
+ {
+  "key": "ui_move",
+  "group": "ui_soft",
+  "measured": -15.93,
+  "volume_db": -9.1,
+  "files": 1
+ },
+ {
+  "key": "ui_pause",
+  "group": "ui",
+  "measured": -15.97,
+  "volume_db": -5.0,
+  "files": 1
+ },
+ {
+  "key": "ui_select",
+  "group": "ui",
+  "measured": -16.04,
+  "volume_db": -5.0,
+  "files": 1
+ },
+ {
+  "key": "ui_unpause",
+  "group": "ui",
+  "measured": -16.1,
+  "volume_db": -4.9,
+  "files": 1
+ },
+ {
+  "key": "valve",
+  "group": "world",
+  "measured": -16.01,
+  "volume_db": -3.0,
+  "files": 1
+ },
+ {
+  "key": "wall_kick",
+  "group": "action",
+  "measured": -16.42,
+  "volume_db": -2.6,
+  "files": 3
+ },
+ {
+  "key": "wall_kick_2",
+  "group": "action",
+  "measured": -17.26,
+  "volume_db": -1.7,
+  "files": 1
+ },
+ {
+  "key": "wall_kick_3",
+  "group": "action",
+  "measured": -15.94,
+  "volume_db": -3.1,
+  "files": 1
+ },
+ {
+  "key": "wall_slide_loop",
+  "group": "loop",
+  "measured": -17.7,
+  "volume_db": -11.3,
+  "files": 1
+ },
+ {
+  "key": "wolf_charge",
+  "group": "enemy",
+  "measured": -15.9,
+  "volume_db": -2.1,
+  "files": 2
+ },
+ {
+  "key": "wolf_charge_2",
+  "group": "enemy",
+  "measured": -15.86,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "wolf_cub_baa",
+  "group": "enemy",
+  "measured": -16.11,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "wolf_cub_growl",
+  "group": "enemy",
+  "measured": -15.99,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "wolf_cub_growl_2",
+  "group": "enemy",
+  "measured": -16.01,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "wolf_cub_yelp",
+  "group": "enemy",
+  "measured": -16.04,
+  "volume_db": -2.0,
+  "files": 2
+ },
+ {
+  "key": "wolf_cub_yelp_2",
+  "group": "enemy",
+  "measured": -16.04,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "wolf_gust",
+  "group": "impact",
+  "measured": -16.02,
+  "volume_db": 1.0,
+  "files": 1
+ },
+ {
+  "key": "ui_text_blip",
+  "group": "ui_blip",
+  "measured": -16.26,
+  "volume_db": -11.7,
+  "files": 4
+ },
+ {
+  "key": "footstep_grass",
+  "group": "footstep",
+  "measured": -15.82,
+  "volume_db": -9.7,
+  "files": 4
+ },
+ {
+  "key": "footstep_wood",
+  "group": "footstep",
+  "measured": -17.08,
+  "volume_db": -8.4,
+  "files": 5
+ },
+ {
+  "key": "footstep_stone",
+  "group": "footstep",
+  "measured": -16.07,
+  "volume_db": -9.4,
+  "files": 4
+ },
+ {
+  "key": "footstep_candy",
+  "group": "footstep",
+  "measured": -16.35,
+  "volume_db": -9.1,
+  "files": 5
+ },
+ {
+  "key": "footstep_carpet",
+  "group": "footstep",
+  "measured": -16.35,
+  "volume_db": -9.2,
+  "files": 4
+ },
+ {
+  "key": "footstep_jelly",
+  "group": "footstep",
+  "measured": -16.13,
+  "volume_db": -9.4,
+  "files": 4
+ },
+ {
+  "key": "footstep_metal",
+  "group": "footstep",
+  "measured": -15.93,
+  "volume_db": -9.6,
+  "files": 4
+ },
+ {
+  "key": "footstep_cloud",
+  "group": "footstep",
+  "measured": -15.79,
+  "volume_db": -9.7,
+  "files": 4
+ },
+ {
+  "key": "footstep_candy_1",
+  "group": "footstep",
+  "measured": -16.07,
+  "volume_db": -9.4,
+  "files": 1
+ },
+ {
+  "key": "footstep_candy_2",
+  "group": "footstep",
+  "measured": -16.47,
+  "volume_db": -9.0,
+  "files": 1
+ },
+ {
+  "key": "footstep_candy_3",
+  "group": "footstep",
+  "measured": -16.18,
+  "volume_db": -9.3,
+  "files": 1
+ },
+ {
+  "key": "footstep_grass_1",
+  "group": "footstep",
+  "measured": -15.81,
+  "volume_db": -9.7,
+  "files": 1
+ },
+ {
+  "key": "footstep_grass_2",
+  "group": "footstep",
+  "measured": -16.26,
+  "volume_db": -9.2,
+  "files": 1
+ },
+ {
+  "key": "footstep_grass_3",
+  "group": "footstep",
+  "measured": -15.79,
+  "volume_db": -9.7,
+  "files": 1
+ },
+ {
+  "key": "footstep_stone_1",
+  "group": "footstep",
+  "measured": -16.19,
+  "volume_db": -9.3,
+  "files": 1
+ },
+ {
+  "key": "footstep_stone_2",
+  "group": "footstep",
+  "measured": -16.01,
+  "volume_db": -9.5,
+  "files": 1
+ },
+ {
+  "key": "footstep_stone_3",
+  "group": "footstep",
+  "measured": -16.04,
+  "volume_db": -9.5,
+  "files": 1
+ },
+ {
+  "key": "footstep_wood_1",
+  "group": "footstep",
+  "measured": -17.33,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "footstep_wood_2",
+  "group": "footstep",
+  "measured": -16.46,
+  "volume_db": -9.0,
+  "files": 1
+ },
+ {
+  "key": "footstep_wood_3",
+  "group": "footstep",
+  "measured": -15.93,
+  "volume_db": -9.6,
+  "files": 1
+ },
+ {
+  "key": "footstep_wood_4",
+  "group": "footstep",
+  "measured": -18.68,
+  "volume_db": -6.8,
+  "files": 1
+ },
+ {
+  "key": "bee_buzz",
+  "group": "enemy",
+  "measured": -16.14,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "bee_buzz_loop",
+  "group": "enemy_loop",
+  "measured": -19.5,
+  "volume_db": -10.5,
+  "files": 1
+ },
+ {
+  "key": "enemy_step",
+  "group": "footstep",
+  "measured": -16.29,
+  "volume_db": -12.2,
+  "files": 4
+ },
+ {
+  "key": "amb_fire_loop",
+  "group": "ambience",
+  "measured": -22.5,
+  "volume_db": -7.5,
+  "files": 1
+ },
+ {
+  "key": "amb_wind_loop",
+  "group": "ambience",
+  "measured": -18.0,
+  "volume_db": -12.0,
+  "files": 1
+ },
+ {
+  "key": "amb_meadow_loop",
+  "group": "ambience",
+  "measured": -16.0,
+  "volume_db": -14.0,
+  "files": 1
+ },
+ {
+  "key": "amb_stream_loop",
+  "group": "ambience",
+  "measured": -17.7,
+  "volume_db": -12.3,
+  "files": 1
+ },
+ {
+  "key": "amb_sky_loop",
+  "group": "ambience",
+  "measured": -15.2,
+  "volume_db": -14.8,
+  "files": 1
+ },
+ {
+  "key": "amb_storm_loop",
+  "group": "ambience",
+  "measured": -23.1,
+  "volume_db": -6.9,
+  "files": 1
+ },
+ {
+  "key": "amb_candy_forest_loop",
+  "group": "ambience",
+  "measured": -17.2,
+  "volume_db": -12.8,
+  "files": 1
+ },
+ {
+  "key": "amb_hub",
+  "group": "ambience",
+  "measured": -22.7,
+  "volume_db": -7.3,
+  "files": 1
+ },
+ {
+  "key": "amb_hub_la",
+  "group": "ambience",
+  "measured": -32.8,
+  "volume_db": 2.0,
+  "files": 1
+ },
+ {
+  "key": "amb_hub_lb",
+  "group": "ambience",
+  "measured": -25.6,
+  "volume_db": -4.4,
+  "files": 1
+ },
+ {
+  "key": "amb_w1",
+  "group": "ambience",
+  "measured": -21.7,
+  "volume_db": -8.3,
+  "files": 1
+ },
+ {
+  "key": "amb_w1_la",
+  "group": "ambience",
+  "measured": -21.9,
+  "volume_db": -8.1,
+  "files": 1
+ },
+ {
+  "key": "amb_w1_lb",
+  "group": "ambience",
+  "measured": -22.4,
+  "volume_db": -7.6,
+  "files": 1
+ },
+ {
+  "key": "amb_w2",
+  "group": "ambience",
+  "measured": -24.0,
+  "volume_db": -6.0,
+  "files": 1
+ },
+ {
+  "key": "amb_w2_la",
+  "group": "ambience",
+  "measured": -27.9,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "amb_w2_lb",
+  "group": "ambience",
+  "measured": -21.9,
+  "volume_db": -8.1,
+  "files": 1
+ },
+ {
+  "key": "amb_w3",
+  "group": "ambience",
+  "measured": -22.1,
+  "volume_db": -7.9,
+  "files": 1
+ },
+ {
+  "key": "amb_w3_la",
+  "group": "ambience",
+  "measured": -22.2,
+  "volume_db": -7.8,
+  "files": 1
+ },
+ {
+  "key": "amb_w3_lb",
+  "group": "ambience",
+  "measured": -25.0,
+  "volume_db": -5.0,
+  "files": 1
+ },
+ {
+  "key": "amb_boss",
+  "group": "ambience",
+  "measured": -21.8,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "amb_boss_la",
+  "group": "ambience",
+  "measured": -21.8,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "amb_boss_lb",
+  "group": "ambience",
+  "measured": -23.2,
+  "volume_db": -6.8,
+  "files": 1
+ },
+ {
+  "key": "amb_boss_wind_a",
+  "group": "ambience",
+  "measured": -21.8,
+  "volume_db": -8.2,
+  "files": 1
+ },
+ {
+  "key": "amb_boss_wind_b",
+  "group": "ambience",
+  "measured": -22.8,
+  "volume_db": -7.2,
+  "files": 1
+ },
+ {
+  "key": "amb_bird",
+  "group": "world",
+  "measured": -14.12,
+  "volume_db": -4.9,
+  "files": 6
+ },
+ {
+  "key": "amb_plop",
+  "group": "world",
+  "measured": -16.06,
+  "volume_db": -2.9,
+  "files": 5
+ },
+ {
+  "key": "voice_mak_tallyho",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_splendid",
+  "group": "voice",
+  "measured": -16.08,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_jollygood",
+  "group": "voice",
+  "measured": -15.94,
+  "volume_db": -0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_righto",
+  "group": "voice",
+  "measured": -16.02,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_jump1",
+  "group": "voice",
+  "measured": -15.93,
+  "volume_db": -0.6,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_jump2",
+  "group": "voice",
+  "measured": -16.02,
+  "volume_db": -0.5,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_jump3",
+  "group": "voice",
+  "measured": -16.05,
+  "volume_db": -2.4,
+  "files": 3
+ },
+ {
+  "key": "voice_mak_oof",
+  "group": "voice",
+  "measured": -15.99,
+  "volume_db": -2.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_blast",
+  "group": "voice",
+  "measured": -16.03,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_truffle",
+  "group": "voice",
+  "measured": -16.0,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_sniff",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_hamslam",
+  "group": "voice",
+  "measured": -15.98,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_wahey",
+  "group": "voice",
+  "measured": -16.02,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_cheerio",
+  "group": "voice",
+  "measured": -16.05,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_ouch",
+  "group": "voice",
+  "measured": -16.11,
+  "volume_db": -1.9,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_whoa",
+  "group": "voice",
+  "measured": -15.95,
+  "volume_db": -2.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_tophat",
+  "group": "voice",
+  "measured": -16.07,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_gotit",
+  "group": "voice",
+  "measured": -16.06,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_mak_cheer",
+  "group": "voice",
+  "measured": -16.01,
+  "volume_db": 0.0,
+  "files": 7
+ },
+ {
+  "key": "voice_mak_hurt",
+  "group": "voice",
+  "measured": -16.05,
+  "volume_db": -1.9,
+  "files": 2
+ },
+ {
+  "key": "voice_mak_jump",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -2.5,
+  "files": 2
+ },
+ {
+  "key": "voice_wolf_littlepig",
+  "group": "voice",
+  "measured": -15.95,
+  "volume_db": -0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_huffpuff",
+  "group": "voice",
+  "measured": -16.12,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_curses",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_notlast",
+  "group": "voice",
+  "measured": -16.03,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_laugh",
+  "group": "voice",
+  "measured": -16.03,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_inhale",
+  "group": "voice",
+  "measured": -15.98,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_panting",
+  "group": "voice",
+  "measured": -15.99,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_tail",
+  "group": "voice",
+  "measured": -16.05,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_blownaway",
+  "group": "voice",
+  "measured": -16.02,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_delicious",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_wolf_getback",
+  "group": "voice",
+  "measured": -16.08,
+  "volume_db": 0.1,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_welcome",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_hint_wolf",
+  "group": "voice",
+  "measured": -15.97,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_truffle",
+  "group": "voice",
+  "measured": -16.51,
+  "volume_db": 0.5,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_book2_needs3",
+  "group": "voice",
+  "measured": -15.96,
+  "volume_db": -0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_book3_needs7",
+  "group": "voice",
+  "measured": -16.01,
+  "volume_db": 0.0,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_wolfdoor_needs12",
+  "group": "voice",
+  "measured": -16.21,
+  "volume_db": 0.2,
+  "files": 1
+ },
+ {
+  "key": "voice_butler_tea",
+  "group": "voice",
+  "measured": -15.83,
+  "volume_db": -0.2,
+  "files": 1
+ }
+]

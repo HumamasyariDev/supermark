@@ -1,0 +1,25 @@
+{
+ "key": "r5_bell",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small brass bell rings once, clear ding",
+  "duration_seconds": 1.2,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:28.718029+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-3c4a-7333-a3cd-6368fe1146fa",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/-5G4NIw1k_uwvzGAtwG8v_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 30136
+  }
+ },
+ "files": [
+  "raw/r5_bell.mp3"
+ ],
+ "completed": "2026-10-17T20:28:35.050266+00:00"
+}

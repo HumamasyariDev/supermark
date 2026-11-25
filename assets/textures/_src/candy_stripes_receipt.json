@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b33-461d-70c2-beec-01202d723776",
+  "arguments": {
+    "prompt": "Peppermint sugar surface: even diagonal stripes of cherry red and cream white, soft sugary sheen, painted look. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:50:25.059419+00:00",
+  "output_file": "candy_stripes_raw.png",
+  "sha256": "ce9cb7ac318e1f9fe515c8d901794e1a2f5278a49b91fd279e41540f388e1a3b",
+  "description": ""
+}

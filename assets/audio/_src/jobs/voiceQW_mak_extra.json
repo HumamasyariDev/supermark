@@ -1,0 +1,30 @@
+{
+ "key": "voiceQW_mak_extra",
+ "endpoint": "fal-ai/qwen-3-tts/text-to-speech/1.7b",
+ "input": {
+  "text": "Ham Slam!\n\nWahey!\n\nCheerio!\n\nOuch!\n\nWhoa-oa-oa!\n\nA top hat! How dashing!\n\nGot it!",
+  "speaker_voice_embedding_file_url": "https://v3b.fal.media/files/b/0aaec7b7/fvwV_kZ8LqAEwHEaEanR7_tmph6xzybs0.safetensors",
+  "reference_text": "Tally-ho! Splendid! Jolly good! Righto!",
+  "language": "English",
+  "max_new_tokens": 600
+ },
+ "created": "2026-10-17T19:31:55.426527+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b59-7847-7a31-8a3e-0d7a4008ed4b",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec7b9/Cglj6n95_H6SnWxbBX7kv_ZkTXZ4X2.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "Cglj6n95_H6SnWxbBX7kv_ZkTXZ4X2.mp3",
+   "file_size": null,
+   "duration": 8.144916666666667,
+   "channels": 1,
+   "sample_rate": 24000,
+   "bitrate": null
+  }
+ },
+ "files": [
+  "raw/voiceQW_mak_extra.mp3"
+ ],
+ "completed": "2026-10-17T19:32:19.750364+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_enemy_notice",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick comic surprise alert, short rising boing",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:54.789061+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-fed5-7281-a03f-363aadf72bd3",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/iObof89xuQ7LyTIm4SIOj_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/sfx_enemy_notice.mp3"
+ ],
+ "completed": "2026-10-17T18:50:01.166813+00:00"
+}

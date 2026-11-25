@@ -1,0 +1,25 @@
+{
+ "key": "sfx_enemy_hit",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic bonk hit on a creature, padded thwack",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:54.944446+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-ff70-7312-b5f2-a50a92735574",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/Il3qwd61zyQwrst0fi4_N_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_enemy_hit.mp3"
+ ],
+ "completed": "2026-10-17T18:50:01.212866+00:00"
+}

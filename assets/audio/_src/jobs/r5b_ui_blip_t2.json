@@ -1,0 +1,25 @@
+{
+ "key": "r5b_ui_blip_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "UI sound effect, clean, isolated, no music: one single very short soft wooden marimba blip, like a letter of dialogue text appearing",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:33:09.546319+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b91-854d-7392-86e4-d0249b5d2554",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec927/tou5pQJWRO8Z3up-keNpA_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5b_ui_blip_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:33:15.827673+00:00"
+}

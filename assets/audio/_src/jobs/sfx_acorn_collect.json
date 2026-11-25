@@ -1,0 +1,25 @@
+{
+ "key": "sfx_acorn_collect",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a bright pickup blip: a small wooden tok with a quick sparkly chime",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:48.890812+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-e7c9-7833-94dd-72148a963374",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bb/2wDO5ZBjmIcFawpUx38dC_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_acorn_collect.mp3"
+ ],
+ "completed": "2026-10-17T18:49:55.012032+00:00"
+}

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/objects/time_trial.gd" id="1_s"]
+[ext_resource type="PackedScene" path="res://scenes/objects/TrialRing.tscn" id="2_r"]
+
+[node name="TimeTrial" type="Node3D"]
+script = ExtResource("1_s")
+
+[node name="Visual" type="Node3D" parent="."]
+
+[node name="StartGate" type="Node3D" parent="."]
+
+[node name="Rings" type="Node3D" parent="."]
+
+[node name="Ring1" parent="Rings" instance=ExtResource("2_r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, -6)
+
+[node name="Ring2" parent="Rings" instance=ExtResource("2_r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2.4, -11)
+
+[node name="Ring3" parent="Rings" instance=ExtResource("2_r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, -16)
+
+[node name="FinishGate" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -21)
+
+[node name="TruffleMarker" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -21)

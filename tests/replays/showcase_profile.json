@@ -1,0 +1,307 @@
+{
+ "fps": 60,
+ "steer": "world",
+ "start": {
+  "pos": [
+   -11.0,
+   0.0,
+   13.0
+  ],
+  "yaw_deg": -90
+ },
+ "end_frame": 940,
+ "events": [
+  {
+   "f": 0,
+   "teleport": [
+    -11.0,
+    0.0,
+    13.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "f": 0,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "f": 0,
+   "release": "jump"
+  },
+  {
+   "f": 0,
+   "release": "crouch"
+  },
+  {
+   "f": 0,
+   "release": "attack"
+  },
+  {
+   "f": 0,
+   "release": "sniff"
+  },
+  {
+   "f": 0,
+   "release": "cam_center"
+  },
+  {
+   "f": 0,
+   "release": "interact"
+  },
+  {
+   "f": 0,
+   "mark": "standing jump"
+  },
+  {
+   "f": 30,
+   "press": "jump"
+  },
+  {
+   "f": 90,
+   "release": "jump"
+  },
+  {
+   "f": 110,
+   "teleport": [
+    -24.0,
+    0.0,
+    13.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "f": 110,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "f": 110,
+   "release": "jump"
+  },
+  {
+   "f": 110,
+   "release": "crouch"
+  },
+  {
+   "f": 110,
+   "release": "attack"
+  },
+  {
+   "f": 110,
+   "release": "sniff"
+  },
+  {
+   "f": 110,
+   "release": "cam_center"
+  },
+  {
+   "f": 110,
+   "release": "interact"
+  },
+  {
+   "f": 110,
+   "mark": "running jump"
+  },
+  {
+   "f": 130,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 220,
+   "press": "jump"
+  },
+  {
+   "f": 270,
+   "release": "jump"
+  },
+  {
+   "f": 290,
+   "teleport": [
+    -26.0,
+    0.0,
+    13.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "f": 290,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "f": 290,
+   "release": "jump"
+  },
+  {
+   "f": 290,
+   "release": "crouch"
+  },
+  {
+   "f": 290,
+   "release": "attack"
+  },
+  {
+   "f": 290,
+   "release": "sniff"
+  },
+  {
+   "f": 290,
+   "release": "cam_center"
+  },
+  {
+   "f": 290,
+   "release": "interact"
+  },
+  {
+   "f": 290,
+   "mark": "long jump"
+  },
+  {
+   "f": 310,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 400,
+   "hold": "crouch",
+   "frames": 6
+  },
+  {
+   "f": 401,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "f": 470,
+   "teleport": [
+    -8.0,
+    0.0,
+    13.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "f": 470,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "f": 470,
+   "release": "jump"
+  },
+  {
+   "f": 470,
+   "release": "crouch"
+  },
+  {
+   "f": 470,
+   "release": "attack"
+  },
+  {
+   "f": 470,
+   "release": "sniff"
+  },
+  {
+   "f": 470,
+   "release": "cam_center"
+  },
+  {
+   "f": 470,
+   "release": "interact"
+  },
+  {
+   "f": 470,
+   "mark": "backflip"
+  },
+  {
+   "f": 500,
+   "hold": "crouch",
+   "frames": 40
+  },
+  {
+   "f": 510,
+   "hold": "jump",
+   "frames": 40
+  },
+  {
+   "f": 610,
+   "teleport": [
+    -31.5,
+    0.0,
+    13.0
+   ],
+   "yaw_deg": -90
+  },
+  {
+   "f": 610,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "f": 610,
+   "release": "jump"
+  },
+  {
+   "f": 610,
+   "release": "crouch"
+  },
+  {
+   "f": 610,
+   "release": "attack"
+  },
+  {
+   "f": 610,
+   "release": "sniff"
+  },
+  {
+   "f": 610,
+   "release": "cam_center"
+  },
+  {
+   "f": 610,
+   "release": "interact"
+  },
+  {
+   "f": 610,
+   "mark": "triple jump chain"
+  },
+  {
+   "f": 630,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 720,
+   "hold": "jump",
+   "frames": 40
+  },
+  {
+   "hold": "jump",
+   "frames": 50,
+   "f": 772
+  },
+  {
+   "hold": "jump",
+   "frames": 60,
+   "f": 834
+  }
+ ]
+}

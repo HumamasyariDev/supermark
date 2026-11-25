@@ -1,0 +1,104 @@
+{
+ "phase": "night01-audio-music",
+ "jobs": [
+  {
+   "key": "music_title_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. A whimsical orchestral storybook overture for the title screen of a cosy adventure game. Opens with a celesta and harp flourish like a giant book falling open, then a bright, hummable main theme on flute and clarinet over bouncing pizzicato strings; warm French horns answer, a cheeky bassoon counter-melody, glockenspiel sparkles, light snare and timpani, building to a joyful, heroic full-orchestra statement. Major key, about 112 BPM, playful, warm British fairy-tale charm, polished modern orchestral recording."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_hub_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Cosy music for a grand old country-house library at night, the home base of a cheerful adventure game. A gentle, curious harpsichord melody over a warm string quartet, soft clarinet and flute phrases, plucked double bass, with a quiet crackling fireplace ambience underneath. Relaxed, homely, a little regal and inquisitive, about 92 BPM, steady even dynamics, no big crescendo and no ending, designed to loop seamlessly as background music."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_w1_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Jaunty English countryside folk tune for a sunny meadow level in a 3D platform adventure game. A lively fiddle melody, accordion chords, a tin whistle answering phrases, bouncy upright bass, acoustic guitar strumming, light hand percussion, tambourine and foot stomps. Rolling green hills, windmills and thatched cottages; playful, energetic and cheeky, major key, about 126 BPM, constant groove with no intro fade and no ending, loop-friendly game background music."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_w2_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Airy, magical climbing music for a sky level among giant beanstalk leaves and clouds in a 3D adventure game. Twinkling celesta arpeggios, flowing harp glissandi, soaring legato strings that keep rising upward, a soft flute melody, wordless airy synth-choir pads, light brushed percussion. A feeling of wonder, height and floating castles; hopeful and bright, about 104 BPM, constant motion, no ending, loop-friendly game background music."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_w3_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Playful candy-forest music with a little spooky mischief for a 3D adventure game level made of gingerbread and sweets. Bouncy pizzicato strings, glockenspiel and music-box twinkles, a cheeky staccato bassoon melody, tiptoeing clarinet, woodblock and triangle, a touch of harpsichord, with occasional minor-key turns like a sweet but slightly sinister fairy-tale cottage. About 116 BPM, steady, no ending, loop-friendly game background music."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_boss_a",
+   "endpoint": "fal-ai/lyria3/pro",
+   "input": {
+    "prompt": "Instrumental only, no vocals. Dramatic, mischievous villain battle theme for the boss fight of a cartoon storybook adventure game, against a pompous wolf in a tailcoat on a stormy rooftop. Pounding timpani, heavy brass stabs and a bold swaggering trombone and tuba melody, driving low-string ostinato, snare rolls and cymbal crashes, sly chromatic woodwind runs for theatrical comic menace. Minor key, about 140 BPM, intense but fun, constant energy, no ending, loop-friendly."
+   },
+   "quoted_unit": "audio @ $0.08",
+   "quoted_qty": 1,
+   "max_reserved_usd": 0.08
+  },
+  {
+   "key": "music_victory",
+   "endpoint": "elevenlabs/music/v2.5",
+   "input": {
+    "prompt": "Short triumphant orchestral victory fanfare for a storybook adventure game: a timpani roll, bright trumpets and French horns playing a rising heroic motif, sparkling glockenspiel and harp, ending on a big joyful major chord that rings out. Instrumental.",
+    "music_length_ms": 8000,
+    "force_instrumental": true,
+    "output_format": "mp3_48000_192"
+   },
+   "quoted_unit": "minute @ $0.60",
+   "quoted_qty": 0.133,
+   "max_reserved_usd": 0.09
+  },
+  {
+   "key": "music_truffle_get",
+   "endpoint": "elevenlabs/music/v2.5",
+   "input": {
+    "prompt": "Very short magical treasure-found jingle: a quick rising harp glissando and celesta sparkle that lands on a bright, celebratory major brass and strings chord. Whimsical storybook orchestra. Instrumental.",
+    "music_length_ms": 4000,
+    "force_instrumental": true,
+    "output_format": "mp3_48000_192"
+   },
+   "quoted_unit": "minute @ $0.60",
+   "quoted_qty": 0.067,
+   "max_reserved_usd": 0.05
+  },
+  {
+   "key": "music_menu_sting",
+   "endpoint": "elevenlabs/music/v2.5",
+   "input": {
+    "prompt": "Very short whimsical orchestral sting for a storybook game menu: a playful pizzicato and clarinet flourish ending on a cheerful bright chord with a tiny glockenspiel ping. Instrumental.",
+    "music_length_ms": 3000,
+    "force_instrumental": true,
+    "output_format": "mp3_48000_192"
+   },
+   "quoted_unit": "minute @ $0.60",
+   "quoted_qty": 0.05,
+   "max_reserved_usd": 0.04
+  }
+ ]
+}

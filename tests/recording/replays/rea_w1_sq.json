@@ -1,0 +1,103 @@
+{
+ "start": {
+  "pos": [
+   2.0,
+   0.45,
+   3.0
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 1000,
+ "fps": 60,
+ "steer": "world",
+ "events": [
+  {
+   "f": 40,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "f": 90,
+   "hold": "jump",
+   "frames": 40
+  },
+  {
+   "on": "land",
+   "nth": 1,
+   "delay": 0,
+   "hold": "jump",
+   "frames": 50
+  },
+  {
+   "on": "land",
+   "nth": 2,
+   "delay": 0,
+   "hold": "jump",
+   "frames": 60
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 0,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 60,
+   "stick": [
+    -1,
+    0
+   ]
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 150,
+   "hold": "crouch",
+   "frames": 6
+  },
+  {
+   "on": "land",
+   "nth": 3,
+   "delay": 151,
+   "hold": "jump",
+   "frames": 30
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 0,
+   "stick": [
+    0,
+    0
+   ]
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 60,
+   "hold": "crouch",
+   "frames": 40
+  },
+  {
+   "on": "land",
+   "nth": 4,
+   "delay": 70,
+   "hold": "jump",
+   "frames": 40
+  },
+  {
+   "on": "land",
+   "nth": 5,
+   "delay": 50,
+   "hold": "jump",
+   "frames": 50
+  }
+ ]
+}

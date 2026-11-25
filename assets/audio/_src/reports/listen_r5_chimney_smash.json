@@ -1,0 +1,10 @@
+{
+ "utc": "2026-10-17T21:03:02.286698+00:00",
+ "audio": "../sfx/chimney_smash.ogg",
+ "duration_s": 1.29127,
+ "prompt": "Describe what you hear in under 30 words: the sound sources, whether it is a one-off event or a continuous background, and anything wrong (speech, music, clicks, distortion, abrupt cuts). Then, on a new line starting with GUESS:, say what place or video game event it would accompany.",
+ "request_id": "01a14bac-53c0-7653-a655-726d025deea5",
+ "result": {
+  "output": "A single, wet, gurgling or slurping sound is heard. It is a brief, one-off event with no speech, music, or technical faults.\n\nGUESS: This sound would accompany a slime monster moving, an alien's vocalization, or a character drinking a viscous potion in a video game or fantasy movie.\n\n***\n\n*   **Main topics and themes discussed:** Not applicable; the audio contains no speech or discussion.\n*   **Speakers and their characteristics:** Not applicable; there are no speakers.\n*   **Emotional tone and atmosphere:** The sound has a slightly gooey, unsettling, or even comical organic quality, depending on the visual context it would accompany.\n*   **Key points and arguments:** Not applicable; there is no speech.\n*   **Background sounds and context:** The sound is isolated with no background noise, indicating it is a clean sound effect recording meant for a sound library or post-production.\n*   **Language and communication style:** Not applicable; no language is used.\n*   **Overall mood and sentiment:** The mood is neutral to slightly strange or gross, created by the wet, squishy, biological-sounding noise."
+ }
+}

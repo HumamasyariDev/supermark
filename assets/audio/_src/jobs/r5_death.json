@@ -1,0 +1,25 @@
+{
+ "key": "r5_death",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a cartoon dizzy faint, descending slide whistle then a soft thud",
+  "duration_seconds": 1.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:43.994955+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-8d97-7fe2-ab84-a4fdaa44cc5e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/rsGGhLGiVWSj8AmKiTfCv_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 40167
+  }
+ },
+ "files": [
+  "raw/r5_death.mp3"
+ ],
+ "completed": "2026-10-17T20:27:50.329831+00:00"
+}

@@ -1,0 +1,14 @@
+{
+ "key": "r5b_step_stone_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on stone cobbles, a crisp tap with a little grit",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:32:55.157119+00:00",
+ "status": "failed",
+ "request_id": "01a14b91-5163-7ab1-9ab8-6cba6be648af",
+ "error": "FalClientHTTPError: Sound effect generation failed: "
+}

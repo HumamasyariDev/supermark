@@ -1,0 +1,25 @@
+{
+ "key": "sfx_jump_3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a triumphant spinning somersault jump, swirling whoosh with a sparkly shimmer",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:27.966391+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-9aab-78e2-ab70-df72a7113ded",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/XDND4rSJ8nWp5b8o0FkRN_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/sfx_jump_3.mp3"
+ ],
+ "completed": "2026-10-17T18:49:36.139828+00:00"
+}

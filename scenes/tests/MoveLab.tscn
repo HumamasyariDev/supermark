@@ -1,0 +1,73 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/tests/move_lab.gd" id="1_lab"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="2_player"]
+
+[node name="MoveLab" type="Node3D"]
+script = ExtResource("1_lab")
+
+[node name="Spawns" type="Node3D" parent="."]
+
+[node name="Default" type="Marker3D" parent="Spawns"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 2)
+
+[node name="StoryCams" type="Node3D" parent="."]
+
+[node name="StoryCam_A" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 0.995037, 0.099504, 0.000000, -0.099504, 0.995037, -11.000, 3.000, 27.000)
+fov = 42.0
+far = 800.0
+
+[node name="StoryCam_B" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.999512, -0.017690, 0.025743, 0.000000, 0.824171, 0.566341, -0.031235, -0.566065, 0.823769, 20.000, 44.000, 50.000)
+fov = 55.0
+far = 800.0
+
+[node name="StoryCam_C" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 0.998688, 0.051215, 0.000000, -0.051215, 0.998688, -15.000, 7.000, 7.500)
+fov = 55.0
+far = 800.0
+
+[node name="StoryCam_D" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.990830, -0.045799, 0.127114, 0.000000, 0.940797, 0.338971, -0.135113, -0.335863, 0.932170, 31.000, 9.500, 7.000)
+fov = 55.0
+far = 800.0
+
+[node name="PortraitFront" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(-1.000000, 0.000000, 0.000000, 0.000000, 0.997518, 0.070413, 0.000000, 0.070413, -0.997518, 0.000, 0.800, -0.550)
+fov = 40.0
+near = 0.05
+far = 300.0
+
+[node name="PortraitThreeQuarter" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(-0.766520, 0.092169, -0.635572, 0.000000, 0.989648, 0.143516, 0.642220, 0.110008, -0.758585, -1.550, 0.950, 0.150)
+fov = 40.0
+near = 0.05
+far = 300.0
+
+[node name="PortraitSide" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.000000, -0.055470, 0.998460, 0.000000, 0.998460, 0.055470, -1.000000, 0.000000, 0.000000, 2.700, 0.750, 2.000)
+fov = 40.0
+near = 0.05
+far = 300.0
+
+[node name="PortraitBack" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.936329, -0.064630, 0.345124, 0.000000, 0.982914, 0.184066, -0.351123, -0.172347, 0.920331, 0.900, 1.100, 4.400)
+fov = 40.0
+near = 0.05
+far = 300.0
+
+[node name="StoryCam_A_v2" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 0.996989, 0.077544, 0.000000, -0.077544, 0.996989, -11.000, 2.200, 21.500)
+fov = 50.0
+near = 0.05
+far = 600.0
+
+[node name="PoseCam" type="Camera3D" parent="StoryCams"]
+transform = Transform3D(0.000000, -0.057597, 0.998340, 0.000000, 0.998340, 0.057597, -1.000000, 0.000000, 0.000000, 5.200, 1.300, 2.000)
+fov = 45.0
+near = 0.05
+far = 600.0
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.02, 2)

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_sniff",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a little pig snout sniffing the air quickly three times, cute snuffles",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:41.606787+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-cb54-7140-8119-300e92b3d4b4",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6ba/wpTkHKdXapRy02Z89sgYs_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/sfx_sniff.mp3"
+ ],
+ "completed": "2026-10-17T18:49:48.165189+00:00"
+}

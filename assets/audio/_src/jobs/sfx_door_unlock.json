@@ -1,0 +1,25 @@
+{
+ "key": "sfx_door_unlock",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a heavy iron lock clunking open and a wooden door creaking",
+  "duration_seconds": 1.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:07.825253+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-31c0-71c2-aaa7-5ead7dce92e7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/bp2L12K-KH3K9OKAef3sE_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 40167
+  }
+ },
+ "files": [
+  "raw/sfx_door_unlock.mp3"
+ ],
+ "completed": "2026-10-17T18:50:14.257050+00:00"
+}

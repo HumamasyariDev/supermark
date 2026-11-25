@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b30-df90-7961-9b8a-823d27984991",
+  "arguments": {
+    "prompt": "Cliff rock face: chunky rounded stone slabs in warm grey with slight lavender and moss-green tints, broad planes. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:47.023638+00:00",
+  "output_file": "cliff_rock_raw.png",
+  "sha256": "4c351c6a56c96497d0988b4c83c93283c940c9fd4104271d19933b9c6d4158cb",
+  "description": ""
+}

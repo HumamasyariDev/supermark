@@ -1,0 +1,25 @@
+{
+ "key": "r5_glass_break_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: sugar glass shattering, bright tinkly crash",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:35.519192+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-56df-73c0-8aec-31159dc5dcef",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90b/qrOd8Lw7guAK3gAOn3_Xv_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_glass_break_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:28:42.005933+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "sfx_book_open",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a large heavy storybook opening, leather creak, pages fluttering and a magical shimmer",
+  "duration_seconds": 1.4,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:07.260516+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-2f8c-7001-b5c5-487d4e52b738",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bc/0LDAT8OMF_2YI4LAtzXjw_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 34524
+  }
+ },
+ "files": [
+  "raw/sfx_book_open.mp3"
+ ],
+ "completed": "2026-10-17T18:50:13.838070+00:00"
+}

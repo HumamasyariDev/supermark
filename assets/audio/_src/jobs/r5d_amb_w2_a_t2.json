@@ -1,0 +1,26 @@
+{
+ "key": "r5d_amb_w2_a_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Nature field recording, no music, no hum, no drone, no tone: strong airy wind blowing over a high mountain ridge above the clouds, whooshing gusts rising and falling, rustling, broadband breathy wind noise",
+  "duration_seconds": 22.0,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T21:07:34.822977+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bb1-0cb3-7e63-af4d-8e7c48566e19",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9f6/BhwDp5gOadycKg5l1eHzD_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 529806
+  }
+ },
+ "files": [
+  "raw/r5d_amb_w2_a_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:07:48.272143+00:00"
+}

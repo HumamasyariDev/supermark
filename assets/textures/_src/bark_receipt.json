@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-0d18-7562-a111-4f9e228529c7",
+  "arguments": {
+    "prompt": "Tree bark: thick vertical ridges of warm brown bark with chunky rounded furrows. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:59.381408+00:00",
+  "output_file": "bark_raw.png",
+  "sha256": "54fe68234a4d948ff436f28063c10b20a543df3835fe1fd9ba44ab88086fcf58",
+  "description": ""
+}

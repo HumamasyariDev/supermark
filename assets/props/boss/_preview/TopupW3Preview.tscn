@@ -1,0 +1,47 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W3.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w3/gingerbread_tower/gingerbread_tower.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w3/pretzel_bridge/pretzel_bridge.glb" id="4"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.56, 0.89, 0.78, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="TopupW3Preview" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8901961, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="StoryCam_A" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.98503, 0.17238, 0, -0.17238, 0.98503, -1, 6.5, 17)
+fov = 55
+current = true
+
+[node name="CloseCam" type="Camera3D" parent="."]
+transform = Transform3D(0.98776, -0.028691, 0.1533, 0, 0.98293, 0.18396, -0.15596, -0.18171, 0.97091, 4.5, 3.4, 7.5)
+fov = 50
+
+[node name="Tower" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, -6, 0, -4)
+
+[node name="PretzelBridge" parent="." instance=ExtResource("4")]
+transform = Transform3D(0.34202, 0, 0.93969, 0, 1, 0, -0.93969, 0, 0.34202, 3, 0, -2)
+
+[node name="Mak" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, -1.5, 0, 3)

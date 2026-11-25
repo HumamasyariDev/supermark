@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W3.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w3/pretzel_bridge_v3/pretzel_bridge_v3.glb" id="3"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.56, 0.89, 0.78, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="FixR4W3Before" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8901961, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="BridgeSide" type="Camera3D" parent="."]
+transform = Transform3D(0, -0.022217, 0.99975, 0, 0.99975, 0.022217, -1, 0, 0, 9, 2, -1)
+fov = 60
+current = true
+
+[node name="RailClose" type="Camera3D" parent="."]
+transform = Transform3D(0.68394, -0.1309, 0.7177, 0, 0.98377, 0.17942, -0.72954, -0.12272, 0.67284, 3.2, 2.6, -3)
+fov = 45
+
+[node name="EdgeLow" type="Camera3D" parent="."]
+transform = Transform3D(0.70711, 0.11831, 0.69714, 0, 0.9859, -0.16731, -0.70711, 0.11831, 0.69714, 4, 1.4, 5.5)
+fov = 45
+
+[node name="DeckLow" type="Camera3D" parent="."]
+transform = Transform3D(-0.99982, -0.00036261, 0.019041, 0, 0.99982, 0.019041, -0.019044, 0.019037, -0.99964, 0.2, 2.2, -10.5)
+fov = 45
+
+[node name="PretzelBridge" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="MakEnd" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5578, -7)
+
+[node name="MakApex" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4, 0)
+
+[node name="MakSide" parent="." instance=ExtResource("2")]
+transform = Transform3D(-1, 0, 1.2246e-16, 0, 1, 0, -1.2246e-16, 0, -1, 0.9, 2.125, 4)
+

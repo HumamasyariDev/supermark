@@ -1,0 +1,25 @@
+{
+ "key": "r5c_boss_growl_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon sound effect, isolated, no music: a big bad wolf villain growls low and menacing, deep throaty rumble with bared teeth, then a short snarl",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.65,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:03:32.529151+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bad-5ac2-7293-9cf3-813e54d06238",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec9dd/DiuMPBq_IZ9ZEXnQveba5_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r5c_boss_growl_t2.mp3"
+ ],
+ "completed": "2026-10-17T21:03:40.468187+00:00"
+}

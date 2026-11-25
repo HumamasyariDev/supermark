@@ -1,0 +1,25 @@
+{
+ "key": "r5_trial_start",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick race start whistle",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:48.251264+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-8896-7763-9882-36ca2e028a0e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/MfstSbhUigXCxL72o9ZnH_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_trial_start.mp3"
+ ],
+ "completed": "2026-10-17T20:28:54.699051+00:00"
+}

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/worlds/w3/W3.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+
+[node name="CritLevelW3" type="Node3D"]
+
+[node name="Level" parent="." instance=ExtResource("1")]
+
+[node name="BridgeLevelCam" type="Camera3D" parent="."]
+transform = Transform3D(0.99963, 0.0017307, -0.027208, -0, 0.99798, 0.063484, 0.027263, -0.063461, 0.99761, -6.3, 3, 15.5)
+fov = 45
+
+[node name="TowerLevelCam" type="Camera3D" parent="."]
+transform = Transform3D(-0.68266, 0.13799, -0.71759, 0, 0.98201, 0.18884, 0.73074, 0.12891, -0.67038, 30, 6.5, 30.5)
+fov = 55
+
+[node name="MakAtColliderTop0" parent="." instance=ExtResource("2")]
+transform = Transform3D(6.1232e-17, 0, 1, 0, 1, 0, -1, 0, 6.1232e-17, -6, 2.4, 4.5)
+
+[node name="MakAtColliderTop1" parent="." instance=ExtResource("2")]
+transform = Transform3D(6.1232e-17, 0, 1, 0, 1, 0, -1, 0, 6.1232e-17, -6, 2.125, 8.5)

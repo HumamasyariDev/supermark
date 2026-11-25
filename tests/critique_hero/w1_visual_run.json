@@ -1,0 +1,23 @@
+{
+ "fps": 60,
+ "steer": "world",
+ "end_frame": 840,
+ "events": [
+  {"f": 90, "stick": [0, 1]},
+  {"f": 200, "press": "jump"},
+  {"f": 216, "release": "jump"},
+  {"on": "land", "nth": 1, "delay": 2, "hold": "jump", "frames": 14},
+  {"f": 330, "stick": [0.7, 0.7]},
+  {"f": 380, "stick": [0, 0]},
+  {"f": 400, "tap": "attack"},
+  {"f": 412, "tap": "attack"},
+  {"f": 424, "tap": "attack"},
+  {"f": 480, "stick": [-1, 0]},
+  {"f": 540, "stick": [0, -1]},
+  {"f": 600, "stick": [0, 0]},
+  {"f": 610, "hold": "crouch", "frames": 50},
+  {"f": 700, "press": "jump"},
+  {"f": 716, "release": "jump"},
+  {"f": 840, "end": true}
+ ]
+}

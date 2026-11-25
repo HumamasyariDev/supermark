@@ -1,0 +1,25 @@
+{
+ "key": "r5_crow_steal_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a cheeky crow snatches something with a quick cackling caw and a little coin jingle",
+  "duration_seconds": 1.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:57.585027+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-c2ad-7900-98ea-d11ab7a5e71c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/nsmZSCk6bMrqPHS4H0ZM7_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 25747
+  }
+ },
+ "files": [
+  "raw/r5_crow_steal_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:04.125351+00:00"
+}

@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_jump2",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[energetic effort] Hah!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:15.491885+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-3eb8-7a62-9520-a563d73f1a62",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c3/G3ImU6Icy79fHHCUL_5b9_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 12164
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_jump2.mp3"
+ ],
+ "completed": "2026-10-17T18:51:23.445112+00:00"
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_seq_step_wood",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a small cartoon piglet in little leather shoes walking briskly across hollow wooden floorboards, eight separate light footsteps with short gaps between them",
+  "duration_seconds": 4.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:23.378510+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-4190-70f0-a2de-3943cb93473d",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec904/iZ033bM3JfIBZpruISq5B_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 109130
+  }
+ },
+ "files": [
+  "raw/r5_seq_step_wood.mp3"
+ ],
+ "completed": "2026-10-17T20:27:31.726308+00:00"
+}

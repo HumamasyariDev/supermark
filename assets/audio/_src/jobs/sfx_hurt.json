@@ -1,0 +1,25 @@
+{
+ "key": "sfx_hurt",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a comic hurt impact, a soft bonk with a short wobbly descending boing",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:36.103130+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-b5d9-7060-b233-cae7dca9423c",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/tX31OnZTvAAxI8_BVd13F_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/sfx_hurt.mp3"
+ ],
+ "completed": "2026-10-17T18:49:42.581018+00:00"
+}

@@ -1,0 +1,250 @@
+{
+ "sfx/swish.ogg": {
+  "note": "re-cut t1: peak at 60 ms, single hump",
+  "dur_s": 0.325,
+  "peak_db": -2.17,
+  "l100": -15.66,
+  "peak_ms": 60,
+  "sha": "748095dc57b91cf5"
+ },
+ "sfx/swish_2.ogg": {
+  "note": "re-cut t2: peak at 50 ms, second hump -8 dB",
+  "dur_s": 0.395,
+  "peak_db": -3.79,
+  "l100": -15.66,
+  "peak_ms": 45,
+  "sha": "a2aea584679811d0"
+ },
+ "sfx/swish_3.ogg": {
+  "note": "t1 swirl +0.9 st, +3 dB air shelf, t2 air layer, 0.30 s",
+  "dur_s": 0.3,
+  "peak_db": -2.0,
+  "l100": -15.66,
+  "peak_ms": 75,
+  "sha": "66cb9fba4cd6dea3"
+ },
+ "sfx/swish_4.ogg": {
+  "note": "t2 swipe -1.1 st low-passed 6.5 kHz, t1 body layer, 0.40 s",
+  "dur_s": 0.4,
+  "peak_db": -1.84,
+  "l100": -15.66,
+  "peak_ms": 75,
+  "sha": "47a4bf74890bd3e1"
+ },
+ "sfx/spin_kick.ogg": {
+  "note": "re-cut t1: loudest swirl at 115 ms",
+  "dur_s": 0.449,
+  "peak_db": -7.71,
+  "l100": -15.71,
+  "peak_ms": 95,
+  "sha": "2af50b4076d9d48c"
+ },
+ "sfx/spin_kick_2.ogg": {
+  "note": "t2 padded: peak at 100 ms",
+  "dur_s": 0.585,
+  "peak_db": -5.67,
+  "l100": -15.71,
+  "peak_ms": 100,
+  "sha": "7b9a65810da6171d"
+ },
+ "sfx/spin_kick_3.ogg": {
+  "note": "t1 -0.9 st + t2 band layer, peak 130 ms",
+  "dur_s": 0.45,
+  "peak_db": -6.32,
+  "l100": -15.71,
+  "peak_ms": 130,
+  "sha": "6244e7251f7895ed"
+ },
+ "sfx/spin_kick_4.ogg": {
+  "note": "t2 +1.2 st high-passed + t1 low layer, peak 90 ms",
+  "dur_s": 0.42,
+  "peak_db": -4.64,
+  "l100": -15.71,
+  "peak_ms": 85,
+  "sha": "9161649e4a283473"
+ },
+ "sfx/slide_loop_grass.ogg": {
+  "note": "belly-slide loop grass: 6-14 Hz bumps, footstep grit, 4.3 s",
+  "dur_s": 4.3,
+  "peak_db": -6.47,
+  "l100": -20.9,
+  "peak_ms": 3013,
+  "sha": "f14013889d8aff7c"
+ },
+ "sfx/slide_loop_wood.ogg": {
+  "note": "belly-slide loop wood: 6-14 Hz bumps, footstep grit, 4.1 s",
+  "dur_s": 4.1,
+  "peak_db": -6.58,
+  "l100": -20.49,
+  "peak_ms": 1701,
+  "sha": "c8f8e8c8ae49b1ab"
+ },
+ "sfx/slide_loop_candy.ogg": {
+  "note": "belly-slide loop candy: 6-14 Hz bumps, footstep grit, 4.7 s",
+  "dur_s": 4.7,
+  "peak_db": -8.32,
+  "l100": -20.57,
+  "peak_ms": 2933,
+  "sha": "8329200dac099fc2"
+ },
+ "sfx/slide_loop_stone.ogg": {
+  "note": "belly-slide loop stone: 6-14 Hz bumps, footstep grit, 3.9 s",
+  "dur_s": 3.9,
+  "peak_db": -7.01,
+  "l100": -20.55,
+  "peak_ms": 1686,
+  "sha": "f511219cece2dfbf"
+ },
+ "sfx/enemy_hit.ogg": {
+  "note": "thwap + 5.1 ms 3-8 kHz click at -8 dB, +2 dB air",
+  "dur_s": 0.383,
+  "peak_db": -1.01,
+  "l100": -16.19,
+  "peak_ms": 10,
+  "sha": "23319bae185895ad"
+ },
+ "sfx/enemy_hit_2.ogg": {
+  "note": "thwap + 4.0 ms 3-8 kHz click at -8 dB, +2 dB air",
+  "dur_s": 0.332,
+  "peak_db": -4.35,
+  "l100": -16.04,
+  "peak_ms": 15,
+  "sha": "d625b475559be033"
+ },
+ "sfx/enemy_hit_3.ogg": {
+  "note": "thwap + 2.4 ms 3-8 kHz click at -8 dB, +2 dB air",
+  "dur_s": 0.341,
+  "peak_db": -1.05,
+  "l100": -16.0,
+  "peak_ms": 10,
+  "sha": "9174366c0a4de120"
+ },
+ "sfx/enemy_hit_4.ogg": {
+  "note": "thwap + 4.2 ms 3-8 kHz click at -8 dB, +2 dB air",
+  "dur_s": 0.346,
+  "peak_db": -3.98,
+  "l100": -16.07,
+  "peak_ms": 15,
+  "sha": "4fb6f7e9a9cc99aa"
+ },
+ "sfx/amb_boss_wind_a.ogg": {
+  "note": "procedural rooftop wind, periodic gusts + whistle, 19.7 s",
+  "dur_s": 19.7,
+  "peak_db": -6.38,
+  "l100": -15.13,
+  "peak_ms": 15176,
+  "sha": "74de094a5ae48c91"
+ },
+ "sfx/amb_boss_wind_b.ogg": {
+  "note": "procedural low wind and rumble, 13.9 s",
+  "dur_s": 13.9,
+  "peak_db": -7.03,
+  "l100": -15.44,
+  "peak_ms": 12112,
+  "sha": "27c4e905639d9362"
+ },
+ "sfx/amb_wind_loop.ogg": {
+  "note": "re-wrapped 5.65 s, 300 ms equal-power crossfade",
+  "dur_s": 5.65,
+  "peak_db": -5.54,
+  "l100": -12.41,
+  "peak_ms": 4415,
+  "sha": "0fb93452b4550398"
+ },
+ "sfx/bee_buzz.ogg": {
+  "note": "6.4 s chained loop, joins matched (wing period 6.2 ms), 180 ms wrap",
+  "dur_s": 6.4,
+  "peak_db": -7.07,
+  "l100": -15.24,
+  "peak_ms": 4605,
+  "sha": "5176c93c5babc278"
+ },
+ "sfx/bee_buzz_once.ogg": {
+  "note": "0.95 s buzz swell one-shot (bee charge tell)",
+  "dur_s": 0.918,
+  "peak_db": -5.31,
+  "l100": -16.0,
+  "peak_ms": 788,
+  "sha": "eec1b3df61f54437"
+ },
+ "sfx/npc_greet_piglet.ogg": {
+  "note": "trimmed at 0.95 s (detached burst at 1.05 s removed), 30 ms fade",
+  "dur_s": 0.95,
+  "peak_db": -8.51,
+  "l100": -15.91,
+  "peak_ms": 559,
+  "sha": "57f5c20ee4c89275"
+ },
+ "sfx/amb_fire_loop.ogg": {
+  "note": "-1.2 dB (true peak was +0.37 dBTP)",
+  "dur_s": 6.0,
+  "peak_db": -2.07,
+  "l100": -15.25,
+  "peak_ms": 3123,
+  "sha": "7883281adf3cf825"
+ },
+ "sfx/punch_3.ogg": {
+  "note": "hybrid: punch_2 transient 18 ms + punch body (-0.7 st), shelf 3000",
+  "dur_s": 0.342,
+  "peak_db": -1.86,
+  "l100": -16.02,
+  "peak_ms": 10,
+  "sha": "863dd2a8a6d15e9c"
+ },
+ "sfx/punch_4.ogg": {
+  "note": "hybrid: punch transient 14 ms + punch_2 body (+0.8 st), lp 7000",
+  "dur_s": 0.274,
+  "peak_db": -5.91,
+  "l100": -16.33,
+  "peak_ms": 10,
+  "sha": "70ce995ba671a4a8"
+ },
+ "sfx/jump_1_5.ogg": {
+  "note": "hybrid: jump_1_3 transient 25 ms + jump_1 body (+0.6 st), shelf 3500",
+  "dur_s": 0.31,
+  "peak_db": -7.12,
+  "l100": -15.81,
+  "peak_ms": 5,
+  "sha": "26db2976596a2fea"
+ },
+ "sfx/jump_1_6.ogg": {
+  "note": "hybrid: jump_1 transient 20 ms + jump_1_3 body (-0.8 st), lp 6000",
+  "dur_s": 0.504,
+  "peak_db": -1.94,
+  "l100": -15.06,
+  "peak_ms": 15,
+  "sha": "6766aba932a32e2a"
+ },
+ "sfx/kick_3.ogg": {
+  "note": "hybrid: kick_2 transient 20 ms + kick body (+0.0 st), shelf 2500",
+  "dur_s": 0.469,
+  "peak_db": -3.83,
+  "l100": -17.98,
+  "peak_ms": 20,
+  "sha": "34104315e5aa9aab"
+ },
+ "sfx/ham_slam_2.ogg": {
+  "note": "hybrid: land_heavy transient 30 ms + ham_slam body (-0.6 st), shelf 4000",
+  "dur_s": 1.053,
+  "peak_db": -3.94,
+  "l100": -15.69,
+  "peak_ms": 210,
+  "sha": "a0dd4cea742f7507"
+ },
+ "sfx/amb_hub_lb.ogg": {
+  "note": "hub clock layer: -6 dB shelf above 2.5 kHz, 6 kHz low-pass, circular filtering",
+  "dur_s": 13.7,
+  "peak_db": -5.24,
+  "l100": -15.95,
+  "peak_ms": 8590,
+  "sha": "f7ef6a17ef9d5faa"
+ },
+ "sfx/jump_2_5.ogg": {
+  "note": "hybrid: jump_2_2 transient 22 ms + jump_2_3 body (-0.5 st), shelf 3000",
+  "dur_s": 0.471,
+  "peak_db": -7.56,
+  "l100": -15.88,
+  "peak_ms": 20,
+  "sha": "0a7b1a63bbe9f029"
+ }
+}

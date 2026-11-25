@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b49-788c-7851-a98d-15d084f7f775",
+  "arguments": {
+    "prompt": "Sugar-coated gumdrop surface: translucent mint-green candy with tiny sparkling sugar crystals. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T19:14:42.335890+00:00",
+  "output_file": "gumdrop_sugar_raw.png",
+  "sha256": "1f4116f805350df1a304196c17b2a6ad47af15cd1138c53f0806a04963ae5a70",
+  "description": ""
+}

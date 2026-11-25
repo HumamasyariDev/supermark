@@ -1,0 +1,123 @@
+{
+ "start": {
+  "pos": [
+   -19.75,
+   0.0,
+   -12.0
+  ],
+  "yaw_deg": 90
+ },
+ "end_frame": 330,
+ "events": [
+  {
+   "f": 0,
+   "stick": [
+    -1,
+    0
+   ]
+  },
+  {
+   "f": 4,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 1,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 1,
+   "delay": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 2,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 2,
+   "delay": 0,
+   "stick": [
+    -1,
+    0
+   ]
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 3,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 3,
+   "delay": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 4,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 4,
+   "delay": 0,
+   "stick": [
+    -1,
+    0
+   ]
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 5,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 5,
+   "delay": 0,
+   "stick": [
+    1,
+    0
+   ]
+  },
+  {
+   "on": "state:wall_slide",
+   "nth": 6,
+   "delay": 1,
+   "hold": "jump",
+   "frames": 14
+  },
+  {
+   "on": "jump:wall_kick",
+   "nth": 6,
+   "delay": 0,
+   "stick": [
+    -1,
+    0
+   ]
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

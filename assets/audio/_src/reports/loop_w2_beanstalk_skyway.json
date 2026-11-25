@@ -1,0 +1,26 @@
+{
+ "source": "raw/music_w2_b.mp3",
+ "out": "../music/w2_beanstalk_skyway.ogg",
+ "source_duration": 175.20326530612246,
+ "tempo_est": 103.359375,
+ "loop": {
+  "score": 1.6048667333878843,
+  "start": 22.987755102040815,
+  "end": 114.42793650793651,
+  "beats": 160,
+  "cos": 0.9861313700675964,
+  "cos_pre": 0.9914171695709229
+ },
+ "intro": false,
+ "loop_offset_s": 0.0,
+ "loop_s": 91.44018140589569,
+ "crossfade_s": 0.5804761904761905,
+ "measured_input_lufs": -11.44,
+ "gain_db": -4.5600000000000005,
+ "limited": false,
+ "out_lufs": -15.98,
+ "out_true_peak": -4.51,
+ "seam_sample_jump": 0.035825103521347046,
+ "seam_rms_end_db": -16.24461996971086,
+ "seam_rms_start_db": -17.462622525698812
+}

@@ -1,0 +1,25 @@
+{
+ "key": "r5_swish_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick small swish of a little fist through the air",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:23.382612+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-418e-7a43-98bb-c6ffd1127d91",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec904/zChKAuMcvd94uzNSJgLwC_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5_swish_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:31.215948+00:00"
+}

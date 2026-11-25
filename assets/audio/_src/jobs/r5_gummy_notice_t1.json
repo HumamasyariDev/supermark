@@ -1,0 +1,25 @@
+{
+ "key": "r5_gummy_notice_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a big jelly monster gives a deep gloopy grunt",
+  "duration_seconds": 0.8,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:16.843793+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-0de7-7851-910f-c35d28e332d7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec909/rouuJhVI2Gu3qyaWf8rdK_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 20732
+  }
+ },
+ "files": [
+  "raw/r5_gummy_notice_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:28:23.324765+00:00"
+}

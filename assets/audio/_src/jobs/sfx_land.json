@@ -1,0 +1,25 @@
+{
+ "key": "sfx_land",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a light landing of small hooves on grass, soft thud",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:27.968348+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-9a76-7873-a804-c3d89478ebf6",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/TBg1xaMctTcUcHS5cB8TH_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/sfx_land.mp3"
+ ],
+ "completed": "2026-10-17T18:49:35.703424+00:00"
+}

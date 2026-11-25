@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b31-0fad-7290-b17e-b83c32a58939",
+  "arguments": {
+    "prompt": "White icing frosting: soft swirled thick cream-white frosting with pale pink and mint sprinkles. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:59.124964+00:00",
+  "output_file": "frosting_raw.png",
+  "sha256": "e618a516f1e907e4b1d9857efcfef4dd8e8a1f13e2df05d94ae5cdf99f5b789c",
+  "description": ""
+}

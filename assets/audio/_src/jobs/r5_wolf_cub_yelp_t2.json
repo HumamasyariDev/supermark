@@ -1,0 +1,25 @@
+{
+ "key": "r5_wolf_cub_yelp_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a small cartoon wolf pup yelps in surprise, short high yip",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:51.377107+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-aa6e-7933-8b5c-6117d1f239a7",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/NGw5tzZXhJ_q9pAbVJh2d_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_wolf_cub_yelp_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:58.127753+00:00"
+}

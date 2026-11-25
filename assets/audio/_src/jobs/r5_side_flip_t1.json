@@ -1,0 +1,25 @@
+{
+ "key": "r5_side_flip_t1",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a quick sideways flip, curved whoosh with a light flutter of cloth",
+  "duration_seconds": 0.7,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:31.577464+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-5d16-7b72-888f-fa91387eff02",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec905/Ql9BO7CN7gYo6NyHfUW_n_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 18224
+  }
+ },
+ "files": [
+  "raw/r5_side_flip_t1.mp3"
+ ],
+ "completed": "2026-10-17T20:27:37.790445+00:00"
+}

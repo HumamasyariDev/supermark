@@ -1,0 +1,35 @@
+{
+ "phase": "night01-audio-m3-round5d-w2wind",
+ "jobs": [
+  {
+   "key": "r5d_amb_w2_a_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Nature field recording, no music, no hum, no drone, no tone: strong airy wind blowing over a high mountain ridge above the clouds, whooshing gusts rising and falling, rustling, broadband breathy wind noise",
+    "duration_seconds": 22.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192",
+    "loop": true
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 22,
+   "estimated_usd": 0.044,
+   "max_reserved_usd": 0.055
+  },
+  {
+   "key": "r5d_amb_w2_a_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Nature field recording, no music, no hum, no drone, no tone: strong airy wind blowing over a high mountain ridge above the clouds, whooshing gusts rising and falling, rustling, broadband breathy wind noise",
+    "duration_seconds": 22.0,
+    "prompt_influence": 0.5,
+    "output_format": "mp3_44100_192",
+    "loop": true
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 22,
+   "estimated_usd": 0.044,
+   "max_reserved_usd": 0.055
+  }
+ ]
+}

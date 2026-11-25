@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W2.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w2/giant_chair_v2/giant_chair_v2.glb" id="3"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.725, 0.478, 0.275, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="FixR3W2Before" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+rotation = Vector3(-0.558505, -1.178097, 0)
+light_color = Color(1, 0.886, 0.69, 1)
+light_energy = 1.25
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="SeatCam" type="Camera3D" parent="."]
+transform = Transform3D(0.9235, -0.085033, 0.37406, 0, 0.97512, 0.22167, -0.38361, -0.20471, 0.90052, -1.5, 6.2, 3.5)
+fov = 45
+current = true
+
+[node name="WrapCam" type="Camera3D" parent="."]
+transform = Transform3D(0.98058, -0.037743, 0.19245, 0, 0.98131, 0.19245, -0.19612, -0.18871, 0.96225, -2.2, 4.6, 0.6)
+fov = 35
+
+[node name="WrapCamB" type="Camera3D" parent="."]
+transform = Transform3D(-0.98058, -0.037743, 0.19245, 0, 0.98131, 0.19245, -0.19612, 0.18871, -0.96225, -2.2, 4.6, -6.6)
+fov = 35
+
+[node name="GiantChair" parent="." instance=ExtResource("3")]
+transform = Transform3D(6.1232e-17, 0, -1, 0, 1, 0, 1, 0, 6.1232e-17, -4, 0, -3)
+
+[node name="MakOnSeat" parent="." instance=ExtResource("2")]
+transform = Transform3D(0.86603, 0, 0.5, 0, 1, 0, -0.5, 0, 0.86603, -4.3, 4.4, -3)
+

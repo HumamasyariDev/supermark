@@ -1,0 +1,29 @@
+{
+ "key": "voiceQW_butler_batch",
+ "endpoint": "fal-ai/qwen-3-tts/voice-design/1.7b",
+ "input": {
+  "text": "Welcome home, sir.\n\nThe wolf went into the books, sir. Do mind the pages.",
+  "prompt": "An elderly, kindly English butler, a very old tortoise. Slow, soft, slightly creaky and frail voice, calm and warm, refined English accent, unhurried pauses.",
+  "language": "English",
+  "max_new_tokens": 900
+ },
+ "created": "2026-10-17T18:51:30.162048+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-7365-7640-9442-f8847e8675e1",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6d2/LRmUSRrSDQ2W51chCYC3w_XVUOhp0H.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "LRmUSRrSDQ2W51chCYC3w_XVUOhp0H.mp3",
+   "file_size": null,
+   "duration": 8.456875,
+   "channels": 1,
+   "sample_rate": 24000,
+   "bitrate": null
+  }
+ },
+ "files": [
+  "raw/voiceQW_butler_batch.mp3"
+ ],
+ "completed": "2026-10-17T18:53:58.171046+00:00"
+}

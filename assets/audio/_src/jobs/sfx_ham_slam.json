@@ -1,0 +1,25 @@
+{
+ "key": "sfx_ham_slam",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a ground pound: quick spinning whoosh then a heavy booming slam impact with low rumble and debris",
+  "duration_seconds": 1.3,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:49:27.968956+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b32-9a8c-72e2-bf29-045d5bf9d7c9",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6b9/QhX4QyZlVghzuqTqjOjwM_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 32016
+  }
+ },
+ "files": [
+  "raw/sfx_ham_slam.mp3"
+ ],
+ "completed": "2026-10-17T18:49:36.067104+00:00"
+}

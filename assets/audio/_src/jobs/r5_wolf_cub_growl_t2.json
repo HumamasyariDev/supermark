@@ -1,0 +1,25 @@
+{
+ "key": "r5_wolf_cub_growl_t2",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game creature vocalisation, clean, isolated, no music, no words: a small cartoon wolf pup gives a playful little growl",
+  "duration_seconds": 0.9,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:27:50.930605+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-a8af-7c11-bc61-aa0409337427",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec907/f4FW72eEek7SbcTxwNeIY_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 22612
+  }
+ },
+ "files": [
+  "raw/r5_wolf_cub_growl_t2.mp3"
+ ],
+ "completed": "2026-10-17T20:27:57.656532+00:00"
+}

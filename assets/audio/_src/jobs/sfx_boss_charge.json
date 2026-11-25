@@ -1,0 +1,25 @@
+{
+ "key": "sfx_boss_charge",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a big beast charging, rumbling running footsteps and a snorting growl whoosh",
+  "duration_seconds": 1.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T18:50:13.838784+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b33-493d-7271-a7ea-a900470753d1",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6bd/WbXKFExxKQC-5PUzdx8nM_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 40167
+  }
+ },
+ "files": [
+  "raw/sfx_boss_charge.mp3"
+ ],
+ "completed": "2026-10-17T18:50:20.376328+00:00"
+}

@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Environment" path="res://assets/shaders/environments/env_W1.tres" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/mak/mak.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/bellows_machine_v2/bellows_machine_v2.glb" id="3"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree/birch_tree.glb" id="4"]
+[ext_resource type="PackedScene" path="res://assets/props/w1/birch_tree_v2/birch_tree_v2.glb" id="5"]
+
+[sub_resource type="StandardMaterial3D" id="groundmat"]
+albedo_color = Color(0.43, 0.75, 0.27, 1)
+roughness = 0.9
+
+[sub_resource type="PlaneMesh" id="plane"]
+material = SubResource("groundmat")
+size = Vector2(160, 160)
+
+[node name="CritW1" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("1")
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8862745, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("plane")
+
+[node name="GameCam" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99846, 0.05547, 0, -0.05547, 0.99846, 0, 4.5, 14)
+fov = 60
+current = true
+
+[node name="BellowsMinusX" type="Camera3D" parent="."]
+transform = Transform3D(0.076696, 0.12144, -0.98963, -0, 0.99255, 0.1218, 0.99705, -0.0093417, 0.076125, -12.5, 2.2, 6.5)
+fov = 45
+
+[node name="BellowsBack" type="Camera3D" parent="."]
+transform = Transform3D(-0.99779, 0.0096319, -0.065818, 0, 0.98946, 0.1448, 0.066519, 0.14448, -0.98727, -6.5, 2.6, -1.5)
+fov = 50
+
+[node name="BirchA" parent="." instance=ExtResource("5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, -4, 0, -6)
+
+[node name="BirchB" parent="." instance=ExtResource("5")]
+transform = Transform3D(-0.575, 0, 0.99593, 0, 1.15, 0, -0.99593, 0, -0.575, 1.5, 0, -10)
+
+[node name="BirchC" parent="." instance=ExtResource("5")]
+transform = Transform3D(-0.45, 0, -0.77942, 0, 0.9, 0, 0.77942, 0, -0.45, 6, 0, -5)
+
+[node name="BirchV1" parent="." instance=ExtResource("4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 10.5, 0, -8)
+
+[node name="BellowsV2" parent="." instance=ExtResource("3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, -6, 0, 6)
+
+[node name="Mak" parent="." instance=ExtResource("2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 0, 0, 4)

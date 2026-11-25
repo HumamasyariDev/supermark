@@ -1,0 +1,25 @@
+{
+ "key": "r5_rope_snap",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a rope snaps with a whip crack",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:42.630636+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-72a2-7be1-8cc4-dd64d34c6b67",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90c/ReOBLMpWMLlOWcROue82F_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5_rope_snap.mp3"
+ ],
+ "completed": "2026-10-17T20:28:48.985778+00:00"
+}

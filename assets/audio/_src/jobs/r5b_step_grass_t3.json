@@ -1,0 +1,25 @@
+{
+ "key": "r5b_step_grass_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on soft grass, a soft brushy crunch",
+  "duration_seconds": 0.5,
+  "prompt_influence": 0.7,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:32:55.153044+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b91-51a4-7751-a906-8b31be01e2eb",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec925/KCnQyseoKkuk2576rfP3I_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 13208
+  }
+ },
+ "files": [
+  "raw/r5b_step_grass_t3.mp3"
+ ],
+ "completed": "2026-10-17T20:33:03.227496+00:00"
+}

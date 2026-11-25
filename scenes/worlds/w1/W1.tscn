@@ -1,0 +1,450 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/worlds/w1_world.gd" id="1_l5few"]
+[ext_resource type="Shader" path="res://assets/shaders/sky.gdshader" id="2_5mn8d"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_0_0.mesh.res" id="3_u6633"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_0_0.shape.res" id="4_uryqt"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_1_0.mesh.res" id="5_4ce4d"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_1_0.shape.res" id="6_48hb3"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_2_0.mesh.res" id="7_dc2ug"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_2_0.shape.res" id="8_y482v"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_3_0.mesh.res" id="9_s7te2"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_3_0.shape.res" id="10_th6kw"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_0_1.mesh.res" id="11_jtive"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_0_1.shape.res" id="12_raiql"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_1_1.mesh.res" id="13_rawle"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_1_1.shape.res" id="14_pi4f8"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_2_1.mesh.res" id="15_0govr"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_2_1.shape.res" id="16_a3qha"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_3_1.mesh.res" id="17_bdbmo"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_3_1.shape.res" id="18_3bkkv"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_0_2.mesh.res" id="19_nymmo"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_0_2.shape.res" id="20_s54ox"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_1_2.mesh.res" id="21_27680"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_1_2.shape.res" id="22_kt3xs"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_2_2.mesh.res" id="23_l2jyj"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_2_2.shape.res" id="24_1p7sx"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_3_2.mesh.res" id="25_mt4i7"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_3_2.shape.res" id="26_tsoo8"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_0_3.mesh.res" id="27_f3gos"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_0_3.shape.res" id="28_88kaw"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_1_3.mesh.res" id="29_rwxc7"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_1_3.shape.res" id="30_cgn4o"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_2_3.mesh.res" id="31_nixgn"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_2_3.shape.res" id="32_tddw8"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/terrain/chunk_3_3.mesh.res" id="33_mpgkg"]
+[ext_resource type="Shape3D" path="res://assets/environment/w1/terrain/chunk_3_3.shape.res" id="34_0mmx3"]
+[ext_resource type="Shader" path="res://assets/shaders/water.gdshader" id="35_wmc4e"]
+[ext_resource type="ArrayMesh" path="res://assets/environment/w1/w1_stream.mesh.res" id="36_fosut"]
+[ext_resource type="Script" path="res://scripts/worlds/w1_level.gd" id="37_gg66k"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_m24r0"]
+shader = ExtResource("2_5mn8d")
+shader_parameter/top_color = Color(0.2, 0.48, 0.95, 1)
+shader_parameter/horizon_color = Color(0.7, 0.86, 0.99, 1)
+shader_parameter/bottom_color = Color(0.45, 0.6, 0.4, 1)
+shader_parameter/haze_color = Color(0.96, 0.95, 0.9, 1)
+shader_parameter/gradient_power = null
+shader_parameter/haze_height = 0.1
+shader_parameter/haze_strength = 0.4
+shader_parameter/sun_color = Color(1, 0.95, 0.8, 1)
+shader_parameter/sun_size = 0.035
+shader_parameter/sun_glow = 0.3
+shader_parameter/sun_glow_size = null
+shader_parameter/cloud_light = Color(1, 1, 0.98, 1)
+shader_parameter/cloud_shade = Color(0.58, 0.68, 0.92, 1)
+shader_parameter/cloud_coverage = 0.46
+shader_parameter/cloud_softness = null
+shader_parameter/cloud_scale = null
+shader_parameter/cloud_speed = null
+shader_parameter/cloud_height_fade = null
+shader_parameter/paint_steps = null
+shader_parameter/cloud_opacity = null
+shader_parameter/wind = null
+shader_parameter/streak_amount = null
+
+[sub_resource type="Sky" id="Sky_k6d3c"]
+sky_material = SubResource("ShaderMaterial_m24r0")
+radiance_size = 2
+
+[sub_resource type="Environment" id="Environment_kwrx7"]
+background_mode = 2
+sky = SubResource("Sky_k6d3c")
+ambient_light_source = 3
+ambient_light_sky_contribution = 0.85
+reflected_light_source = 2
+tonemap_mode = 2
+tonemap_white = 6.0
+ssao_enabled = true
+ssao_radius = 1.2
+ssao_intensity = 1.6
+ssao_power = 1.4
+ssao_light_affect = 0.15
+glow_enabled = true
+glow_intensity = 0.55
+glow_bloom = 0.04
+glow_blend_mode = 2
+glow_hdr_threshold = 0.95
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.74, 0.85, 0.97, 1)
+fog_density = 0.7
+fog_aerial_perspective = 0.55
+fog_sky_affect = 0.0
+fog_depth_curve = 1.4
+fog_depth_begin = 30.0
+fog_depth_end = 220.0
+adjustment_enabled = true
+adjustment_contrast = 1.05
+adjustment_saturation = 1.12
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3ewnx"]
+render_priority = 0
+shader = ExtResource("35_wmc4e")
+shader_parameter/shallow_color = Color(0.43529412, 0.827451, 0.8784314, 1)
+shader_parameter/deep_color = Color(0.18431373, 0.49803922, 0.6392157, 1)
+shader_parameter/foam_color = null
+shader_parameter/depth_distance = 0.9
+shader_parameter/clarity = null
+shader_parameter/flow_direction = null
+shader_parameter/flow_speed = 0.5
+shader_parameter/ripple_scale = null
+shader_parameter/normal_strength = null
+shader_parameter/foam_distance = 0.18
+shader_parameter/foam_noise_scale = null
+shader_parameter/refraction = null
+shader_parameter/sparkle_amount = null
+shader_parameter/flow_along_uv = true
+shader_parameter/wave_height = null
+
+[node name="W1" type="Node3D" unique_id=917175993]
+script = ExtResource("1_l5few")
+display_name = "Huff & Puff Hollow"
+music_key = "music_w1"
+kill_y = -20.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=750089076]
+environment = SubResource("Environment_kwrx7")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=147180025]
+transform = Transform3D(0.70710677, 0.4353384, -0.55720776, 0, 0.7880108, 0.6156615, 0.70710677, -0.4353384, 0.55720776, 0, 0, 0)
+light_color = Color(1, 0.8862745, 0.6901961, 1)
+light_energy = 1.35
+shadow_enabled = true
+directional_shadow_max_distance = 140.0
+
+[node name="Terrain" type="Node3D" parent="." unique_id=109465993]
+
+[node name="Chunk_0_0" type="StaticBody3D" parent="Terrain" unique_id=1908481396 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_0_0" unique_id=1915499977]
+mesh = ExtResource("3_u6633")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_0_0" unique_id=313136029]
+shape = ExtResource("4_uryqt")
+
+[node name="Chunk_1_0" type="StaticBody3D" parent="Terrain" unique_id=363304566 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_1_0" unique_id=278956604]
+mesh = ExtResource("5_4ce4d")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_1_0" unique_id=351765177]
+shape = ExtResource("6_48hb3")
+
+[node name="Chunk_2_0" type="StaticBody3D" parent="Terrain" unique_id=1336302914 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_2_0" unique_id=705160572]
+mesh = ExtResource("7_dc2ug")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_2_0" unique_id=665057594]
+shape = ExtResource("8_y482v")
+
+[node name="Chunk_3_0" type="StaticBody3D" parent="Terrain" unique_id=527540281 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_3_0" unique_id=2050660925]
+mesh = ExtResource("9_s7te2")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_3_0" unique_id=758959251]
+shape = ExtResource("10_th6kw")
+
+[node name="Chunk_0_1" type="StaticBody3D" parent="Terrain" unique_id=1031389884 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_0_1" unique_id=808140910]
+mesh = ExtResource("11_jtive")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_0_1" unique_id=1917913108]
+shape = ExtResource("12_raiql")
+
+[node name="Chunk_1_1" type="StaticBody3D" parent="Terrain" unique_id=294749357 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_1_1" unique_id=40009761]
+mesh = ExtResource("13_rawle")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_1_1" unique_id=1182179850]
+shape = ExtResource("14_pi4f8")
+
+[node name="Chunk_2_1" type="StaticBody3D" parent="Terrain" unique_id=937982321 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_2_1" unique_id=807958996]
+mesh = ExtResource("15_0govr")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_2_1" unique_id=1049607657]
+shape = ExtResource("16_a3qha")
+
+[node name="Chunk_3_1" type="StaticBody3D" parent="Terrain" unique_id=413033602 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_3_1" unique_id=1896732163]
+mesh = ExtResource("17_bdbmo")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_3_1" unique_id=1602037202]
+shape = ExtResource("18_3bkkv")
+
+[node name="Chunk_0_2" type="StaticBody3D" parent="Terrain" unique_id=1379935444 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_0_2" unique_id=1446851640]
+mesh = ExtResource("19_nymmo")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_0_2" unique_id=124223445]
+shape = ExtResource("20_s54ox")
+
+[node name="Chunk_1_2" type="StaticBody3D" parent="Terrain" unique_id=1631115446 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_1_2" unique_id=267962215]
+mesh = ExtResource("21_27680")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_1_2" unique_id=153610875]
+shape = ExtResource("22_kt3xs")
+
+[node name="Chunk_2_2" type="StaticBody3D" parent="Terrain" unique_id=798438758 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_2_2" unique_id=1431943437]
+mesh = ExtResource("23_l2jyj")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_2_2" unique_id=1515874839]
+shape = ExtResource("24_1p7sx")
+
+[node name="Chunk_3_2" type="StaticBody3D" parent="Terrain" unique_id=1289045205 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_3_2" unique_id=490126606]
+mesh = ExtResource("25_mt4i7")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_3_2" unique_id=1481207324]
+shape = ExtResource("26_tsoo8")
+
+[node name="Chunk_0_3" type="StaticBody3D" parent="Terrain" unique_id=1266229573 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_0_3" unique_id=918930055]
+mesh = ExtResource("27_f3gos")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_0_3" unique_id=1040335527]
+shape = ExtResource("28_88kaw")
+
+[node name="Chunk_1_3" type="StaticBody3D" parent="Terrain" unique_id=1008149083 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_1_3" unique_id=277753688]
+mesh = ExtResource("29_rwxc7")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_1_3" unique_id=1877251410]
+shape = ExtResource("30_cgn4o")
+
+[node name="Chunk_2_3" type="StaticBody3D" parent="Terrain" unique_id=1444626313 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_2_3" unique_id=1854991273]
+mesh = ExtResource("31_nixgn")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_2_3" unique_id=1473077084]
+shape = ExtResource("32_tddw8")
+
+[node name="Chunk_3_3" type="StaticBody3D" parent="Terrain" unique_id=386089425 groups=["w1_terrain"]]
+collision_mask = 0
+
+[node name="Mesh" type="MeshInstance3D" parent="Terrain/Chunk_3_3" unique_id=177398227]
+mesh = ExtResource("33_mpgkg")
+
+[node name="Shape" type="CollisionShape3D" parent="Terrain/Chunk_3_3" unique_id=1420706365]
+shape = ExtResource("34_0mmx3")
+
+[node name="Stream" type="MeshInstance3D" parent="." unique_id=2051129099]
+material_override = SubResource("ShaderMaterial_3ewnx")
+cast_shadow = 0
+mesh = ExtResource("36_fosut")
+
+[node name="Spawns" type="Node3D" parent="." unique_id=1831248627]
+
+[node name="Default" type="Marker3D" parent="Spawns" unique_id=1535163181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45, 46.5)
+
+[node name="W1-1" type="Marker3D" parent="Spawns" unique_id=1560168298]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -6, 0.44, 38)
+
+[node name="W1-2" type="Marker3D" parent="Spawns" unique_id=1915091127]
+transform = Transform3D(0.8480481, 0, 0.52991927, 0, 1, 0, -0.52991927, 0, 0.8480481, 45, 12.23, -38)
+
+[node name="W1-3" type="Marker3D" parent="Spawns" unique_id=519719581]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -32, 4.05, -12)
+
+[node name="W1-4" type="Marker3D" parent="Spawns" unique_id=1959231837]
+transform = Transform3D(-0.76604444, 0, -0.64278764, 0, 1, 0, 0.64278764, 0, -0.76604444, -2, 0.47, -8)
+
+[node name="W1-6" type="Marker3D" parent="Spawns" unique_id=298501063]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16, 11.85, -36)
+
+[node name="W1-7" type="Marker3D" parent="Spawns" unique_id=1598615218]
+transform = Transform3D(0.6156615, 0, 0.7880107, 0, 1, 0, -0.7880107, 0, 0.6156615, -34, 0.96, -41.5)
+
+[node name="W1-5" type="Marker3D" parent="Spawns" unique_id=1422292455]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6, 0.65, 3)
+
+[node name="@Marker3D@2" type="Marker3D" parent="Spawns" unique_id=1984251609]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, 3, 0.45, 19.5)
+
+[node name="W1-8" type="Marker3D" parent="Spawns" unique_id=489471760]
+transform = Transform3D(0.49999997, 0, -0.86602545, 0, 1, 0, 0.86602545, 0, 0.49999997, 38, 0.65, 9)
+
+[node name="T_W1-1" type="Marker3D" parent="Spawns" unique_id=1610489479]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0.5253965, 34)
+
+[node name="T_W1-2_stage" type="Marker3D" parent="Spawns" unique_id=1839190214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 17.05, -38.2)
+
+[node name="T_W1-2_deck" type="Marker3D" parent="Spawns" unique_id=1315737580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.6, 28.05, -45.4)
+
+[node name="T_W1-3_deck" type="Marker3D" parent="Spawns" unique_id=853042679]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -44.5, 16.05, -29)
+
+[node name="T_W1-3_sc7" type="Marker3D" parent="Spawns" unique_id=1347689980]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -40.6, 14.85, -33.2)
+
+[node name="T_W1-4" type="Marker3D" parent="Spawns" unique_id=1662347958]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.45000002, 3)
+
+[node name="T_W1-5" type="Marker3D" parent="Spawns" unique_id=1038991578]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 0.4, 12.6)
+
+[node name="T_W1-6_floor" type="Marker3D" parent="Spawns" unique_id=2063451638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.3, 12.05, -36)
+
+[node name="T_W1-6_top" type="Marker3D" parent="Spawns" unique_id=1726715736]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.3, 26.15, -36)
+
+[node name="T_W1-7" type="Marker3D" parent="Spawns" unique_id=1628401672]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3, 21.05, -36)
+
+[node name="T_W1-8" type="Marker3D" parent="Spawns" unique_id=1453447868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0.55, 16)
+
+[node name="T_bridge" type="Marker3D" parent="Spawns" unique_id=1725261872]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0.65, 16.5)
+
+[node name="T_tor" type="Marker3D" parent="Spawns" unique_id=167400512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 7.05, 3)
+
+[node name="T_rope" type="Marker3D" parent="Spawns" unique_id=1393092185]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -38, 15.55, -31.5)
+
+[node name="T_hill" type="Marker3D" parent="Spawns" unique_id=225609574]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2, 12.05, -36.5)
+
+[node name="T_ridge" type="Marker3D" parent="Spawns" unique_id=1123572448]
+transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, 47, 12.05, -36)
+
+[node name="StoryCams" type="Node3D" parent="." unique_id=1836584813]
+
+[node name="StoryCam_A" type="Camera3D" parent="StoryCams" unique_id=1355380680]
+transform = Transform3D(0.8050558, -0.17965648, 0.5653394, 0, 0.9530349, 0.30286038, -0.593199, -0.2438195, 0.7672463, 52, 36, 64)
+fov = 52.0
+far = 600.0
+
+[node name="StoryCam_B" type="Camera3D" parent="StoryCams" unique_id=606510268]
+transform = Transform3D(0.77486503, 0.0064445715, -0.6320939, 0, 0.99994814, 0.0101950625, 0.63212675, -0.0078997975, 0.7748248, -56, 10, 50)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_C" type="Camera3D" parent="StoryCams" unique_id=353130771]
+transform = Transform3D(0.39391932, 0.109839395, -0.91255844, 0, 0.992834, 0.1195017, 0.91914505, -0.04707403, 0.39109647, -58, 26, -4)
+fov = 48.0
+far = 600.0
+
+[node name="StoryCam_D" type="Camera3D" parent="StoryCams" unique_id=1422409988]
+transform = Transform3D(0.97544104, 0.033563796, 0.2176886, 0, 0.9883218, -0.15238202, -0.22026089, 0.14863968, 0.9640495, 16, 3.2, 28)
+fov = 60.0
+far = 600.0
+
+[node name="StoryCam_Intro" type="Camera3D" parent="StoryCams" unique_id=799095887]
+transform = Transform3D(0.98003066, 0.0014121089, 0.19884178, 0, 0.9999749, -0.007101492, -0.19884679, 0.00695968, 0.9800059, 6, 8.5, 49)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_E_blowdown" type="Camera3D" parent="StoryCams" unique_id=904379729]
+transform = Transform3D(0.6823182, -0.07092278, 0.7276069, 0, 0.995283, 0.09701425, -0.73105526, -0.06619459, 0.67909974, -6, 5, 40)
+fov = 50.0
+far = 600.0
+
+[node name="StoryCam_F_arena" type="Camera3D" parent="StoryCams" unique_id=1503792056]
+transform = Transform3D(0.6853647, -0.122978516, 0.7177406, 0, 0.98563665, 0.16888013, -0.7282, -0.11574449, 0.67552054, 22, 17, -14)
+fov = 50.0
+far = 600.0
+
+[node name="StoryCam_G_cameo" type="Camera3D" parent="StoryCams" unique_id=260147384]
+transform = Transform3D(0.86889046, 0.026030876, -0.49431944, 0, 0.99861634, 0.052587166, 0.49500436, -0.04569249, 0.86768824, 33, 26, -36)
+fov = 40.0
+far = 600.0
+
+[node name="StoryCam_Intro_v2" type="Camera3D" parent="StoryCams" unique_id=1031517744]
+transform = Transform3D(0.9998027, -0.00049962266, -0.019857345, 0, 0.99968374, -0.02515264, 0.019863628, 0.025147678, 0.99948645, -1.5, 3.6, 55.5)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_H_hayyard" type="Camera3D" parent="StoryCams" unique_id=457241729]
+transform = Transform3D(-0.7525767, -0.24857636, 0.6097853, 0, 0.92601526, 0.37748614, -0.6585046, 0.28408727, -0.6968975, -33, 8, -58.5)
+fov = 50.0
+far = 600.0
+
+[node name="StoryCam_Intro_face" type="Camera3D" parent="StoryCams" unique_id=31847597]
+transform = Transform3D(-0.9119215, 0.0372674, -0.40866894, 0, 0.9958677, 0.09081533, 0.41036466, 0.08281645, -0.90815324, -1.3, 1.25, 43.6)
+fov = 40.0
+far = 600.0
+
+[node name="StoryCam_H2_hayyard" type="Camera3D" parent="StoryCams" unique_id=715055012]
+transform = Transform3D(0.57346237, 0.4411206, -0.6903286, 0, 0.8426535, 0.5384563, 0.8192319, -0.30878443, 0.48323002, -52.5, 9, -41.5)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_I_sticks" type="Camera3D" parent="StoryCams" unique_id=753621590]
+transform = Transform3D(0.9931506, 0.013559634, -0.11605177, 0, 0.9932431, 0.11605177, 0.11684125, -0.11525688, 0.98644, -40, 8, 0)
+fov = 55.0
+far = 600.0
+
+[node name="StoryCam_J_huff" type="Camera3D" parent="StoryCams" unique_id=772451105]
+transform = Transform3D(0.9993628, 0.008651276, -0.034627166, 0, 0.9701788, 0.24239017, 0.03569153, -0.24223572, 0.9695607, 20, 24, -12)
+fov = 62.0
+far = 600.0
+
+[node name="StoryCam_G2_cameo" type="Camera3D" parent="StoryCams" unique_id=204618817]
+transform = Transform3D(0.8320503, 0.03836941, -0.5533716, -0, 0.9976048, 0.06917145, 0.5547002, -0.05755412, 0.8300574, 30, 14.5, -30)
+fov = 45.0
+far = 600.0
+
+[node name="StoryCam_J2_huff" type="Camera3D" parent="StoryCams" unique_id=714227842]
+transform = Transform3D(0.9986178, -0.005494588, 0.05227084, 0, 0.9945205, 0.1045417, -0.05255883, -0.1043972, 0.9931459, 21, 17, -17)
+fov = 60.0
+far = 600.0
+
+[node name="Level" type="Node3D" parent="." unique_id=1828247682]
+script = ExtResource("37_gg66k")

@@ -1,0 +1,509 @@
+{
+ "phase": "night01-audio-m3-round5b",
+ "jobs": [
+  {
+   "key": "r5b_step_grass_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on soft grass, a soft brushy crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_grass_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on soft grass, a soft brushy crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_grass_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on soft grass, a soft brushy crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_grass_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on soft grass, a soft brushy crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_wood_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a hollow wooden floorboard, a light knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_wood_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a hollow wooden floorboard, a light knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_wood_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a hollow wooden floorboard, a light knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_wood_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a hollow wooden floorboard, a light knock",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_stone_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on stone cobbles, a crisp tap with a little grit",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_stone_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on stone cobbles, a crisp tap with a little grit",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_stone_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on stone cobbles, a crisp tap with a little grit",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_stone_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on stone cobbles, a crisp tap with a little grit",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_candy_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on hard candy crust, a sugary crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_candy_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on hard candy crust, a sugary crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_candy_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on hard candy crust, a sugary crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_candy_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on hard candy crust, a sugary crunch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_carpet_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thick carpet rug, a soft muffled thud",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_carpet_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thick carpet rug, a soft muffled thud",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_carpet_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thick carpet rug, a soft muffled thud",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_carpet_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thick carpet rug, a soft muffled thud",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_jelly_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on wobbly jelly, a soft wet squelch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_jelly_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on wobbly jelly, a soft wet squelch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_jelly_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on wobbly jelly, a soft wet squelch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_jelly_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on wobbly jelly, a soft wet squelch",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_metal_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thin metal sheet, a light clank",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_metal_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thin metal sheet, a light clank",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_metal_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thin metal sheet, a light clank",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_metal_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a thin metal sheet, a light clank",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_cloud_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a fluffy cloud, a soft pillowy puff",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_cloud_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a fluffy cloud, a soft pillowy puff",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_cloud_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a fluffy cloud, a soft pillowy puff",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_step_cloud_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "Foley sound effect, clean, isolated, dry, no music, no tone, no voice: one single light footstep of a small character in little shoes on a fluffy cloud, a soft pillowy puff",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_ui_blip_t1",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "UI sound effect, clean, isolated, no music: one single very short soft wooden marimba blip, like a letter of dialogue text appearing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_ui_blip_t2",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "UI sound effect, clean, isolated, no music: one single very short soft wooden marimba blip, like a letter of dialogue text appearing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_ui_blip_t3",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "UI sound effect, clean, isolated, no music: one single very short soft wooden marimba blip, like a letter of dialogue text appearing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  },
+  {
+   "key": "r5b_ui_blip_t4",
+   "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+   "input": {
+    "text": "UI sound effect, clean, isolated, no music: one single very short soft wooden marimba blip, like a letter of dialogue text appearing",
+    "duration_seconds": 0.5,
+    "prompt_influence": 0.7,
+    "output_format": "mp3_44100_192"
+   },
+   "quoted_unit": "second @ $0.002",
+   "quoted_qty": 0.5,
+   "estimated_usd": 0.001,
+   "max_reserved_usd": 0.004
+  }
+ ]
+}

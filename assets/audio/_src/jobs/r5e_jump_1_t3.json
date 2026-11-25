@@ -1,0 +1,25 @@
+{
+ "key": "r5e_jump_1_t3",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a short springy cartoon jump, light quick whoosh with a soft boing",
+  "duration_seconds": 0.6,
+  "prompt_influence": 0.5,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T21:24:26.184593+00:00",
+ "status": "downloaded",
+ "request_id": "01a14bc0-7c22-7942-87bc-b47b50211f54",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaeca5a/4rGr3s_b3tXE54EaqQ3XE_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 15716
+  }
+ },
+ "files": [
+  "raw/r5e_jump_1_t3.mp3"
+ ],
+ "completed": "2026-10-17T21:24:34.246591+00:00"
+}

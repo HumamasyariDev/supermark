@@ -1,0 +1,27 @@
+{
+ "start": {
+  "pos": [
+   -6.0,
+   0.0,
+   4.6
+  ],
+  "yaw_deg": 0
+ },
+ "end_frame": 90,
+ "events": [
+  {
+   "f": 10,
+   "tap": "attack"
+  },
+  {
+   "f": 20,
+   "tap": "attack"
+  },
+  {
+   "f": 30,
+   "tap": "attack"
+  }
+ ],
+ "fps": 60,
+ "steer": "world"
+}

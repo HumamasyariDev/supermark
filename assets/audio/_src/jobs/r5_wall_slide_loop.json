@@ -1,0 +1,26 @@
+{
+ "key": "r5_wall_slide_loop",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: continuous cloth friction sliding down a rough wall, steady scraping rustle",
+  "duration_seconds": 3.0,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192",
+  "loop": true
+ },
+ "created": "2026-10-17T20:27:38.019668+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8c-764a-7373-af35-961245dea71e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec906/-LoI8DBxDQsqUJo5t5YEQ_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 73394
+  }
+ },
+ "files": [
+  "raw/r5_wall_slide_loop.mp3"
+ ],
+ "completed": "2026-10-17T20:27:44.650446+00:00"
+}

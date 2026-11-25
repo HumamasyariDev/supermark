@@ -1,0 +1,25 @@
+{
+ "key": "r5_truffle_appear",
+ "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+ "input": {
+  "text": "Cartoon video game sound effect, clean, isolated, no music, no voice: a magical golden item appears, sparkling rising shimmer",
+  "duration_seconds": 1.5,
+  "prompt_influence": 0.6,
+  "output_format": "mp3_44100_192"
+ },
+ "created": "2026-10-17T20:28:55.284874+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b8d-a412-7cd2-bc52-8a124f31e12e",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec90d/Wq6-frJVvqUZWKR3eGxCk_sound_effect.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "sound_effect.mp3",
+   "file_size": 37032
+  }
+ },
+ "files": [
+  "raw/r5_truffle_appear.mp3"
+ ],
+ "completed": "2026-10-17T20:29:01.728895+00:00"
+}

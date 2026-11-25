@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b30-e001-7301-8266-1c4492a94a52",
+  "arguments": {
+    "prompt": "Straw thatch roof: bundled golden straw layered in soft rows, warm yellow with honey shading. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:47.356001+00:00",
+  "output_file": "straw_thatch_raw.png",
+  "sha256": "34d7b9546f21d4f6c8d8c9501d58c130504a32ed9dff8af4c64091549a07320f",
+  "description": ""
+}

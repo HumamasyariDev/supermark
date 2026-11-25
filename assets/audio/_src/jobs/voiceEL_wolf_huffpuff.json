@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_wolf_huffpuff",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[booming, theatrical] I'll huff, and I'll puff!",
+  "voice": "Daniel",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.704761+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-5a2a-7fe3-a4dd-0fef1e2c610a",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/1X4kby_zF4cNwf2f-Usyz_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 35152
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_wolf_huffpuff.mp3"
+ ],
+ "completed": "2026-10-17T18:51:30.024635+00:00"
+}

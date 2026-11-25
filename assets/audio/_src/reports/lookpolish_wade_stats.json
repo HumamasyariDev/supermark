@@ -1,0 +1,38 @@
+{
+ "wade_step_1": {
+  "src": "raw/lp_wade_step_t1.mp3",
+  "duration_s": 0.25,
+  "peak_dbfs": -3.42,
+  "active_rms_dbfs": -20.760000228881836,
+  "sha256": "aae4873d20fef7ec04e93f61e530c75899d09dd79a9b3db2f09bdaeee7d2f58d",
+  "raw_sha256": "8d22d9319c009c6de787f5350cfd1b9d69b8f97da430dd2b29337e47c28ce1dd"
+ },
+ "wade_step_2": {
+  "src": "raw/lp_wade_step_t2.mp3",
+  "duration_s": 0.309,
+  "peak_dbfs": -8.64,
+  "active_rms_dbfs": -20.760000228881836,
+  "sha256": "f60eda04be6ec770d2785e1ecde7b26aa1b65b244427b5a9f86aabcbe24ea7fd",
+  "raw_sha256": "bbeb98a98eab494d43cd65424ecfd9354a3fd90c1d17f35331f2f43589424016"
+ },
+ "wade_step_3": {
+  "src": "raw/lp_wade_step_t3.mp3",
+  "duration_s": 0.554,
+  "peak_dbfs": -7.18,
+  "active_rms_dbfs": -20.760000228881836,
+  "sha256": "2c3e96a75b19f121c156ad119053995b4a25e1d4f5aa23c04e2effdaa3fd3169",
+  "raw_sha256": "27a685dfd174dcf3edb4548a3baae50ed6fc601eda6b0fb63e6fcf3fdb7a64c0"
+ },
+ "wade_land": {
+  "src": "raw/lp_wade_land_t1.mp3",
+  "duration_s": 0.629,
+  "peak_dbfs": -5.66,
+  "active_rms_dbfs": -22.719999313354492,
+  "sha256": "0236bbbcaba3112e75f595caa2e34b51d5730a83d83eaab0847198e55e5be3af",
+  "raw_sha256": "e0dbb0d3c4984e7c04a88c601e466f6deb69b1a58270c369a14d0f3efb43e3d3"
+ },
+ "_ref": {
+  "footstep_grass_active_rms": -21.760000228881836,
+  "splash_2_active_rms": -22.719999313354492
+ }
+}

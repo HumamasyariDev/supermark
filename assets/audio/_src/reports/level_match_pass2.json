@@ -1,0 +1,107 @@
+{
+ "sfx/boss_balloon.ogg": {
+  "L100_before": -9.47,
+  "gain_db": -6.53,
+  "limited": false
+ },
+ "sfx/boss_growl_2.ogg": {
+  "L100_before": -13.73,
+  "gain_db": -2.27,
+  "limited": false
+ },
+ "sfx/boss_hurt.ogg": {
+  "L100_before": -12.61,
+  "gain_db": -3.39,
+  "limited": false
+ },
+ "sfx/chimney_smash.ogg": {
+  "L100_before": -14.34,
+  "gain_db": -1.66,
+  "limited": false
+ },
+ "sfx/chimney_smash_2.ogg": {
+  "L100_before": -13.06,
+  "gain_db": -2.94,
+  "limited": false
+ },
+ "sfx/footstep_carpet_r4.ogg": {
+  "L100_before": -17.84,
+  "gain_db": 1.84,
+  "limited": true
+ },
+ "sfx/footstep_wood_1.ogg": {
+  "L100_before": -19.65,
+  "gain_db": 2.9,
+  "limited": true
+ },
+ "sfx/footstep_wood_4.ogg": {
+  "L100_before": -19.35,
+  "gain_db": 2.9,
+  "limited": true
+ },
+ "sfx/footstep_wood_r1.ogg": {
+  "L100_before": -22.58,
+  "gain_db": 3.1,
+  "limited": true
+ },
+ "sfx/footstep_wood_r4.ogg": {
+  "L100_before": -17.97,
+  "gain_db": 1.97,
+  "limited": true
+ },
+ "sfx/giant_inhale.ogg": {
+  "L100_before": -8.87,
+  "gain_db": -7.13,
+  "limited": false
+ },
+ "sfx/giant_inhale_2.ogg": {
+  "L100_before": -11.17,
+  "gain_db": -4.83,
+  "limited": false
+ },
+ "sfx/giant_sneeze.ogg": {
+  "L100_before": -9.46,
+  "gain_db": -6.54,
+  "limited": false
+ },
+ "sfx/giant_sneeze_2.ogg": {
+  "L100_before": -10.68,
+  "gain_db": -5.32,
+  "limited": false
+ },
+ "sfx/kick.ogg": {
+  "L100_before": -19.33,
+  "gain_db": 3.0,
+  "limited": true
+ },
+ "sfx/land_2.ogg": {
+  "L100_before": -18.71,
+  "gain_db": 2.71,
+  "limited": true
+ },
+ "sfx/land_heavy.ogg": {
+  "L100_before": -19.04,
+  "gain_db": 2.8,
+  "limited": true
+ },
+ "sfx/mud_splat.ogg": {
+  "L100_before": -20.86,
+  "gain_db": 2.9,
+  "limited": true
+ },
+ "sfx/pea_splat_2.ogg": {
+  "L100_before": -17.82,
+  "gain_db": 1.82,
+  "limited": true
+ },
+ "sfx/pole_grab.ogg": {
+  "L100_before": -18.44,
+  "gain_db": 2.44,
+  "limited": true
+ },
+ "sfx/roll.ogg": {
+  "L100_before": -18.3,
+  "gain_db": 2.3,
+  "limited": true
+ }
+}

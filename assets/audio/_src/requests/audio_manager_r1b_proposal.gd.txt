@@ -1,0 +1,143 @@
+# Proposal from the audio track (fix stage r1b) for game/scripts/core/audio_manager.gd (core owns it).
+# Fixes two critique r1 findings that only core can fix:
+#  (QA major)  W3: grenadiers march in step and each plays enemy_step through Audio.play_sfx; 402 SFX starts in 13.7 s,
+#              128 same-file restarts under 60 ms, 22 voices at once, 15 audible sounds stolen from the 3D pool
+#              (the checkpoint chime among them). play_sfx has no same-key gap, no per-key cap, no distance cull, and
+#              steals round-robin.
+#  (QA minor)  play_music never stores or kills its fade-in tween; quick route changes can leave two tweens on one
+#              player (one fading in, one fading out and stopping it).
+# Drop-in replacements below. Behaviour for every other caller is unchanged except that a key cannot restart within
+# 60 ms (90 ms for enemy_step*), at most 3 voices of one key (4 across enemy_step*) play at once, and 3D plays beyond
+# 70 m of the listener are skipped. JuiceSfx already applies the same rules to its own plays.
+
+const SAME_KEY_GAP := 0.06
+const STEP_GAP := 0.09
+const MAX_PER_KEY := 3
+const MAX_STEPS := 4
+const CULL_DISTANCE := 70.0
+var _last_start: Dictionary = {}   # key -> seconds
+var _voice_key: Dictionary = {}    # player instance id -> key it is playing
+var _music_fade: Dictionary = {}   # player instance id -> Tween
+
+
+func _now_s() -> float:
+	return Time.get_ticks_msec() / 1000.0
+
+
+func _listener_pos() -> Vector3:
+	var vp := get_viewport()
+	var cam := vp.get_camera_3d() if vp != null else null
+	return cam.global_position if cam != null else Vector3.INF
+
+
+func _count_playing(prefix_or_key: String, by_prefix: bool) -> int:
+	var n := 0
+	for p in _pool3d:
+		if p.playing:
+			var k := String(_voice_key.get(p.get_instance_id(), ""))
+			if (by_prefix and k.begins_with(prefix_or_key)) or (not by_prefix and k == prefix_or_key):
+				n += 1
+	for p in _pool2d:
+		if p.playing and String(_voice_key.get(p.get_instance_id(), "")) == prefix_or_key and not by_prefix:
+			n += 1
+	return n
+
+
+## Free slot first; otherwise the oldest slot that is not playing a protected key (pickups, checkpoint, rewards).
+func _take_slot(pool: Array, next_idx: int) -> int:
+	for i in pool.size():
+		var j := (next_idx + i) % pool.size()
+		if not pool[j].playing:
+			return j
+	for i in pool.size():
+		var j := (next_idx + i) % pool.size()
+		var k := String(_voice_key.get(pool[j].get_instance_id(), ""))
+		if not (k.begins_with("checkpoint") or k.begins_with("truffle") or k.begins_with("acorn") or k.begins_with("page_")):
+			return j
+	return next_idx
+
+
+func play_sfx(key: String, at: Vector3 = Vector3.INF, pitch_jitter: float = 0.06, volume_db: float = 0.0) -> Node:
+	var step := key.begins_with("enemy_step")
+	var now := _now_s()
+	if now - float(_last_start.get(key, -1e9)) < (STEP_GAP if step else SAME_KEY_GAP):
+		return null
+	if at != Vector3.INF:
+		var lp := _listener_pos()
+		if lp != Vector3.INF and lp.distance_to(at) > CULL_DISTANCE:
+			return null
+		if step and _count_playing("enemy_step", true) >= MAX_STEPS:
+			return null
+	if _count_playing(key, false) >= MAX_PER_KEY:
+		return null
+	var r := _stream_for(key)
+	if r.is_empty():
+		return null
+	_last_start[key] = now
+	var e: Dictionary = r["entry"]
+	var pitch := float(e["pitch"]) * (1.0 + randf_range(-pitch_jitter, pitch_jitter))
+	if at == Vector3.INF:
+		var i2 := _take_slot(_pool2d, _next2d)
+		var p := _pool2d[i2]
+		_next2d = (i2 + 1) % _pool2d.size()
+		p.stream = r["stream"]
+		p.bus = String(e["bus"])
+		p.pitch_scale = max(0.05, pitch)
+		p.volume_db = float(e["volume_db"]) + volume_db
+		p.play()
+		_voice_key[p.get_instance_id()] = key
+		return p
+	var i3 := _take_slot(_pool3d, _next3d)
+	var p3 := _pool3d[i3]
+	_next3d = (i3 + 1) % _pool3d.size()
+	p3.stream = r["stream"]
+	p3.bus = String(e["bus"])
+	p3.pitch_scale = max(0.05, pitch)
+	p3.volume_db = float(e["volume_db"]) + volume_db
+	p3.global_position = at
+	p3.play()
+	_voice_key[p3.get_instance_id()] = key
+	return p3
+
+
+# play_music / stop_music: one fade tween per player, killed before any new fade or stop.
+func _fade_player(p: AudioStreamPlayer, to_db: float, dur: float, stop_after: bool) -> void:
+	var id := p.get_instance_id()
+	var old: Variant = _music_fade.get(id)
+	if old is Tween and (old as Tween).is_valid():
+		(old as Tween).kill()
+	var t := create_tween()
+	t.tween_property(p, "volume_db", to_db, maxf(dur, 0.01))
+	if stop_after:
+		t.tween_callback(p.stop)
+	_music_fade[id] = t
+
+
+func play_music(key: String, fade: float = CROSSFADE) -> void:
+	if key == current_music and _music_active.playing:
+		return
+	current_music = key
+	var r := _stream_for(key)
+	var old := _music_active
+	var nxt := _music_b if old == _music_a else _music_a
+	if old.playing:
+		_fade_player(old, -60.0, fade, true)
+	if r.is_empty():
+		return
+	nxt.stream = r["stream"]
+	nxt.volume_db = -60.0
+	nxt.pitch_scale = 1.0
+	nxt.play()
+	_music_active = nxt
+	_fade_player(nxt, float(r["entry"]["volume_db"]), fade, false)
+
+
+func stop_music(fade: float = CROSSFADE) -> void:
+	current_music = ""
+	for p in [_music_a, _music_b]:
+		if p.playing:
+			_fade_player(p, -60.0, fade, true)
+
+# Regression check suggested: 3 play_music calls 0.2 s apart (A, B, A) must leave exactly one audible music player at
+# its target level after 2 s; 40 enemy_step calls in one frame at 10 m must start 1 voice, and a checkpoint chime
+# started while 24 enemy steps play must keep playing.

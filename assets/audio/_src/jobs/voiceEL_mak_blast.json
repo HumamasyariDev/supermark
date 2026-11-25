@@ -1,0 +1,26 @@
+{
+ "key": "voiceEL_mak_blast",
+ "endpoint": "fal-ai/elevenlabs/tts/eleven-v3",
+ "input": {
+  "text": "[frustrated] Blast!",
+  "voice": "George",
+  "stability": 0.5,
+  "language_code": "en"
+ },
+ "created": "2026-10-17T18:51:23.003795+00:00",
+ "status": "downloaded",
+ "request_id": "01a14b34-576d-7572-bbd6-d3dd5aeb5ab5",
+ "result": {
+  "audio": {
+   "url": "https://v3b.fal.media/files/b/0aaec6c4/7SiJrsmr6uM_HhWC05Yaf_output.mp3",
+   "content_type": "audio/mpeg",
+   "file_name": "output.mp3",
+   "file_size": 12164
+  },
+  "timestamps": null
+ },
+ "files": [
+  "raw/voiceEL_mak_blast.mp3"
+ ],
+ "completed": "2026-10-17T18:51:29.368069+00:00"
+}

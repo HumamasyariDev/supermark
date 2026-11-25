@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/critique_boss/crit_boss_r1c_boot.gd" id="1"]
+
+[node name="CritBossR1c" type="Node"]
+script = ExtResource("1")

@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana-2",
+  "request_id": "01a14b30-9bb5-7953-8abd-cedb6da04dbd",
+  "arguments": {
+    "prompt": "Lush meadow grass ground: rich warm green with soft clumps of painted grass blades, a few tiny yellow and white flower specks. Seamless tileable square texture, flat orthographic top-down view, even soft lighting, no shadows from a light direction, no perspective, no vignette, no border, no text, edges continue seamlessly on all four sides. Stylized hand-painted game texture in the style of a premium cozy storybook 3D platformer: soft painterly brush strokes, chunky readable shapes, saturated but harmonious warm colours, low contrast micro detail, no photographic noise.",
+    "num_images": 1,
+    "aspect_ratio": "1:1",
+    "resolution": "1K",
+    "output_format": "png"
+  },
+  "completed_utc": "2026-10-17T18:47:29.969808+00:00",
+  "output_file": "grass_raw.png",
+  "sha256": "94ec87e21a9cef446e653145ab4cd6e83fd325a2ae3c458091967e733c493c9e",
+  "description": ""
+}
